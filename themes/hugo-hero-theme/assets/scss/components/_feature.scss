@@ -41,3 +41,18 @@
     }
   }
 }
+.pullquote {
+  background-color: $primary;
+  color:$primary;
+  padding: 2em;
+  font-size: 1.2em;
+  -webkit-clip-path: polygon(4% 0, 100% 8%, 90% 96%, 0 100%);
+  clip-path: polygon(4% 0, 100% 8%, 90% 96%, 0 100%);
+}
+.yellow {
+  background-color:#ffe14e;
+  margin:20px;
+  padding: 2em;
+  -webkit-clip-path: polygon(4% 0, 100% 8%, 90% 96%, 0 100%);
+  clip-path: polygon(4% 0, 100% 8%, 90% 96%, 0 100%);
+}

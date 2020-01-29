@@ -6010,6 +6010,21 @@ ul.social {
         color: #1c3ed3;
         font-style: normal; }
 
+.pullquote {
+  background-color: #1c3ed3;
+  color: #1c3ed3;
+  padding: 2em;
+  font-size: 1.2em;
+  -webkit-clip-path: polygon(4% 0, 100% 8%, 90% 96%, 0 100%);
+  clip-path: polygon(4% 0, 100% 8%, 90% 96%, 0 100%); }
+
+.yellow {
+  background-color: #ffe14e;
+  margin: 20px;
+  padding: 2em;
+  -webkit-clip-path: polygon(4% 0, 100% 8%, 90% 96%, 0 100%);
+  clip-path: polygon(4% 0, 100% 8%, 90% 96%, 0 100%); }
+
 .hero-image {
   background-size: cover;
   background-repeat: no-repeat;
