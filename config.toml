@@ -1,8 +1,8 @@
 languageCode = "en-us"
 title = "Hugo Hero Theme"
 baseURL = "/"
-themesDir = "themes"
-theme = "hugo-hero-theme"
+# themesDir = "themes"
+# theme = "hugo-hero-theme"
 
 [params]
   google_analytics_id=""

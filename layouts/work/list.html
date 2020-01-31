@@ -1,0 +1,36 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-work-list{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+
+{{ partial "hero-image-setheight.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "content" .)}}
+{{ if .Content }}
+<div class="container pt-6 pt-md-10">
+  <div class="row">
+    <div class="col-12">
+      <div class="page-intro">
+      {{ .Content }}
+    </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+<div class="container pt-6 pt-md-10">
+  <div class="row">
+    <div class="col-12 pullquote">
+      <div class="yellow">
+      The story of Belize is two fold. The country, tethered to the sea and its peoples connection to it, has developed bold ideas face the threat of climate change. The resilience of its people lies in their ability to push boundaries, while also preserving tradition. Their efforts have created a delicate tension that our project hopes to shed light on. With this project, want to answer the question of: what does progress cost? We want to humanize climate change and showcase the symbiosis that exists between Belize natives and the land they call home.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container pb-6 pt-6 pb-md-10 pt-md-10">
+  <div class="row">
+    {{ range .Pages.ByWeight }}
+    <div class="col-12 col-md-6 mb-2 ">{{ .Render "summary" }}</div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
