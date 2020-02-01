@@ -1,6 +1,9 @@
 
-<div class="hero-image hero-image-fullscreen" style="background-image: url('{{ .background | relURL }}');">
-    <div class="container ">
+<!-- The video -->
+<video autoplay muted loop id="myVideo">
+  <source src="{{ .Site.BaseURL }}images/movie.mp4" type="video/mp4">
+</video>
+
       <div class="hero-text">
         <span class="hero-section">{{ .section }}</span>
         <h1>{{ .heading }}</h1>
@@ -15,6 +18,5 @@
           </svg>
         </a>
       </div>
-    </div>
-  </div>
+
   {{ .Site.BaseURL }}
