@@ -1,40 +1,35 @@
 languageCode = "en-us"
-title = "Hugo Hero Theme"
+title = "Barriers"
 baseURL = "/"
 
 [params]
   google_analytics_id=""
 
   [params.homepage_meta_tags]
-    meta_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
-    meta_og_title = "Hugo Hero Theme"
+    meta_description = "A description about Belize"
+    meta_og_title = "Barriers"
     meta_og_type = "website"
-    meta_og_url = "https://hugo-hero.netlify.com"
-    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
-    meta_og_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
-    meta_twitter_card = "summary"
-    meta_twitter_site = "@zerostaticio"
-    meta_twitter_creator = "@zerostaticio"
+    meta_og_url = ""
+    meta_og_image = ""
+    meta_og_description = ""
+    meta_twitter_card = "A description about Belize"
+    meta_twitter_site = ""
+    meta_twitter_creator = ""
 
 [[menu.main]]
-	name = "Services"
-	url = "/services/"
+	name = "Stories"
+	url = "/stories/"
     weight = 1
 
 [[menu.main]]
-    name = "Work"
-    url = "/work/"
+    name = "Photo Journey"
+    url = "/photo/"
     weight = 2
 
 [[menu.main]]
-    name = "About"
+    name = "About Us"
     url = "/about/"
     weight = 3
-
-[[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 4
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
