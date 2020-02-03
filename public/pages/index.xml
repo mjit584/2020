@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Barriers</title>
+    <link>/pages/</link>
+    <description>Recent content in Pages on Barriers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Dec 2018 09:29:16 +1000</lastBuildDate>
+    
+	<atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Story 01</title>
+      <link>/story01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/story01/</guid>
+      <description>THIS PAGE IS USING THE TEMPLATE IN /layouts/pages/single.html
+After traveling hundreds of miles on foot, a group of five Venezuelans, who together call themselves a family, arrived in Medellín on February 27th. Before leaving their homes, they all held different, honest jobs including food service and hair care but were all laid off over the course of the last year due to a crumbling economy. Now in Colombia, the family works 15 hour days asking for money in exchange for small candies on the street in order to make enough money to afford food and a tiny room to sleep in each night.</description>
+    </item>
+    
+    <item>
+      <title>Story 02</title>
+      <link>/story02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/story02/</guid>
+      <description>THIS PAGE IS USING THE TEMPLATE IN /layouts/pages/single.html
+After traveling hundreds of miles on foot, a group of five Venezuelans, who together call themselves a family, arrived in Medellín on February 27th. Before leaving their homes, they all held different, honest jobs including food service and hair care but were all laid off over the course of the last year due to a crumbling economy. Now in Colombia, the family works 15 hour days asking for money in exchange for small candies on the street in order to make enough money to afford food and a tiny room to sleep in each night.</description>
+    </item>
+    
+    <item>
+      <title>Story 03</title>
+      <link>/story03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/story03/</guid>
+      <description>THIS PAGE IS USING THE TEMPLATE IN /layouts/pages/single.html
+After traveling hundreds of miles on foot, a group of five Venezuelans, who together call themselves a family, arrived in Medellín on February 27th. Before leaving their homes, they all held different, honest jobs including food service and hair care but were all laid off over the course of the last year due to a crumbling economy. Now in Colombia, the family works 15 hour days asking for money in exchange for small candies on the street in order to make enough money to afford food and a tiny room to sleep in each night.</description>
+    </item>
+    
+    <item>
+      <title>Story 04</title>
+      <link>/story04/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/story04/</guid>
+      <description>THIS PAGE IS USING THE TEMPLATE IN /layouts/pages/single.html
+After traveling hundreds of miles on foot, a group of five Venezuelans, who together call themselves a family, arrived in Medellín on February 27th. Before leaving their homes, they all held different, honest jobs including food service and hair care but were all laid off over the course of the last year due to a crumbling economy. Now in Colombia, the family works 15 hour days asking for money in exchange for small candies on the street in order to make enough money to afford food and a tiny room to sleep in each night.</description>
+    </item>
+    
+    <item>
+      <title>Story 05</title>
+      <link>/story05/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/story05/</guid>
+      <description>THIS PAGE IS USING THE TEMPLATE IN /layouts/pages/single.html
+After traveling hundreds of miles on foot, a group of five Venezuelans, who together call themselves a family, arrived in Medellín on February 27th. Before leaving their homes, they all held different, honest jobs including food service and hair care but were all laid off over the course of the last year due to a crumbling economy. Now in Colombia, the family works 15 hour days asking for money in exchange for small candies on the street in order to make enough money to afford food and a tiny room to sleep in each night.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
+      
+      <guid>/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
