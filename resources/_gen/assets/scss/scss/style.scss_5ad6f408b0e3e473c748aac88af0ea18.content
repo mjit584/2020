@@ -5436,7 +5436,7 @@ ol {
     flex: 1; }
 
 .header {
-  color: #1c3ed3;
+  color: #ffffff;
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -5459,67 +5459,20 @@ ol {
   background: #43454d;
   padding-top: 20px;
   padding-bottom: 20px; }
-  .footer .footer-inner {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: flex-start; }
-    @media (min-width: 576px) {
-      .footer .footer-inner {
-        justify-content: space-between;
-        flex-direction: row;
-        align-items: center; } }
-  .footer .footer-title {
-    color: #ffffff;
-    font-size: 1.3rem;
-    font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
-    margin-bottom: 10px;
-    flex: 0; }
-    @media (min-width: 576px) {
-      .footer .footer-title {
-        margin: 0;
-        flex: 0 0 120px; } }
-  .footer ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    flex: 1; }
-    .footer ul li {
-      display: block;
-      margin-right: 10px;
-      color: #c4c5cb;
-      font-size: 0.9rem;
-      line-height: 1.8; }
-      .footer ul li:last-of-type {
-        margin-right: 0; }
-      .footer ul li a {
-        color: #c4c5cb;
-        text-decoration: none; }
-        .footer ul li a:hover {
-          text-decoration: underline; }
-      .footer ul li.copyright {
-        font-weight: bold;
-        color: #c4c5cb;
-        display: none; }
-        @media (min-width: 768px) {
-          .footer ul li.copyright {
-            display: inline-block; } }
-    @media (min-width: 576px) {
-      .footer ul {
-        height: inherit;
-        display: flex;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        align-items: center;
-        justify-content: flex-end; }
-        .footer ul li {
-          list-style: none; }
-          .footer ul li a {
-            display: inline-block;
-            height: 40px;
-            padding: 10px 8px 10px 8px;
-            font-weight: 300; } }
+
+.footer-ybr-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%; }
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%; }
 
 .sub-footer {
   background: #2b2d32;
@@ -6025,61 +5978,23 @@ ul.social {
   -webkit-clip-path: polygon(4% 0, 100% 8%, 90% 96%, 0 100%);
   clip-path: polygon(4% 0, 100% 8%, 90% 96%, 0 100%); }
 
-.hero-image {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-blend-mode: overlay;
-  background-color: #1c3ed3;
-  height: 400px;
-  position: relative;
-  padding-top: 60px; }
-  .hero-image .container {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column; }
-  .hero-image .row {
-    height: inherit; }
-  .hero-image .hero-text {
-    flex: 0;
-    color: #ffffff;
-    margin: auto 0; }
-    .hero-image .hero-text h1 {
-      font-size: 3rem; }
-      @media (min-width: 768px) {
-        .hero-image .hero-text h1 {
-          font-size: 4rem;
-          width: 80%; } }
-    .hero-image .hero-text h2 {
-      font-size: 2.2rem; }
-      @media (min-width: 768px) {
-        .hero-image .hero-text h2 {
-          font-size: 2.4rem; } }
-    .hero-image .hero-text p {
-      font-size: 1.6rem;
-      line-height: 1.3; }
-      @media (min-width: 768px) {
-        .hero-image .hero-text p {
-          font-size: 1.6rem;
-          width: 60%; } }
-  .hero-image .hero-down {
-    flex: 0;
-    text-align: center;
-    opacity: 0.7; }
-    .hero-image .hero-down:hover {
-      opacity: 1; }
-  .hero-image .hero-section {
-    text-transform: uppercase;
-    font-weight: normal; }
+.myVideo {
+  width: 100%;
+  height: auto;
+  z-index: -1; }
 
-.hero-image-fullscreen {
-  height: 100vh; }
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
 
-.hero-image-setheight {
-  height: 460px; }
-
-.hero-image-blend-overlay {
-  background-blend-mode: overlay; }
+#home-text-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  padding: 15% 5% 5% 5%; }
 
 .bg-contain {
   background-size: contain; }
