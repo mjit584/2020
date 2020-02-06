@@ -12,48 +12,8 @@ $link-decoration: none;
 $link-hover-color: lighten($primary, 20%);
 $link-hover-decoration: underline;
 
-//fonts
-@font-face {
-  font-family: DDinBold;
-  src: url("../fonts/d-din/d-din-bold.otf");
-}
-
-@font-face {
-  font-family: DDinRegular;
-  src: url("../fonts/d-din/d-din.otf");
-}
-
-@font-face {
-  font-family: DDinExpBold;
-  src: url("../fonts/d-din/D-DINExp-Bold.otf");
-}
-
-$font-default-title: "DDinBold", sans-serif;
-$font-nav: "Lato", sans-serif;
-$font-subhead: "DDinBold", sans-serif;
-$font-nav-mobile: "Lato", sans-serif;
-$font-logo: "DDinBold", sans-serif;
-$font-button: "DDinExpBold", sans-serif;
-$font-hero-heading: "DDinBold", sans-serif;
-$font-hero-title: "DDinBold", sans-serif;
-$font-hero-topic: "DDinRegular", sans-serif;
-$font-hero-subtitle: "DDinRegular", serif;
-$font-hero-desc: "Lato", sans-serif;
-$font-card-heading: "DDinBold", sans-serif;
-$font-card-title: "DDinBold", sans-serif;
-$font-card-desc: "Lato", sans-serif;
-$font-byline: "Lato", sans-serif;
-$font-content-heading: "DDinBold", sans-serif;
-$font-content-body: "Georgia", serif;
-$font-int-header: "DDinBold", sans-serif;
-$font-int-subhead: "DDinRegular", sans-serif;
-$font-int-intro: "Lato", sans-serif;
-$font-int-body: "Lato", sans-serif;
-$font-pullquote: "Playfair Display", serif;
-$font-pullquote-name: "Lato", sans-serif;
-$font-photo-caption: "Lato", sans-serif;
-$font-about-info: "Lato", sans-serif;
-$font-footer: "DDinBold", sans-serif;
+$font-family-base: 'Vollkorn', serif;
+$font-family-heading: 'Barlow Semi Condensed', sans-serif;
 
 $font-size-base: 1rem; // Assumes the browser default, typically `16px`
 $font-weight-thin: 100;
