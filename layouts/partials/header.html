@@ -3,7 +3,28 @@
     <div class="logo">
       <a href="{{ .Site.BaseURL }}"><img alt="Figurit Homepage" src="{{ .Site.BaseURL }}images/logo-footer-black.png" /></a>
     </div>
-    {{ partial "main-menu.html" . }}
-    {{ partial "hamburger.html" . }}
+
+    <div id="main-menu" class="main-menu">
+      <ul>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <li class="menu-item-{{ .Name | lower }}{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
+          <a href="{{.URL}}">
+            {{ .Pre }}
+            <span>{{ .Name }}</span>
+          </a>
+        </li>
+        {{end}}
+      </ul>
+      <p style="background: red;">lives layout/partials/header.html</p>
+    </div>
+
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+        <p>lives layout/partial/header.html</p>
+      </span>
+    </button>
+
   </div>
 </div>

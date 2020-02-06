@@ -62,11 +62,20 @@ After traveling hundreds of miles on foot, a group of five Venezuelans, who toge
     </item>
     
     <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
+      <title></title>
+      <link>/about/team/meg-mcmahon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>/about/team/meg-mcmahon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developer</title>
+      <link>/about/team/halynna-snyder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/team/halynna-snyder/</guid>
       <description></description>
     </item>
     
