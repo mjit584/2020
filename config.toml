@@ -42,7 +42,7 @@ baseURL = "/"
     weight = 5
 
 [[menu.main]]
-    name = "About Us"
+    name = "About"
     url = "/about/"
     weight = 6
 
