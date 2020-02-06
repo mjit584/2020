@@ -1,17 +1,11 @@
 
 <div class="flex-column">
     <!-- The video -->
-    <video autoplay muted loop class="myVideo">
+    <video autoplay muted class="myVideo">
       <source src="{{ .Site.BaseURL }}images/movie.mp4" type="video/mp4">
     </video>
 
   <div class="flex-column" id="home-text-container">
-
-    <div id="home-logo-line">
-      <img class="home__logo flex-column" src="{{ .Site.BaseURL }}images/uprooted-logo-gif.gif"
-        alt="Uprooted UNC logo" />
-
-    </div>
     <h1>{{ .heading }}</h1>
     <p>{{ .subheading }}</p>
     <p>Lives layouts/partials/hero-image-fullscreen.html</p>
