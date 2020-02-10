@@ -317,7 +317,8 @@ body {
   padding: 5%; }
 
 .story-content {
-  padding: 100px 20%; }
+  padding: 100px 20%;
+  line-height: 30px; }
 
 .about .story-hero {
   color: #ffffff;
@@ -690,32 +691,33 @@ p {
   font-family: "Vollkorn", serif; }
 
 h1 {
-  font-size: 20px;
+  font-size: 80px;
   font-family: "Barlow Semi Condensed", sans-serif;
   line-height: 1.2;
   font-weight: 700;
-  color: #333333; }
+  color: #ffffff; }
   @media (min-width: 768px) {
     h1 {
-      font-size: 30px;
+      font-size: 80px;
       line-height: 1.2;
       font-weight: 700; } }
 
 h2 {
-  font-size: 20px;
+  font-size: 40px;
   font-family: "Barlow Semi Condensed", sans-serif;
   line-height: 1.4;
   font-weight: 400;
-  color: #333333; }
+  color: #ffffff; }
   @media (min-width: 768px) {
     h2 {
-      font-size: 24px;
+      font-size: 40px;
       line-height: 1.4; } }
 
 h3 {
-  color: #2ea395;
+  color: #ffffff;
   font-size: 16px;
   line-height: 1.4;
+  font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 100;
   letter-spacing: 1px; }
   @media (min-width: 768px) {
