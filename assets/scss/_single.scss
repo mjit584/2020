@@ -1,8 +1,16 @@
-// // .story-picture {
-// //     display: none;
-// //   }
-//
-//
+.story-hero {
+  background-image: url('../images/story1-hero.jpg');
+  background-position: center center;
+  height:100vh;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 5%;
+}
+.story-content {
+  padding: 100px 20%;
+}
 // .story-page {
 //   display: grid;
 //   grid-template-columns: repeat(4, 1fr);
@@ -33,8 +41,6 @@
 //     grid-area: story-hero;
 //     justify-content: flex-start;
 //     transition: 1s opacity;
-//
-//
 //
 //     @media screen and (max-width: 1040px) {
 //       height: auto;
@@ -326,8 +332,3 @@
 //     }
 //   }
 // }
-
-
-.story-hero {
-  max-width: 1000px;
-}

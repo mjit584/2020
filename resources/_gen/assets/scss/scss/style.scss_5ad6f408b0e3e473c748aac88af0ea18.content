@@ -307,7 +307,17 @@ body {
     grid-area: about-ft; }
 
 .story-hero {
-  max-width: 1000px; }
+  background-image: url("../images/story1-hero.jpg");
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 5%; }
+
+.story-content {
+  padding: 100px 20%; }
 
 .about .story-hero {
   color: #ffffff;
