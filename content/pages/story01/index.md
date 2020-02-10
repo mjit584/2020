@@ -3,7 +3,7 @@ title: "Story 01"
 topic: "Marine Science"
 date:
 description: "A family struggles to survive, having arrived in Medellín ten days prior."
-image: "../images/photo-chap-3-hero.jpg"
+image: "../images/story1-hero.jpg"
 storyHeading: "A Family, Together"
 storySubheading: "A family struggles to survive, having arrived in Medellín ten days prior."
 heroAlt: "A group of five friends carry large backs and walk the streets at night to find a place to stay."
@@ -13,6 +13,7 @@ photographer: "Alex Kormann"
 designer: "undefined"
 
 ---
+
 
 THIS PAGE IS USING THE TEMPLATE IN
 /layouts/pages/single.html
