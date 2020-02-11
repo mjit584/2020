@@ -4,12 +4,18 @@
     <video autoplay muted class="myVideo">
       <source src="{{ .Site.BaseURL }}images/movie.mp4" type="video/mp4">
     </video>
+    <!-- mobile background -->
+    <div class="mobile-background">
+      <a href="{{ .Site.BaseURL }}"><img alt="Waterfall" class="mobile-image" src="{{ .Site.BaseURL }}images/mobile-background.jpg"/></a>
+    </div>
 
   <div class="flex-column" id="home-text-container">
-    <h1>{{ .heading }}</h1>
-    <p>{{ .subheading }}</p>
-    <p>Lives layouts/partials/hero-image-fullscreen.html</p>
+    <h1 class="mobile-spacing homepage-title">{{ .heading }}</h1>
+    <p class="mobile-spacing">{{ .subheading }}</p>
+  </div>
 
+  <div class="flex-column">
+    <p class="mobile-spacing">Lorem ipsum dolor amet shabby chic hell of four dollar toast tofu, freegan tbh glossier bespoke banjo yr viral echo park. Air plant art party cornhole waistcoat. Selfies disrupt scenester, lumbersexual pok pok taiyaki adaptogen small batch chia DIY venmo bushwick narwhal meggings authentic. Neutra echo park retro ramps brunch adaptogen. Occupy tumblr irony meh food truck hashtag quinoa seitan keffiyeh small batch lo-fi schlitz. Humblebrag ethical authentic, thundercats celiac marfa fam forage vegan vexillologist gochujang lomo kickstarter jianbing.</p>
   </div>
 
 </div>
