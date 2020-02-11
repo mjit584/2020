@@ -306,6 +306,11 @@ body {
   .home #home__about footer {
     grid-area: about-ft; }
 
+.story-page p {
+  font-size: 1.25rem;
+  line-height: 1.75em;
+  margin: 20px auto; }
+
 .story-hero {
   background-image: url("../images/story1-hero.jpg");
   background-position: center center;
@@ -317,8 +322,12 @@ body {
   padding: 5%; }
 
 .story-content {
-  padding: 100px 20%;
-  line-height: 30px; }
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%; }
+
+.story-title, .story-meta {
+  margin-bottom: 80px; }
 
 .about .story-hero {
   color: #ffffff;
