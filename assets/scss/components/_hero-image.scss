@@ -1,20 +1,65 @@
 .myVideo {
-  width: 100%;
-  height: auto;
-  z-index: -1;
+  display: none;
 }
 
 .flex-column {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.mobile-spacing {
+  padding-bottom: 20px;
+  padding-top: 10px;
+  color: $primary;
+}
+
+.mobile-background {
+  display: flex;
   justify-content: center;
+  }
+
+.mobile-image {
+  width: 100%;
 }
 
 #home-text-container {
   position: absolute;
   width: 100%;
-  height: 100%;
   justify-content: space-around;
-  padding: 15% 5% 5% 5%;
+  padding: 10% 5% 5% 5%;
+}
+
+@media only screen and (min-width: 768px) {
+  .myVideo {
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+
+  .homepage-title {
+    font-size: 3em;
+  }
+
+  .mobile-spacing {
+    color: $black;
+  }
+
+  .mobile-background {
+    display: none;
+  }
+
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #home-text-container {
+    position: absolute;
+    width: 100%;
+    padding: 0% 5% 15% 5%;
+  }
 }
