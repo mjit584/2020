@@ -636,7 +636,7 @@ h2 {
       line-height: 1.4; } }
 
 h3 {
-  color: #ffffff;
+  color: #2ea395;
   font-size: 16px;
   line-height: 1.4;
   font-family: "Barlow Semi Condensed", sans-serif;
