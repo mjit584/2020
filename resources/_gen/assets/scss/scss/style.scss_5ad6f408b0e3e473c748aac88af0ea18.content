@@ -306,6 +306,11 @@ body {
   .home #home__about footer {
     grid-area: about-ft; }
 
+.story-page p {
+  font-size: 1.25rem;
+  line-height: 1.75em;
+  margin: 20px auto; }
+
 .story-hero {
   background-image: url("../images/story1-hero.jpg");
   background-position: center center;
@@ -317,25 +322,52 @@ body {
   padding: 5%; }
 
 .story-content {
-  padding: 100px 20%; }
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%; }
 
+<<<<<<< HEAD
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr; }
 
 .column {
   padding: 20px;
+=======
+.story-title, .story-meta {
+  margin-bottom: 80px; }
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+  @media (max-width: 1080px) {
+    .about-grid {
+      grid-template-columns: 1fr; } }
+
+.column {
+>>>>>>> 3e7292c459f08fa8824ae83e3b762f0f7877d497
   margin: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
+<<<<<<< HEAD
   justify-content: space-between; }
+=======
+  justify-content: space-between;
+  width: 80%; }
+>>>>>>> 3e7292c459f08fa8824ae83e3b762f0f7877d497
 
 .about-portion {
   margin: 20px;
   display: flex;
   justify-content: center;
   text-align: center; }
+<<<<<<< HEAD
+=======
+
+.profile-image {
+  width: 100%; }
+>>>>>>> 3e7292c459f08fa8824ae83e3b762f0f7877d497
 
 .page {
   display: flex;
@@ -579,32 +611,33 @@ p {
   font-family: "Vollkorn", serif; }
 
 h1 {
-  font-size: 20px;
+  font-size: 80px;
   font-family: "Barlow Semi Condensed", sans-serif;
   line-height: 1.2;
   font-weight: 700;
-  color: #333333; }
+  color: #ffffff; }
   @media (min-width: 768px) {
     h1 {
-      font-size: 30px;
+      font-size: 80px;
       line-height: 1.2;
       font-weight: 700; } }
 
 h2 {
-  font-size: 20px;
+  font-size: 40px;
   font-family: "Barlow Semi Condensed", sans-serif;
   line-height: 1.4;
   font-weight: 400;
-  color: #333333; }
+  color: #ffffff; }
   @media (min-width: 768px) {
     h2 {
-      font-size: 24px;
+      font-size: 40px;
       line-height: 1.4; } }
 
 h3 {
-  color: #2ea395;
+  color: #ffffff;
   font-size: 16px;
   line-height: 1.4;
+  font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 100;
   letter-spacing: 1px; }
   @media (min-width: 768px) {

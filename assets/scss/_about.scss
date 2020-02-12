@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .about-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -20,6 +21,38 @@
 }
 
 // .about{
+=======
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @media(max-width: 1080px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.column {
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.about-portion {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.profile-image {
+  width: 100%;
+}
+
+// about{
+>>>>>>> 3e7292c459f08fa8824ae83e3b762f0f7877d497
 //
 //   .story-hero {
 //     color: $white;

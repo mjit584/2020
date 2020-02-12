@@ -1,3 +1,12 @@
+.story-page {
+
+  p{
+    font-size: 1.25rem;
+    line-height: 1.75em;
+    margin: 20px auto;
+  }
+}
+
 .story-hero {
   background-image: url('../images/story1-hero.jpg');
   background-position: center center;
@@ -8,9 +17,18 @@
   align-items: flex-end;
   padding: 5%;
 }
+
 .story-content {
-  padding: 100px 20%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
 }
+
+.story-title, .story-meta {
+  margin-bottom: 80px;
+}
+
+
 // .story-page {
 //   display: grid;
 //   grid-template-columns: repeat(4, 1fr);
