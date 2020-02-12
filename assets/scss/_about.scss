@@ -1,4 +1,25 @@
-.about{
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.column {
+  padding: 20px;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-portion {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+about{
 
   .story-hero {
     color: $white;
