@@ -334,7 +334,8 @@ body {
 .about-portion {
   margin: 20px;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  text-align: center; }
 
 .page {
   display: flex;
