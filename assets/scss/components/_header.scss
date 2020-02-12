@@ -13,18 +13,24 @@
     align-items: center;
   }
 
-  &.header-absolute {
+  .header-absolute {
     position: absolute;
     z-index: 10;
     width: 100%;
   }
-
 }
+
 
 .lock-scroll {
   .header {
     &.header-absolute {
       position: static;
     }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #toggle-main-menu-mobile {
+    display: none;
   }
 }
