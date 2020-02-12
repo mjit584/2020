@@ -12,32 +12,33 @@ p {
   font-family: $font-family-base;
 }
 h1 {
-  font-size: 20px;
+  font-size: 80px;
   font-family: $font-family-heading;
   line-height: 1.2;
   font-weight: $font-weight-bold;
-  color: #333333;
+  color: $white;
   @include media-breakpoint-up(md) {
-    font-size: 30px;
+    font-size: 80px;
     line-height: 1.2;
     font-weight: $font-weight-bold;
   }
 }
 h2 {
-  font-size: 20px;
+  font-size: 40px;
   font-family: $font-family-heading;
   line-height: 1.4;
   font-weight: 400;
-  color: #333333;
+  color: $white;
   @include media-breakpoint-up(md) {
-    font-size: 24px;
+    font-size: 40px;
     line-height: 1.4;
   }
 }
 h3 {
-  color: $primary;
+  color: $white;
   font-size: 16px;
   line-height: 1.4;
+  font-family: $font-family-heading;
   font-weight: $font-weight-thin;
   letter-spacing: 1px;
   @include media-breakpoint-up(md) {
