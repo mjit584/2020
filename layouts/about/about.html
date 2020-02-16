@@ -4,32 +4,22 @@
 
 {{ define "main" }}
 
-<div class="container" style="margin-top:100px;">
-  <p>The layout is in layout/about/about.html</p>
+<div class="container">
+  <a href="{{ .Site.BaseURL }}"><img alt="class" src="{{ .Site.BaseURL }}images/class.jpg"/></a>
+</div>
 
-  </div>
+<div class="container" style="margin:50px;">
+  <p>{{ .Content }}</p>
+</div>
 
-<section class="about-grid">
+{{ if .Sections }}
+{{ range .Sections }}
+{{ end }}
+{{ end }}
 
-  <div class="column">
-    <div class="column-content">
-    <img src="../images/goat.jpg" class="profile-image">
-    <h3 class="about-name about-portion">Halynna Snyder</h3>
-    <p class="role about-portion">Developer</p>
-    <p class="description about-portion">Here's something cute I can say about me</p>
-    </div>
-  </div>
+{{ range .Pages }}
 
-  <div class="column">
-    <div class="column-content">
-    <img src="../images/goat.jpg" class="profile-image">
-    <h3 class="about-name about-portion">Meg Mcmahon</h3>
-    <p class="role about-portion">Developer</p>
-    <p class="description about-portion">Here's something cute someone can say about them</p>
-    </div>
-  </div>
-
-</section>
+{{ end }}
 
 
 {{ end }}
