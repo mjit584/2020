@@ -53,6 +53,14 @@ body {
   padding-left: 10px;
   margin-right: auto;
   margin-left: auto; }
+  @media (max-width: 768px) {
+    .container .clientcontainer {
+      max-width: 90%;
+      width: 100%;
+      padding-right: 10px;
+      padding-left: 10px;
+      margin-right: auto;
+      margin-left: auto; } }
 
 .home__overlay {
   position: fixed;
@@ -325,6 +333,11 @@ body {
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 10%; }
+  @media (max-width: 768px) {
+    .story-content {
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 10%; } }
 
 .story-title, .story-meta {
   margin-bottom: 80px; }
