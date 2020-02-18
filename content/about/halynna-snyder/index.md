@@ -1,4 +1,5 @@
 ---
 title: Halynna Snyder
-test: Developer
+group: Photo
+groupweight: 1
 ---

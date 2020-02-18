@@ -1,49 +1,27 @@
-.about-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.column {
-  padding: 20px;
-  margin: 50px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.about-portion {
-  margin: 20px;
+.aboutcontent {
   display: flex;
   justify-content: center;
-  text-align: center;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-
-.about-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    @media(max-width: 1080px) {
-    grid-template-columns: 1fr;
-  }
+.aboutcontainer {
+  margin-bottom: 5%;
 }
 
-.column {
-  margin: 50px;
+.outer-card {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 80%;
 }
 
-.about-portion {
-  margin: 20px;
+.inner-card {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  flex-wrap: wrap;
+  margin: 30px;
 }
 
-.profile-image {
-  width: 100%;
+.image {
+  width: 300px;
 }
