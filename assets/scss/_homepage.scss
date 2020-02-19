@@ -1,3 +1,19 @@
+.explainer {
+  padding: 40px;
+  @media(max-width: 768px) {
+    padding: 25px;
+  }
+}
+
+.home-stories {
+  padding: 40px;
+  @media(max-width: 768px) {
+    padding: 25px;
+  }
+}
+
+
+
 // .home__overlay {
 //   position: fixed;
 //   z-index: 3;
