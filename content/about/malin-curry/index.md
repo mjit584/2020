@@ -1,5 +1,5 @@
 ---
-title: Halynna Snyder
+title: Malin Curry
 group: Interactive
 groupweight: 0
 ---
