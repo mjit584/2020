@@ -11,18 +11,30 @@
   background-image: url('../images/story1-hero.jpg');
   background-position: center center;
   height:100vh;
-  display:flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
   padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .story-content {
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 10%;
+  @media(max-width: 768px) {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+  }
 }
+
 
 .story-title, .story-meta {
   margin-bottom: 80px;
