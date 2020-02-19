@@ -1,4 +1,5 @@
 ---
 title: Meg McMahon
-test: Developer
+group: Developer
+groupweight: 0
 ---

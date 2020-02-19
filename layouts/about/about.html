@@ -3,23 +3,66 @@
 {{ define "header_classes" }}{{ end }}
 
 {{ define "main" }}
+<div class="aboutcontent">
 
-<div class="container">
+<div class="aboutcontainer">
   <a href="{{ .Site.BaseURL }}"><img alt="class" src="{{ .Site.BaseURL }}images/class.jpg"/></a>
 </div>
 
-<div class="container" style="margin:50px;">
+<div class="aboutcontainer">
   <p>{{ .Content }}</p>
 </div>
 
+{{/*  Generate uniq list of groups  */}}
+{{ $groups := slice }}
+    {{ range sort .Pages ".Params.groupweight" }}
+        {{ $groups = $groups | append .Params.group }}
+    {{ end }}
+{{ $groups = uniq $groups }}
+
+
+<ul class="about-nav" data-sort-id="team" data-option-key="filter">
+    <li class="nav-item active">
+      <a class=“nav-link text-1 text-uppercase active” href="">2020 Team</a></li>
+      {{ range $groups }}
+      <li class="nav-item" data-option-value="{{ . }}"><a class="nav-link"
+      href="#">{{ . }}</a></li>
+      {{ end }}
+</ul>
+
+
+{{/*  THIS IS THE SORTING OF THE GROUPS */}}
+{{/*  TO DO ask TAMARA */}}
+{{ range $groups }}
+{{ $group := . }}
+{{ range (where $.Pages ".Params.groupweight" . ) }}
+
+{{ end }}
+{{ end }}
+
+
+{{/*  Loop Through the Folders and .MD files */}}
 {{ if .Sections }}
 {{ range .Sections }}
 {{ end }}
 {{ end }}
-
+<div class="outer-card">
 {{ range .Pages }}
-
+  <div class="inner-card">
+    <span class="image-card">
+      {{ with .Resources.ByType "image" }}
+      {{ range . }}<img src="{{ .RelPermalink }}" class="image" alt="{{ .Params.name }}">{{ end }}
+      {{ end }}
+    <span>
+    <span class="title">
+      <p>{{ .Params.title }}</p>
+    </span>
+    <span class="group">
+      <p>{{ .Params.group }}</p>
+    </span>
+  </div>
 {{ end }}
+</div>
 
-
+</div>
 {{ end }}

@@ -1,5 +1,5 @@
 ---
-title: "Story 01"
+title: "Monkey River Village"
 topic: "Marine Science"
 date:
 description: "A family struggles to survive, having arrived in Medellín ten days prior."
