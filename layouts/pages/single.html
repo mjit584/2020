@@ -10,13 +10,12 @@
     <div class="story-title">
       <h1>{{ .Title }}</h1>
     </div>
-    <div class="story-meta">
-      <h2>{{ .Params.topic }}</h2>
-      <h3>{{ .Params.photographer }}</h3>
-    </div>
   </section>
 
   <section class="story-content">
+    <div class="story-meta">
+      <h3>Photographer: {{ .Params.photographer }}</h3>
+    </div>
     {{ .Content }}
   </section>
 
