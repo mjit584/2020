@@ -7,6 +7,10 @@
 
 .home-stories {
   padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  width: 100%;
   @media(max-width: 768px) {
     padding: 25px;
   }

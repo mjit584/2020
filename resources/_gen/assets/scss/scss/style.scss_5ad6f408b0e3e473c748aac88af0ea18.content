@@ -69,7 +69,11 @@ body {
       padding: 25px; } }
 
 .home-stories {
-  padding: 40px; }
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  width: 100%; }
   @media (max-width: 768px) {
     .home-stories {
       padding: 25px; } }
