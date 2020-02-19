@@ -31,16 +31,6 @@
 </ul>
 
 
-{{/*  THIS IS THE SORTING OF THE GROUPS */}}
-{{/*  TO DO ask TAMARA */}}
-{{ range $groups }}
-{{ $group := . }}
-{{ range (where $.Pages ".Params.groupweight" . ) }}
-
-{{ end }}
-{{ end }}
-
-
 {{/*  Loop Through the Folders and .MD files */}}
 {{ if .Sections }}
 {{ range .Sections }}
