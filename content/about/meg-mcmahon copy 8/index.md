@@ -1,5 +1,4 @@
 ---
-title: Meg McMahon
-group: Developer
-groupweight: 0
+title: Tamara Rice
+group: Coaches
 ---

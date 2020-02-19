@@ -1,5 +1,4 @@
 ---
-title: Halynna Snyder
+title: Person Person
 group: Photo
-groupweight: 1
 ---

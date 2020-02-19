@@ -17,9 +17,13 @@
 }
 
 .inner-card {
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   margin: 30px;
+}
+
+.show {
+    display: flex;
 }
 
 .image {
