@@ -130,9 +130,7 @@ body {
 
 .header {
   color: #ffffff;
-  background-image: url("../images/header-wave.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #222;
   display: flex;
   justify-content: space-between;
   align-items: center;
