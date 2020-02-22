@@ -7,3 +7,6 @@ menuTrigger.onclick = function() {
     menuTrigger.classList.toggle('is-active')
     body.classList.toggle('lock-scroll')
 }
+
+
+console.log('scripts.js is loaded');

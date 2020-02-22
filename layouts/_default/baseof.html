@@ -19,6 +19,9 @@
 
   {{ block "header_css" . }}{{ end }}
 
+  <!--jQuery-->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
 </head>
 
 <body class='page {{ block "body_classes" . }}{{ end }}'>
@@ -43,20 +46,48 @@
     {{ end }}
   </div>
 
+
+    <!--GSAP-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <!--scroll magic-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+
+    <!--intersection observer-->
+    <script src='https://unpkg.com/intersection-observer@0.5.0/intersection-observer.js'></script>
+
+    <!--start of the scripts block-->
+    <!--If you add a new JS file in /assets/js then you need to include it here!  Don't forget to add it to the Bundle line.  There are several steps:
+      1.  Create the JS
+      2.  Add a resources.Get line below
+      3.  Add the new $variable to the $bundle line
+      4.  Eventually, we can create an if/then to only load the JS on pages where it is executed.
+    -->
+
+    {{ block "scripts" . }}
+
+    {{ $scripts := resources.Get "js/scripts.js" }}
+    {{ $video := resources.Get "js/video.js" }}
+    {{ $aboutsort := resources.Get "js/aboutsort.js" }}
+    {{ $bundle := slice $scripts $video $aboutsort | resources.Concat "js/bundle.js" }}
+
+
+    {{ if .Site.IsServer }}
+    <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
+    {{ else }}
+    <script type="text/javascript" src="{{ ($bundle | minify | fingerprint).RelPermalink }}"></script>
+    {{ end }}
+
+    {{ end }}
+    <!--end of the scripts block-->
+
   {{ partial "footer.html" . }}
-
-  {{ $scripts := resources.Get "js/scripts.js" }}
-
 
 
   {{ block "footer_js" . }}
   {{ end }}
 
-  {{ if .Site.IsServer }}
-  <script type="text/javascript" src="{{ $scripts.RelPermalink }}"></script>
-  {{ else }}
-  <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}"></script>
-  {{ end }}
 
 </body>
 </html>
