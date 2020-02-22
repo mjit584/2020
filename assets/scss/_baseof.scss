@@ -15,20 +15,3 @@ body {
   width: 100%;
   color: $black;
 }
-
-.container {
-    max-width: 960px;
-    width: 100%;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-right: auto;
-    margin-left: auto;
-        @media(max-width: 768px) {
-          max-width: 90%;
-          width: 100%;
-          padding-right: 10px;
-          padding-left: 10px;
-          margin-right: auto;
-          margin-left: auto;
-      }
-}
