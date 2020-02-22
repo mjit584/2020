@@ -46,6 +46,9 @@ body {
   width: 100%;
   color: #333333; }
 
+.container {
+  margin: 0 auto; }
+
 .explainer {
   padding: 40px; }
   @media (max-width: 768px) {
@@ -127,9 +130,7 @@ body {
 
 .header {
   color: #ffffff;
-  background-image: url("../images/header-wave.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #222222;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -150,6 +151,9 @@ body {
 @media only screen and (min-width: 768px) {
   #toggle-main-menu-mobile {
     display: none; } }
+
+.svg-bottom svg {
+  position: absolute; }
 
 .footer {
   background: #ffe14e;
@@ -302,11 +306,6 @@ body {
 
 .myVideo {
   display: none; }
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
 
 .mobile-spacing {
   padding-bottom: 20px;
