@@ -144,6 +144,31 @@ body {
   .page .wrapper {
     flex: 1; }
 
+.black {
+  background-color: #000; }
+
+.no-show {
+  opacity: 0; }
+
+#video-top {
+  height: 60px;
+  width: 100%; }
+  @media screen and (max-width: 800px) {
+    #video-top {
+      height: 0px; } }
+
+.video-container {
+  transition: 0.1s background-color;
+  height: 55vw;
+  max-height: 80vh;
+  max-width: 1200px;
+  margin: 60px auto 60px auto; }
+  .video-container iframe {
+    border: none !important;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto; }
+
 .header {
   color: #ffffff;
   background-color: #ffffff;
