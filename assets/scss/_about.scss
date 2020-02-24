@@ -13,6 +13,7 @@
   display:flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 #AboutFilter button {
   border:none;
@@ -32,6 +33,10 @@
 }
 #AboutFilter .btn:hover:after {
 	width: 100%;
+	background: $primary;
+}
+#AboutFilter .btn.activesort:after {
+  width: 100%;
 	background: $primary;
 }
 .outer-card {

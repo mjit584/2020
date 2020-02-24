@@ -57,12 +57,11 @@
     <!--intersection observer-->
     <script src='https://unpkg.com/intersection-observer@0.5.0/intersection-observer.js'></script>
 
-    <!--start of the scripts block-->
+    <!--HOW TO INCLUDE JS FILES PAGE BY PAGE-->
     <!--If you add a new JS file in /assets/js then you need to include it here!  Don't forget to add it to the Bundle line.  There are several steps:
       1.  Create the JS
       2.  Add a resources.Get line below
       3.  Add the new $variable to the $bundle line
-      4.  Eventually, we can create an if/then to only load the JS on pages where it is executed.
     -->
 
     {{ block "scripts" . }}
@@ -70,24 +69,77 @@
     {{ $scripts := resources.Get "js/scripts.js" }}
     {{ $video := resources.Get "js/video.js" }}
     {{ $aboutsort := resources.Get "js/aboutsort.js" }}
-    {{ $bundle := slice $scripts $video $aboutsort | resources.Concat "js/bundle.js" }}
 
 
+    {{ $bundle := slice $scripts | resources.Concat "js/bundle.js" }}
+    {{ $aboutbundle := slice $aboutsort | resources.Concat "js/aboutbundle.js" }}
+    {{ $story1bundle := slice $video | resources.Concat "js/story1bundle.js" }}
+    {{ $story2bundle := slice $video | resources.Concat "js/story2bundle.js" }}
+    {{ $story3bundle := slice $video | resources.Concat "js/story3bundle.js" }}
+    {{ $story4bundle := slice $video | resources.Concat "js/story4bundle.js" }}
+    {{ $story5bundle := slice $video | resources.Concat "js/story5bundle.js" }}
+
+    <!-- All pages get this bundle -->
     {{ if .Site.IsServer }}
-    <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
+      <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
     {{ else }}
-    <script type="text/javascript" src="{{ ($bundle | minify | fingerprint).RelPermalink }}"></script>
+      <script type="text/javascript" src="{{ ($bundle | minify | fingerprint).RelPermalink }}"></script>
     {{ end }}
 
+    <!-- About Page gets this Bundle -->
+    {{ if eq .Weight 6}}
+    {{ if .Site.IsServer }}
+        <script type="text/javascript" src="{{ $aboutbundle.RelPermalink }}"></script>
+      {{ else }}
+        <script type="text/javascript" src="{{ ($aboutbundle | minify | fingerprint).RelPermalink }}"></script>
     {{ end }}
+
+    <!-- Story 1 gets this Bundle -->
+    {{ else if eq .Weight 1 }}
+    {{ if .Site.IsServer }}
+        <script type="text/javascript" src="{{ $story1bundle.RelPermalink }}"></script>
+      {{ else }}
+        <script type="text/javascript" src="{{ ($story1bundle | minify | fingerprint).RelPermalink }}"></script>
+    {{ end }}
+
+    <!-- Story 2 gets this Bundle -->
+    {{ else if eq .Weight 2 }}
+    {{ if .Site.IsServer }}
+        <script type="text/javascript" src="{{ $story2bundle.RelPermalink }}"></script>
+      {{ else }}
+        <script type="text/javascript" src="{{ ($story2bundle | minify | fingerprint).RelPermalink }}"></script>
+    {{ end }}
+
+    <!-- Story 3 gets this Bundle -->
+    {{ else if eq .Weight 3 }}
+    {{ if .Site.IsServer }}
+        <script type="text/javascript" src="{{ $story3bundle.RelPermalink }}"></script>
+      {{ else }}
+        <script type="text/javascript" src="{{ ($story3bundle | minify | fingerprint).RelPermalink }}"></script>
+    {{ end }}
+
+    <!-- Story 1 gets this Bundle -->
+    {{ else if eq .Weight 4 }}
+    {{ if .Site.IsServer }}
+        <script type="text/javascript" src="{{ $story4bundle.RelPermalink }}"></script>
+      {{ else }}
+        <script type="text/javascript" src="{{ ($story4bundle | minify | fingerprint).RelPermalink }}"></script>
+    {{ end }}
+
+    <!-- Story 1 gets this Bundle -->
+    {{ else if eq .Weight 5 }}
+    {{ if .Site.IsServer }}
+        <script type="text/javascript" src="{{ $story5bundle.RelPermalink }}"></script>
+      {{ else }}
+        <script type="text/javascript" src="{{ ($story5bundle | minify | fingerprint).RelPermalink }}"></script>
+    {{ end }}
+
+
+  {{ end }}
+{{ end }}
     <!--end of the scripts block-->
 
   {{ partial "footer.html" . }}
-
-
-  {{ block "footer_js" . }}
-  {{ end }}
-
 
 </body>
 </html>

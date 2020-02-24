@@ -108,7 +108,8 @@ body {
 #AboutFilter {
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  flex-wrap: wrap; }
 
 #AboutFilter button {
   border: none;
@@ -127,6 +128,10 @@ body {
   transition: width .5s ease, background-color .5s ease; }
 
 #AboutFilter .btn:hover:after {
+  width: 100%;
+  background: #2ea395; }
+
+#AboutFilter .btn.activesort:after {
   width: 100%;
   background: #2ea395; }
 
