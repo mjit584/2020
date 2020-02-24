@@ -1,6 +1,6 @@
 .header {
   color: #ffffff;
-  background: #222;
+  background-color: #222222;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,6 +8,7 @@
   height: 60px;
   padding-left: 20px;
   padding-right: 20px;
+
 
 .header img {
   width: 100%;
@@ -33,4 +34,9 @@
   #toggle-main-menu-mobile {
     display: none;
   }
+}
+
+
+.svg-bottom svg {
+  position: absolute;
 }
