@@ -11,17 +11,26 @@
       list-style: none;
       font-size: 0.9rem;
       > a {
-        padding: 10px 14px 10px 14px;
+        padding: 10px 12px;
         display: inline-block;
-        font-weight: regular;
         text-transform: uppercase;
         text-decoration: none;
-        color: #ebebe6;
-        &:hover {
-          background: $primary;
-          color: #ffffff;
-          text-decoration: none;
-        }
+        color: #ffffff;
+        font-family:$font-family-heading;
+        font-size:1.1em;
+      }
+      &:after {
+        content: '';
+        display: block;
+        margin: auto;
+        height: 3px;
+        width: 0px;
+        background: transparent;
+        transition: width .5s ease, background-color .5s ease;
+      }
+      &:hover:after{
+      	width: 80%;
+      	background: $primary;
       }
       &.active {
         > a {
