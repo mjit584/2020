@@ -105,6 +105,31 @@ body {
 .aboutcontainer {
   margin-bottom: 5%; }
 
+#AboutFilter {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#AboutFilter button {
+  border: none;
+  margin: 1em;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 1.4em; }
+
+/* Add a light grey background on mouse-over */
+#AboutFilter .btn:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease; }
+
+#AboutFilter .btn:hover:after {
+  width: 100%;
+  background: #2ea395; }
+
 .outer-card {
   display: flex;
   flex-wrap: wrap;

@@ -28,7 +28,7 @@
 
 {{ range .Pages }}
 
-  <div class="inner-card {{ .Params.group }}">
+  <div class="inner-card show {{ .Params.group }}">
     <span class="image-card">
       {{ with .Resources.ByType "image" }}
         {{ range . }}
