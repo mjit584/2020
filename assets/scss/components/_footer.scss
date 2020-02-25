@@ -1,5 +1,11 @@
 .footer {
   background: #222222;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  p{
+    color: white;
+  }
 }
 
 .logo {

@@ -293,7 +293,12 @@ body {
   position: absolute; }
 
 .footer {
-  background: #222222; }
+  background: #222222;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px; }
+  .footer p {
+    color: white; }
 
 .logo {
   display: flex;
