@@ -65,9 +65,8 @@ body {
     .home-stories {
       padding: 25px; } }
 
-xplainer-top-wave {
-  position: absolute;
-  bottom: -110px; }
+.explainer-top-wave {
+  position: absolute; }
 
 .explainer-container {
   background: #222222;
@@ -294,22 +293,11 @@ xplainer-top-wave {
   position: absolute; }
 
 .footer {
-  background: #ffe14e;
-  padding-top: 20px;
-  padding-bottom: 20px; }
-
-.footer-ybr-line {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%; }
+  background: #222222; }
 
 .logo {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; }
+  margin: 15px; }
 
 .main-menu {
   display: none; }
