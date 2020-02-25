@@ -16,6 +16,31 @@
   }
 }
 
+xplainer-top-wave {
+  position:absolute;
+  bottom: -110px;
+}
+
+.explainer-container {
+  background: #222222;
+  height: 500px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  p {
+    color: white;
+  }
+  @media(max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.explainer-content {
+  padding: 40px;
+}
+
+
+
 
 
 
