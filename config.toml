@@ -17,27 +17,27 @@ baseURL = "/"
     meta_twitter_creator = ""
 
 [[menu.main]]
-	name = "Story 1"
+	name = "Monkey River Village"
 	url = "/story01/"
     weight = 1
 
 [[menu.main]]
-    name = "Story 2"
+    name = "Seaweed for All"
     url = "/story02/"
     weight = 2
 
 [[menu.main]]
-    name = "Story 3"
+    name = "Against All Odds"
     url = "/story03/"
     weight = 3
 
 [[menu.main]]
-    name = "Story 4"
+    name = "A Natural Revolution"
     url = "/story04/"
     weight = 4
 
 [[menu.main]]
-    name = "Story 5"
+    name = "Flipping the Switch"
     url = "/story05/"
     weight = 5
 

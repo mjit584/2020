@@ -46,6 +46,9 @@ body {
   width: 100%;
   color: #333333; }
 
+.container {
+  margin: 0 auto; }
+
 .explainer {
   padding: 40px; }
   @media (max-width: 768px) {
@@ -62,25 +65,86 @@ body {
     .home-stories {
       padding: 25px; } }
 
-.story-page p {
-  font-size: 1.25rem;
-  line-height: 1.75em;
-  margin: 20px auto; }
+.story-1 .story-hero {
+  background-image: url("../images/story1-hero.jpg"); }
+
+.story-2 .story-hero {
+  background-image: url("../images/story2-hero.png"); }
+
+.story-3 .story-hero {
+  background-image: url("https://aftermath.unc.edu/assets/images/water-hero.jpg"); }
+
+.story-4 .story-hero {
+  background-image: url("https://aftermath.unc.edu/assets/images/ecology-hero.jpg"); }
+
+.story-5 .story-hero {
+  background-image: url("../images/story2-hero.png"); }
+
+.story-page {
+  font-family: "Vollkorn", serif; }
+  .story-page p {
+    font-size: 1.25rem;
+    line-height: 1.75em;
+    margin: 20px auto; }
 
 .story-hero {
-  background-image: url("../images/story1-hero.jpg");
-  background-position: center center;
   height: 100vh;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: inherit; }
+
+.herocontent {
   padding: 5%;
   display: flex;
   align-items: center;
   justify-content: center; }
 
+.byline {
+  background-image: url("../images/byline-wave.svg");
+  width: 100%;
+  height: 400px;
+  color: #ffffff;
+  position: absolute;
+  bottom: -200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10%;
+  font-family: "Barlow Semi Condensed", sans-serif; }
+  .byline p {
+    color: #ffffff;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    margin: 0; }
+
 .story-title {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center; }
+  .story-title .icon-line {
+    display: flex;
+    width: 100%; }
+  .story-title .horizontal-line {
+    width: 100%;
+    position: relative;
+    margin: 15px;
+    border-bottom: 1px solid #ffffff; }
+  .story-title .storyicon img {
+    max-height: 50px; }
+  .story-title .storyicon {
+    position: relative;
+    top: 3px; }
+
+.intro1 {
+  color: #ffffff;
+  line-height: 1.5em;
+  padding: 1em;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 2px #333333; }
 
 .story-content {
   margin-left: 20%;
@@ -185,7 +249,7 @@ body {
 
 .header {
   color: #ffffff;
-  background: #222;
+  background-color: #222222;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -206,6 +270,9 @@ body {
 @media only screen and (min-width: 768px) {
   #toggle-main-menu-mobile {
     display: none; } }
+
+.svg-bottom svg {
+  position: absolute; }
 
 .footer {
   background: #ffe14e;
@@ -238,16 +305,24 @@ body {
       list-style: none;
       font-size: 0.9rem; }
       .main-menu > ul > li > a {
-        padding: 10px 14px 10px 14px;
+        padding: 10px 12px;
         display: inline-block;
-        font-weight: regular;
         text-transform: uppercase;
         text-decoration: none;
-        color: #ebebe6; }
-        .main-menu > ul > li > a:hover {
-          background: #2ea395;
-          color: #ffffff;
-          text-decoration: none; }
+        color: #ffffff;
+        font-family: "Barlow Semi Condensed", sans-serif;
+        font-size: 1.1em; }
+      .main-menu > ul > li:after {
+        content: '';
+        display: block;
+        margin: auto;
+        height: 3px;
+        width: 0px;
+        background: transparent;
+        transition: width .5s ease, background-color .5s ease; }
+      .main-menu > ul > li:hover:after {
+        width: 80%;
+        background: #2ea395; }
       .main-menu > ul > li.active > a {
         background: #2ea395;
         text-decoration: none;
@@ -359,11 +434,6 @@ body {
 .myVideo {
   display: none; }
 
-.flex-column {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-
 .mobile-spacing {
   padding-bottom: 20px;
   padding-top: 10px;
@@ -417,7 +487,7 @@ p {
 
 h1 {
   font-size: 80px;
-  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "Vollkorn", serif;
   line-height: 1.2;
   font-weight: 700;
   color: #ffffff; }

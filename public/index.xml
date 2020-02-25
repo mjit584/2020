@@ -17,12 +17,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/story01/</guid>
-      <description>THIS PAGE IS USING THE TEMPLATE IN /layouts/pages/single.html
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in bibendum massa. Integer gravida metus nec velit semper, id efficitur magna porttitor. Sed non massa semper, consectetur elit eu, faucibus nisl. Pellentesque sapien justo, lobortis a iaculis non, egestas eget nulla. Nam vestibulum sem id ipsum aliquet, vitae maximus ligula lobortis. In ac dictum eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</description>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in bibendum massa. Integer gravida metus nec velit semper, id efficitur magna porttitor. Sed non massa semper, consectetur elit eu, faucibus nisl. Pellentesque sapien justo, lobortis a iaculis non, egestas eget nulla. Nam vestibulum sem id ipsum aliquet, vitae maximus ligula lobortis. In ac dictum eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin hendrerit eu nisi et tempor.</description>
     </item>
     
     <item>
-      <title>Story 02</title>
+      <title>Seaweed For All</title>
       <link>/story02/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -32,7 +31,7 @@ After traveling hundreds of miles on foot, a group of five Venezuelans, who toge
     </item>
     
     <item>
-      <title>Story 03</title>
+      <title>Against All Odds</title>
       <link>/story03/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -42,7 +41,7 @@ After traveling hundreds of miles on foot, a group of five Venezuelans, who toge
     </item>
     
     <item>
-      <title>Story 04</title>
+      <title>A Natural Revolution</title>
       <link>/story04/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -52,7 +51,7 @@ After traveling hundreds of miles on foot, a group of five Venezuelans, who toge
     </item>
     
     <item>
-      <title>Story 05</title>
+      <title>Flipping The Switch</title>
       <link>/story05/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

@@ -1,5 +1,5 @@
 {{ define "header_css" }}{{ end }}
-{{ define "body_classes" }}page-pages-single{{ end }}
+{{ define "body_classes" }}page-pages-single story-{{ .Params.weight }} {{ end }}
 {{ define "header_classes" }}{{ end }}
 
 {{ define "main" }}
@@ -7,16 +7,44 @@
 
 <div class="story-page">
   <section class="story-hero">
-    <div class="story-title">
-      <h1>{{ .Title }}</h1>
+    <div class="herocontent">
+      <div class="story-title">
+        <h1>{{ .Title }}</h1>
+
+        <div class="icon-line">
+          <div class="horizontal-line"></div>
+          <div class="storyicon"><img src="../images/story-icon.png"></div>
+          <div class="horizontal-line"></div>
+        </div>
+
+        <div class="intro1">
+          {{ .Params.storySubheading }}
+        </div>
+      </div>
+    </div>
+
+    <div class="byline">
+      <div class="byline1">
+        <b>REPORTER</b>
+
+        <p>Drew Westmoreland</p>
+      </div>
+      <div class="byline2">
+        <b>PHOTO/VIDEO</b>
+        <p>{{ .Params.photographer }}</p>
+        <p>Alicia Carter</p>
+      </div>
+      <div class="byline3">
+        <b>INTERACTIVE</b>
+        <p>Taylor Tyson</p>
+      </div>
+
     </div>
   </section>
 
+
+
   <section class="story-content">
-    <div class="story-meta">
-      <h3>Photographer: {{ .Params.photographer }}</h3>
-    </div>
-    <div id="video-top"></div>
     {{ .Content }}
   </section>
 
