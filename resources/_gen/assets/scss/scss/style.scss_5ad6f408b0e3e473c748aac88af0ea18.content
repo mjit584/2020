@@ -49,12 +49,6 @@ body {
 .container {
   margin: 0 auto; }
 
-.explainer {
-  padding: 40px; }
-  @media (max-width: 768px) {
-    .explainer {
-      padding: 25px; } }
-
 .home-stories {
   padding: 40px;
   display: grid;
@@ -65,17 +59,30 @@ body {
     .home-stories {
       padding: 25px; } }
 
+.home-card {
+  text-align: center; }
+
+.explainer {
+  padding: 40px; }
+  @media (max-width: 768px) {
+    .explainer {
+      padding: 25px; } }
+
 .explainer-top-wave {
-  position: absolute; }
+  position: absolute;
+  bottom: -120px; }
+  @media (max-width: 768px) {
+    .explainer-top-wave {
+      bottom: -190px; } }
 
 .explainer-container {
   background: #222222;
-  height: 500px;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr; }
   .explainer-container p {
-    color: white; }
+    color: white;
+    line-height: 1.5em; }
   @media (max-width: 768px) {
     .explainer-container {
       grid-template-columns: 1fr; } }
