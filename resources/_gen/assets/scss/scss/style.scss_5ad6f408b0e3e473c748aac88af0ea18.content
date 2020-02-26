@@ -88,7 +88,7 @@ body {
       grid-template-columns: 1fr; } }
 
 .explainer-content {
-  padding: 40px; }
+  padding: 60px; }
 
 .story-1 .story-hero {
   background-image: url("../images/story1-hero.jpg"); }
