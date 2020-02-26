@@ -11,13 +11,9 @@
       <div class="story-title">
         <h1>{{ .Title }}</h1>
 
-        <div class="icon-line">
           <div class="horizontal-line"></div>
-          <div class="storyicon"><img src="../images/story-icon.png"></div>
-          <div class="horizontal-line"></div>
-        </div>
 
-        <div class="intro1">
+        <div class="hero-intro">
           {{ .Params.storySubheading }}
         </div>
       </div>
@@ -25,18 +21,17 @@
 
     <div class="byline">
       <div class="byline1">
-        <b>REPORTER</b>
-
-        <p>Drew Westmoreland</p>
+        <h5 class="bold">REPORTER</h5>
+        <h5>Drew Westmoreland</h5>
       </div>
       <div class="byline2">
-        <b>PHOTO/VIDEO</b>
-        <p>{{ .Params.photographer }}</p>
-        <p>Alicia Carter</p>
+        <h5 class="bold">PHOTO/VIDEO</h5>
+        <h5>{{ .Params.photographer }}</h5>
+        <h5>Alicia Carter</h5>
       </div>
       <div class="byline3">
-        <b>INTERACTIVE</b>
-        <p>Taylor Tyson</p>
+        <h5 class="bold">INTERACTIVE</h5>
+        <h5>Taylor Tyson</h5>
       </div>
 
     </div>

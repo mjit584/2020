@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Vollkorn&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400,600,700,800|Vollkorn:400,600&display=swap");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -44,10 +44,23 @@ html {
 body {
   margin: 0 auto;
   width: 100%;
-  color: #333333; }
+  color: #333333;
+  font-family: "Vollkorn", serif; }
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.75em;
+  margin: 20px auto; }
 
 .container {
   margin: 0 auto; }
+
+ul, ol {
+  margin: 0;
+  padding: 0; }
+  ul li, ol li {
+    padding: 0;
+    margin: 0; }
 
 .home-stories {
   padding: 40px;
@@ -105,13 +118,6 @@ body {
 .story-5 .story-hero {
   background-image: url("../images/story2-hero.png"); }
 
-.story-page {
-  font-family: "Vollkorn", serif; }
-  .story-page p {
-    font-size: 1.25rem;
-    line-height: 1.75em;
-    margin: 20px auto; }
-
 .story-hero {
   height: 100vh;
   background-position: center center;
@@ -131,18 +137,12 @@ body {
   background-image: url("../images/byline-wave.svg");
   width: 100%;
   height: 400px;
-  color: #ffffff;
   position: absolute;
   bottom: -200px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
-  padding: 10%;
-  font-family: "Barlow Semi Condensed", sans-serif; }
-  .byline p {
-    color: #ffffff;
-    font-family: "Barlow Semi Condensed", sans-serif;
-    margin: 0; }
+  padding: 10% 20%; }
 
 .story-title {
   display: flex;
@@ -150,39 +150,17 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center; }
-  .story-title .icon-line {
-    display: flex;
-    width: 100%; }
   .story-title .horizontal-line {
     width: 100%;
     position: relative;
     margin: 15px;
     border-bottom: 1px solid #ffffff; }
-  .story-title .storyicon img {
-    max-height: 50px; }
-  .story-title .storyicon {
-    position: relative;
-    top: 3px; }
-
-.intro1 {
-  color: #ffffff;
-  line-height: 1.5em;
-  padding: 1em;
-  font-size: 1.5em;
-  text-shadow: 2px 2px 2px #333333; }
 
 .story-content {
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 10%; }
+  margin: 10% 20%; }
   @media (max-width: 768px) {
     .story-content {
-      margin-left: 10%;
-      margin-right: 10%;
-      margin-top: 10%; } }
-
-.story-title, .story-meta {
-  margin-bottom: 80px; }
+      margin: 8%; } }
 
 .aboutcontent {
   display: flex;
@@ -491,63 +469,43 @@ body {
     width: 100%;
     padding: 0% 5% 15% 5%; } }
 
-ul,
-ol {
-  margin: 0;
-  padding: 0; }
-  ul li,
-  ol li {
-    padding: 0;
-    margin: 0; }
-
-p {
-  color: #4e4e4e;
-  font-family: "Vollkorn", serif; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: #333333;
+  line-height: 1.2em; }
 
 h1 {
-  font-size: 80px;
-  font-family: "Vollkorn", serif;
-  line-height: 1.2;
-  font-weight: 700;
-  color: #ffffff; }
+  font-size: 40px;
+  font-weight: 900; }
   @media (min-width: 768px) {
     h1 {
-      font-size: 80px;
-      line-height: 1.2;
-      font-weight: 700; } }
+      font-size: 80px; } }
 
 h2 {
-  font-size: 40px;
-  font-family: "Barlow Semi Condensed", sans-serif;
-  line-height: 1.4;
-  font-weight: 400;
-  color: #2ea395; }
-  @media (min-width: 768px) {
-    h2 {
-      font-size: 40px;
-      line-height: 1.4; } }
+  font-size: 36px;
+  font-weight: 700; }
 
 h3 {
-  color: #2ea395;
-  font-size: 16px;
-  line-height: 1.4;
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 100;
-  letter-spacing: 1px; }
-  @media (min-width: 768px) {
-    h3 {
-      font-size: 20px;
-      line-height: 1.4;
-      letter-spacing: 1.8px;
-      font-weight: 100; } }
+  font-size: 24px;
+  font-weight: 700; }
 
-.display-1 {
-  font-size: 50px;
-  letter-spacing: 4.5px;
-  font-weight: 300; }
-  @media (max-width: 767.98px) {
-    .display-1 {
-      font-size: 20px;
-      letter-spacing: 1.7px; } }
+h5 {
+  color: #ffffff;
+  font-weight: 100;
+  line-height: 1.5em;
+  font-size: 1.1em; }
+
+.story-title h1, .hero-intro {
+  font-family: "Vollkorn", serif;
+  text-shadow: 3px 3px 7px rgba(51, 51, 51, 0.95);
+  color: #ffffff; }
+
+.hero-intro {
+  font-size: 1.5em;
+  padding: 1em; }
+
+.byline .bold {
+  text-transform: uppercase;
+  font-weight: 700; }
 
 /*# sourceMappingURL=style.css.map */

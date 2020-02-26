@@ -1,21 +1,31 @@
 * {
   box-sizing: border-box;
 }
-
 :root {
   font-size: 16px;
 }
-
 html {
   scroll-behavior: smooth;
 }
-
 body {
   margin: 0 auto;
   width: 100%;
   color: $black;
+  font-family: $bodyfont;
 }
-
+p {
+  font-size: 1.25rem;
+  line-height: 1.75em;
+  margin: 20px auto;
+}
 .container {
   margin: 0 auto;
+}
+ul, ol {
+  margin: 0;
+  padding: 0;
+  li {
+    padding: 0;
+    margin: 0;
+  }
 }
