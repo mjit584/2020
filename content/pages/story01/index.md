@@ -7,16 +7,12 @@ image: "../images/story1-hero.jpg"
 storyHeading: "A Family, Together"
 storySubheading: "A family struggles to survive, having arrived in Medellín ten days prior."
 heroAlt: "A group of five friends carry large backs and walk the streets at night to find a place to stay."
-weight: 3
+weight: 1
 card: false
 photographer: "Alex Kormann"
 designer: "undefined"
 
 ---
-
-
-THIS PAGE IS USING THE TEMPLATE IN
-/layouts/pages/single.html
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in bibendum massa. Integer gravida metus nec velit semper, id efficitur magna porttitor. Sed non massa semper, consectetur elit eu, faucibus nisl. Pellentesque sapien justo, lobortis a iaculis non, egestas eget nulla. Nam vestibulum sem id ipsum aliquet, vitae maximus ligula lobortis. In ac dictum eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin hendrerit eu nisi et tempor. Duis id porttitor sapien, eu elementum ligula. Ut quis egestas arcu, ut gravida urna. Curabitur semper nisi a nibh maximus, et auctor erat iaculis. Duis turpis velit, aliquet a elit vel, varius interdum tortor. In ornare sem a nisi pretium, ut dictum elit efficitur. In eget lacinia dui, a vestibulum risus.
 

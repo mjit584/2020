@@ -1,13 +1,13 @@
 ---
-title: "Story 04"
+title: "A Natural Revolution"
 topic: "Sustainability"
 date:
 description: "A family struggles to survive, having arrived in Medellín ten days prior."
 image: "../images/photo-chap-3-hero.jpg"
 storyHeading: "A Family, Together"
-storySubheading: "A family struggles to survive, having arrived in Medellín ten days prior."
+storySubheading: "Although Hurricane María devastated the island, neighbors of a strangled channel in the heart of San Juan are hoping federal recovery funds will salvage a project to improve the living conditions in their communities."
 heroAlt: "A group of five friends carry large backs and walk the streets at night to find a place to stay."
-weight: 3
+weight: 4
 card: false
 photographer: "Alex Kormann"
 designer: "undefined"

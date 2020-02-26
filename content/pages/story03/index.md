@@ -1,11 +1,11 @@
 ---
-title: "Story 03"
+title: "Against All Odds"
 topic: "Land Use"
 date:
 description: "A family struggles to survive, having arrived in Medellín ten days prior."
 image: "../images/photo-chap-3-hero.jpg"
 storyHeading: "A Family, Together"
-storySubheading: "A family struggles to survive, having arrived in Medellín ten days prior."
+storySubheading: "After Hurricane Maria, Puerto Rico’s forests performed incredible feats of recovery, using strategies fine-tuned by centuries of adaptation to hurricane cycles. Researchers and farmers are watching these systems to learn how people can follow suit."
 heroAlt: "A group of five friends carry large backs and walk the streets at night to find a place to stay."
 weight: 3
 card: false

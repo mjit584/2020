@@ -1,16 +1,16 @@
 ---
-title: "Story 02"
+title: "Seaweed For All"
 topic: "Culture"
 date:
-description: "A family struggles to survive, having arrived in Medellín ten days prior."
+description: "A group of five friends carry large backs and walk the streets at night to find a place to stay."
 image: "../images/photo-chap-3-hero.jpg"
 storyHeading: "A Family, Together"
-storySubheading: "A family struggles to survive, having arrived in Medellín ten days prior."
+storySubheading: "A group of five friends carry large backs and walk the streets at night to find a place to stay."
 heroAlt: "A group of five friends carry large backs and walk the streets at night to find a place to stay."
-weight: 3
+weight: 2
 card: false
-photographer: "Alex Kormann"
-designer: "undefined"
+photographer: "Sarah Redmond"
+designer: "Malin Curry"
 
 ---
 

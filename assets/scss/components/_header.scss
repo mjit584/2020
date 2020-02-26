@@ -1,17 +1,18 @@
 .header {
   color: #ffffff;
-  background-color: #ffffff;
+  background-color: #222222;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
   height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
 
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+
+.header img {
+  width: 100%;
+}
 
   .header-absolute {
     position: absolute;
@@ -33,4 +34,9 @@
   #toggle-main-menu-mobile {
     display: none;
   }
+}
+
+
+.svg-bottom svg {
+  position: absolute;
 }

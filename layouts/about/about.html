@@ -16,7 +16,7 @@
 
 <div id="AboutFilter">
 <!-- This is the About Filter Buttons.  The parameter after 'filterSelection' is important.  This corresponds with the classname next to the inner-card.  It comes from the Front Matter on each person's page. -->
-  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn activesort" onclick="filterSelection('all')"> Show all</button>
   <button class="btn" onclick="filterSelection('Interactive')">Interactive</button>
   <button class="btn" onclick="filterSelection('Photo')">Photo/Video</button>
   <button class="btn" onclick="filterSelection('Reporting')">Reporting</button>
@@ -28,7 +28,7 @@
 
 {{ range .Pages }}
 
-  <div class="inner-card {{ .Params.group }}">
+  <div class="inner-card show {{ .Params.group }}">
     <span class="image-card">
       {{ with .Resources.ByType "image" }}
         {{ range . }}
@@ -47,51 +47,5 @@
 </div>
 
 </div>
-
-<!-- This is the script from W3Schools that filters content based on JS and CSS.  We should probably move this script to a separate file and include it, but that's a project for another day -->
-<script>
-filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("inner-card");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
-
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
-
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);
-    }
-  }
-  element.className = arr1.join(" ");
-}
-
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("AboutFilter");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
-</script>
 
 {{ end }}

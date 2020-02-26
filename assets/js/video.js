@@ -1,6 +1,6 @@
 // Videos JS
 
-// console.log('videos.js is loaded');
+console.log('videos.js is loaded');
 
 // Video go dark settings live here
 var videoTop;
