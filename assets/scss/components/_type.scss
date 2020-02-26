@@ -1,59 +1,45 @@
-ul,
-ol {
-  margin: 0;
-  padding: 0;
-  li {
-    padding: 0;
-    margin: 0;
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headingfont;
+  color: $black;
+  line-height: 1.2em;
 }
-p {
-  color: rgb(78, 78, 78);
-  font-family: $font-family-base;
-}
+
 h1 {
-  font-size: 80px;
-  font-family: $font-family-base;
-  line-height: 1.2;
-  font-weight: $font-weight-bold;
-  color: $white;
+  font-size: 40px;
+  font-weight: $font-weight-black;
+  //Need to revisit Breakpoints
   @include media-breakpoint-up(md) {
     font-size: 80px;
-    line-height: 1.2;
-    font-weight: $font-weight-bold;
   }
 }
 h2 {
-  font-size: 40px;
-  font-family: $font-family-heading;
-  line-height: 1.4;
-  font-weight: 400;
-  color: $primary;
-  @include media-breakpoint-up(md) {
-    font-size: 40px;
-    line-height: 1.4;
-  }
+  font-size: 36px;
+  font-weight: $font-weight-bold;
 }
 h3 {
-  color: $primary;
-  font-size: 16px;
-  line-height: 1.4;
-  font-family: $font-family-heading;
-  font-weight: $font-weight-thin;
-  letter-spacing: 1px;
-  @include media-breakpoint-up(md) {
-    font-size: 20px;
-    line-height: 1.4;
-    letter-spacing: 1.8px;
-    font-weight: $font-weight-thin;
-  }
+  font-size: 24px;
+  font-weight: $font-weight-bold;
 }
-.display-1 {
-  font-size: 50px;
-  letter-spacing: 4.5px;
-  font-weight: $font-weight-light;
-  @include media-breakpoint-down(sm) {
-    font-size: 20px;
-    letter-spacing: 1.7px;
-  }
+h4 {
+
+}
+h5 { //This is the Secondary Navigation, credits font
+  color: $white;
+  font-weight: $font-weight-thin;
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
+// STORY PAGE SPECIFIC FONTS
+.story-title h1, .hero-intro {
+  font-family: $bodyfont;
+  text-shadow: 3px 3px 7px $text-shadow;
+  color:$white;
+}
+.hero-intro {
+  font-size:1.5em;
+  padding:1em;
+}
+.byline .bold {
+  text-transform: uppercase;
+  font-weight: $font-weight-bold;
 }
