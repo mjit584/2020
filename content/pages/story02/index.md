@@ -22,4 +22,3 @@ After traveling hundreds of miles on foot, a group of five Venezuelans, who toge
 {{< vimeo id="329726214" class="video-container" title="My Vimeo video" >}}
 
 {{< gallery-slider dir="story2-images" >}}
-{{< photo-gallery >}}
