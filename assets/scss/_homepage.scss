@@ -1,10 +1,3 @@
-.explainer {
-  padding: 40px;
-  @media(max-width: 768px) {
-    padding: 25px;
-  }
-}
-
 .home-stories {
   padding: 40px;
   display: grid;
@@ -15,6 +8,46 @@
     padding: 25px;
   }
 }
+
+.home-card {
+  text-align: center;
+}
+
+.explainer {
+  padding: 40px;
+  @media(max-width: 768px) {
+    padding: 25px;
+  }
+}
+
+.explainer-top-wave{
+  position:absolute;
+  bottom: -120px;
+  @media(max-width: 768px) {
+    bottom: -190px;
+  }
+}
+
+.explainer-container {
+  background: #222222;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  p {
+    color: white;
+    line-height: 1.5em;
+  }
+  @media(max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.explainer-content {
+  padding: 60px;
+}
+
+
+
 
 
 
