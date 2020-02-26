@@ -28,6 +28,10 @@ h5 { //This is the Secondary Navigation, credits font
   font-weight: $font-weight-thin;
   line-height: 1.5em;
   font-size: 1.1em;
+  &.bold {
+    text-transform: uppercase;
+    font-weight: $font-weight-normal;
+  }
 }
 // STORY PAGE SPECIFIC FONTS
 .story-title h1, .hero-intro {
@@ -38,8 +42,4 @@ h5 { //This is the Secondary Navigation, credits font
 .hero-intro {
   font-size:1.5em;
   padding:1em;
-}
-.byline .bold {
-  text-transform: uppercase;
-  font-weight: $font-weight-bold;
 }
