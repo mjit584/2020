@@ -277,6 +277,12 @@ ul, ol {
 .svg-bottom svg {
   position: absolute; }
 
+.social-header .fa {
+  padding: 5px; }
+
+.social-header a {
+  color: white; }
+
 .footer {
   background: #222222;
   display: flex;
