@@ -1,5 +1,5 @@
 ---
 title: Dustin Duong
-group: Photo
+group: Photo/Video
 groupweight: 3
 ---

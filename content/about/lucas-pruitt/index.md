@@ -1,5 +1,5 @@
 ---
 title: Lucas Pruitt
-group: Video
+group: Photo/Video
 groupweight: 2
 ---

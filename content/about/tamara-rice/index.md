@@ -1,5 +1,5 @@
 ---
 title: Tamara Rice
-group: Professor
+group: Coaches
 groupweight: 4
 ---

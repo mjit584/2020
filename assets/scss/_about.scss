@@ -1,26 +1,45 @@
-.aboutcontent {
+.about-content {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-left: 5%;
-  padding-right: 5%;
 }
 
-.aboutcontainer {
-  margin-bottom: 5%;
+.about-image {
+  height:100vh;
+  background-position: center center;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  position:inherit;
 }
+
+.herocontent {
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-image {
+  background-image: url('../images/story1-hero.jpg');
+}
+
 #AboutFilter {
   display:flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: 15%;
 }
+
 #AboutFilter button {
-  border:none;
+  border: none;
   margin: 1em;
   font-family: $font-family-heading;
   font-size: 1.4em;
 }
+
 /* Add a light grey background on mouse-over */
 #AboutFilter .btn:after {
 	content: '';
@@ -31,30 +50,50 @@
 	background: transparent;
 	transition: width .5s ease, background-color .5s ease;
 }
+
 #AboutFilter .btn:hover:after {
 	width: 100%;
 	background: $primary;
 }
+
 #AboutFilter .btn.activesort:after {
   width: 100%;
 	background: $primary;
 }
+
 .outer-card {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
 }
 
 .inner-card {
   display: none;
   flex-wrap: wrap;
-  margin: 30px;
+  margin: 10px;
+  position: relative;
+}
+
+.inner-card .about-overlay {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 78%;
 }
 
 .show {
     display: flex;
+    flex-direction: column;
 }
 
 .image {
-  width: 300px;
+  width: 350px;
+}
+
+.about-overlay{
+  background-color: $primary;
+  padding: 5% 0% 5% 5%;
 }

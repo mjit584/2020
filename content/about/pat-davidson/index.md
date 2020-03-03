@@ -1,5 +1,5 @@
 ---
 title: Pat Davidson
-group: Professor
+group: Coaches
 groupweight: 4
 ---

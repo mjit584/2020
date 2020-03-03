@@ -48,6 +48,27 @@
     {{ .Content }}
   </section>
 
+  <!-- This is the other stories at the bottom of the page -->
+  <div class="outer-card">
+  {{ range .Pages }}
+    <div class="inner-card show {{ .Params.group }}">
+      <span class="image-card">
+        {{ with .Resources.ByType "image" }}
+          {{ range . }}
+          <img src="{{ .RelPermalink }}" class="image" alt="{{ .Params.name }}">
+        {{ end }}
+        {{ end }}
+      </span>
+      <span class="title">
+        <p>{{ .Params.title }}</p>
+      </span>
+      <span class="group">
+        <p>{{ .Params.group }}</p>
+      </span>
+    </div>
+  {{ end }}
+  </div>
+
 </div>
 
 {{ end }}

@@ -1,5 +1,5 @@
 ---
 title: Alicia Carter
-group: Video
+group: Photo/Video
 groupweight: 2
 ---

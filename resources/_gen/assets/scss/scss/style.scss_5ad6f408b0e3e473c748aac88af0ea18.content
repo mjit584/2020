@@ -184,21 +184,35 @@ body {
 .story-title, .story-meta {
   margin-bottom: 80px; }
 
-.aboutcontent {
+.about-content {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  padding-left: 5%;
-  padding-right: 5%; }
+  flex-direction: column; }
 
-.aboutcontainer {
-  margin-bottom: 5%; }
+.about-image {
+  height: 100vh;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: inherit; }
+
+.herocontent {
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.about-image {
+  background-image: url("../images/story1-hero.jpg"); }
 
 #AboutFilter {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-top: 15%; }
 
 #AboutFilter button {
   border: none;
@@ -227,18 +241,33 @@ body {
 .outer-card {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row; }
+  flex-direction: row;
+  justify-content: center; }
 
 .inner-card {
   display: none;
   flex-wrap: wrap;
-  margin: 30px; }
+  margin: 10px;
+  position: relative; }
+
+.inner-card .about-overlay {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 78%; }
 
 .show {
-  display: flex; }
+  display: flex;
+  flex-direction: column; }
 
 .image {
-  width: 300px; }
+  width: 350px; }
+
+.about-overlay {
+  background-color: #2ea395;
+  padding: 5% 0% 5% 5%; }
 
 .page {
   display: flex;

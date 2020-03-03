@@ -1,5 +1,5 @@
 ---
-title: Jeremiah Rhodes
-group: Video
+title: Caroline Almy
+group: Photo/Video
 groupweight: 2
 ---
