@@ -1,5 +1,5 @@
 ---
 title: Haley France
-group: Developer
+group: Photo/Video
 groupweight: 3
 ---

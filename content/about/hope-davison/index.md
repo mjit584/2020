@@ -1,5 +1,5 @@
 ---
 title: Hope Davison
-group: Video
+group: Photo/Video
 groupweight: 2
 ---

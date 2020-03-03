@@ -4,30 +4,35 @@
 
 {{ define "main" }}
 
-<div class="aboutcontent">
+<div class="about-content">
 
-<div class="aboutcontainer">
-  <a href="{{ .Site.BaseURL }}"><img alt="class" src="{{ .Site.BaseURL }}images/class.jpg"/></a>
-</div>
+  <section class="about-image">
+    <div class="herocontent">
+      <div class="story-title">
+        <h1>{{ .Title }}</h1>
+        <div class="intro1">
+          {{ .Params.aboutHeading }}
+        </div>
+      </div>
+    </div>
+  </section>
 
-<div class="aboutcontainer">
-  <p>{{ .Content }}</p>
-</div>
+  <div class="byline"></div>
+
 
 <div id="AboutFilter">
 <!-- This is the About Filter Buttons.  The parameter after 'filterSelection' is important.  This corresponds with the classname next to the inner-card.  It comes from the Front Matter on each person's page. -->
   <button class="btn activesort" onclick="filterSelection('all')"> Show all</button>
   <button class="btn" onclick="filterSelection('Interactive')">Interactive</button>
-  <button class="btn" onclick="filterSelection('Photo')">Photo/Video</button>
+  <button class="btn" onclick="filterSelection('Photo/Video')">Photo/Video</button>
   <button class="btn" onclick="filterSelection('Reporting')">Reporting</button>
   <button class="btn" onclick="filterSelection('Coaches')">Coaches</button>
 </div>
 
 
+<!-- This is what displays the folders and folks in the folders -->
 <div class="outer-card">
-
 {{ range .Pages }}
-
   <div class="inner-card show {{ .Params.group }}">
     <span class="image-card">
       {{ with .Resources.ByType "image" }}
@@ -36,10 +41,8 @@
       {{ end }}
       {{ end }}
     </span>
-    <span class="title">
+    <span class="about-overlay">
       <p>{{ .Params.title }}</p>
-    </span>
-    <span class="group">
       <p>{{ .Params.group }}</p>
     </span>
   </div>

@@ -1,5 +1,5 @@
 ---
 title: Hanna Wondmagegn
-group: Photo
+group: Photo/Video
 groupweight: 3
 ---
