@@ -4,6 +4,10 @@
       <a href="{{ .Site.BaseURL }}"><img alt="Barriers" src="{{ .Site.BaseURL }}images/BarriersLogo.png" type="svg" width="150px"/></a>
     </div>
 
+
+    <input class="menu-btn" type="checkbox" id="menu-btn">
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
     <div id="main-menu" class="main-menu main-menu-push">
       <ul>
         {{ $currentPage := . }}
@@ -18,15 +22,23 @@
       </ul>
     </div>
 
-    <div class="social-header">
+      <ul class="menu">
+          <li><a href="https://www.instagram.com/uncglobalstory/"><i class="fa fa-instagram fa-lg"></i></a></li>
+          <li><a href="https://twitter.com/UNCglobalstory"><i class="fa fa-twitter fa-lg"></i></a></li>
+          <li><a href="https://www.facebook.com/uncglobalstory/"><i class="fa fa-facebook fa-lg"></i></a></li>
+          <li><a href="#" class="header-about"><span>About</span></a></li>
+      </ul>
+
+    <!-- <div class="social-header menu-btn" id="social-header">
       <a href="https://www.instagram.com/uncglobalstory/"><i class="fa fa-instagram fa-lg"></i></a>
       <a href="https://twitter.com/UNCglobalstory"><i class="fa fa-twitter fa-lg"></i></a>
       <a href="https://www.facebook.com/uncglobalstory/"><i class="fa fa-facebook fa-lg"></i></a>
       <a href="#" class="header-about"><span>About</span></a>
-    </div>
+    </div> -->
 
-    <button id="toggle-main-menu-mobile" type="button">
-    </button>
+    <!-- <button id="toggle-main-menu-mobile" type="button">
+    </button> -->
+
 </div>
 
 <div class="svg-bottom">
