@@ -48,6 +48,9 @@
     color: white;
     text-decoration: none;
   }
+  @media(max-width: 768px) {
+    display: none;
+  }
 }
 
 .header-about {

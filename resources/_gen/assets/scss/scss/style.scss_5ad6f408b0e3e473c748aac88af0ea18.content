@@ -313,6 +313,10 @@ ul, ol {
   color: white;
   text-decoration: none; }
 
+@media (max-width: 768px) {
+  .social-header {
+    display: none; } }
+
 .header-about {
   border-left: 1px solid white;
   padding: 5px; }
@@ -320,16 +324,27 @@ ul, ol {
     font-size: 3px; }
 
 .footer {
-  background: #222222;
+  background-image: url("../images/footer-wave.svg");
+  background-size: cover;
   display: flex;
   justify-content: space-between;
-  padding: 20px; }
-  .footer p {
-    color: white; }
+  padding-top: 65px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  height: 100%; }
+  @media (max-width: 768px) {
+    .footer {
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%; } }
 
-.logo {
-  display: flex;
-  margin: 15px; }
+.social-footer a {
+  color: white;
+  text-decoration: none;
+  padding: 8px; }
 
 .main-menu {
   display: none; }
