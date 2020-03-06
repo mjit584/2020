@@ -431,8 +431,7 @@ ul, ol {
       padding: 60px;
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      height: 100%; } }
+      justify-content: center; } }
 
 .social-footer a {
   color: white;
