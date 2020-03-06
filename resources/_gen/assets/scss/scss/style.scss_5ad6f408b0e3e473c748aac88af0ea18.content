@@ -459,7 +459,7 @@ ul, ol {
   height: 100%; }
   @media (max-width: 1200px) {
     .footer {
-      padding: 60px;
+      padding: 50px;
       display: flex;
       flex-direction: column;
       justify-content: center; } }
