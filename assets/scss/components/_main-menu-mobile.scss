@@ -59,9 +59,9 @@ $button-width: 35px;
   visibility: hidden;
   transition: opacity 0.35s, visibility 0.35s, height 0.35s;
   overflow: hidden;
+  padding-top: 45px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: left;
   flex-direction: column;
   &.open {
     opacity: 0.9;
@@ -91,9 +91,9 @@ $button-width: 35px;
   ul {
     font-size: 2rem;
     font-family: $font-family-heading;
-    text-align: center;
+    text-align: left;
     list-style: none;
-    padding: 0;
+    padding: 20px;;
     margin: 0;
     flex: 0;
     li {
@@ -126,6 +126,7 @@ $button-width: 35px;
     }
   }
 }
+
 @keyframes fadeInRight {
   0% {
     opacity: 0;
