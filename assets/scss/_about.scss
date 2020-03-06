@@ -71,8 +71,51 @@
 .inner-card {
   display: none;
   flex-wrap: wrap;
-  margin: 10px;
+  margin: 2%;
   position: relative;
+}
+
+.about-overlay{
+  background-color: $primary;
+  font-family: $font-family-heading;
+  position: relative;
+}
+
+.about-overlay button {
+  float: right;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+#about-overlay-hover {
+  display: none;
+
+}
+
+.about-overlay p {
+  margin: 0;
+  padding-left: 5%;
+}
+
+.about-overlay .name {
+ font-size: 1.5em;
+}
+
+.about-overlay .group {
+ font-size: 1.2em;
+ margin-top: -15px;
+ font-style: oblique;
+ margin-bottom: 2%;
+}
+
+.about-overlay .about {
+  font-size: 1.3em;
+  line-height: 100%;
+  margin-bottom: 2%;
+}
+
+.about-overlay .portfolio {
+  margin-bottom: 5%;
 }
 
 .inner-card .about-overlay {
@@ -81,7 +124,7 @@
   margin: 0 auto;
   left: 0;
   right: 0;
-  top: 78%;
+  top: 79.5%;
 }
 
 .show {
@@ -91,9 +134,4 @@
 
 .image {
   width: 350px;
-}
-
-.about-overlay{
-  background-color: $primary;
-  padding: 5% 0% 5% 5%;
 }
