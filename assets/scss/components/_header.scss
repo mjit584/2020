@@ -1,28 +1,38 @@
 .header {
   color: #ffffff;
-  background-color: #222222;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+    .header img {
+      width: 100%;
+    }
+
+  .header-absolute {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+  }
   @media(max-width: 768px) {
-    display: block;
+    background-color: #222222;
   }
 }
 
+.lock-scroll {
+  .header {
+    &.header-absolute {
+      position: static;
+    }
+  }
+}
 
-// .lock-scroll {
-//   .header {
-//     &.header-absolute {
-//       position: static;
-//     }
-//   }
-// }
-//
-// @media only screen and (min-width: 768px) {
-//   #toggle-main-menu-mobile {
-//     display: none;
-//   }
-// }
+@media only screen and (min-width: 768px) {
+  #toggle-main-menu-mobile {
+    display: none;
+  }
+}
 
 .svg-bottom svg {
   position: absolute;
@@ -36,7 +46,7 @@
     color: white;
     text-decoration: none;
   }
-  @media(max-width: 768px) {
+  @media(max-width: 1205px) {
     display: none;
   }
 }
@@ -45,6 +55,7 @@
   border-left: 1px solid white;
   margin-right: 10px;
   font-family: $headingfont;
+  padding-left: 8px;
   p {
     font-size: 3px;
   }
@@ -78,11 +89,11 @@
 
 /* menu */
 
-.header .menu {
-  clear: both;
-  max-height: 0;
-  transition: max-height .2s ease-out;
-}
+ .header .menu {
+ clear: both;
+ max-height: 0;
+ transition: max-height .2s ease-out;
+ }
 
 /* menu icon */
 
@@ -124,9 +135,6 @@
 
 /* menu btn */
 
-.header .menu-btn {
-  display: none;
-}
 
 .header .menu-btn:checked ~ .menu {
   max-height: 240px;

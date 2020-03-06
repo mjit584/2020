@@ -1,4 +1,4 @@
-$color-main: $primary;
+$color-main: #222222;
 $color-active: #ffffff;
 $color-link: #ffffff;
 
@@ -50,6 +50,7 @@ $button-width: 35px;
 // }
 .main-menu-mobile {
   position: fixed;
+  z-index: 20;
   background: $color-main;
   top: 0;
   left: 0;
@@ -59,9 +60,9 @@ $button-width: 35px;
   visibility: hidden;
   transition: opacity 0.35s, visibility 0.35s, height 0.35s;
   overflow: hidden;
+  padding-top: 45px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: left;
   flex-direction: column;
   &.open {
     opacity: 0.9;
@@ -91,17 +92,16 @@ $button-width: 35px;
   ul {
     font-size: 2rem;
     font-family: $font-family-heading;
-    text-align: center;
+    text-align: left;
     list-style: none;
-    padding: 0;
+    padding: 20px;;
     margin: 0;
     flex: 0;
     li {
-      display: block;
       position: relative;
       opacity: 0;
       a {
-        display: block;
+        display: inline;
         position: relative;
         color: $color-link;
         text-decoration: none;
@@ -126,6 +126,30 @@ $button-width: 35px;
     }
   }
 }
+
+.hamburger-about li {
+  display: inline;
+  padding-right: 8px;
+}
+
+.menu-about {
+  border-right : 1px solid white;
+  padding-right: 8px;
+}
+
+.menu-item {
+  padding-bottom: 10px;
+}
+
+.checkbox {
+  display: none;
+}
+
+.navicon {
+  z-index: 21;
+}
+
+
 @keyframes fadeInRight {
   0% {
     opacity: 0;
