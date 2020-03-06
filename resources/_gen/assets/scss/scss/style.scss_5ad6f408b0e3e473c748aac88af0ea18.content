@@ -162,21 +162,35 @@ ul, ol {
     .story-content {
       margin: 8%; } }
 
-.aboutcontent {
+.about-content {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  padding-left: 5%;
-  padding-right: 5%; }
+  flex-direction: column; }
 
-.aboutcontainer {
-  margin-bottom: 5%; }
+.about-image {
+  height: 100vh;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: inherit; }
+
+.herocontent {
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.about-image {
+  background-image: url("../images/story1-hero.jpg"); }
 
 #AboutFilter {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-top: 15%; }
 
 #AboutFilter button {
   border: none;
@@ -205,18 +219,33 @@ ul, ol {
 .outer-card {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row; }
+  flex-direction: row;
+  justify-content: center; }
 
 .inner-card {
   display: none;
   flex-wrap: wrap;
-  margin: 30px; }
+  margin: 10px;
+  position: relative; }
+
+.inner-card .about-overlay {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 78%; }
 
 .show {
-  display: flex; }
+  display: flex;
+  flex-direction: column; }
 
 .image {
-  width: 300px; }
+  width: 350px; }
+
+.about-overlay {
+  background-color: #2ea395;
+  padding: 5% 0% 5% 5%; }
 
 .page {
   display: flex;
@@ -282,23 +311,130 @@ ul, ol {
   color: white;
   text-decoration: none; }
 
+@media (max-width: 768px) {
+  .social-header {
+    display: none; } }
+
 .header-about {
   border-left: 1px solid white;
-  padding: 5px; }
+  margin-right: 10px;
+  font-family: "Barlow Semi Condensed", sans-serif; }
   .header-about p {
     font-size: 3px; }
+  @media (max-width: 768px) {
+    .header-about {
+      border-left: none; } }
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden; }
+
+.header li a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: white; }
+
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none; }
+
+/* menu */
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out; }
+
+/* menu icon */
+.header .menu-icon {
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none; }
+
+.header .menu-icon .navicon {
+  background: white;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px; }
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: white;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%; }
+
+.header .menu-icon .navicon:before {
+  top: 5px; }
+
+.header .menu-icon .navicon:after {
+  top: -5px; }
+
+/* menu btn */
+.header .menu-btn {
+  display: none; }
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px; }
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent; }
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg); }
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg); }
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0; }
+
+/* 48em = 768px */
+@media (min-width: 48em) {
+  .header li {
+    float: left; }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none; }
+  .header .menu-icon {
+    display: none; } }
 
 .footer {
-  background: #222222;
+  background-image: url("../images/footer-wave.svg");
+  background-size: cover;
   display: flex;
   justify-content: space-between;
-  padding: 20px; }
-  .footer p {
-    color: white; }
+  padding-top: 65px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  height: 100%; }
+  @media (max-width: 768px) {
+    .footer {
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%; } }
 
-.logo {
-  display: flex;
-  margin: 15px; }
+.social-footer a {
+  color: white;
+  text-decoration: none;
+  padding: 8px; }
 
 .main-menu {
   display: none; }

@@ -1,5 +1,5 @@
 ---
-title: Meg McMahon
-group: Developer
-groupweight: 0
+title: Jeremiah Rhodes
+group: Photo/Video
+groupweight: 2
 ---

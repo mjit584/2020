@@ -1,5 +1,5 @@
 ---
 title: Ari Sen
-group: Reporter
+group: Reporting
 groupweight: 1
 ---

@@ -1,5 +1,5 @@
 ---
 title: Sarah Redmond
-group: Video
+group: Photo/Video
 groupweight: 2
 ---
