@@ -68,7 +68,7 @@ ul, ol {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   justify-content: space-between;
   width: 100%; }
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
     .home-stories {
       padding: 25px; } }
 
@@ -77,14 +77,14 @@ ul, ol {
 
 .explainer {
   padding: 40px; }
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
     .explainer {
       padding: 25px; } }
 
 .explainer-top-wave {
   position: absolute;
   bottom: -120px; }
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
     .explainer-top-wave {
       bottom: -190px; } }
 
@@ -96,7 +96,7 @@ ul, ol {
   .explainer-container p {
     color: white;
     line-height: 1.5em; }
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
     .explainer-container {
       grid-template-columns: 1fr; } }
 
@@ -125,7 +125,8 @@ ul, ol {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: inherit; }
+  position: inherit;
+  margin-top: -70px; }
 
 .herocontent {
   padding: 5%;
@@ -174,7 +175,9 @@ ul, ol {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: inherit; }
+  position: inherit;
+  margin-top: -70px;
+  z-index: -1; }
 
 .herocontent {
   padding: 5%;
@@ -323,14 +326,14 @@ ul, ol {
     position: absolute;
     z-index: 10;
     width: 100%; }
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
     .header {
       background-color: #222222; } }
 
 .lock-scroll .header.header-absolute {
   position: static; }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
   #toggle-main-menu-mobile {
     display: none; } }
 
@@ -344,7 +347,7 @@ ul, ol {
   color: white;
   text-decoration: none; }
 
-@media (max-width: 1205px) {
+@media (max-width: 1200px) {
   .social-header {
     display: none; } }
 
@@ -355,7 +358,7 @@ ul, ol {
   padding-left: 8px; }
   .header-about p {
     font-size: 3px; }
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
     .header-about {
       border-left: none; } }
 
@@ -433,8 +436,7 @@ ul, ol {
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0; }
 
-/* 48em = 768px */
-@media (min-width: 48em) {
+@media (min-width: 1200px) {
   .header li {
     float: left; }
   .header .menu {
@@ -454,7 +456,7 @@ ul, ol {
   padding-left: 30px;
   padding-bottom: 30px;
   height: 100%; }
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
     .footer {
       padding: 60px;
       display: flex;
@@ -469,7 +471,7 @@ ul, ol {
 
 .main-menu {
   display: none; }
-  @media (min-width: 768px) {
+  @media (min-width: 1210px) {
     .main-menu {
       display: block; } }
   .main-menu > ul {
