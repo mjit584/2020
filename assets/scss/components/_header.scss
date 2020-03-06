@@ -15,7 +15,8 @@
     z-index: 10;
     width: 100%;
   }
-  @media(max-width: 768px) {
+
+  @media(max-width: 1200px) {
     background-color: #222222;
   }
 }
@@ -28,7 +29,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
   #toggle-main-menu-mobile {
     display: none;
   }
@@ -46,7 +47,7 @@
     color: white;
     text-decoration: none;
   }
-  @media(max-width: 768px) {
+  @media(max-width: 1200px) {
     display: none;
   }
 }
@@ -59,7 +60,7 @@
   p {
     font-size: 3px;
   }
-  @media(max-width: 768px) {
+  @media(max-width: 1200px) {
     border-left: none;
   }
 }
@@ -157,9 +158,8 @@
   top: 0;
 }
 
-/* 48em = 768px */
 
-@media (min-width: 48em) {
+@media (min-width: 1200px) {
   .header li {
     float: left;
   }
