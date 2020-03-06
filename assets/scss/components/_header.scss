@@ -1,13 +1,12 @@
 .header {
   color: #ffffff;
-  background-color: #222222;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
   height: 60px;
   padding-left: 20px;
   padding-right: 20px;
+
 
 
 .header img {
@@ -20,7 +19,6 @@
     width: 100%;
   }
 }
-
 
 .lock-scroll {
   .header {
