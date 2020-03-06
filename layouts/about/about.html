@@ -41,14 +41,30 @@
       {{ end }}
       {{ end }}
     </span>
-    <span class="about-overlay">
-      <p>{{ .Params.title }}</p>
-      <p>{{ .Params.group }}</p>
-    </span>
+    <div class="about-overlay">
+      <button onclick="myFunction()">#</button>
+      <p class="name">{{ .Params.title }}</p>
+      <p class="group">{{ .Params.group }}</p>
+      <div id="about-overlay-hover">
+        <p class="about">{{ .Params.about }}</p>
+        <p><a class="portfolio" href="{{ .Params.website }}">Portfolio</a></p>
+      </div>
+    </div>
   </div>
 {{ end }}
 </div>
 
 </div>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("about-overlay-hover");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+</script>
 
 {{ end }}
