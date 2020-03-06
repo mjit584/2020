@@ -1,5 +1,5 @@
 var body = document.querySelector('body')
-var menuTrigger = document.querySelector('#toggle-main-menu-mobile');
+var menuTrigger = document.querySelector('.toggle-main-menu-mobile');
 var menuContainer = document.querySelector('#main-menu-mobile');
 
 menuTrigger.onclick = function() {
@@ -7,6 +7,4 @@ menuTrigger.onclick = function() {
     menuTrigger.classList.toggle('is-active')
     body.classList.toggle('lock-scroll')
 }
-
-
 console.log('scripts.js is loaded');

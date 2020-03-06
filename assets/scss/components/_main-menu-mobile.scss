@@ -1,4 +1,4 @@
-$color-main: $primary;
+$color-main: #222222;
 $color-active: #ffffff;
 $color-link: #ffffff;
 
@@ -97,11 +97,10 @@ $button-width: 35px;
     margin: 0;
     flex: 0;
     li {
-      display: block;
       position: relative;
       opacity: 0;
       a {
-        display: block;
+        display: inline;
         position: relative;
         color: $color-link;
         text-decoration: none;
@@ -126,6 +125,21 @@ $button-width: 35px;
     }
   }
 }
+
+.hamburger-about li {
+  display: inline;
+  padding-right: 8px;
+}
+
+.menu-about {
+  border-right : 1px solid white;
+  padding-right: 8px;
+}
+
+.menu-item {
+  padding-bottom: 10px;
+}
+
 
 @keyframes fadeInRight {
   0% {
