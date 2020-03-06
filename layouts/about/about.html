@@ -42,29 +42,30 @@
       {{ end }}
     </span>
     <div class="about-overlay">
-      <button onclick="myFunction()">#</button>
+      <i class="fa fa-plus fa-lg" onclick="showInfo({{ .Params.title }})"></i>
       <p class="name">{{ .Params.title }}</p>
       <p class="group">{{ .Params.group }}</p>
-      <div id="about-overlay-hover">
+      <div class="about-overlay-hover" id="{{ .Params.title }}">
         <p class="about">{{ .Params.about }}</p>
         <p><a class="portfolio" href="{{ .Params.website }}">Portfolio</a></p>
       </div>
     </div>
-  </div>
-{{ end }}
-</div>
+    </div>
+    {{ end }}
+    </div>
 
-</div>
+    </div>
 
-<script>
-  function myFunction() {
-    var x = document.getElementById("about-overlay-hover");
+    <script>
+    function showInfo(number) {
+    var x = document.getElementById(number);
+    //console.log(x);
     if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
     }
-  }
-</script>
+    </script>
 
-{{ end }}
+    {{ end }}

@@ -241,7 +241,7 @@ ul, ol {
   margin-top: 2%;
   margin-right: 2%; }
 
-#about-overlay-hover {
+.about-overlay-hover {
   display: none; }
 
 .about-overlay p {
