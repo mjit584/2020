@@ -314,7 +314,7 @@ ul, ol {
   color: white;
   text-decoration: none; }
 
-@media (max-width: 768px) {
+@media (max-width: 1205px) {
   .social-header {
     display: none; } }
 
@@ -480,6 +480,7 @@ ul, ol {
 
 .main-menu-mobile {
   position: fixed;
+  z-index: 20;
   background: #222222;
   top: 0;
   left: 0;
@@ -551,6 +552,12 @@ ul, ol {
 
 .menu-item {
   padding-bottom: 10px; }
+
+.checkbox {
+  display: none; }
+
+.navicon {
+  z-index: 21; }
 
 @keyframes fadeInRight {
   0% {

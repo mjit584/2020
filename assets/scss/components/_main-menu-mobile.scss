@@ -50,6 +50,7 @@ $button-width: 35px;
 // }
 .main-menu-mobile {
   position: fixed;
+  z-index: 20;
   background: $color-main;
   top: 0;
   left: 0;
@@ -138,6 +139,14 @@ $button-width: 35px;
 
 .menu-item {
   padding-bottom: 10px;
+}
+
+.checkbox {
+  display: none;
+}
+
+.navicon {
+  z-index: 21;
 }
 
 
