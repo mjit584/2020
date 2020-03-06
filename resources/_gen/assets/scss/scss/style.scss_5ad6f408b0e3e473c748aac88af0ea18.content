@@ -305,7 +305,8 @@ ul, ol {
 
 .header-about {
   border-left: 1px solid white;
-  margin-right: 10px; }
+  margin-right: 10px;
+  font-family: "Barlow Semi Condensed", sans-serif; }
   .header-about p {
     font-size: 3px; }
   @media (max-width: 768px) {
