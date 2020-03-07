@@ -19,7 +19,9 @@
     background-color: #222222;
   }
 }
-
+.header div {
+  z-index:100;
+}
 .lock-scroll {
   .header {
     &.header-absolute {

@@ -149,7 +149,8 @@ ul, ol {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center; }
+  text-align: center;
+  z-index: 100; }
   .story-title .horizontal-line {
     width: 100%;
     position: relative;
@@ -326,6 +327,9 @@ ul, ol {
   @media (max-width: 768px) {
     .header {
       background-color: #222222; } }
+
+.header div {
+  z-index: 100; }
 
 .lock-scroll .header.header-absolute {
   position: static; }

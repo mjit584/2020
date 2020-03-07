@@ -1,5 +1,8 @@
 ---
-title: "Seaweed For All"
+title: "The Cost of Chocolate"
+sentence1: "Some historians call Belize the Cradle of Chocolate."
+sentence2: "Mayan farmers have cultivated the crop for over a thousand years."
+sentence3: "But arid conditions threaten the future of cocoa production."
 topic: "Culture"
 date:
 description: "A group of five friends carry large backs and walk the streets at night to find a place to stay."

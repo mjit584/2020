@@ -4,27 +4,6 @@
 
 {{ define "main" }}
 <style>
-* {
-    box-sizing: border-box;
-  }
-  html, body {
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    font-family:arial, sans-serif;
-    font-size:16px;
-    line-height: 1.2em;
-  }
-  header {
-    background-color:lightgreen;
-    height:60px;
-    padding: 10px;
-    text-align: center;
-  }
-  .scrollama__debug-offset {
-    display:none;
-  }
   #outro {
     height: 640px;
   }
@@ -46,7 +25,7 @@
     position: sticky;
     left: 0;
     width: 100%;
-    margin: 0;
+    margin: -60px 0 0 0;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -58,46 +37,52 @@
   .step {
     margin: 0 auto 2rem auto;
     color: #fff;
+    text-align:center;
   }
-
-  .step:last-child {
-    margin-bottom: 0;
+  .step.title p {
+    font-size:4.2rem;
   }
-
-  .step.is-active p {
-    background-color: goldenrod;
-    color: #3b3b3b;
+  .step img {
+    max-width:300px;
   }
-
   .step p {
     text-align: center;
     padding: 1rem;
-    font-size: 1.5rem;
-    background-color: #3b3b3b;
-  }
-  .content {
-    margin: 40px 20%;
+    font-size:2.5rem;
+    line-height:1.2em;
   }
 </style>
 
 <div class="story-page">
-  <section class="story-hero" id="scrolly">
+  <main>
+  <section class="" id="scrolly">
     <figure>
-      <header>
-        HEADER HERE
-      </header>
+
     </figure>
-    <div class="herocontent">
-      <div class="story-title">
-        <h1>{{ .Title }}</h1>
-
-          <div class="horizontal-line"></div>
-
-        <div class="hero-intro">
-          {{ .Params.storySubheading }}
-        </div>
-      </div>
+    <div class="step" data-step="0">
+      <p>{{ .Params.sentence1 }}</p>
+      <img src="/images/yellow-underline-left.svg">
     </div>
+    <!-- <div class="herocontent">
+      <div class="story-title">
+
+      </div>
+    </div> -->
+
+    <article>
+      <div class="step" data-step="1">
+        <p>{{ .Params.sentence2 }}</p>
+        <img src="/images/yellow-underline-left.svg">
+      </div>
+      <div class="step" data-step="2">
+        <p>{{ .Params.sentence3 }}</p>
+        <img src="/images/yellow-underline-left.svg">
+      </div>
+      <div class="step title" data-step="3">
+        <p>{{ .Params.title }}</p>
+        <img src="/images/yellow-underline-left.svg">
+      </div>
+    </article>
 
     <div class="byline">
       <div class="byline1">
@@ -113,20 +98,7 @@
         <h5 class="bold">INTERACTIVE</h5>
         <h5>Taylor Tyson</h5>
       </div>
-
     </div>
-
-    <article>
-      <div class="step" data-step="1">
-        <p>STEP 1</p>
-      </div>
-      <div class="step" data-step="2">
-        <p>STEP 2</p>
-      </div>
-      <div class="step" data-step="3">
-        <p>STEP 3</p>
-      </div>
-    </article>
   </section>
 
 
@@ -156,7 +128,7 @@
     </div>
   {{ end }}
   </div>
-
+</main>
 </div>
 <!-- <div class='debug'></div> -->
 <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
@@ -223,7 +195,7 @@
     scroller
       .setup({
         step: "#scrolly article .step",
-        offset: 0.33,
+        offset: 0.6,
         debug: true
       })
       .onStepEnter(handleStepEnter);
