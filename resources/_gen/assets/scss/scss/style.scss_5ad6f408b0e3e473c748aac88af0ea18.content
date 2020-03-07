@@ -288,14 +288,9 @@ ul, ol {
   float: right;
   line-height: 1.75em; }
 
-<<<<<<< HEAD
 .about-overlay-hover {
-  display: none; }
-=======
-#about-overlay-hover {
   display: none;
   transition-timing-function: ease-in; }
->>>>>>> 15cb95818c812ff9f48e1a2f18b67a8979cca4e2
 
 .about-overlay p {
   margin: 0; }
