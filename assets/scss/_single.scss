@@ -57,6 +57,7 @@
     border-bottom:1px solid $white;
   }
 }
+
 .story-content {
   margin: 10% 20%;
   @media(max-width: 768px) {
@@ -64,6 +65,7 @@
   }
 }
 
+/* START OF STORY NAV */
 .story-page-image {
   max-width: 100%;
   @media(max-width: 768px) {
@@ -81,20 +83,6 @@
   display: block;
 }
 
-.story-card p a {
-position: absolute;
-top: 50%;
-left: 0;
-right: 0;
-transform: translate(0, -50%);
-padding-left: 5%;
-font-family: $font-family-heading;
-font-weight: 800;
-color: $white;
-text-decoration: none;
-text-align: center;
-}
-
 .story-nav {
   padding: 2%;
   margin: 2%;
@@ -104,4 +92,38 @@ text-align: center;
   @media(max-width: 768px) {
     padding: 25px;
   }
+}
+
+/* This is the links within the story nav */
+
+.story-card p a {
+position: absolute;
+top: 50%;
+left: 0;
+right: 0;
+padding-left: 5%;
+transform: translate(0, -50%);
+font-family: $font-family-heading;
+font-weight: 800;
+margin: 0 2em;
+color: $white;
+text-decoration: none;
+text-align: center;
+line-height: 1.3em;
+}
+
+.story-card p a:after {
+  bottom: -10px;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  background: $white;
+  transition: width 0.5s ease 0s, left 0.5s ease 0s;
+  width: 0;
+}
+.story-card p a:hover:after {
+  width: 100%;
+  left: 0;
 }
