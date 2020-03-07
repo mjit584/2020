@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400,600,700,800|Vollkorn:400,600&display=swap");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -417,7 +418,7 @@ ul, ol {
   display: block;
   float: left;
   font-size: 2em;
-  padding: 10px 20px;
+  padding-top: 7px;
   text-decoration: none; }
 
 /* menu */
@@ -491,23 +492,50 @@ ul, ol {
   background-size: cover;
   display: flex;
   justify-content: space-between;
-  padding-top: 65px;
   padding-right: 30px;
-  padding-left: 30px;
-  padding-bottom: 30px;
   height: 100%; }
   @media (max-width: 1200px) {
     .footer {
-      padding: 50px;
+      padding: 70px;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      text-align: center;
       background-image: url("../images/mobile-footer-wave.svg"); } }
 
-.social-footer a {
-  color: white;
-  text-decoration: none;
-  padding: 8px; }
+.footer::after {
+  content: “”;
+  position: absolute;
+  left: 0;
+  height: 120px;
+  width: 100%;
+  background-image: url("../images/mobile-footer-wave.svg") top center;
+  background-size: cover;
+  z-index: -1; }
+
+.social-footer {
+  display: flex;
+  align-items: center; }
+  .social-footer a {
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px; }
+  @media (max-width: 1200px) {
+    .social-footer {
+      justify-content: center; } }
+
+.footer .logo {
+  margin: 30px; }
+  @media (max-width: 1200px) {
+    .footer .logo {
+      margin: 0; } }
+
+.social-footer, .logo {
+  padding-top: 40px; }
+  @media (max-width: 1200px) {
+    .social-footer, .logo {
+      margin: 0; } }
 
 .main-menu {
   display: none; }

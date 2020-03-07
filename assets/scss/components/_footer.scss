@@ -3,24 +3,53 @@
   background-size: cover;
   display: flex;
   justify-content: space-between;
-  padding-top: 65px;
   padding-right: 30px;
-  padding-left: 30px;
-  padding-bottom: 30px;
   height: 100%;
   @media(max-width: 1200px) {
-    padding: 50px;
+    padding: 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     background-image: url('../images/mobile-footer-wave.svg');
   }
 }
 
+.footer::after {
+  content: “”;
+  position: absolute;
+  left: 0;
+  height: 120px;
+  width: 100%;
+  background-image: url('../images/mobile-footer-wave.svg') top center;
+  background-size: cover;
+  z-index:-1;
+}
+
 .social-footer {
+  display: flex;
+  align-items: center;
   a {
     color: white;
     text-decoration: none;
-    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  @media(max-width: 1200px) {
+    justify-content: center;
+  }
+}
+
+.footer .logo {
+  margin: 30px;
+  @media(max-width: 1200px) {
+    margin: 0;
+  }
+}
+
+.social-footer, .logo {
+  padding-top: 40px;
+  @media(max-width: 1200px) {
+    margin: 0;
   }
 }
