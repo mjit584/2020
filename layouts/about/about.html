@@ -33,7 +33,7 @@
 <!-- This is what displays the folders and folks in the folders -->
 <div class="outer-card">
 {{ range .Pages }}
-  <div class="inner-card show {{ .Params.group }}">
+  <div class="inner-card show {{ .Params.group }} animated zoomIn">
     <span class="image-card">
       {{ with .Resources.ByType "image" }}
         {{ range . }}
