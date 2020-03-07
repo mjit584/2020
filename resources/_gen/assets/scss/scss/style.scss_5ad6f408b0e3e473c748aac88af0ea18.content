@@ -432,7 +432,8 @@ ul, ol {
   float: right;
   padding: 28px 20px;
   position: relative;
-  user-select: none; }
+  user-select: none;
+  cursor: pointer; }
 
 .header .menu-icon .navicon {
   background: white;
@@ -440,7 +441,7 @@ ul, ol {
   height: 2px;
   position: relative;
   transition: background .2s ease-out;
-  width: 18px; }
+  width: 25px; }
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
@@ -453,10 +454,10 @@ ul, ol {
   width: 100%; }
 
 .header .menu-icon .navicon:before {
-  top: 5px; }
+  top: 7px; }
 
 .header .menu-icon .navicon:after {
-  top: -5px; }
+  top: -7px; }
 
 /* menu btn */
 .header .menu-btn:checked ~ .menu {
@@ -500,7 +501,8 @@ ul, ol {
       padding: 50px;
       display: flex;
       flex-direction: column;
-      justify-content: center; } }
+      justify-content: center;
+      background-image: url("../images/mobile-footer-wave.svg"); } }
 
 .social-footer a {
   color: white;
