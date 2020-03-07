@@ -41,8 +41,8 @@
       {{ end }}
       {{ end }}
     </span>
-    <div class="about-overlay">
-      <i class="fa fa-plus fa-lg" onclick="showInfo({{ .Params.title }})"></i>
+    <div class="about-overlay" id="overlay {{ .Params.title }}">
+      <i id="icontoggle {{ .Params.title }}" class="fa fa-plus fa-lg" onclick="showInfo({{ .Params.title }})"></i>
       <p class="name">{{ .Params.title }}</p>
       <p class="group">{{ .Params.group }}</p>
       <div class="about-overlay-hover" id="{{ .Params.title }}">
@@ -59,9 +59,14 @@
     <script>
     function showInfo(number) {
     var x = document.getElementById(number);
-    //console.log(x);
+    var y = document.getElementById('overlay '+number);
+    var z = document.getElementById('icontoggle '+number);
+
     if (x.style.display === "none") {
         x.style.display = "block";
+        y.style.top = 'auto';
+        y.style.bottom = 0;
+        z.classList.toggle('fa-minus');
       } else {
         x.style.display = "none";
       }
