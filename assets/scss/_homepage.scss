@@ -4,7 +4,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   justify-content: space-between;
   width: 100%;
-  @media(max-width: 768px) {
+  @media(max-width: 992px) {
     padding: 25px;
   }
 }
@@ -15,7 +15,7 @@
 
 .explainer {
   padding: 40px;
-  @media(max-width: 768px) {
+  @media(max-width: 992px) {
     padding: 25px;
   }
 }
@@ -23,7 +23,7 @@
 .explainer-top-wave{
   position:absolute;
   bottom: -120px;
-  @media(max-width: 768px) {
+  @media(max-width: 992px) {
     bottom: -190px;
   }
 }
@@ -37,7 +37,7 @@
     color: white;
     line-height: 1.5em;
   }
-  @media(max-width: 768px) {
+  @media(max-width: 992px) {
     grid-template-columns: 1fr;
   }
 }

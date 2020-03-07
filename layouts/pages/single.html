@@ -109,26 +109,34 @@
   <section id="outro"></section>
 
   <!-- This is the other stories at the bottom of the page -->
-  <div class="outer-card">
-  {{ range .Pages }}
-    <div class="inner-card show {{ .Params.group }}">
-      <span class="image-card">
-        {{ with .Resources.ByType "image" }}
-          {{ range . }}
-          <img src="{{ .RelPermalink }}" class="image" alt="{{ .Params.name }}">
-        {{ end }}
-        {{ end }}
-      </span>
-      <span class="title">
-        <p>{{ .Params.title }}</p>
-      </span>
-      <span class="group">
-        <p>{{ .Params.group }}</p>
-      </span>
+  <section class="story-nav">
+    <div class="story-card">
+      <a href="{{ .Site.BaseURL }}"><img alt="ray" class="story-1 story-page-image" src="{{ .Site.BaseURL }}story-nav/ray.jpg"/></a>
+      <p><a href="/story01/">The Cost of Chocolate</a></p>
     </div>
+
   {{ end }}
   </div>
 </main>
+
+    <div class="story-card">
+      <a href="{{ .Site.BaseURL }}"><img alt="boat" class="story-2 story-page-image" src="{{ .Site.BaseURL }}story-nav/boat.jpg"/></a>
+      <p><a href="/story02/">A Village Endangered</a></p>
+    </div>
+    <div class="story-card">
+      <a href="{{ .Site.BaseURL }}"><img alt="manetee" class="story-3 story-page-image" src="{{ .Site.BaseURL }}story-nav/manetee.jpg"/></a>
+      <p><a href="/story03/">Monitoring Manatees</a></p>
+    </div>
+    <div class="story-card">
+      <a href="{{ .Site.BaseURL }}"><img alt="sunset" class="story-4 story-page-image" src="{{ .Site.BaseURL }}story-nav/sunset.jpg"/></a>
+      <p><a href="/story04/">Tangled Up</a></p>
+    </div>
+    <div class="story-card">
+      <a href="{{ .Site.BaseURL }}"><img alt="flower" class="story-5 story-page-image" src="{{ .Site.BaseURL }}story-nav/flower.jpg"/></a>
+      <p><a href="/story05/">The Dirty Side of Tourism</a></p>
+    </div>
+  </section>
+
 </div>
 <!-- <div class='debug'></div> -->
 <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>

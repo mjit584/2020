@@ -21,13 +21,16 @@
   align-items: center;
   justify-content: center;
   position:inherit;
+  margin-top: -70px;
 }
+
 .herocontent {
   padding: 5%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .byline {
   background-image:url('../images/byline-wave.svg');
   width:100%;
@@ -39,6 +42,7 @@
   justify-content: space-around;
   padding: 10% 20%;
 }
+
 .story-title {
   display: flex;
   flex-direction:column;
@@ -54,9 +58,73 @@
     border-bottom:1px solid $white;
   }
 }
+
 .story-content {
   margin: 10% 20%;
   @media(max-width: 768px) {
       margin: 8%;
   }
+}
+
+/* START OF STORY NAV */
+.story-page-image {
+  max-width: 100%;
+  @media(max-width: 768px) {
+    display: none;
+  }
+}
+
+.story-card {
+  position: relative;
+  display: inline-block;
+  margin: 1%;
+}
+
+.story-card img {
+  display: block;
+}
+
+.story-nav {
+  padding: 2%;
+  margin: 2%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  @media(max-width: 768px) {
+    padding: 25px;
+  }
+}
+
+/* This is the links within the story nav */
+
+.story-card p a {
+position: absolute;
+top: 50%;
+left: 0;
+right: 0;
+padding-left: 5%;
+transform: translate(0, -50%);
+font-family: $font-family-heading;
+font-weight: 800;
+margin: 0 2em;
+color: $white;
+text-decoration: none;
+text-align: center;
+line-height: 1.3em;
+}
+
+.story-card p a:after {
+  bottom: -10px;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  background: $white;
+  transition: width 0.5s ease 0s, left 0.5s ease 0s;
+  width: 0;
+}
+.story-card p a:hover:after {
+  width: 100%;
+  left: 0;
 }

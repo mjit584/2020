@@ -15,7 +15,7 @@
     z-index: 10;
     width: 100%;
   }
-  @media(max-width: 768px) {
+  @media(max-width: 1200px) {
     background-color: #222222;
   }
 }
@@ -30,7 +30,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
   #toggle-main-menu-mobile {
     display: none;
   }
@@ -48,7 +48,7 @@
     color: white;
     text-decoration: none;
   }
-  @media(max-width: 768px) {
+  @media(max-width: 1200px) {
     display: none;
   }
 }
@@ -61,7 +61,7 @@
   p {
     font-size: 3px;
   }
-  @media(max-width: 768px) {
+  @media(max-width: 1200px) {
     border-left: none;
   }
 }
@@ -85,7 +85,7 @@
   display: block;
   float: left;
   font-size: 2em;
-  padding: 10px 20px;
+  padding-top: 7px;
   text-decoration: none;
 }
 
@@ -105,6 +105,7 @@
   padding: 28px 20px;
   position: relative;
   user-select: none;
+  cursor: pointer;
 }
 
 .header .menu-icon .navicon {
@@ -113,7 +114,7 @@
   height: 2px;
   position: relative;
   transition: background .2s ease-out;
-  width: 18px;
+  width: 25px;
 }
 
 .header .menu-icon .navicon:before,
@@ -128,11 +129,11 @@
 }
 
 .header .menu-icon .navicon:before {
-  top: 5px;
+  top: 7px;
 }
 
 .header .menu-icon .navicon:after {
-  top: -5px;
+  top: -7px;
 }
 
 /* menu btn */
@@ -159,9 +160,8 @@
   top: 0;
 }
 
-/* 48em = 768px */
 
-@media (min-width: 48em) {
+@media (min-width: 1200px) {
   .header li {
     float: left;
   }

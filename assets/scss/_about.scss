@@ -12,6 +12,8 @@
   align-items: center;
   justify-content: center;
   position:inherit;
+  margin-top: -70px;
+  z-index: -1;
 }
 
 .herocontent {
@@ -30,7 +32,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 15%;
+  margin-top: 25%;
 }
 
 #AboutFilter button {
@@ -78,23 +80,31 @@
 .about-overlay{
   background-color: $primary;
   font-family: $font-family-heading;
-  position: relative;
+  color:$white;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding:5%;
 }
-
-.about-overlay button {
+.inner-card.Reporting .about-overlay {
+  background-color:$secondary;
+  color:$black;
+}
+.about-overlay i {
   float: right;
-  margin-top: 2%;
-  margin-right: 2%;
+  line-height: 1.75em;
 }
 
-#about-overlay-hover {
+.about-overlay-hover {
   display: none;
-
+  transition-timing-function: ease-in;
 }
 
 .about-overlay p {
   margin: 0;
-  padding-left: 5%;
 }
 
 .about-overlay .name {
@@ -116,15 +126,6 @@
 
 .about-overlay .portfolio {
   margin-bottom: 5%;
-}
-
-.inner-card .about-overlay {
-  position: absolute;
-  z-index: 999;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  top: 79.5%;
 }
 
 .show {
