@@ -100,7 +100,7 @@
 
 .about-overlay-hover {
   display: none;
-
+  transition-timing-function: ease-in;
 }
 
 .about-overlay p {
