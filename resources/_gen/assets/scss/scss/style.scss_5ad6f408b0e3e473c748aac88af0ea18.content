@@ -193,7 +193,7 @@ ul, ol {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 15%; }
+  margin-top: 25%; }
 
 #AboutFilter button {
   border: none;
@@ -234,19 +234,28 @@ ul, ol {
 .about-overlay {
   background-color: #2ea395;
   font-family: "Barlow Semi Condensed", sans-serif;
-  position: relative; }
+  color: #ffffff;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 5%; }
 
-.about-overlay button {
+.inner-card.Reporting .about-overlay {
+  background-color: #ffe14e;
+  color: #333333; }
+
+.about-overlay i {
   float: right;
-  margin-top: 2%;
-  margin-right: 2%; }
+  line-height: 1.75em; }
 
 .about-overlay-hover {
   display: none; }
 
 .about-overlay p {
-  margin: 0;
-  padding-left: 5%; }
+  margin: 0; }
 
 .about-overlay .name {
   font-size: 1.5em; }
@@ -264,14 +273,6 @@ ul, ol {
 
 .about-overlay .portfolio {
   margin-bottom: 5%; }
-
-.inner-card .about-overlay {
-  position: absolute;
-  z-index: 999;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  top: 79.5%; }
 
 .show {
   display: flex;
