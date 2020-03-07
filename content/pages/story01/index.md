@@ -26,9 +26,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in bibendum mas
 In ac dictum eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin hendrerit eu nisi et tempor. Duis id porttitor sapien, eu elementum ligula. Ut quis egestas arcu, ut gravida urna. Curabitur semper nisi a nibh maximus, et auctor erat iaculis. Duis turpis velit, aliquet a elit vel, varius interdum tortor. In ornare sem a nisi pretium, ut dictum elit efficitur. In eget lacinia dui, a vestibulum risus.
 
 <div id="video-top"></div>
-
-Where we would put the video with Vimeo code
-{{< vimeo id="329726214" class="video-container" title="My Vimeo video" >}}
+<!-- Economic story video goes here -->
+{{< vimeo id="329817257" class="video-container" >}}
 
 Pellentesque purus erat, tristique nec ex quis, accumsan ornare odio. Morbi est lectus, luctus quis nulla quis, scelerisque vulputate erat. Aenean massa arcu, ornare sit amet nunc a, viverra molestie nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed pharetra, purus eget pharetra imperdiet, lorem libero efficitur enim, id bibendum dui elit id massa. Sed quis ligula auctor, venenatis est et, ullamcorper mauris. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris varius metus nec ornare rhoncus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum eu arcu semper, euismod enim quis, ultrices elit. Nam et turpis tellus. Maecenas et justo pellentesque, aliquet nisl eget, dignissim lectus.
 

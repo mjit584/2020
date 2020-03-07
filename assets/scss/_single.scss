@@ -105,13 +105,15 @@ padding-left: 5%;
 transform: translate(0, -50%);
 font-family: $font-family-heading;
 font-weight: 800;
+margin: 0 2em;
 color: $white;
 text-decoration: none;
 text-align: center;
+line-height: 1.3em;
 }
 
 .story-card p a:after {
-  bottom: 0;
+  bottom: -10px;
   content: "";
   display: block;
   height: 3px;
