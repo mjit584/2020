@@ -289,7 +289,7 @@ ul, ol {
   position: relative; }
 
 .about-overlay {
-  background-color: #2ea395;
+  background: url("../wave/Blue-Wave.svg");
   font-family: "Barlow Semi Condensed", sans-serif;
   color: #ffffff;
   position: absolute;
