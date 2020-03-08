@@ -1,5 +1,6 @@
 ---
 title: Madison Hoffmann
-group: Photo/Video
+group: Photo
 groupweight: 2
+groupname: Photo/Video
 ---

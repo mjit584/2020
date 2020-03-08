@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About Us"
 date: 2020-02-06T14:51:42-05:00
 weight: 6
 image: "../images/story1-hero.jpg"
