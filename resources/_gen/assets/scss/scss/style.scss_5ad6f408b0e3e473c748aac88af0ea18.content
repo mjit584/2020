@@ -288,6 +288,7 @@ ul, ol {
   margin: 2%;
   position: relative; }
 
+/* The Bio Information */
 .about-overlay {
   font-family: "Barlow Semi Condensed", sans-serif;
   color: #ffffff;
@@ -297,58 +298,91 @@ ul, ol {
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 5%; }
+  padding: 4% 5%;
+  /* The Plus Icon Placement */
+  /* Placement of the social icons */
+  /* Sets up paragraphs to be moved around */
+  /* Styling for Name of People */
+  /* Styling for Group of People */
+  /* Styling for About Paragraph */ }
+  .about-overlay i {
+    float: right;
+    line-height: 1.75em; }
+  .about-overlay a i {
+    float: left;
+    margin-right: .5em; }
+  .about-overlay p {
+    margin: 0; }
+  .about-overlay .name {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 10px; }
+  .about-overlay .group {
+    font-size: 1.2em;
+    margin-top: -15px;
+    font-style: oblique; }
+  .about-overlay .about-paragraph {
+    font-size: 1.2em;
+    line-height: 100%;
+    margin-bottom: 2%; }
 
+/* Width of Image for Page */
+.image {
+  width: 350px; }
+
+/* The Colors of the waves and text */
 .inner-card.Reporting .about-overlay {
   background: url("../wave/Blue-Wave.svg");
-  color: #333333; }
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff; }
+  .inner-card.Reporting .about-overlay .about-overlay-hover .portfolio {
+    color: #ffffff;
+    text-decoration: none; }
+  .inner-card.Reporting .about-overlay a i {
+    color: #ffffff; }
 
 .inner-card.Interactive .about-overlay {
   background: url("../wave/Yellow-Wave.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #333333; }
+  .inner-card.Interactive .about-overlay .about-overlay-hover .portfolio {
+    color: #333333;
+    text-decoration: none; }
+  .inner-card.Interactive .about-overlay a i {
+    color: #333333; }
 
 .inner-card.Photo .about-overlay {
   background: url("../wave/Orange-Wave.svg");
-  color: #333333; }
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff; }
+  .inner-card.Photo .about-overlay .about-overlay-hover .portfolio {
+    color: #ffffff;
+    text-decoration: none; }
+  .inner-card.Photo .about-overlay a i {
+    color: #ffffff; }
 
 .inner-card.Coaches .about-overlay {
   background: url("../wave/Green-Wave.svg");
-  color: #333333; }
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff; }
+  .inner-card.Coaches .about-overlay .about-overlay-hover .portfolio {
+    color: #ffffff;
+    text-decoration: none; }
+  .inner-card.Coaches .about-overlay a i {
+    color: #ffffff; }
 
-.about-overlay i {
-  float: right;
-  line-height: 1.75em; }
-
+/* For the sort and the card layout */
 .about-overlay-hover {
   display: none;
   transition-timing-function: ease-in; }
 
-.about-overlay p {
-  margin: 0; }
-
-.about-overlay .name {
-  font-size: 1.5em; }
-
-.about-overlay .group {
-  font-size: 1.2em;
-  margin-top: -15px;
-  font-style: oblique;
-  margin-bottom: 2%; }
-
-.about-overlay .about {
-  font-size: 1.3em;
-  line-height: 100%;
-  margin-bottom: 2%; }
-
-.about-overlay .portfolio {
-  margin-bottom: 5%; }
-
 .show {
   display: flex;
   flex-direction: column; }
-
-.image {
-  width: 350px; }
 
 .page {
   display: flex;

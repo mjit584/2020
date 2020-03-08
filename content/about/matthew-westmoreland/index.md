@@ -1,5 +1,6 @@
 ---
 title: Matthew Westmoreland
-group: Photo/Video
+group: Photo
+groupname: Photo/Video
 groupweight: 2
 ---

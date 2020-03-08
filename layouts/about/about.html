@@ -10,9 +10,6 @@
     <div class="herocontent">
       <div class="story-title">
         <h1>{{ .Title }}</h1>
-        <div class="intro1">
-          {{ .Params.aboutHeading }}
-        </div>
       </div>
     </div>
   </section>
@@ -24,7 +21,7 @@
 <!-- This is the About Filter Buttons.  The parameter after 'filterSelection' is important.  This corresponds with the classname next to the inner-card.  It comes from the Front Matter on each person's page. -->
   <button class="btn activesort" onclick="filterSelection('all')"> Show all</button>
   <button class="btn" onclick="filterSelection('Interactive')">Interactive</button>
-  <button class="btn" onclick="filterSelection('Photo/Video')">Photo/Video</button>
+  <button class="btn" onclick="filterSelection('Photo')">Photo/Video</button>
   <button class="btn" onclick="filterSelection('Reporting')">Reporting</button>
   <button class="btn" onclick="filterSelection('Coaches')">Coaches</button>
 </div>
@@ -44,10 +41,26 @@
     <div class="about-overlay" id="overlay {{ .Params.title }}">
       <i id="icontoggle {{ .Params.title }}" class="fa fa-plus fa-lg" onclick="showInfo({{ .Params.title }})"></i>
       <p class="name">{{ .Params.title }}</p>
-      <p class="group">{{ .Params.group }}</p>
+      <p class="group">{{ .Params.groupname }}</p>
       <div class="about-overlay-hover" id="{{ .Params.title }}">
-        <p class="about">{{ .Params.about }}</p>
-        <p><a class="portfolio" href="{{ .Params.website }}">Portfolio</a></p>
+        <p class="about-paragraph">{{ .Params.about }}</p>
+        {{ if .Params.portfolio }}
+          <p><a class="portfolio" href="{{ .Params.portfolio }}">Portfolio</a></p>
+        {{ end }}
+        <div class="about-social">
+          {{ if .Params.instagram }}
+            <p><a href="{{ .Params.instagram }}"><i class="fa fa-instagram fa-lg"></i></a></p>
+          {{ end }}
+          {{ if .Params.twitter }}
+            <p><a href="{{ .Params.twitter }}"><i class="fa fa-twitter fa-lg"></i></a></p>
+          {{ end }}
+          {{ if .Params.vimeo }}
+            <p><a href="{{ .Params.vimeo }}"><i class="fa fa-vimeo fa-lg"></i></a></p>
+          {{ end }}
+          {{ if .Params.linkedin }}
+            <p><a href="{{ .Params.vimeo }}"><i class="fa fa-linkedin fa-lg"></i></a></p>
+          {{ end }}
+        </div>
       </div>
     </div>
     </div>

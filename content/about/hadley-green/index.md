@@ -1,5 +1,6 @@
 ---
 title: Hadley Green
-group: Video
+group: Photo
+groupname: Photo/Video
 groupweight: 2
 ---

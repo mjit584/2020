@@ -1,5 +1,6 @@
 ---
 title: Emily Caroline Sartin
-group: Photo/Video
+group: Photo
+groupname: Photo/Video
 groupweight: 3
 ---
