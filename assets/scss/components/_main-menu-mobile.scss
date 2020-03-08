@@ -95,13 +95,7 @@
 // //   padding-top: 30px;
 // // }
 //
-// .menu-item:after {
-//     // content: "";
-//     // display: block;
-//     // width: 60%;
-//     // border-bottom: 1px solid gray;
-//     // padding-bottom: 30px;
-// }
+
 //
 // .menu-item-bottom:after{
 //   border-bottom: none;
@@ -205,12 +199,28 @@ $button-width: 35px;
           width: 0%;
           transform: translateX(-50%);
           height: 3px;
-          background: $color-link;
           transition: 0.35s;
         }
       }
     }
   }
+  .menu-item {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .menu-item:after {
+      content: "";
+      display: block;
+      width: 60%;
+      border-bottom: 1px solid gray;
+      padding-bottom: 30px;
+  }
+}
+
+.hamburger-about-container{
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 30px;
 }
 
 .hamburger-about li {
@@ -221,10 +231,6 @@ $button-width: 35px;
 .menu-about {
   border-right : 1px solid white;
   padding-right: 8px;
-}
-
-.menu-item {
-  padding-bottom: 10px;
 }
 
 .checkbox {
