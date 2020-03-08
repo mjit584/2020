@@ -134,6 +134,8 @@ ul, ol {
   display: flex;
   align-items: center;
   justify-content: center; }
+  .herocontent img {
+    max-width: 300px; }
 
 .byline {
   background-image: url("../images/byline-wave.svg");
@@ -791,6 +793,7 @@ h5 {
 
 .hero-intro {
   font-size: 1.5em;
-  padding: 1em; }
+  padding: 2em;
+  line-height: 1.5em; }
 
 /*# sourceMappingURL=style.css.map */
