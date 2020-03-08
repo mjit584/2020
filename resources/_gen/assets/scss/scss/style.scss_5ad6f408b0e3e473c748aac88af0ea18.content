@@ -438,7 +438,8 @@ ul, ol {
   float: left;
   font-size: 2em;
   padding-top: 7px;
-  text-decoration: none; }
+  text-decoration: none;
+  z-index: 21; }
 
 /* menu */
 .header .menu {
@@ -614,7 +615,7 @@ ul, ol {
   text-align: left;
   flex-direction: column; }
   .main-menu-mobile.open {
-    opacity: 0.9;
+    opacity: 1;
     visibility: visible;
     height: 100%;
     z-index: 20; }
