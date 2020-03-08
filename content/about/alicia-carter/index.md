@@ -1,5 +1,5 @@
 ---
-title: Alicia Carter
+title: Alicia Carter This wave this wave is 
 group: Photo
 groupname: Photo/Video
 about: This is information about her. She is a cool cat. We all love Alicia. She is fun and great and ya.

@@ -87,8 +87,10 @@
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 4% 5%;
-
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 7%;
+  padding-bottom: 2%;
 
   /* The Plus Icon Placement */
     i {
@@ -98,8 +100,8 @@
 
   /* Placement of the social icons */
     a i {
-      float: left;
-      margin-right: .5em;
+      float: right;
+      margin-left: .5em;
     }
 
     /* Sets up paragraphs to be moved around */
@@ -109,23 +111,28 @@
 
     /* Styling for Name of People */
     .name {
-     font-size: 1.5em;
+     font-size: 1.3em;
      font-weight: 600;
-     margin-top: 10px;
+     margin-top: 15px;
     }
 
     /* Styling for Group of People */
     .group {
-     font-size: 1.2em;
-     margin-top: -15px;
+     font-size: 1em;
+     margin-top: -10px;
      font-style: oblique;
     }
 
     /* Styling for About Paragraph */
     .about-paragraph {
-      font-size: 1.2em;
+      font-size: 1em;
       line-height: 100%;
-      margin-bottom: 2%;
+      margin-bottom: 1%;
+    }
+
+    .portfolio {
+      font-size: .9em;
+      font-weight: 600;
     }
 }
 
@@ -153,13 +160,13 @@
 }
 
 .inner-card.Interactive .about-overlay {
-  background: url('../wave/Yellow-Wave.svg');
+  background: url('../wave/Green-Wave.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  color:$black;
+  color:$white;
 
   .about-overlay-hover .portfolio {
-    color: $black;
+    color: $white;
     text-decoration: none;
   }
 
@@ -186,13 +193,13 @@
 }
 
 .inner-card.Coaches .about-overlay {
-  background: url('../wave/Green-Wave.svg');
+  background: url('../wave/Yellow-Wave.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  color:$white;
+  color:$black;
 
   .about-overlay-hover .portfolio {
-    color: $white;
+    color: $black;
     text-decoration: none;
   }
 
