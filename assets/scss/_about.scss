@@ -78,9 +78,9 @@
 }
 
 .about-overlay{
-  background-color: $primary;
+  background: url('../wave/Blue-Wave.svg');
   font-family: $font-family-heading;
-  color:$white;
+  color: $white;
   position: absolute;
   z-index: 999;
   margin: 0 auto;
@@ -89,10 +89,12 @@
   bottom: 0;
   padding:5%;
 }
+
 .inner-card.Reporting .about-overlay {
   background-color:$secondary;
   color:$black;
 }
+
 .about-overlay i {
   float: right;
   line-height: 1.75em;
