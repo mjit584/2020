@@ -289,7 +289,6 @@ ul, ol {
   position: relative; }
 
 .about-overlay {
-  background: url("../wave/Blue-Wave.svg");
   font-family: "Barlow Semi Condensed", sans-serif;
   color: #ffffff;
   position: absolute;
@@ -301,7 +300,19 @@ ul, ol {
   padding: 5%; }
 
 .inner-card.Reporting .about-overlay {
-  background-color: #ffe14e;
+  background: url("../wave/Blue-Wave.svg");
+  color: #333333; }
+
+.inner-card.Interactive .about-overlay {
+  background: url("../wave/Yellow-Wave.svg");
+  color: #333333; }
+
+.inner-card.Photo .about-overlay {
+  background: url("../wave/Orange-Wave.svg");
+  color: #333333; }
+
+.inner-card.Coaches .about-overlay {
+  background: url("../wave/Green-Wave.svg");
   color: #333333; }
 
 .about-overlay i {

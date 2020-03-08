@@ -78,7 +78,6 @@
 }
 
 .about-overlay{
-  background: url('../wave/Blue-Wave.svg');
   font-family: $font-family-heading;
   color: $white;
   position: absolute;
@@ -91,7 +90,22 @@
 }
 
 .inner-card.Reporting .about-overlay {
-  background-color:$secondary;
+  background: url('../wave/Blue-Wave.svg');
+  color:$black;
+}
+
+.inner-card.Interactive .about-overlay {
+  background: url('../wave/Yellow-Wave.svg');
+  color:$black;
+}
+
+.inner-card.Photo .about-overlay {
+  background: url('../wave/Orange-Wave.svg');
+  color:$black;
+}
+
+.inner-card.Coaches .about-overlay {
+  background: url('../wave/Green-Wave.svg');
   color:$black;
 }
 
