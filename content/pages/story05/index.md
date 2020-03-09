@@ -1,8 +1,8 @@
 ---
-title: "Flipping The Switch"
-topic: "Tourism"
+title: "Seaweed for All"
+topic: "Sustainability"
 date:
-description: "A family struggles to survive, having arrived in Medellín ten days prior."
+description: "A local fisher's passion for seaweed reaps benefits"
 image: "../images/photo-chap-3-hero.jpg"
 storyHeading: "A Family, Together"
 storySubheading: "Puerto Rico is facing a health care crisis after chronic mental and physical health issues often went untreated in the aftermath of Hurricane Maria. Many doctors have left the island, but one volunteer group isn’t going anywhere."

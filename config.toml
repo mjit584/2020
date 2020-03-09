@@ -19,27 +19,27 @@ canonifyURLs = "true"
     meta_twitter_creator = ""
 
 [[menu.main]]
-	name = "Monkey River Village"
+	name = "Threatened Water"
 	url = "/story01/"
     weight = 1
 
 [[menu.main]]
-    name = "Seaweed for All"
+    name = "Monkey River"
     url = "/story02/"
     weight = 2
 
 [[menu.main]]
-    name = "Against All Odds"
+    name = "The Cost of Chocolate"
     url = "/story03/"
     weight = 3
 
 [[menu.main]]
-    name = "A Natural Revolution"
+    name = "Tied By Trash"
     url = "/story04/"
     weight = 4
 
 [[menu.main]]
-    name = "Flipping the Switch"
+    name = "Seaweed for All"
     url = "/story05/"
     weight = 5
 
