@@ -1,12 +1,11 @@
 ---
-title: Alicia Carter This wave this wave is 
+title: Alicia Carter
 group: Photo
 groupname: Photo/Video
-about: This is information about her. She is a cool cat. We all love Alicia. She is fun and great and ya.
-instagram: https://www.instagram.com/megjmcmahon/
-linkedin: https://www.linkedin.com/in/meg-j-mcmahon/
-twitter: https://twitter.com/megjmcmahon
-vimeo: https://vimeo.com/user109144922
-portfolio: https://www.megmcmahon.info/
+about: Hi! I’m a masters student studying visual communication. Before coming to UNC, I spent six years in southern Africa, Mexico and Peru working in public health, education, and policy helping me to bridge the gap between working with people and being behind the camera.
+instagram: https://www.instagram.com/aliciamcarter.media/
+linkedin: https://www.linkedin.com/in/aliciamcarter6/
+portfolio: https://aliciamcarter.com/
+facebook: https://www.facebook.com/aliciamcarter.media/
 groupweight: 2
 ---

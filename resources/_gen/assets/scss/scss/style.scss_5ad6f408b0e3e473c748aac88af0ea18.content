@@ -293,6 +293,16 @@ ul, ol {
   margin: 2%;
   position: relative; }
 
+/*
+@keyframes animatedBackground {
+from {
+  background-position: 0 0;
+}
+to {
+  background-position: 100% 0;
+}
+}
+*/
 /* The Bio Information */
 .about-overlay {
   font-family: "Barlow Semi Condensed", sans-serif;
@@ -307,6 +317,7 @@ ul, ol {
   padding-right: 4%;
   padding-top: 7%;
   padding-bottom: 2%;
+  /* animation: animatedBackground 10s linear infinite alternate; */
   /* The Plus Icon Placement */
   /* Placement of the social icons */
   /* Sets up paragraphs to be moved around */
@@ -318,24 +329,31 @@ ul, ol {
     line-height: 1.75em; }
   .about-overlay a i {
     float: right;
-    margin-left: .5em; }
+    margin-left: .5em;
+    margin-top: 7px;
+    line-height: normal; }
   .about-overlay p {
-    margin: 0; }
+    margin: 0;
+    line-height: normal; }
   .about-overlay .name {
     font-size: 1.3em;
     font-weight: 600;
-    margin-top: 15px; }
+    margin-top: 15px;
+    margin-bottom: 5px; }
   .about-overlay .group {
-    font-size: 1em;
-    margin-top: -10px;
+    font-size: .9em;
+    margin-top: -8px;
+    margin-bottom: 5px;
     font-style: oblique; }
   .about-overlay .about-paragraph {
-    font-size: 1em;
-    line-height: 100%;
-    margin-bottom: 1%; }
+    font-size: .9em;
+    line-height: 1.1em; }
   .about-overlay .portfolio {
     font-size: .9em;
-    font-weight: 600; }
+    font-weight: 600;
+    margin-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: .05em; }
 
 /* Width of Image for Page */
 .image {
@@ -371,7 +389,8 @@ ul, ol {
   color: #ffffff; }
   .inner-card.Photo .about-overlay .about-overlay-hover .portfolio {
     color: #ffffff;
-    text-decoration: none; }
+    text-decoration: none;
+    font-size: .7em; }
   .inner-card.Photo .about-overlay a i {
     color: #ffffff; }
 
@@ -390,6 +409,9 @@ ul, ol {
 .about-overlay-hover {
   display: none;
   transition-timing-function: ease-in; }
+  .about-overlay-hover .about-icon {
+    font-size: .7em;
+    bottom: inherit; }
 
 .show {
   display: flex;
