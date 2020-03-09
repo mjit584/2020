@@ -105,13 +105,13 @@ ul, ol {
   padding: 60px; }
 
 .story-1 .story-hero {
-  background-image: url("../images/cacao.jpg"); }
+  background-image: url("https://aftermath.unc.edu/assets/images/water-hero.jpg"); }
 
 .story-2 .story-hero {
   background-image: url("../images/story2-hero.png"); }
 
 .story-3 .story-hero {
-  background-image: url("https://aftermath.unc.edu/assets/images/water-hero.jpg"); }
+  background-image: url("../images/cacao.jpg"); }
 
 .story-4 .story-hero {
   background-image: url("https://aftermath.unc.edu/assets/images/ecology-hero.jpg"); }
@@ -172,6 +172,9 @@ ul, ol {
 /* START OF STORY NAV */
 .story-page-image {
   max-width: 100%; }
+  @media (max-width: 768px) {
+    .story-page-image {
+      display: none; } }
 
 .story-card {
   position: relative;
@@ -180,28 +183,16 @@ ul, ol {
 
 .story-card img {
   display: block; }
-  @media (max-width: 1000px) {
-    .story-card img {
-      display: none; } }
 
 .story-nav {
-  background: url("../images/story-wave.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-right: 1%;
-  padding-left: 1%;
-  padding-top: 10%;
+  padding: 2%;
+  margin: 2%;
   display: flex;
   justify-content: space-between;
   width: 100%; }
-  @media (max-width: 1000px) {
+  @media (max-width: 768px) {
     .story-nav {
-      display: flex;
-      flex-direction: column; } }
-  @media (max-width: 600px) {
-    .story-nav {
-      padding-top: 15%;
-      background-image: url("../images/mobile-story-nav.svg"); } }
+      padding: 25px; } }
 
 /* This is the links within the story nav */
 .story-card p a {

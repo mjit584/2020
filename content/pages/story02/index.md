@@ -1,8 +1,8 @@
 ---
-title: "Seaweed For All"
-topic: "Culture"
+title: "Monkey River"
+topic: "Tourism"
 date:
-description: "A group of five friends carry large backs and walk the streets at night to find a place to stay."
+description: "Cruise ships take advantage of a small community."
 image: "../images/photo-chap-3-hero.jpg"
 storyHeading: "A Family, Together"
 storySubheading: "A group of five friends carry large backs and walk the streets at night to find a place to stay."

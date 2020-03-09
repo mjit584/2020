@@ -1,8 +1,8 @@
 ---
-title: "Against All Odds"
+title: "The Cost of Chocolate"
 topic: "Land Use"
 date:
-description: "A family struggles to survive, having arrived in Medellín ten days prior."
+description: "A farmer works to maintain his Mayan culture amidst outside pressure"
 image: "../images/photo-chap-3-hero.jpg"
 storyHeading: "A Family, Together"
 storySubheading: "After Hurricane Maria, Puerto Rico’s forests performed incredible feats of recovery, using strategies fine-tuned by centuries of adaptation to hurricane cycles. Researchers and farmers are watching these systems to learn how people can follow suit."

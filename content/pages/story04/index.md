@@ -1,8 +1,8 @@
 ---
-title: "A Natural Revolution"
-topic: "Sustainability"
+title: "Tied by Trash"
+topic: "Waste Management"
 date:
-description: "A family struggles to survive, having arrived in Medellín ten days prior."
+description: "Waste is a big issue in tourism economy."
 image: "../images/photo-chap-3-hero.jpg"
 storyHeading: "A Family, Together"
 storySubheading: "Although Hurricane María devastated the island, neighbors of a strangled channel in the heart of San Juan are hoping federal recovery funds will salvage a project to improve the living conditions in their communities."

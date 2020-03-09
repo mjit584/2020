@@ -1,16 +1,16 @@
 ---
-title: "The Cost of Chocolate"
+title: "Threatened Water"
 topic: "Marine Science"
 date:
-description: "A family struggles to survive, having arrived in Medellín ten days prior."
+description: "Belize's waters are under attach from multiple fronts."
 image: "../images/story1-hero.jpg"
 storyHeading: "A Family, Together"
 storySubheading: "A family struggles to survive, having arrived in Medellín ten days prior."
 heroAlt: "A group of five friends carry large backs and walk the streets at night to find a place to stay."
 weight: 1
 card: false
-photographer: "Alex Kormann"
-designer: "undefined"
+photographer: "Alicia Carter"
+designer: "Meg McMahon"
 
 ---
 
