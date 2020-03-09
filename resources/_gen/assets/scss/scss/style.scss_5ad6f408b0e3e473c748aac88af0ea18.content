@@ -105,7 +105,7 @@ ul, ol {
   padding: 60px; }
 
 .story-1 .story-hero {
-  background-image: url("../images/story1-hero.jpg"); }
+  background-image: url("../images/cacao.jpg"); }
 
 .story-2 .story-hero {
   background-image: url("../images/story2-hero.png"); }

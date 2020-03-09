@@ -1,5 +1,5 @@
 ---
-title: "Monkey River Village"
+title: "The Cost of Chocolate"
 topic: "Marine Science"
 date:
 description: "A family struggles to survive, having arrived in Medellín ten days prior."
