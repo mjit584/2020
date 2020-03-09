@@ -42,7 +42,7 @@
   width:100%;
   height:400px;
   position:absolute;
-  bottom: -300px;
+  bottom: -275px;
   display:flex;
   align-items:flex-start;
   justify-content: space-around;
@@ -65,9 +65,9 @@
 }
 
 .story-content {
-  margin: 10% 20%;
-  @media(max-width: 768px) {
-      margin: 8%;
+  margin: 20% 20%;
+  @media(max-width: 992px) {
+    // margin-top: 30%;
   }
 }
 
@@ -132,4 +132,24 @@ line-height: 1.3em;
 .story-card p a:hover:after {
   width: 100%;
   left: 0;
+}
+
+p:first-of-type:first-letter{
+  float: left;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 10px;
+  padding-right: 8px;
+  padding-left: 3px;
+  color: $primary;
+}
+
+.photo-image img{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
