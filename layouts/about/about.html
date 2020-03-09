@@ -47,16 +47,19 @@
           <p><a class="portfolio" href="{{ .Params.portfolio }}">Portfolio</a>
         {{ end }}
           {{ if .Params.instagram }}
-            <a href="{{ .Params.instagram }}"><i class="fa fa-instagram fa-sm"></i></a>
+            <a href="{{ .Params.instagram }}"><i class="fa fa-instagram fa-xs about-icon"></i></a>
           {{ end }}
           {{ if .Params.twitter }}
-            <a href="{{ .Params.twitter }}"><i class="fa fa-twitter fa-sm"></i></a>
+            <a href="{{ .Params.twitter }}"><i class="fa fa-twitter fa-xs about-icon"></i></a>
           {{ end }}
           {{ if .Params.vimeo }}
-            <a href="{{ .Params.vimeo }}"><i class="fa fa-vimeo fa-sm"></i></a>
+            <a href="{{ .Params.vimeo }}"><i class="fa fa-vimeo fa-xs about-icon"></i></a>
           {{ end }}
           {{ if .Params.linkedin }}
-            <a href="{{ .Params.vimeo }}"><i class="fa fa-linkedin fa-sm"></i></a></p>
+            <a href="{{ .Params.vimeo }}"><i class="fa fa-linkedin fa-xs about-icon"></i></a>
+          {{ end }}
+          {{ if .Params.facebook }}
+            <a href="{{ .Params.facebook }}"><i class="fa fa-facebook fa-xs about-icon"></i></a></p>
           {{ end }}
       </div>
     </div>
