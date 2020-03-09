@@ -20,27 +20,27 @@ canonifyURLs = "true"
 
 [[menu.main]]
 	name = "Threatened Water"
-	url = "/story01/"
+	url = "/water/"
     weight = 1
 
 [[menu.main]]
     name = "Monkey River"
-    url = "/story02/"
+    url = "/tourism/"
     weight = 2
 
 [[menu.main]]
     name = "The Cost of Chocolate"
-    url = "/story03/"
+    url = "/culture/"
     weight = 3
 
 [[menu.main]]
     name = "Tied By Trash"
-    url = "/story04/"
+    url = "/waste/"
     weight = 4
 
 [[menu.main]]
     name = "Seaweed for All"
-    url = "/story05/"
+    url = "/seaweed/"
     weight = 5
 
 [[menu.main]]
