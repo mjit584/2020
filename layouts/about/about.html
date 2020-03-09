@@ -1,5 +1,5 @@
 {{ define "header_css" }}{{ end }}
-{{ define "body_classes" }}page-pages-single{{ end }}
+{{ define "body_classes" }}page-pages-single about{{ end }}
 {{ define "header_classes" }}{{ end }}
 
 {{ define "main" }}
@@ -39,28 +39,25 @@
       {{ end }}
     </span>
     <div class="about-overlay" id="overlay {{ .Params.title }}">
-      <i id="icontoggle {{ .Params.title }}" class="fa fa-plus fa-lg" onclick="showInfo({{ .Params.title }})"></i>
-      <p class="name">{{ .Params.title }}</p>
+      <p class="name">{{ .Params.title }}  <i id="icontoggle {{ .Params.title }}" class="fa fa-plus fa-sm" onclick="showInfo({{ .Params.title }})"></i></p>
       <p class="group">{{ .Params.groupname }}</p>
       <div class="about-overlay-hover" id="{{ .Params.title }}">
         <p class="about-paragraph">{{ .Params.about }}</p>
         {{ if .Params.portfolio }}
-          <p><a class="portfolio" href="{{ .Params.portfolio }}">Portfolio</a></p>
+          <p><a class="portfolio" href="{{ .Params.portfolio }}">Portfolio</a>
         {{ end }}
-        <div class="about-social">
           {{ if .Params.instagram }}
-            <p><a href="{{ .Params.instagram }}"><i class="fa fa-instagram fa-lg"></i></a></p>
+            <a href="{{ .Params.instagram }}"><i class="fa fa-instagram fa-sm"></i></a>
           {{ end }}
           {{ if .Params.twitter }}
-            <p><a href="{{ .Params.twitter }}"><i class="fa fa-twitter fa-lg"></i></a></p>
+            <a href="{{ .Params.twitter }}"><i class="fa fa-twitter fa-sm"></i></a>
           {{ end }}
           {{ if .Params.vimeo }}
-            <p><a href="{{ .Params.vimeo }}"><i class="fa fa-vimeo fa-lg"></i></a></p>
+            <a href="{{ .Params.vimeo }}"><i class="fa fa-vimeo fa-sm"></i></a>
           {{ end }}
           {{ if .Params.linkedin }}
-            <p><a href="{{ .Params.vimeo }}"><i class="fa fa-linkedin fa-lg"></i></a></p>
+            <a href="{{ .Params.vimeo }}"><i class="fa fa-linkedin fa-sm"></i></a></p>
           {{ end }}
-        </div>
       </div>
     </div>
     </div>
