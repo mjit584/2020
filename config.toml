@@ -17,36 +17,36 @@ canonifyURLs = "true"
     meta_twitter_card = "A description about Belize"
     meta_twitter_site = ""
     meta_twitter_creator = ""
-
-[[menu.main]]
-	name = "Threatened Water"
-	url = "/water/"
-    weight = 1
-
-[[menu.main]]
-    name = "Monkey River"
-    url = "/tourism/"
-    weight = 2
-
-[[menu.main]]
-    name = "The Cost of Chocolate"
-    url = "/culture/"
-    weight = 3
-
-[[menu.main]]
-    name = "Tied By Trash"
-    url = "/waste/"
-    weight = 4
-
-[[menu.main]]
-    name = "Seaweed for All"
-    url = "/seaweed/"
-    weight = 5
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 6
+# 
+# [[menu.main]]
+# 	name = "Threatened Water"
+# 	url = "/water/"
+#     weight = 1
+#
+# [[menu.main]]
+#     name = "Monkey River"
+#     url = "/tourism/"
+#     weight = 2
+#
+# [[menu.main]]
+#     name = "The Cost of Chocolate"
+#     url = "/culture/"
+#     weight = 3
+#
+# [[menu.main]]
+#     name = "Tied By Trash"
+#     url = "/waste/"
+#     weight = 4
+#
+# [[menu.main]]
+#     name = "Seaweed for All"
+#     url = "/seaweed/"
+#     weight = 5
+#
+# [[menu.main]]
+#     name = "About"
+#     url = "/about/"
+#     weight = 6
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
