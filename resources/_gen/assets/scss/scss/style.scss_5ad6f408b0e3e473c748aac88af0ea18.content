@@ -222,7 +222,7 @@ ul, ol {
   width: 100%;
   left: 0; }
 
-p:first-of-type:first-letter {
+.story-content p:first-of-type:first-letter {
   float: left;
   font-size: 75px;
   line-height: 60px;
@@ -608,7 +608,7 @@ to {
       background-image: url("../images/mobile-footer-wave.svg"); } }
 
 .footer {
-  background-image: url("../images/test-footer-wave.svg");
+  background-image: url("../images/footer-wave.svg");
   background-size: cover;
   display: flex;
   justify-content: space-between;
@@ -621,7 +621,7 @@ to {
       flex-direction: column;
       justify-content: center;
       text-align: center;
-      background-image: url("../images/test-mobile-footer-wave.svg"); } }
+      background-image: url("../images/mobile-footer-wave.svg"); } }
 
 .footer::after {
   content: “”;
@@ -629,7 +629,7 @@ to {
   left: 0;
   height: 120px;
   width: 100%;
-  background-image: url("../images/test-mobile-footer-wave.svg") top center;
+  background-image: url("../images/mobile-footer-wave.svg") top center;
   background-size: cover;
   z-index: -1; }
 
