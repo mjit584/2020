@@ -63,25 +63,6 @@ ul, ol {
     padding: 0;
     margin: 0; }
 
-.home-stories {
-  padding: 40px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  justify-content: space-between;
-  width: 100%; }
-  @media (max-width: 992px) {
-    .home-stories {
-      padding: 25px; } }
-
-.home-card {
-  text-align: center; }
-
-.explainer {
-  padding: 40px; }
-  @media (max-width: 992px) {
-    .explainer {
-      padding: 25px; } }
-
 .explainer-top-wave {
   position: absolute;
   bottom: -120px; }
@@ -91,18 +72,19 @@ ul, ol {
 
 .explainer-container {
   background: #222222;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr; }
+  padding-top: 40px; }
   .explainer-container p {
     color: white;
     line-height: 1.5em; }
-  @media (max-width: 992px) {
-    .explainer-container {
-      grid-template-columns: 1fr; } }
 
 .explainer-content {
-  padding: 60px; }
+  padding: 20px 60px; }
+  @media (max-width: 992px) {
+    .explainer-content {
+      padding: 10px 60px; } }
+
+.explainer-video video {
+  width: 100%; }
 
 .story-1 .story-hero {
   background-image: url("https://aftermath.unc.edu/assets/images/water-hero.jpg"); }
@@ -180,16 +162,28 @@ ul, ol {
 
 .story-card img {
   display: block; }
+  @media (max-width: 1000px) {
+    .story-card img {
+      display: none; } }
 
 .story-nav {
-  padding: 2%;
-  margin: 2%;
+  background: url("../images/story-wave.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-top: 10%;
   display: flex;
   justify-content: space-between;
   width: 100%; }
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     .story-nav {
-      padding: 25px; } }
+      display: flex;
+      flex-direction: column; } }
+  @media (max-width: 600px) {
+    .story-nav {
+      padding-top: 15%;
+      background-image: url("../images/mobile-story-nav.svg"); } }
 
 /* This is the links within the story nav */
 .story-card p a {
@@ -204,8 +198,12 @@ ul, ol {
   margin: 0 2em;
   color: #ffffff;
   text-decoration: none;
-  text-align: center;
-  line-height: 1.3em; }
+  text-align: center; }
+  @media (max-width: 1000px) {
+    .story-card p a {
+      font-weight: 600;
+      margin: 0 7em;
+      color: #333333; } }
 
 .story-card p a:after {
   bottom: -10px;
@@ -217,28 +215,14 @@ ul, ol {
   background: #ffffff;
   transition: width 0.5s ease 0s, left 0.5s ease 0s;
   width: 0; }
+  @media (max-width: 1000px) {
+    .story-card p a:after {
+      background: #333333;
+      bottom: 3px; } }
 
 .story-card p a:hover:after {
   width: 100%;
   left: 0; }
-
-p:first-of-type:first-letter {
-  float: left;
-  font-size: 75px;
-  line-height: 60px;
-  padding-top: 10px;
-  padding-right: 8px;
-  padding-left: 3px;
-  color: #2ea395; }
-
-.photo-image img {
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw; }
 
 .about-content {
   display: flex;
