@@ -1,5 +1,5 @@
 ---
-title: "Coral Grief"
+title: "Threatened Water"
 topic: "Marine Science"
 date:
 description: "Belize's waters are under attach from multiple fronts."
@@ -31,8 +31,7 @@ In ac dictum eros. Class aptent taciti sociosqu ad litora torquent per conubia n
 
 Pellentesque purus erat, tristique nec ex quis, accumsan ornare odio. Morbi est lectus, luctus quis nulla quis, scelerisque vulputate erat. Aenean massa arcu, ornare sit amet nunc a, viverra molestie nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed pharetra, purus eget pharetra imperdiet, lorem libero efficitur enim, id bibendum dui elit id massa. Sed quis ligula auctor, venenatis est et, ullamcorper mauris. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris varius metus nec ornare rhoncus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum eu arcu semper, euismod enim quis, ultrices elit. Nam et turpis tellus. Maecenas et justo pellentesque, aliquet nisl eget, dignissim lectus.
 
-<div class="photo-image"><img src="images/landscape.jpg"></div>
-
+<div class="photo-image"><img src="/static/images/landscape.jpg"</div>
 
 Cras quis tortor nibh. Sed ut lectus ultrices, cursus lectus ut, auctor odio. Nullam posuere turpis sit amet tortor scelerisque, non rutrum leo dictum. Nulla sit amet gravida tortor, nec egestas tortor. Nunc quis augue arcu. Aenean ultricies sapien ac risus auctor, eget vehicula sem commodo. Vestibulum sit amet malesuada turpis. Donec et nisl id quam feugiat placerat. Praesent euismod sit amet massa in sagittis. In at diam accumsan, aliquet turpis et, egestas libero. Integer ut suscipit odio, nec maximus lectus. Cras consectetur mi non eros lacinia, vitae gravida lectus viverra. Sed sem elit, mollis eget sapien et, sagittis volutpat ipsum. Vestibulum eget est non justo dictum dictum. Proin dignissim hendrerit dolor, eu mattis neque ullamcorper non. Mauris aliquam leo bibendum viverra vehicula.
 

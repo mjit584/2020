@@ -7,7 +7,7 @@
 }
 
 .footer {
-  background-image: url('../images/test-footer-wave.svg');
+  background-image: url('../images/footer-wave.svg');
   background-size: cover;
   display: flex;
   justify-content: space-between;
@@ -19,7 +19,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-image: url('../images/test-mobile-footer-wave.svg');
+    background-image: url('../images/mobile-footer-wave.svg');
   }
 }
 
@@ -29,7 +29,7 @@
   left: 0;
   height: 120px;
   width: 100%;
-  background-image: url('../images/test-mobile-footer-wave.svg') top center;
+  background-image: url('../images/mobile-footer-wave.svg') top center;
   background-size: cover;
   z-index:-1;
 }
