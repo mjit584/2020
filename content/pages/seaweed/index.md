@@ -1,5 +1,5 @@
 ---
-title: "Seaweed for All"
+title: "Seeding The Sea"
 topic: "Sustainability"
 date:
 description: "A local fisher's passion for seaweed reaps benefits"
