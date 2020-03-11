@@ -1,5 +1,5 @@
 ---
-title: "The Cost of Chocolate"
+title: "Bitter And Sweet"
 topic: "Land Use"
 date:
 description: "A farmer works to maintain his Mayan culture amidst outside pressure"

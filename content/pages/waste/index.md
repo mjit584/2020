@@ -1,5 +1,5 @@
 ---
-title: "Tied by Trash"
+title: "Tide To Trash"
 topic: "Waste Management"
 date:
 description: "Waste is a big issue in tourism economy."

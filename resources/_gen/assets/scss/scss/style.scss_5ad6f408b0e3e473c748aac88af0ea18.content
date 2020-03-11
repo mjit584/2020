@@ -90,16 +90,16 @@ ul, ol {
   background-image: url("https://aftermath.unc.edu/assets/images/water-hero.jpg"); }
 
 .story-2 .story-hero {
-  background-image: url("../images/story2-hero.png"); }
+  background-image: url("../images/tourism.jpg"); }
 
 .story-3 .story-hero {
   background-image: url("../images/cacao.jpg"); }
 
 .story-4 .story-hero {
-  background-image: url("https://aftermath.unc.edu/assets/images/ecology-hero.jpg"); }
+  background-image: url("../images/waste.jpg"); }
 
 .story-5 .story-hero {
-  background-image: url("../images/story2-hero.png"); }
+  background-image: url("../images/seaweed.jpg"); }
 
 .notfound .story-hero {
   background-image: url("../images/notfound.jpg"); }
