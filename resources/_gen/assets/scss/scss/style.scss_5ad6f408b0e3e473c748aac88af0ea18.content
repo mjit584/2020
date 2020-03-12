@@ -78,13 +78,18 @@ ul, ol {
     line-height: 1.5em; }
 
 .explainer-content {
-  padding: 20px 60px; }
-  @media (max-width: 992px) {
+  padding: 20px 60px;
+  display: flex;
+  justify-content: center; }
+  @media (max-width: 768px) {
     .explainer-content {
       padding: 10px 60px; } }
 
 .explainer-video video {
-  width: 100%; }
+  width: 90%; }
+  @media (max-width: 768px) {
+    .explainer-video video {
+      width: 100%; } }
 
 .story-1 .story-hero {
   background-image: url("https://aftermath.unc.edu/assets/images/water-hero.jpg"); }
