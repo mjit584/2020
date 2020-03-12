@@ -622,7 +622,7 @@ to {
       background-image: url("../images/mobile-footer-wave.svg"); } }
 
 .footer {
-  background-image: url("../images/footer-wave.svg");
+  background-image: url("../images/test-footer-wave.svg");
   background-size: cover;
   display: flex;
   justify-content: space-between;
@@ -635,7 +635,7 @@ to {
       flex-direction: column;
       justify-content: center;
       text-align: center;
-      background-image: url("../images/mobile-footer-wave.svg"); } }
+      background-image: url("../images/test-mobile-footer-wave.svg"); } }
 
 .footer::after {
   content: “”;
