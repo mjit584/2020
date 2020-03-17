@@ -5,7 +5,6 @@
 {{ define "main" }}
 
 <div class="about-content">
-
   <section class="about-image">
     <div class="herocontent">
       <div class="story-title">
@@ -16,58 +15,60 @@
 
   <div class="byline"></div>
 
+  <section class="about-sort">
+    <div id="AboutFilter">
+    <!-- This is the About Filter Buttons.  The parameter after 'filterSelection' is important.  This corresponds with the classname next to the inner-card.  It comes from the Front Matter on each person's page. -->
+      <button class="btn activesort" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('Interactive')">Interactive</button>
+      <button class="btn" onclick="filterSelection('Photo')">Photo/Video</button>
+      <button class="btn" onclick="filterSelection('Reporting')">Reporting</button>
+      <button class="btn" onclick="filterSelection('Coaches')">Coaches</button>
+    </div>
 
-<div id="AboutFilter">
-<!-- This is the About Filter Buttons.  The parameter after 'filterSelection' is important.  This corresponds with the classname next to the inner-card.  It comes from the Front Matter on each person's page. -->
-  <button class="btn activesort" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('Interactive')">Interactive</button>
-  <button class="btn" onclick="filterSelection('Photo')">Photo/Video</button>
-  <button class="btn" onclick="filterSelection('Reporting')">Reporting</button>
-  <button class="btn" onclick="filterSelection('Coaches')">Coaches</button>
+
+    <!-- This is what displays the folders and folks in the folders -->
+    <div class="outer-card">
+    {{ range .Pages }}
+      <div class="inner-card show {{ .Params.group }} animated zoomIn">
+        <span class="image-card">
+          {{ with .Resources.ByType "image" }}
+            {{ range . }}
+            <img src="{{ .RelPermalink }}" class="image" alt="{{ .Params.name }}">
+          {{ end }}
+          {{ end }}
+        </span>
+        <div class="about-overlay" id="overlay {{ .Params.title }}">
+          <p class="name">{{ .Params.title }}  <i id="icontoggle {{ .Params.title }}" class="fa fa-plus fa-sm" onclick="showInfo({{ .Params.title }})"></i></p>
+          <p class="group">{{ .Params.groupname }}</p>
+          <div class="about-overlay-hover" id="{{ .Params.title }}">
+            <p class="about-paragraph">{{ .Params.about }}</p>
+            {{ if .Params.portfolio }}
+              <p><a class="portfolio" href="{{ .Params.portfolio }}">Portfolio</a>
+            {{ end }}
+              {{ if .Params.instagram }}
+                <a href="{{ .Params.instagram }}"><i class="fa fa-instagram fa-xs about-icon"></i></a>
+              {{ end }}
+              {{ if .Params.twitter }}
+                <a href="{{ .Params.twitter }}"><i class="fa fa-twitter fa-xs about-icon"></i></a>
+              {{ end }}
+              {{ if .Params.vimeo }}
+                <a href="{{ .Params.vimeo }}"><i class="fa fa-vimeo fa-xs about-icon"></i></a>
+              {{ end }}
+              {{ if .Params.linkedin }}
+                <a href="{{ .Params.vimeo }}"><i class="fa fa-linkedin fa-xs about-icon"></i></a>
+              {{ end }}
+              {{ if .Params.facebook }}
+                <a href="{{ .Params.facebook }}"><i class="fa fa-facebook fa-xs about-icon"></i></a></p>
+              {{ end }}
+          </div>
+        </div>
+        </div>
+        {{ end }}
+    </div>
+  </section>
 </div>
 
 
-<!-- This is what displays the folders and folks in the folders -->
-<div class="outer-card">
-{{ range .Pages }}
-  <div class="inner-card show {{ .Params.group }} animated zoomIn">
-    <span class="image-card">
-      {{ with .Resources.ByType "image" }}
-        {{ range . }}
-        <img src="{{ .RelPermalink }}" class="image" alt="{{ .Params.name }}">
-      {{ end }}
-      {{ end }}
-    </span>
-    <div class="about-overlay" id="overlay {{ .Params.title }}">
-      <p class="name">{{ .Params.title }}  <i id="icontoggle {{ .Params.title }}" class="fa fa-plus fa-sm" onclick="showInfo({{ .Params.title }})"></i></p>
-      <p class="group">{{ .Params.groupname }}</p>
-      <div class="about-overlay-hover" id="{{ .Params.title }}">
-        <p class="about-paragraph">{{ .Params.about }}</p>
-        {{ if .Params.portfolio }}
-          <p><a class="portfolio" href="{{ .Params.portfolio }}">Portfolio</a>
-        {{ end }}
-          {{ if .Params.instagram }}
-            <a href="{{ .Params.instagram }}"><i class="fa fa-instagram fa-xs about-icon"></i></a>
-          {{ end }}
-          {{ if .Params.twitter }}
-            <a href="{{ .Params.twitter }}"><i class="fa fa-twitter fa-xs about-icon"></i></a>
-          {{ end }}
-          {{ if .Params.vimeo }}
-            <a href="{{ .Params.vimeo }}"><i class="fa fa-vimeo fa-xs about-icon"></i></a>
-          {{ end }}
-          {{ if .Params.linkedin }}
-            <a href="{{ .Params.vimeo }}"><i class="fa fa-linkedin fa-xs about-icon"></i></a>
-          {{ end }}
-          {{ if .Params.facebook }}
-            <a href="{{ .Params.facebook }}"><i class="fa fa-facebook fa-xs about-icon"></i></a></p>
-          {{ end }}
-      </div>
-    </div>
-    </div>
-    {{ end }}
-    </div>
-
-    </div>
 
     <script>
     function showInfo(number) {
