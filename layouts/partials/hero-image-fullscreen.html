@@ -2,27 +2,24 @@
 <div class="flex-column">
     <!-- The video -->
     <video autoplay muted class="myVideo">
-      <source src="{{ .Site.BaseURL }}images/movie.mp4" type="video/mp4">
+      <source src="{{ .Site.BaseURL }}images/hometest.mp4" type="video/mp4">
     </video>
     <!-- mobile background -->
     <div class="mobile-background">
       <a href="{{ .Site.BaseURL }}"><img alt="Waterfall" class="mobile-image" src="{{ .Site.BaseURL }}images/mobile-background.jpg"/></a>
     </div>
 
-  <div class="flex-column" id="home-text-container">
-    <h1 class="homepage-title">{{ .heading }}</h1>
-    <p class="">{{ .subheading }}</p>
-  </div>
-  
   <section class="explainer-container">
-    <div class="explainer-content explainer-video">
+
+    <div class="explainer-text">
+      <p>Beyond the beaches and tourist shops of Placencia, the country of Belize is struggling to navigate the changing relationship between humans and the environment. Our project explores the barriers facing local activists and community members in their efforts to protect the natural world. </p>
+    </div>
+    <div class="explainer-video">
       <video class="video-home" controls>
         <source src="{{ .Site.BaseURL }}images/belize-motion.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="explainer-content explainer-text">
-    <p>This is a bit about the project.mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio</p>
-    </div>
+
   </section>
 
   <svg class="explainer-bottom-wave" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1919.8 182.15"><defs><style>.cls-1{fill:#222;}</style></defs><title>Bottom Wave Home Page</title><path class="cls-1" d="M1918.19,455.13v87.25c-40.49-29.89-109.14-42.24-171.22-38.05-74.15,5-142,28.58-209,50.05-159.5,51.08-334,93.26-510.26,80.65-142-10.15-272.83-55-412.56-74.44-204.93-28.46-413.79-.94-616.72,39.73V455.13Z" transform="translate(1.61 -455.13)"/></svg>
