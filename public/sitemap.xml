@@ -3,23 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/water/</loc>
+  </url>
+  
+  <url>
     <loc>/story01/</loc>
   </url>
   
   <url>
-    <loc>/story02/</loc>
+    <loc>/tourism/</loc>
   </url>
   
   <url>
-    <loc>/story03/</loc>
+    <loc>/culture/</loc>
   </url>
   
   <url>
-    <loc>/story04/</loc>
+    <loc>/waste/</loc>
   </url>
   
   <url>
-    <loc>/story05/</loc>
+    <loc>/seaweed/</loc>
   </url>
   
   <url>

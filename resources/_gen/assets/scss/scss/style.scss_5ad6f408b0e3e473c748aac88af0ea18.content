@@ -63,30 +63,22 @@ ul, ol {
     padding: 0;
     margin: 0; }
 
-.explainer-top-wave {
-  position: absolute;
-  bottom: -120px; }
-  @media (max-width: 992px) {
-    .explainer-top-wave {
-      bottom: -190px; } }
-
 .explainer-container {
   background: #222222;
-  padding-top: 40px; }
+  text-align: center;
+  padding: 5%; }
   .explainer-container p {
     color: white;
     line-height: 1.5em; }
+  .explainer-container div {
+    padding: 2%; }
 
-.explainer-content {
-  padding: 20px 60px;
-  display: flex;
-  justify-content: center; }
-  @media (max-width: 768px) {
-    .explainer-content {
-      padding: 10px 60px; } }
+@media (max-width: 768px) {
+  .explainer-text {
+    padding: 10px 60px; } }
 
 .explainer-video video {
-  width: 90%; }
+  width: 60%; }
   @media (max-width: 768px) {
     .explainer-video video {
       width: 100%; } }
