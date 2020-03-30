@@ -120,12 +120,12 @@ ul, ol {
     max-width: 300px; }
 
 .byline {
-  background-image: url("../images/story-name-wave.svg");
+  background-image: url("../images/byline.svg");
   background-size: cover;
   width: 100%;
   height: 500px;
   position: absolute;
-  bottom: -400px;
+  bottom: -370px;
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
@@ -234,14 +234,16 @@ ul, ol {
   padding-left: 3px;
   color: #2ea395; }
 
-.photo-image img {
-  width: 100vw;
+.inner-story-image {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 30px; }
+
+.inner-story-image img {
   height: 100vh;
   position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw; }
+  overflow: visible; }
 
 .about-content {
   display: flex;
