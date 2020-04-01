@@ -1,0 +1,23 @@
+.interactive-section {
+  padding: 5% 10%;
+  background-color: $story-gray;
+  background-size: cover;
+  width: 100vw;
+  margin-left: -20vw;
+  margin-bottom: 30px;
+  text-align: center;
+
+  h2 {
+    font-family: $bodyfont;
+
+  }
+  .heading-underline {
+    max-width: 300px;
+    margin-top: 20px;
+  }
+  // .underline-image {
+  //   border-bottom: 10px solid transparent;
+  //   border-image: url("/images/yellow-underline-left.svg") 27 space;
+  //   padding-bottom:15px;
+  // }
+}

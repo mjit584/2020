@@ -225,15 +225,6 @@ ul, ol {
   width: 100%;
   left: 0; }
 
-.story-content p:first-of-type:first-letter {
-  float: left;
-  font-size: 75px;
-  line-height: 60px;
-  padding-top: 10px;
-  padding-right: 8px;
-  padding-left: 3px;
-  color: #2ea395; }
-
 .inner-story-image {
   display: flex;
   justify-content: center;
@@ -926,5 +917,19 @@ h5 {
   font-size: 1.5em;
   padding: 2em;
   line-height: 1.5em; }
+
+.interactive-section {
+  padding: 5% 10%;
+  background-color: #ebebe6;
+  background-size: cover;
+  width: 100vw;
+  margin-left: -20vw;
+  margin-bottom: 30px;
+  text-align: center; }
+  .interactive-section h2 {
+    font-family: "Vollkorn", serif; }
+  .interactive-section .heading-underline {
+    max-width: 300px;
+    margin-top: 20px; }
 
 /*# sourceMappingURL=style.css.map */
