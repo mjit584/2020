@@ -21,5 +21,9 @@ After traveling hundreds of miles on foot, a group of five Venezuelans, who toge
 
 <div class="inner-story-image"><img src="/images/landscape.jpg"></div>
 
+<div class="pull-quote"></div>
+
+<div class="photo-card"></div>
+
 
 {{< gallery-slider dir="story2-images" >}}

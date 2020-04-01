@@ -175,3 +175,18 @@ position:relative;
   position: relative;
   overflow: visible;
 }
+
+.pull-quote {
+  background-image: url('../images/pull-quote.svg');
+  background-size: cover;
+  height: 575px;
+  width: 100vw;
+  margin-left: -20vw;
+  margin-bottom: 30px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: visible;
+  align-items: center;
+}
