@@ -49,7 +49,7 @@ body {
   font-family: "Vollkorn", serif; }
 
 p {
-  font-size: 1.25rem;
+  font-size: 1.25em;
   line-height: 1.75em;
   margin: 20px auto; }
 
