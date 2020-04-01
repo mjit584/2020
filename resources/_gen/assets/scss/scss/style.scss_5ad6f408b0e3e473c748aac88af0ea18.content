@@ -169,7 +169,7 @@ ul, ol {
   align-items: center;
   justify-content: center;
   width: 20%;
-  height: 400px;
+  height: 275px;
   margin: 0 10px; }
   @media (max-width: 1000px) {
     .story-card {
@@ -181,10 +181,14 @@ ul, ol {
   background: url("../images/story-wave.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+  text-align: center;
   padding: 10% 5% 5% 5%; }
+  .story-nav .cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+  .story-nav h2 {
+    margin-bottom: 30px; }
   @media (max-width: 1000px) {
     .story-nav {
       display: flex;
