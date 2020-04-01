@@ -14,7 +14,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/style.min.bb9c407fc3db65bac2b0ef27c170c07fd737dedddf94b563608c98e5bc03ff2b.css">
+  <link rel="stylesheet" href="/css/style.min.c56a3839a8fb501526cfdff5ef696b038b325a58650badf4a90d19f1fc85a69a.css">
   
 
   
@@ -117,16 +117,18 @@
     <div class="byline">
       <div class="byline1">
         <h5 class="bold">REPORTER</h5>
-        <h5>Drew Westmoreland</h5>
+        <h5></h5>
       </div>
       <div class="byline2">
         <h5 class="bold">PHOTO/VIDEO</h5>
-        <h5>Alicia Carter</h5>
-        <h5>Alicia Carter</h5>
+        <h5></h5>
+        <h5></h5>
+        <h5></h5>
       </div>
       <div class="byline3">
         <h5 class="bold">INTERACTIVE</h5>
-        <h5>Taylor Tyson</h5>
+        <h5></h5>
+        <h5></h5>
       </div>
 
     </div>
@@ -149,6 +151,117 @@
   <iframe src="https://player.vimeo.com/video/329817257" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
  </div>
 <p>Pellentesque purus erat, tristique nec ex quis, accumsan ornare odio. Morbi est lectus, luctus quis nulla quis, scelerisque vulputate erat. Aenean massa arcu, ornare sit amet nunc a, viverra molestie nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed pharetra, purus eget pharetra imperdiet, lorem libero efficitur enim, id bibendum dui elit id massa. Sed quis ligula auctor, venenatis est et, ullamcorper mauris. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris varius metus nec ornare rhoncus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum eu arcu semper, euismod enim quis, ultrices elit. Nam et turpis tellus. Maecenas et justo pellentesque, aliquet nisl eget, dignissim lectus.</p>
+<h2>Threatened Coral</h2>
+<p>Belize is home the world’s second largest barrier reef. The reef supports over 500 species of fish and dozens of coral species, making it a crucial part of Belize’s ecosystem. However, there are several dangers threatening the survival of the reef. Please click or tap on each card to learn more. </p>
+
+<div class= "fliplayout">
+<div class="flip-card">
+    <div class="flip-card-inner flipcard1">
+        <div class="flip-card-front">
+          <img src="/marine-science-interactive/climateChange.png" alt="Avatar">
+        </div>
+        <div class="flip-card-back">
+          <h2>Climate Change</h2>
+          <p>Rising water temperatures due to climate change and an increase of greenhouse gasses in the atmosphere pose a major threat to coral. Even slight variations in temperature cause coral bleaching, turning the coral white. Bleaching events can be drastic and make it impossible for the coral to recover.</p>
+        </div>
+    </div>
+</div>
+<div class="flip-card">
+  <div class="flip-card-inner flipcard2">
+          <div class="flip-card-front">
+            <img src="/marine-science-interactive/disease.png" alt="Avatar">
+          </div>
+          <div class="flip-card-back">
+            <h2>Disease</h2>
+            <p>Coral can get diseases, too. Pollutants, rising water temperatures and radiation from the sun can cause disease, which can then wipe out an entire coral system. When coral is broken, either from fishing equipment or divers, it is at a greater risk of contracting a disease.</p>
+          </div>
+  </div>
+</div>
+<div class="flip-card">
+    <div class="flip-card-inner flipcard3">
+        <div class="flip-card-front">
+          <img src="/marine-science-interactive/pollution.png" alt="Avatar">
+        </div>
+        <div class="flip-card-back">
+          <h2>Pollution</h2>
+          <p>Pollution hurts the coral in two ways. First, physical pollution, such as plastic, can damage the coral or block the sun’s rays and prevent coral from getting nutrients. Second, industrial runoff in the water can raise water toxicity and cause diseases that ultimately lead to the death of the coral.</p>
+        </div>
+    </div>
+</div>
+<div class="flip-card">
+    <div class="flip-card-inner flipcard4">
+        <div class="flip-card-front">
+          <img src="/marine-science-interactive/overfishing.png" alt="Avatar">
+        </div>
+        <div class="flip-card-back">
+          <h2>Overfishing</h2>
+          <p>Overfishing or illegal fishing practices can damage the coral. Overfishing herbivorous species remove fish that eat the plant species growing on the coral, leading to an unbalanced ecosystem. Illegal fishing practices, such as gill nets, can damage and break the coral, which then expose it to disease in the same way an open wound on a human can be at risk of infection.</p>
+        </div>
+  </div>
+</div>
+</div>
+</html>
+
+<style>
+     
+.fliplayout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 375px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;  
+}
+
+ 
+.flip-card-inner {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+ 
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+ 
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;  
+    backface-visibility: hidden;
+}
+
+ 
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-front img {
+    max-width: 300px;
+}
+
+ 
+.flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
+</style>
+
 <p>Cras quis tortor nibh. Sed ut lectus ultrices, cursus lectus ut, auctor odio. Nullam posuere turpis sit amet tortor scelerisque, non rutrum leo dictum. Nulla sit amet gravida tortor, nec egestas tortor. Nunc quis augue arcu. Aenean ultricies sapien ac risus auctor, eget vehicula sem commodo. Vestibulum sit amet malesuada turpis. Donec et nisl id quam feugiat placerat. Praesent euismod sit amet massa in sagittis. In at diam accumsan, aliquet turpis et, egestas libero. Integer ut suscipit odio, nec maximus lectus. Cras consectetur mi non eros lacinia, vitae gravida lectus viverra. Sed sem elit, mollis eget sapien et, sagittis volutpat ipsum. Vestibulum eget est non justo dictum dictum. Proin dignissim hendrerit dolor, eu mattis neque ullamcorper non. Mauris aliquam leo bibendum viverra vehicula.</p>
 <p>Aenean dapibus nulla lorem, ut accumsan tellus ullamcorper blandit. Sed at diam nec lorem consequat tristique vitae cursus enim. In eros enim, consectetur id posuere quis, feugiat iaculis orci. Aliquam erat volutpat. Sed euismod eleifend aliquam. Vestibulum diam massa, maximus et mattis luctus, dapibus in mi. Sed posuere mi non magna imperdiet, id gravida orci sagittis. Proin posuere lacus neque. Fusce egestas venenatis dapibus. In auctor ultricies leo in feugiat. Curabitur a tellus egestas, vehicula justo et, interdum lectus. Quisque rutrum efficitur neque vitae luctus. Nulla faucibus quam arcu, et ultricies lectus iaculis id. Etiam bibendum condimentum justo, eu fringilla nibh ullamcorper a. Proin nec tortor malesuada, luctus mi eget, pretium ligula. Curabitur euismod tempus feugiat.</p>
 <p>Nunc ac libero varius, eleifend justo in, rutrum tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse vel quam mauris. Fusce ac justo ut mi condimentum iaculis quis ac est. Suspendisse aliquam scelerisque odio, vitae scelerisque nunc malesuada vitae. Quisque sapien lacus, pulvinar sit amet tempus pretium, dignissim at sapien. Suspendisse vel risus ut velit pharetra feugiat. In eu augue eget dui lobortis venenatis quis quis dui. Pellentesque fermentum diam vitae euismod sollicitudin. Sed aliquet justo sed posuere blandit.</p>
