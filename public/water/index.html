@@ -14,7 +14,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/style.min.5359866ed455f7060998f1ec03cbe021ca18509508f21ea0cd522bfce209148f.css">
+  <link rel="stylesheet" href="/css/style.min.df4bf6167067aad468a08859902f038eeb8b70040c4c0ce10eb598a8083ff612.css">
   
 
   
@@ -158,52 +158,68 @@
 <p>Belize is home the world’s second largest barrier reef. The reef supports over 500 species of fish and dozens of coral species, making it a crucial part of Belize’s ecosystem. However, there are several dangers threatening the survival of the reef. Please click or tap on each card to learn more. </p>
 
 <div class= "fliplayout">
-<div class="flip-card">
-    <div class="flip-card-inner flipcard1">
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
         <div class="flip-card-front">
+          <div class="text">
+            <h3>Climate Change</h3>
+          </div>
           <img src="/marine-science-interactive/climateChange.png" alt="Avatar">
         </div>
         <div class="flip-card-back">
-          <h2>Climate Change</h2>
+          <h3>Climate Change</h3>
           <p>Rising water temperatures due to climate change and an increase of greenhouse gasses in the atmosphere pose a major threat to coral. Even slight variations in temperature cause coral bleaching, turning the coral white. Bleaching events can be drastic and make it impossible for the coral to recover.</p>
         </div>
     </div>
-</div>
-<div class="flip-card">
-  <div class="flip-card-inner flipcard2">
-          <div class="flip-card-front">
-            <img src="/marine-science-interactive/disease.png" alt="Avatar">
-          </div>
-          <div class="flip-card-back">
-            <h2>Disease</h2>
-            <p>Coral can get diseases, too. Pollutants, rising water temperatures and radiation from the sun can cause disease, which can then wipe out an entire coral system. When coral is broken, either from fishing equipment or divers, it is at a greater risk of contracting a disease.</p>
-          </div>
   </div>
-</div>
-<div class="flip-card">
-    <div class="flip-card-inner flipcard3">
+
+  <div class="flip-card">
+      <div class="flip-card-inner">
         <div class="flip-card-front">
+            <div class="text">
+              <h3>Disease</h3>
+            </div>
+            <img src="/marine-science-interactive/disease.png" alt="Avatar">
+        </div>
+        <div class="flip-card-back">
+          <h3>Disease</h3>
+          <p>Coral can get diseases, too. Pollutants, rising water temperatures and radiation from the sun can cause disease, which can then wipe out an entire coral system. When coral is broken, either from fishing equipment or divers, it is at a greater risk of contracting a disease.</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="text">
+            <h3>Pollution</h3>
+          </div>
           <img src="/marine-science-interactive/pollution.png" alt="Avatar">
         </div>
         <div class="flip-card-back">
-          <h2>Pollution</h2>
+          <h3>Pollution</h3>
           <p>Pollution hurts the coral in two ways. First, physical pollution, such as plastic, can damage the coral or block the sun’s rays and prevent coral from getting nutrients. Second, industrial runoff in the water can raise water toxicity and cause diseases that ultimately lead to the death of the coral.</p>
         </div>
     </div>
-</div>
-<div class="flip-card">
-    <div class="flip-card-inner flipcard4">
-        <div class="flip-card-front">
-          <img src="/marine-science-interactive/overfishing.png" alt="Avatar">
-        </div>
-        <div class="flip-card-back">
-          <h2>Overfishing</h2>
-          <p>Overfishing or illegal fishing practices can damage the coral. Overfishing herbivorous species remove fish that eat the plant species growing on the coral, leading to an unbalanced ecosystem. Illegal fishing practices, such as gill nets, can damage and break the coral, which then expose it to disease in the same way an open wound on a human can be at risk of infection.</p>
-        </div>
   </div>
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <div class="text">
+          <h3>Overfishing</h3>
+        </div>
+        <img src="/marine-science-interactive/overfishing.png" alt="Avatar">
+      </div>
+      <div class="flip-card-back">
+        <h3>Overfishing</h3>
+        <p>Overfishing or illegal fishing practices can damage the coral. Overfishing herbivorous species remove fish that eat the plant species growing on the coral, leading to an unbalanced ecosystem. Illegal fishing practices, such as gill nets, can damage and break the coral, which then expose it to disease in the same way an open wound on a human can be at risk of infection.</p>
+      </div>
+    </div>
+  </div>
+
 </div>
-</div>
-</html>
 
 <style>
      
@@ -213,6 +229,29 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
+.fliplayout p {
+    font-size: 1.25em;
+    line-height: 1em;
+    padding: 15px;
+    margin: 10px auto;
+}
+
+.fliplayout .flip-card-back h3 {
+    font-size: 2em;
+    line-height: 1em;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+
+.fliplayout p:first-of-type:first-letter{
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    padding: 0px;
+    color: white;
+  }
 
 .flip-card {
     background-color: transparent;
@@ -228,7 +267,6 @@
     position: relative;
     width: 100%;
     height: 100%;
-    text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
 }
@@ -251,7 +289,25 @@
 .flip-card-front {
     background-color: #bbb;
     color: black;
+    position: relative;
+    display: inline-block;
 }
+
+.flip-card-front .text {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 5%;  
+  text-align: center;
+  width: 100%;
+}
+
+.flip-card-front .text h3 {
+    font-size: 2em;
+}
+
 
 .flip-card-front img {
     max-width: 300px;
@@ -261,6 +317,7 @@
 .flip-card-back {
     background-color: dodgerblue;
     color: white;
+      
     transform: rotateY(180deg);
 }
 </style>
