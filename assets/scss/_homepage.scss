@@ -1,24 +1,113 @@
+.homepage-hero {
+
+}
 .explainer-container {
-  background: #222222;
   text-align: center;
-  padding: 5%;
+  padding: 0 20%;
+  background-image:url('../images/byline.svg');
+  background-size: cover;
+  width:100%;
+  height:500px;
+  margin-top:-100px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  @media(max-width: 768px) {
+    background-image:none;
+    margin:0;
+    padding: 0 5%;
+    height:auto;
+  }
   p {
     color: white;
     line-height: 1.5em;
-  }
-  div {
-    padding:2%;
+    @media(max-width: 768px) {
+      color:$black;
+    }
   }
 }
 
-.explainer-text {
-  @media(max-width: 768px) {
-    padding: 10px 60px;
+// .explainer-text {
+//
+// }
+// .explainer-video video {
+//   width: 60%;
+//   @media(max-width: 768px) {
+//     width: 100%;
+//   }
+// }
+.home-nav {
+  text-align:center;
+  padding:10% 5% 5% 5%;
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-template-rows: 1fr;
+    grid-gap: 1rem;
+    width:100%;
+    div {
+      background-repeat: no-repeat;
+      background-size:cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    div:before {
+      content: "";
+      display: block;
+      height: 0;
+      width: 0;
+      padding-bottom: calc(38/57 * 100%);
+    }
+    @media(max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      div {
+        background-image:none!important;
+        padding-bottom: 2em;
+      }
+      div:before {
+        padding-bottom:0;
+      }
+    }
+    a {
+    font-family: $font-family-heading;
+    font-weight: 600;
+    font-size:1.4em;
+    color: $white;
+    text-decoration: none;
+    position:relative;
+    @media(max-width: 768px) {
+      color: $black;
+      }
+    }
+
+    a:after {
+      bottom: -10px;
+      content: "";
+      display: block;
+      height: 3px;
+      left: 50%;
+      position: absolute;
+      background: $white;
+      transition: width 0.5s ease 0s, left 0.5s ease 0s;
+      width: 0;
+      @media(max-width: 1000px) {
+        background: $black;
+        }
+    }
+    a:hover:after {
+      width: 100%;
+      left: 0;
+    }
   }
-}
-.explainer-video video {
-  width: 60%;
-  @media(max-width: 768px) {
-    width: 100%;
+  h1 {
+    font-size:50px;
+    font-family: $bodyfont;
+  }
+  .heading-underline {
+    max-width: 200px;
+    margin-bottom: 30px;
   }
 }
