@@ -2,15 +2,13 @@
 title: "Seeding The Sea"
 topic: "Sustainability"
 date:
-description: "A local fisher's passion for seaweed reaps benefits"
-image: "../images/photo-chap-3-hero.jpg"
-storyHeading: "A Family, Together"
-storySubheading: "Puerto Rico is facing a health care crisis after chronic mental and physical health issues often went untreated in the aftermath of Hurricane Maria. Many doctors have left the island, but one volunteer group isn’t going anywhere."
-heroAlt: "A group of five friends carry large backs and walk the streets at night to find a place to stay."
+storySubheading: As climate change and governance impact Belize's fishing economy, advocates view seaweed farming as the solution.
 weight: 5
-card: false
-photographer: "Alex Kormann"
-designer: "undefined"
+photographer1: "Caroline Almy"
+photographer2: "Sarah Redmond"
+photographer3: ""
+interactive1: "Malin Curry"
+reporter: Veronica Correa"
 
 ---
 
