@@ -171,6 +171,7 @@ ul, ol {
 .story-hero {
   height: 100vh;
   background-position: center center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -192,7 +193,7 @@ ul, ol {
   width: 100%;
   height: 500px;
   position: absolute;
-  bottom: -370px;
+  bottom: -400px;
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
@@ -219,10 +220,10 @@ ul, ol {
     border-bottom: 1px solid #ffffff; }
 
 .story-content {
-  margin: 35% 20%; }
+  margin: 35% 20% 10% 20%; }
   @media (max-width: 992px) {
     .story-content {
-      margin-top: 80%; } }
+      margin: 100% 5% auto 5%; } }
 
 /* START OF STORY NAV */
 .story-page-image {
@@ -235,14 +236,10 @@ ul, ol {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 20%;
-  height: 275px;
-  margin: 0 10px; }
+  background-size: contain; }
   @media (max-width: 1000px) {
     .story-card {
-      background-image: none !important;
-      height: 50px;
-      width: 100%; } }
+      background-image: none !important; } }
 
 .story-nav {
   background: url("../images/story-wave.svg");
@@ -251,9 +248,24 @@ ul, ol {
   text-align: center;
   padding: 10% 5% 5% 5%; }
   .story-nav .cards {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(200px, 1fr));
+    grid-template-rows: 1fr;
+    grid-gap: 1rem;
     width: 100%; }
+    @media (max-width: 1000px) {
+      .story-nav .cards {
+        grid-template-columns: 1fr;
+        grid-gap: 30px; } }
+  .story-nav .cards div:before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    padding-bottom: calc(38/57 * 100%); }
+    @media (max-width: 1000px) {
+      .story-nav .cards div:before {
+        padding-bottom: 0; } }
   .story-nav h2 {
     margin-bottom: 30px; }
   @media (max-width: 1000px) {
@@ -275,7 +287,7 @@ ul, ol {
   position: relative; }
   @media (max-width: 1000px) {
     .story-card a {
-      margin: 0 7em;
+      margin: 0;
       color: #333333; } }
 
 .story-card a:after {
@@ -556,18 +568,6 @@ to {
   height: 60px;
   padding-left: 20px;
   padding-right: 20px; }
-  .header .header img {
-    width: 100%; }
-  .header .header-absolute {
-    position: absolute;
-    z-index: 10;
-    width: 100%; }
-  @media (max-width: 1200px) {
-    .header {
-      background-color: #222222; } }
-
-.lock-scroll .header.header-absolute {
-  position: static; }
 
 @media only screen and (min-width: 1200px) {
   #toggle-main-menu-mobile {
