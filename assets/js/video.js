@@ -1,6 +1,6 @@
 // Video JS
 
-// console.log('videos.js is loaded');
+console.log('videos.js is loaded');
 
 // Video go dark settings live here
 var videoTop;
@@ -8,6 +8,7 @@ var videoHeight;
 var windowWidth;
 
 windowWidth = $(window).width();
+//The line below is throwing an error, it is saying that top is not defined?
 videoTop = $('#video-top').offset().top;
 videoHeight = $('iframe').outerHeight();
 $(window).scroll(function (event) {
