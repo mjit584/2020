@@ -1,0 +1,229 @@
+<button id="myBtn">Open Me!</button>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="pinMaster">
+        <div id="pinContainer">
+              <section class="panel one">
+                  <h2>Portraits of Belize</h2>
+              </section>
+              <section class="panel two">
+              </section>
+              <section class="panel three">
+                  <img src="{{ .Site.BaseURL }}photostory-elders/sartin_3.jpg" alt="Avatar"> />
+              </section>
+              <section class="panel four">
+              </section>
+              <section class="panel five">
+                  <img src="{{ .Site.BaseURL }}photostory-elders/sartin_5.jpg" alt="Avatar"> />
+              </section>
+              <section class="panel six">
+              </section>
+              <section class="panel seven">
+                  <img src="{{ .Site.BaseURL }}photostory-elders/sartin_7.jpg" alt="Avatar"> />
+              </section>
+              <section class="panel eight">
+                  <img src="{{ .Site.BaseURL }}photostory-elders/sartin_8.jpg" alt="Avatar"> />
+              </section>
+              <section class="panel nine"></section>
+              <section class="panel ten">
+                  <img src="{{ .Site.BaseURL }}photostory-elders/sartin_10.jpg" alt="Avatar"> />
+              </section>
+              <section class="panel eleven"></section>
+              <section class="panel twelve">
+                  <img src="{{ .Site.BaseURL }}photostory-elders/sartin_12.jpg" alt="Avatar"> />
+              </section>
+              <section class="panel thirteen"></section>
+              <section class="panel fourteen"></section>
+        </div>
+    </div>
+  </div>
+</div>
+
+<style>
+
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    padding: 10px;
+    width: 100%; /* Could be more or less, depending on screen size */
+  }
+
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #myModal {
+
+        h2 {
+        font-size: 32px;
+        color: white;
+        position: relative;
+        display: block;
+        top: 40%;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Vollkorn";
+        }
+
+        #pinContainer {
+          width: 100%;
+          height: 100vh;
+          overflow: hidden;
+          position: relative;
+          color: #777;
+        }
+
+        .panel {
+          height: 100%;
+          width: 100%;
+          position: absolute;
+        }
+
+        #pinMaster {
+          position: relative;
+        }
+
+        p {
+          font-family: "Barlow";
+          font-size: 3rem;
+          margin: 1rem;
+          padding: 5rem;
+          text-align: center;
+          display: block;
+        }
+
+        .one {
+            font-family: "Barlow";
+            background-image: url("{{ .Site.BaseURL }}photostory-elders/sartin_1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color:black;
+
+        }
+        .two{
+          background-image: url("{{ .Site.BaseURL }}photostory-elders/sartin_2.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .three img{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          height: 70vh;
+          margin-top: 15vh;
+          margin-bottom: 15vh;
+        }
+
+        .four {
+          background-image: url("{{ .Site.BaseURL }}photostory-elders/sartin_4.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+
+        .five img{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          height: 70vh;
+          margin-top: 15vh;
+          margin-bottom: 15vh;
+        }
+
+        .six {
+          background-image: url("{{ .Site.BaseURL }}photostory-elders/sartin_6.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .seven img{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          height: 70vh;
+          margin-top: 15vh;
+          margin-bottom: 15vh;
+        }
+
+        .eight img{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          height: 70vh;
+          margin-top: 15vh;
+          margin-bottom: 15vh;
+        }
+
+        .nine {
+          background-image: url("{{ .Site.BaseURL }}photostory-elders/sartin_9.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .ten img{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          height: 90vh;
+          margin-top: 5vh;
+          margin-bottom: 5vh;
+        }
+
+        .eleven {
+          background-image: url("{{ .Site.BaseURL }}photostory-elders/sartin_11.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .twelve img{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          height: 70vh;
+          margin-top: 15vh;
+          margin-bottom: 15vh;
+        }
+
+        .thirteen{
+          background-image: url("{{ .Site.BaseURL }}photostory-elders/sartin_13.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .fourteen{
+          background-image: url("{{ .Site.BaseURL }}photostory-elders/sartin_14.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .story{
+            padding:75%;
+        }
+    }
+</style>

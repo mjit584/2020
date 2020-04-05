@@ -43,3 +43,19 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " activesort";
   });
 }
+
+// This is for the toggle of the bio
+function showInfo(number) {
+var x = document.getElementById(number);
+var y = document.getElementById('overlay '+number);
+var z = document.getElementById('icontoggle '+number);
+
+if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.top = 'auto';
+    y.style.bottom = 0;
+    z.classList.toggle('fa-minus');
+  } else {
+    x.style.display = "none";
+  }
+}
