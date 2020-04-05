@@ -2,6 +2,7 @@
 
 <div id="myModal" class="modal">
   <div class="modal-content">
+    <button class="hiddenbutton"></button>
     <span class="close">&times;</span>
     <div id="pinMaster">
         <div id="pinContainer">
@@ -50,17 +51,19 @@
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+    width: 95%; /* Full width */
+    height: 95%; /* Full height */
+    overflow-y: scroll; /* Enable scroll if needed */
+    overflow-x: hidden;
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
 
+
   /* Modal Content/Box */
   .modal-content {
     background-color: #fefefe;
-    padding: 10px;
+    margin: 10px;
     width: 100%; /* Could be more or less, depending on screen size */
   }
 
@@ -70,6 +73,7 @@
     float: right;
     font-size: 28px;
     font-weight: bold;
+    position: fixed;
   }
 
   .close:hover,
@@ -79,20 +83,15 @@
     cursor: pointer;
   }
 
-  #myModal {
+#myModal {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: #f0f0ee;
+}
 
-        h2 {
-        font-size: 32px;
-        color: white;
-        position: relative;
-        display: block;
-        top: 40%;
-        text-align: center;
-        text-transform: uppercase;
-        font-family: "Vollkorn";
-        }
-
-        #pinContainer {
+#myModal #pinContainer {
           width: 100%;
           height: 100vh;
           overflow: hidden;
@@ -100,17 +99,17 @@
           color: #777;
         }
 
-        .panel {
+#myModal .panel {
           height: 100%;
           width: 100%;
           position: absolute;
         }
 
-        #pinMaster {
+#myModal #pinMaster {
           position: relative;
         }
 
-        p {
+#myModal p {
           font-family: "Barlow";
           font-size: 3rem;
           margin: 1rem;
@@ -119,20 +118,33 @@
           display: block;
         }
 
-        .one {
+#myModal .one {
             font-family: "Barlow";
             background-image: url("{{ .Site.BaseURL }}photostory-elders/sartin_1.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-color:black;
-
         }
-        .two{
+
+#myModal .one h2 {
+  font-size: 32px;
+  color: white;
+  position: relative;
+  display: block;
+  top: 40%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Vollkorn";
+}
+
+
+#myModal .two {
           background-image: url("{{ .Site.BaseURL }}photostory-elders/sartin_2.jpg");
           background-repeat: no-repeat;
           background-size: cover;
         }
-        .three img{
+
+#myModal .three img {
           display: block;
           margin-left: auto;
           margin-right: auto;
@@ -141,14 +153,14 @@
           margin-bottom: 15vh;
         }
 
-        .four {
+#myModal .four {
           background-image: url("{{ .Site.BaseURL }}photostory-elders/sartin_4.jpg");
           background-repeat: no-repeat;
           background-size: cover;
         }
 
 
-        .five img{
+#myModal .five img {
           display: block;
           margin-left: auto;
           margin-right: auto;
@@ -157,13 +169,13 @@
           margin-bottom: 15vh;
         }
 
-        .six {
+#myModal .six {
           background-image: url("{{ .Site.BaseURL }}photostory-elders/sartin_6.jpg");
           background-repeat: no-repeat;
           background-size: cover;
         }
 
-        .seven img{
+#myModal .seven img {
           display: block;
           margin-left: auto;
           margin-right: auto;
@@ -172,7 +184,7 @@
           margin-bottom: 15vh;
         }
 
-        .eight img{
+#myModal .eight img {
           display: block;
           margin-left: auto;
           margin-right: auto;
@@ -181,13 +193,13 @@
           margin-bottom: 15vh;
         }
 
-        .nine {
+#myModal .nine {
           background-image: url("{{ .Site.BaseURL }}photostory-elders/sartin_9.jpg");
           background-repeat: no-repeat;
           background-size: cover;
         }
 
-        .ten img{
+#myModal .ten img {
           display: block;
           margin-left: auto;
           margin-right: auto;
@@ -196,12 +208,13 @@
           margin-bottom: 5vh;
         }
 
-        .eleven {
+#myModal .eleven {
           background-image: url("{{ .Site.BaseURL }}photostory-elders/sartin_11.jpg");
           background-repeat: no-repeat;
           background-size: cover;
         }
-        .twelve img{
+
+#myModal .twelve img {
           display: block;
           margin-left: auto;
           margin-right: auto;
@@ -210,20 +223,15 @@
           margin-bottom: 15vh;
         }
 
-        .thirteen{
+#myModal .thirteen {
           background-image: url("{{ .Site.BaseURL }}photostory-elders/sartin_13.jpg");
           background-repeat: no-repeat;
           background-size: cover;
         }
 
-        .fourteen{
+#myModal .fourteen {
           background-image: url("{{ .Site.BaseURL }}photostory-elders/sartin_14.jpg");
           background-repeat: no-repeat;
           background-size: cover;
         }
-
-        .story{
-            padding:75%;
-        }
-    }
 </style>

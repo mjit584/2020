@@ -5,11 +5,11 @@ console.log('photostoryelders.js is loaded');
 // Get the modal
 var modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
 
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
@@ -29,7 +29,7 @@ window.onclick = function(event) {
 }
 
 
-//FOR INSIDE THE POPUP 
+//FOR INSIDE THE POPUP
 //global ScrollMagic
 // global TimelineMax
 // global Linear
