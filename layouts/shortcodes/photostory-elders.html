@@ -2,7 +2,7 @@
 
 <div id="myModal" class="modal">
   <div class="modal-content">
-    <button class="hiddenbutton"></button>
+
     <span class="close">&times;</span>
     <div id="pinMaster">
         <div id="pinContainer">
@@ -43,7 +43,9 @@
 </div>
 
 <style>
-
+  body.modal-open {
+    overflow:hidden;
+  }
   /* The Modal (background) */
   .modal {
     display: none; /* Hidden by default */
@@ -51,8 +53,8 @@
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
-    width: 95%; /* Full width */
-    height: 95%; /* Full height */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
     overflow-y: scroll; /* Enable scroll if needed */
     overflow-x: hidden;
     background-color: rgb(0,0,0); /* Fallback color */
@@ -69,16 +71,18 @@
 
   /* The Close Button */
   .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
+    color: #fff;
+    position:absolute;
+    right:20px;
+    top:10px;
+    font-size: 36px;
     font-weight: bold;
-    position: fixed;
+    z-index:100;
   }
 
   .close:hover,
   .close:focus {
-    color: black;
+    color: #2ea294;
     text-decoration: none;
     cursor: pointer;
   }
