@@ -309,10 +309,12 @@ ul, ol {
   left: 0; }
 
 .inner-story-image {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  margin-bottom: 30px; }
+  width: 200%;
+  margin-left: -18%;
+  padding: 20px; }
+  .inner-story-image p {
+    margin: 0;
+    font-size: 15px; }
 
 .inner-story-image img {
   height: 100vh;
