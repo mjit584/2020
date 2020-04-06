@@ -210,3 +210,34 @@ position:relative;
   overflow: visible;
   align-items: center;
 }
+
+
+.photo-card-container {
+  background-image: url('../images/landscape.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-size: 60px;
+    color: white;
+    text-decoration: none;
+  }
+  .photo-card-line{
+    width:300px;
+    margin-top: 25px;
+  }
+  .photo-card-btn{
+    border: 1px solid white;
+    padding: 15px;
+    margin-top: 25px;
+    a{
+      color: white;
+      text-decoration: none;
+    }
+  }
+}

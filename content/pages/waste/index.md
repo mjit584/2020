@@ -61,8 +61,6 @@ TK: explanation of the trash filling process, what’s happening
 
 Walking down the streets of Seine Bight, trash is everywhere. If it’s not filled into the land, it’s everywhere else: the community doesn’t have the means for their waste to regularly be picked up and taken to mak the dump. Instead, there are bottles and take-out boxes floating in the mangrove roots. Yards are full of lumber scraps, gillnets, old car parts and shredded potato chip bags. The charred remains of a garbage fire smolder at the edge of the road, because the only way for many residents to get rid of their waste is to burn it — even though they know the chemicals are major risks to their health.
 
-<div class="photo-card"></div>
-
 “We’re trying not to burn the trash, but at the same time, if that’s the only way at this point to get the waste out of the way, then you’ve got to do what you got to do,” Smith Martinez said. “But we’re trying, you know?”
 
 Kirwin Ramirez, the vice chair of Seine Bight Village, knows that waste management is a major problem. But paying for a garbage truck to come take the waste from the village costs several thousand dollars per month. Right now, the town of 2,000 people doesn’t have the resources.
@@ -129,5 +127,7 @@ Sometimes, he wants to quit. But he knows if he leaves his job, no one else will
 
 “We have all these things that affect the climate in this country and affect the climate of other countries,” Budna said. “I’ve realized garbage is something we have to take care of the right way, to help people understand that garbage has an effect and a deadly impact on each of our lives every day.”
 
+
+{{< photo-card >}}
 
 <!--  {{< gallery-slider dir="story2-images" >}} -->
