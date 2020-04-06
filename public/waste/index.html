@@ -29,13 +29,13 @@
   <div id="main-menu-mobile" class="main-menu-mobile">
     <ul>
       <li class="menu-item menu-item-line">
-        <a href="/water/">Coral Grief</a>
+        <a href="/water/">Coral in the Crossfire</a>
       </li>
       <li class="menu-item menu-item-line">
-        <a href="/tourism/">Monkey River</a>
+        <a href="/tourism/">Controversy On Deck</a>
       </li>
       <li class="menu-item menu-item-line">
-        <a href="/culture/">Bitter and Sweet</a>
+        <a href="/culture/">Bittersweet</a>
       </li>
       <li class="menu-item menu-item-line">
         <a href="/waste/">Tide To Trash</a>
@@ -72,10 +72,10 @@
           <a href="/water/">Coral in the Crossfire</a>
         </li>
         <li class="menu-item">
-          <a href="/tourism/">Monkey River</a>
+          <a href="/tourism/">Controversy On Deck</a>
         </li>
         <li class="menu-item">
-          <a href="/culture/">Bitter and Sweet</a>
+          <a href="/culture/">Bittersweet</a>
         </li>
         <li class="menu-item">
           <a href="/waste/">Tide To Trash</a>
@@ -168,6 +168,244 @@
 <p>Her newly-procured [size?] land was at the edge of town, where thick groves of mangroves met the Placencia lagoon. The water was knee-deep, she recalled, and they had to wear tall rubber boots to begin constructing her home.</p>
 <p>To build the land from the mangrove lagoon, Smith Martinez filled the ground with gravel, sand, and piles of garbage. [what kinds? Could be more descriptive here]</p>
 <p>Her current home — a complex of four wooden houses, rebuilt after a devastating fire destroyed everything she owned — is the center of family life for her five children. It symbolizes how hard she’s worked: from a dishwasher at a restaurant to the executive chef at a resort, rising from poverty to homeownership. And it’s built on trash.</p>
+<button id="myBtn">Open Me!</button>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <button class="hiddenbutton"></button>
+    <span class="close">&times;</span>
+    <div id="pinMaster">
+        <div id="pinContainer">
+              <section class="panel one">
+                  <h2>Portraits of Belize</h2>
+              </section>
+              <section class="panel two">
+              </section>
+              <section class="panel three">
+                  <img src="/photostory-elders/sartin_3.jpg" alt="Avatar"> />
+              </section>
+              <section class="panel four">
+              </section>
+              <section class="panel five">
+                  <img src="/photostory-elders/sartin_5.jpg" alt="Avatar"> />
+              </section>
+              <section class="panel six">
+              </section>
+              <section class="panel seven">
+                  <img src="/photostory-elders/sartin_7.jpg" alt="Avatar"> />
+              </section>
+              <section class="panel eight">
+                  <img src="/photostory-elders/sartin_8.jpg" alt="Avatar"> />
+              </section>
+              <section class="panel nine"></section>
+              <section class="panel ten">
+                  <img src="/photostory-elders/sartin_10.jpg" alt="Avatar"> />
+              </section>
+              <section class="panel eleven"></section>
+              <section class="panel twelve">
+                  <img src="/photostory-elders/sartin_12.jpg" alt="Avatar"> />
+              </section>
+              <section class="panel thirteen"></section>
+              <section class="panel fourteen"></section>
+        </div>
+    </div>
+  </div>
+</div>
+
+<style>
+
+   
+  .modal {
+    display: none;  
+    position: fixed;  
+    z-index: 1;  
+    left: 0;
+    top: 0;
+    width: 95%;  
+    height: 95%;  
+    overflow-y: scroll;  
+    overflow-x: hidden;
+    background-color: rgb(0,0,0);  
+    background-color: rgba(0,0,0,0.4);  
+  }
+
+
+   
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10px;
+    width: 100%;  
+  }
+
+   
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: fixed;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+#myModal {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: #f0f0ee;
+}
+
+#myModal #pinContainer {
+          width: 100%;
+          height: 100vh;
+          overflow: hidden;
+          position: relative;
+          color: #777;
+        }
+
+#myModal .panel {
+          height: 100%;
+          width: 100%;
+          position: absolute;
+        }
+
+#myModal #pinMaster {
+          position: relative;
+        }
+
+#myModal p {
+          font-family: "Barlow";
+          font-size: 3rem;
+          margin: 1rem;
+          padding: 5rem;
+          text-align: center;
+          display: block;
+        }
+
+#myModal .one {
+            font-family: "Barlow";
+            background-image: url("/photostory-elders/sartin_1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color:black;
+        }
+
+#myModal .one h2 {
+  font-size: 32px;
+  color: white;
+  position: relative;
+  display: block;
+  top: 40%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Vollkorn";
+}
+
+
+#myModal .two {
+          background-image: url("/photostory-elders/sartin_2.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+#myModal .three img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          height: 70vh;
+          margin-top: 15vh;
+          margin-bottom: 15vh;
+        }
+
+#myModal .four {
+          background-image: url("/photostory-elders/sartin_4.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+
+#myModal .five img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          height: 70vh;
+          margin-top: 15vh;
+          margin-bottom: 15vh;
+        }
+
+#myModal .six {
+          background-image: url("/photostory-elders/sartin_6.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+#myModal .seven img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          height: 70vh;
+          margin-top: 15vh;
+          margin-bottom: 15vh;
+        }
+
+#myModal .eight img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          height: 70vh;
+          margin-top: 15vh;
+          margin-bottom: 15vh;
+        }
+
+#myModal .nine {
+          background-image: url("/photostory-elders/sartin_9.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+#myModal .ten img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          height: 90vh;
+          margin-top: 5vh;
+          margin-bottom: 5vh;
+        }
+
+#myModal .eleven {
+          background-image: url("/photostory-elders/sartin_11.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+#myModal .twelve img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          height: 70vh;
+          margin-top: 15vh;
+          margin-bottom: 15vh;
+        }
+
+#myModal .thirteen {
+          background-image: url("/photostory-elders/sartin_13.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+#myModal .fourteen {
+          background-image: url("/photostory-elders/sartin_14.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+</style>
+
 <p>TK: explanation of the trash filling process, what’s happening</p>
 <p>Walking down the streets of Seine Bight, trash is everywhere. If it’s not filled into the land, it’s everywhere else: the community doesn’t have the means for their waste to regularly be picked up and taken to mak the dump. Instead, there are bottles and take-out boxes floating in the mangrove roots. Yards are full of lumber scraps, gillnets, old car parts and shredded potato chip bags. The charred remains of a garbage fire smolder at the edge of the road, because the only way for many residents to get rid of their waste is to burn it — even though they know the chemicals are major risks to their health.</p>
 <p>“We’re trying not to burn the trash, but at the same time, if that’s the only way at this point to get the waste out of the way, then you’ve got to do what you got to do,” Smith Martinez said. “But we’re trying, you know?”</p>
@@ -421,7 +659,7 @@ sliderJQuery(function( $ ) {
 
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-    
+
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
