@@ -14,7 +14,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/style.min.b36a1d466fe02dca7ecac8f568513604cf7a18df411afdfa499c1f61c5fa0489.css">
+  <link rel="stylesheet" href="/css/style.min.5d7482c738cafda3ba6495b260f2e5dbe5491ea4679e008e93ccc480c231bd54.css">
   
 
   
@@ -159,6 +159,163 @@ Poverty in Belize is not unique to farmers. More than 40 percent of Belizeans li
 Agriculture now makes up more than 10 percent of both Belize’s GDP and Labor Force, according to the CIA Factbook.</p>
 <p>“It's very worrisome,” Julio tells us. “These people are totally dependent on not only on the Toledo Growers Association, to buy the beans from them, but also to offer technical support.</p>
 <p>Colorfully-painted churches lined the sides of the roads, juxtaposed next to thatched roof Mayan homes.</p>
+<div class="interactive-section dark">
+<style>
+  * {box-sizing:border-box}
+
+ 
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+ 
+.mySlides {
+  display: none;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  flex-direction:row;
+  padding:0 10%;
+}
+.titlecard {
+  flex-direction:column;
+}
+.mySlides img {
+  max-width: 400px;
+}
+
+ 
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  width: auto;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.prev {
+    left:0;
+}
+ 
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+ 
+i:hover {
+  color: #2ea395;
+}
+
+ 
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: transparent;
+  border:1px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+.process {
+  font-size:.8em;
+  text-align:left;
+}
+</style>
+
+
+<div class="slideshow-container">
+
+
+  <div class="mySlides titlecard">
+    <h2>Making Chocolate the Mayan Way</h2>
+    <img src="../images/yellow-underline-left.svg" class="heading-underline">
+    <p>Chocolate originated in the Yucatan Peninsula and has played an integral role in Mayan social, economic and religious life for over 2000 years. Today, Mayan communities in Belize continue to grow and process chocolate using a combination of traditional and modern methods. Take a look at this step-by-step guide to see how chocolate gets from the cacao farm to the grocery store.</p>
+
+  </div>
+
+  <div class="mySlides">
+      <img src="/chocolate/Grinding-2.gif">
+      <div class="process">
+        <h2>Roasting</h2>
+        <p>Roasted beans are transferred to a stone grinder called a metate. Using a stone rolling pin, chocolate makers break beans’ shells and expose cocoa nibs, or tiny shards of chocolate.</p>
+      </div>
+  </div>
+
+  <div class="mySlides">
+    <img src="/chocolate/Grinding-2.gif">
+    <div class="process">
+      <h2>Winnowing</h2>
+      <p>In order to sift extraneous pieces of shell from cocoa nibs, chocolate-makers transfer contents from the metate to a large metal pan. In a process called winnowing, chocolate-makers toss the mixture in the air, allowing wind to catch and blow away lighter shells while heavier nibs fall back into the pan. This process continues until no shells remain.</p>
+
+      <p>To remove extraneous pieces of shell, chocolate-makers use a process called winnowing. Cracked beans are tossed in the air, allowing wind to catch and blow away shells while cocoa nibs fall back into a pan.</p>
+    </div>
+  </div>
+
+
+  
+  <a class="prev" onclick="plusSlides(-1)"><i class="fa fa-angle-left fa-3x"></i></a>
+  <a class="next" onclick="plusSlides(1)"><i class="fa fa-angle-right fa-3x"></i></a>
+</div>
+<br>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+</div>
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "flex";
+    dots[slideIndex-1].className += " active";
+  }
+
+</script>
+
+</div>
 <p>Despite the threat from pests like squirrels and birds and diseases, Saqui insists that his beans be grown without the use of pesticides.</p>
 <p>But what the big farmers and buyers are doing is that they're paying this farmer, a very small amount of money so that he gets disappointed, he lose interest. And the next best thing for him to do now is to sell his land to the bigger farmer or a buyer so that then that we can, they can harvest everything you've done so they pay a little bit of money and that's it for you. You still make a loss, but for them they will make more by selling more of the crops that keeps coming from the farm.”<br />
 Despite the rapid growth of the cocao industry in Belize, the government is doing little to none to supports growers and producers.<br />
@@ -172,13 +329,13 @@ We have started noticing it about three years ago but never never did it in the 
   <h2>More from Barriers</h2>
   <div class="cards">
     <div class="story-card" style="background-image:url(../home-nav/water.jpg);">
-      <a href="/water/">Coral in the Crossfire</a>
+      <a href="/water/">Coral In The Crossfire</a>
     </div>
     <div class="story-card" style="background-image:url(../home-nav/tourism.jpg);">
-      <a href="/tourism/">Monkey River</a>
+      <a href="/tourism/">Controversy On Deck</a>
     </div>
     <div class="story-card" style="background-image:url(../home-nav/cacao.jpg);">
-      <a href="/culture/">Bitter And Sweet</a>
+      <a href="/culture/">Bittersweet</a>
     </div>
     <div class="story-card" style="background-image:url(../home-nav/trash.jpg);">
       <a href="/waste/">Tide To Trash</a>

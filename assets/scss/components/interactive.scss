@@ -21,3 +21,9 @@
   //   padding-bottom:15px;
   // }
 }
+.dark {
+  background-color: $black;
+  h2, p {
+    color:$white;
+  }
+}

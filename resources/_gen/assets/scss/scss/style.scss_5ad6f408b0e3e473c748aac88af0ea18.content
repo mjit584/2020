@@ -1030,4 +1030,9 @@ h5 {
     max-width: 300px;
     margin-top: 20px; }
 
+.dark {
+  background-color: #333333; }
+  .dark h2, .dark p {
+    color: #ffffff; }
+
 /*# sourceMappingURL=style.css.map */
