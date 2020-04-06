@@ -184,10 +184,13 @@ position:relative;
 // }
 
 .inner-story-image {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  margin-bottom: 30px;
+  width: 200%;
+  margin-left: -18%;
+  padding: 20px;
+  p{
+    margin: 0;
+    font-size: 15px;
+  }
 }
 
 .inner-story-image img {

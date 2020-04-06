@@ -31,7 +31,7 @@ But the dump demonstrates the dirty reality of the country’s waste management 
 
 The trash in Placencia never really disappears. It’s used to build new land, a practice residents of Seine Bight, a small village five miles north of Placencia, know well. If the garbage makes it to the dump, it will sit in unlined pits, meaning groundwater contamination is likely.  Sometimes, the trash makes its way into the hands of plastic pickers like Radford Cacho, who supports his family by selling bottles. In many areas, there are few resources to support waste removal.
 
-<div class="inner-story-image"><img src="/images/landscape.jpg"></div>
+<div class="inner-story-image"><img src="/images/landscape.jpg"><p class="caption">A photo of a belizean swamp</p></div>
 
 The Belizean government and environmental groups are fighting to reduce the amount of waste generated — but for many residents, new initiatives threaten their economic livelihood.
 
