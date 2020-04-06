@@ -57,6 +57,8 @@ To build the land from the mangrove lagoon, Smith Martinez filled the ground wit
 
 Her current home — a complex of four wooden houses, rebuilt after a devastating fire destroyed everything she owned — is the center of family life for her five children. It symbolizes how hard she’s worked: from a dishwasher at a restaurant to the executive chef at a resort, rising from poverty to homeownership. And it’s built on trash.
 
+{{< photostory-elders >}}
+
 TK: explanation of the trash filling process, what’s happening
 
 Walking down the streets of Seine Bight, trash is everywhere. If it’s not filled into the land, it’s everywhere else: the community doesn’t have the means for their waste to regularly be picked up and taken to mak the dump. Instead, there are bottles and take-out boxes floating in the mangrove roots. Yards are full of lumber scraps, gillnets, old car parts and shredded potato chip bags. The charred remains of a garbage fire smolder at the edge of the road, because the only way for many residents to get rid of their waste is to burn it — even though they know the chemicals are major risks to their health.
