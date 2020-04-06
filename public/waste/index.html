@@ -14,7 +14,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/style.min.411d8dab29ba2df133fc0228c9f450fae91a031abb8789699e3b7ddcc29cc470.css">
+  <link rel="stylesheet" href="/css/style.min.b36a1d466fe02dca7ecac8f568513604cf7a18df411afdfa499c1f61c5fa0489.css">
   
 
   
@@ -102,7 +102,7 @@
     
 
 
-<div class="story-page">
+<div class="story-page my-body-noscroll-class">
   <section class="story-hero">
     <div class="herocontent">
       <div class="story-title">
@@ -149,7 +149,7 @@
 <p>In the crowded streets of Placencia, the garbage pits of the dump seem like an eerie memory. Tourists stroll down freshly swept sidewalks, past souvenir shops painted bright pink and yellow, stopping for a meal at one of the many restaurants lining the beach. Tourism is the backbone of the economy, with roughly TKpeople visiting the beach town in TKyear.</p>
 <p>But the dump demonstrates the dirty reality of the country’s waste management system. There used to be only six loads of garbage dropped off each week, Budna said. Now, he sees more than 30 loads a week.</p>
 <p>The trash in Placencia never really disappears. It’s used to build new land, a practice residents of Seine Bight, a small village five miles north of Placencia, know well. If the garbage makes it to the dump, it will sit in unlined pits, meaning groundwater contamination is likely.  Sometimes, the trash makes its way into the hands of plastic pickers like Radford Cacho, who supports his family by selling bottles. In many areas, there are few resources to support waste removal.</p>
-<div class="inner-story-image"><img src="/images/landscape.jpg"></div>
+<div class="inner-story-image"><img src="/images/landscape.jpg"><p class="caption">A photo of a belizean swamp</p></div>
 <p>The Belizean government and environmental groups are fighting to reduce the amount of waste generated — but for many residents, new initiatives threaten their economic livelihood.</p>
 <p>“Garbage comes from what humans create,” Budna said. “If people don’t want something, they get rid of it. If you have a home, you have papers and wastestuff and food, you have garbage. It does not create itself. It does not come from the nature of this world.”</p>
 <h2 id="seine-bight-struggles">Seine Bight Struggles</h2>
@@ -170,7 +170,6 @@
 <p>Her current home — a complex of four wooden houses, rebuilt after a devastating fire destroyed everything she owned — is the center of family life for her five children. It symbolizes how hard she’s worked: from a dishwasher at a restaurant to the executive chef at a resort, rising from poverty to homeownership. And it’s built on trash.</p>
 <p>TK: explanation of the trash filling process, what’s happening</p>
 <p>Walking down the streets of Seine Bight, trash is everywhere. If it’s not filled into the land, it’s everywhere else: the community doesn’t have the means for their waste to regularly be picked up and taken to mak the dump. Instead, there are bottles and take-out boxes floating in the mangrove roots. Yards are full of lumber scraps, gillnets, old car parts and shredded potato chip bags. The charred remains of a garbage fire smolder at the edge of the road, because the only way for many residents to get rid of their waste is to burn it — even though they know the chemicals are major risks to their health.</p>
-<div class="photo-card"></div>
 <p>“We’re trying not to burn the trash, but at the same time, if that’s the only way at this point to get the waste out of the way, then you’ve got to do what you got to do,” Smith Martinez said. “But we’re trying, you know?”</p>
 <p>Kirwin Ramirez, the vice chair of Seine Bight Village, knows that waste management is a major problem. But paying for a garbage truck to come take the waste from the village costs several thousand dollars per month. Right now, the town of 2,000 people doesn’t have the resources.</p>
 <p>“Mine is a community that many people look down on,” Ramirez said. “We are the underdogs.  It’s a community full of so much potential and very talented people, but the government does not look at us like that. They look at Placencia more, because that is where the tourists go, that is where they can get more money.”</p>
@@ -204,6 +203,12 @@
 <p>Budna also knows there’s not a real end in sight. He knows the garbage trucks will keep coming, but also that people will continue to dump or burn their waste illegally. But he can’t stop when there’s so much work to be done.</p>
 <p>Sometimes, he wants to quit. But he knows if he leaves his job, no one else will take over — there aren’t many people who want to spend their time at the dump, Budna said with a shrug. No one else has the same passion to ensure the world is left a little bit cleaner, a little bit safer for the people of Belize.</p>
 <p>“We have all these things that affect the climate in this country and affect the climate of other countries,” Budna said. “I’ve realized garbage is something we have to take care of the right way, to help people understand that garbage has an effect and a deadly impact on each of our lives every day.”</p>
+<div class="photo-card-container">
+  <h2>A Fisherman's Tale</h2>
+  <img src="/images/yellow-underline-left.svg" class="photo-card-line">
+  <div class="photo-card-btn"><a href="#">Begin Photo Experience</a></div>
+</div>
+
 <!--  
 
 
@@ -416,10 +421,14 @@ sliderJQuery(function( $ ) {
 
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.2/plugins/animation.gsap.js"></script>
 
     
     <script src='https://unpkg.com/intersection-observer@0.5.0/intersection-observer.js'></script>
@@ -432,6 +441,7 @@ sliderJQuery(function( $ ) {
     
     
     
+    
 
 
     
@@ -441,6 +451,8 @@ sliderJQuery(function( $ ) {
     
     
     
+    
+
 
     
     
@@ -450,7 +462,7 @@ sliderJQuery(function( $ ) {
     
     
     
-        <script type="text/javascript" src="/js/story4bundle.min.8c51cc738da5c33e992d2773a41e56900e073f98de8c15813f8029679bc8e6df.js"></script>
+        <script type="text/javascript" src="/js/story4bundle.min.cb289ca03e3a73c3f7c020649606181625a1bc1401fd3a207e2d97c2bcadd2be.js"></script>
     
 
     

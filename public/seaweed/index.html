@@ -14,7 +14,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/style.min.411d8dab29ba2df133fc0228c9f450fae91a031abb8789699e3b7ddcc29cc470.css">
+  <link rel="stylesheet" href="/css/style.min.b36a1d466fe02dca7ecac8f568513604cf7a18df411afdfa499c1f61c5fa0489.css">
   
 
   
@@ -102,7 +102,7 @@
     
 
 
-<div class="story-page">
+<div class="story-page my-body-noscroll-class">
   <section class="story-hero">
     <div class="herocontent">
       <div class="story-title">
@@ -140,9 +140,244 @@
     <p>THIS PAGE IS USING THE TEMPLATE IN<br />
 /layouts/pages/single.html</p>
 <p>After traveling hundreds of miles on foot, a group of five Venezuelans, who together call themselves a family, arrived in Medellín on February 27th. Before leaving their homes, they all held different, honest jobs including food service and hair care but were all laid off over the course of the last year due to a crumbling economy. Now in Colombia, the family works 15 hour days asking for money in exchange for small candies on the street in order to make enough money to afford food and a tiny room to sleep in each night.</p>
-<div class="video-container">
-  <iframe src="https://player.vimeo.com/video/329726214" title="My Vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
- </div>
+<button id="myBtn">Open Me!</button>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <button class="hiddenbutton"></button>
+    <span class="close">&times;</span>
+    <div id="pinMaster">
+        <div id="pinContainer">
+              <section class="panel one">
+                  <h2>Portraits of Belize</h2>
+              </section>
+              <section class="panel two">
+              </section>
+              <section class="panel three">
+                  <img src="/photostory-elders/sartin_3.jpg" alt="Avatar"> />
+              </section>
+              <section class="panel four">
+              </section>
+              <section class="panel five">
+                  <img src="/photostory-elders/sartin_5.jpg" alt="Avatar"> />
+              </section>
+              <section class="panel six">
+              </section>
+              <section class="panel seven">
+                  <img src="/photostory-elders/sartin_7.jpg" alt="Avatar"> />
+              </section>
+              <section class="panel eight">
+                  <img src="/photostory-elders/sartin_8.jpg" alt="Avatar"> />
+              </section>
+              <section class="panel nine"></section>
+              <section class="panel ten">
+                  <img src="/photostory-elders/sartin_10.jpg" alt="Avatar"> />
+              </section>
+              <section class="panel eleven"></section>
+              <section class="panel twelve">
+                  <img src="/photostory-elders/sartin_12.jpg" alt="Avatar"> />
+              </section>
+              <section class="panel thirteen"></section>
+              <section class="panel fourteen"></section>
+        </div>
+    </div>
+  </div>
+</div>
+
+<style>
+
+   
+  .modal {
+    display: none;  
+    position: fixed;  
+    z-index: 1;  
+    left: 0;
+    top: 0;
+    width: 95%;  
+    height: 95%;  
+    overflow-y: scroll;  
+    overflow-x: hidden;
+    background-color: rgb(0,0,0);  
+    background-color: rgba(0,0,0,0.4);  
+  }
+
+
+   
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10px;
+    width: 100%;  
+  }
+
+   
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: fixed;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+#myModal {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: #f0f0ee;
+}
+
+#myModal #pinContainer {
+          width: 100%;
+          height: 100vh;
+          overflow: hidden;
+          position: relative;
+          color: #777;
+        }
+
+#myModal .panel {
+          height: 100%;
+          width: 100%;
+          position: absolute;
+        }
+
+#myModal #pinMaster {
+          position: relative;
+        }
+
+#myModal p {
+          font-family: "Barlow";
+          font-size: 3rem;
+          margin: 1rem;
+          padding: 5rem;
+          text-align: center;
+          display: block;
+        }
+
+#myModal .one {
+            font-family: "Barlow";
+            background-image: url("/photostory-elders/sartin_1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color:black;
+        }
+
+#myModal .one h2 {
+  font-size: 32px;
+  color: white;
+  position: relative;
+  display: block;
+  top: 40%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Vollkorn";
+}
+
+
+#myModal .two {
+          background-image: url("/photostory-elders/sartin_2.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+#myModal .three img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          height: 70vh;
+          margin-top: 15vh;
+          margin-bottom: 15vh;
+        }
+
+#myModal .four {
+          background-image: url("/photostory-elders/sartin_4.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+
+#myModal .five img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          height: 70vh;
+          margin-top: 15vh;
+          margin-bottom: 15vh;
+        }
+
+#myModal .six {
+          background-image: url("/photostory-elders/sartin_6.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+#myModal .seven img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          height: 70vh;
+          margin-top: 15vh;
+          margin-bottom: 15vh;
+        }
+
+#myModal .eight img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          height: 70vh;
+          margin-top: 15vh;
+          margin-bottom: 15vh;
+        }
+
+#myModal .nine {
+          background-image: url("/photostory-elders/sartin_9.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+#myModal .ten img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          height: 90vh;
+          margin-top: 5vh;
+          margin-bottom: 5vh;
+        }
+
+#myModal .eleven {
+          background-image: url("/photostory-elders/sartin_11.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+#myModal .twelve img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          height: 70vh;
+          margin-top: 15vh;
+          margin-bottom: 15vh;
+        }
+
+#myModal .thirteen {
+          background-image: url("/photostory-elders/sartin_13.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+#myModal .fourteen {
+          background-image: url("/photostory-elders/sartin_14.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+</style>
+
 
   </section>
 
@@ -180,10 +415,14 @@
 
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.2/plugins/animation.gsap.js"></script>
 
     
     <script src='https://unpkg.com/intersection-observer@0.5.0/intersection-observer.js'></script>
@@ -196,6 +435,7 @@
     
     
     
+    
 
 
     
@@ -205,6 +445,8 @@
     
     
     
+    
+
 
     
     
@@ -214,7 +456,7 @@
     
     
     
-        <script type="text/javascript" src="/js/story5bundle.min.8c51cc738da5c33e992d2773a41e56900e073f98de8c15813f8029679bc8e6df.js"></script>
+        <script type="text/javascript" src="/js/story5bundle.min.d40cc9ae917ff115d21db23eb28b1cf4c06a6b3a566dff0f3d23980f9b10accb.js"></script>
     
 
 
