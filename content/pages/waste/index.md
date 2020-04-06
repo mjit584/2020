@@ -57,6 +57,7 @@ To build the land from the mangrove lagoon, Smith Martinez filled the ground wit
 
 Her current home — a complex of four wooden houses, rebuilt after a devastating fire destroyed everything she owned — is the center of family life for her five children. It symbolizes how hard she’s worked: from a dishwasher at a restaurant to the executive chef at a resort, rising from poverty to homeownership. And it’s built on trash.
 
+{{< photo-card >}}
 {{< photostory-elders >}}
 
 TK: explanation of the trash filling process, what’s happening
@@ -128,8 +129,3 @@ Budna also knows there’s not a real end in sight. He knows the garbage trucks 
 Sometimes, he wants to quit. But he knows if he leaves his job, no one else will take over — there aren’t many people who want to spend their time at the dump, Budna said with a shrug. No one else has the same passion to ensure the world is left a little bit cleaner, a little bit safer for the people of Belize.
 
 “We have all these things that affect the climate in this country and affect the climate of other countries,” Budna said. “I’ve realized garbage is something we have to take care of the right way, to help people understand that garbage has an effect and a deadly impact on each of our lives every day.”
-
-
-{{< photo-card >}}
-
-<!--  {{< gallery-slider dir="story2-images" >}} -->
