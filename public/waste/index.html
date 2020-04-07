@@ -176,7 +176,7 @@
 <br />
 <div id="myModal" class="modal">
   <div class="modal-content">
-    <button class="hiddenbutton"></button>
+
     <span class="close">&times;</span>
     <div id="pinMaster">
         <div id="pinContainer">
@@ -217,7 +217,9 @@
 </div>
 
 <style>
-
+  body.modal-open {
+    overflow:hidden;
+  }
    
   .modal {
     display: none;  
@@ -225,8 +227,8 @@
     z-index: 1;  
     left: 0;
     top: 0;
-    width: 95%;  
-    height: 95%;  
+    width: 100%;  
+    height: 100%;  
     overflow-y: scroll;  
     overflow-x: hidden;
     background-color: rgb(0,0,0);  
@@ -236,23 +238,25 @@
 
    
   .modal-content {
-    background-color: #fefefe;
-    margin: 10px;
-    width: 100%;  
+    background-color: #000;
+    border:5px red solid;
+    margin:3%;
   }
 
    
   .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
+    color: #222;
+    position:absolute;
+    right:20px;
+    top:10px;
+    font-size: 36px;
     font-weight: bold;
-    position: fixed;
+    z-index:100;
   }
 
   .close:hover,
   .close:focus {
-    color: black;
+    color: #2ea294;
     text-decoration: none;
     cursor: pointer;
   }
@@ -523,7 +527,7 @@
     
     
     
-        <script type="text/javascript" src="/js/story5bundle.min.c2eeb9e06fe82140c0675e47c054977a446cded34f8ced6dfd5230a86a13ee91.js"></script>
+        <script type="text/javascript" src="/js/story5bundle.min.6185c20b001247fff47e2057a3cb8742c4b41da1fb5b10f3a691521fe1cb9823.js"></script>
     
 
     
