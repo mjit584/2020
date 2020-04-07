@@ -47,6 +47,7 @@ Dr. Karl Castillo (age) is a marine science researcher specializing in coral eco
 
 “When we think of climate change in regards to coral,” he says, “we are looking at rising ocean temperatures and ocean acidification, as well as [...] other factors like storms and precipitation.”
 
+
 Castillo studies how different species of coral adapt to changes in their environment. As humans release carbon into the atmosphere and trap heat, the oceans absorb the majority of those rising temperatures. Coral has evolved to survive within very specific temperature ranges, usually between 22 and 26 degrees Celsius (72 to 78 degrees F), so that even a small change in temperature can send the animal into thermal distress.
 
 Bleaching, which kills corals at the highest rate among all the species’ active threats, occurs when polyps attempt to conserve energy by expelling the algae within their bodies that acts as their food source. This is a stress response that leaves the coral a striking white with only the skeleton exposed. While some coral can recover after a bleaching event, most often bleaching is an omen of imminent death.
