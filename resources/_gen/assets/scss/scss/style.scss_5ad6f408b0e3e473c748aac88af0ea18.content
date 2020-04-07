@@ -309,10 +309,12 @@ ul, ol {
   left: 0; }
 
 .inner-story-image {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  margin-bottom: 30px; }
+  width: 200%;
+  margin-left: -18%;
+  padding: 20px; }
+  .inner-story-image p {
+    margin: 0;
+    font-size: 15px; }
 
 .inner-story-image img {
   height: 100vh;
@@ -332,6 +334,31 @@ ul, ol {
   position: relative;
   overflow: visible;
   align-items: center; }
+
+.photo-card-container {
+  background-image: url("../images/landscape.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .photo-card-container h2 {
+    font-size: 60px;
+    color: white;
+    text-decoration: none; }
+  .photo-card-container .photo-card-line {
+    width: 300px;
+    margin-top: 25px; }
+  .photo-card-container .photo-card-btn {
+    border: 1px solid white;
+    padding: 15px;
+    margin-top: 25px; }
+    .photo-card-container .photo-card-btn a {
+      color: white;
+      text-decoration: none; }
 
 .about-content {
   display: flex;
@@ -1002,5 +1029,10 @@ h5 {
   .interactive-section .heading-underline {
     max-width: 300px;
     margin-top: 20px; }
+
+.dark {
+  background-color: #333333; }
+  .dark h2, .dark p {
+    color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */

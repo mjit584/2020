@@ -31,7 +31,7 @@ But the dump demonstrates the dirty reality of the country’s waste management 
 
 The trash in Placencia never really disappears. It’s used to build new land, a practice residents of Seine Bight, a small village five miles north of Placencia, know well. If the garbage makes it to the dump, it will sit in unlined pits, meaning groundwater contamination is likely.  Sometimes, the trash makes its way into the hands of plastic pickers like Radford Cacho, who supports his family by selling bottles. In many areas, there are few resources to support waste removal.
 
-<div class="inner-story-image"><img src="/images/landscape.jpg"></div>
+<div class="inner-story-image"><img src="/images/landscape.jpg"><p class="caption">A photo of a belizean swamp</p></div>
 
 The Belizean government and environmental groups are fighting to reduce the amount of waste generated — but for many residents, new initiatives threaten their economic livelihood.
 
@@ -57,11 +57,12 @@ To build the land from the mangrove lagoon, Smith Martinez filled the ground wit
 
 Her current home — a complex of four wooden houses, rebuilt after a devastating fire destroyed everything she owned — is the center of family life for her five children. It symbolizes how hard she’s worked: from a dishwasher at a restaurant to the executive chef at a resort, rising from poverty to homeownership. And it’s built on trash.
 
+{{< photo-card >}}
+{{< photostory-elders >}}
+
 TK: explanation of the trash filling process, what’s happening
 
 Walking down the streets of Seine Bight, trash is everywhere. If it’s not filled into the land, it’s everywhere else: the community doesn’t have the means for their waste to regularly be picked up and taken to mak the dump. Instead, there are bottles and take-out boxes floating in the mangrove roots. Yards are full of lumber scraps, gillnets, old car parts and shredded potato chip bags. The charred remains of a garbage fire smolder at the edge of the road, because the only way for many residents to get rid of their waste is to burn it — even though they know the chemicals are major risks to their health.
-
-<div class="photo-card"></div>
 
 “We’re trying not to burn the trash, but at the same time, if that’s the only way at this point to get the waste out of the way, then you’ve got to do what you got to do,” Smith Martinez said. “But we’re trying, you know?”
 
@@ -128,6 +129,3 @@ Budna also knows there’s not a real end in sight. He knows the garbage trucks 
 Sometimes, he wants to quit. But he knows if he leaves his job, no one else will take over — there aren’t many people who want to spend their time at the dump, Budna said with a shrug. No one else has the same passion to ensure the world is left a little bit cleaner, a little bit safer for the people of Belize.
 
 “We have all these things that affect the climate in this country and affect the climate of other countries,” Budna said. “I’ve realized garbage is something we have to take care of the right way, to help people understand that garbage has an effect and a deadly impact on each of our lives every day.”
-
-
-<!--  {{< gallery-slider dir="story2-images" >}} -->
