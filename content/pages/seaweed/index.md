@@ -28,7 +28,7 @@ Godfrey normally wakes up before sunrise. After brewing his favorite coffee, he 
 
 When the waves settle, Godfrey can venture to his farm. The sea is a calming blue, an optional condition for harvesting. Wearing a snorkel and wetsuit, he wades out with his net until the water reaches his waist. He sorts through the golden-yellow, spiny seaweed that’s started growing just beneath the water, using his knots to tie each head together and collect it into the net. Once he’s reached the shore, Godfrey leaves the wet strands to dry in the sun until the afternoon, when it turns white and rubbery.
 
-<div class="inner-story-image"><img src="/images/landscape.jpg"><p class="caption">If available - picture of what the seaweed looks like when it’s still yellow/recently brought back from beach?</p></div>
+<!-- <div class="inner-story-image"><img src="/images/landscape.jpg"><p class="caption">If available - picture of what the seaweed looks like when it’s still yellow/recently brought back from beach?</p></div> -->
 
 After several days, he boats back to Placencia to sell the dried seaweed. One pound costs around $30 Belizean ($15 USD), according to The Nature Conservancy: the same price as a pound of lobster, and triple that of conch.
 
@@ -123,5 +123,5 @@ Godfrey is optimistic about seaweed farming, although he acknowledged that it ha
 Godfrey said he gives everything his 100%, which extends past his work into his personal life. He prefers to minimize his own environmental impact even when he’s not farming, only eating what he catches himself. One night on the caye, he blended ice, milk, seaweed gel and papaya for a seaweed smoothie. The seaweed gives the drink an exceptionally smooth texture.
 
 Godfrey raised his glass and smiled. “Here’s to seaweed.”
-
-<div class="inner-story-image"><img src="/images/landscape.jpg"><p class="caption">SMOOTHIE PHOTO HERE</p></div>
+<!--
+<div class="inner-story-image"><img src="/images/landscape.jpg"><p class="caption">SMOOTHIE PHOTO HERE</p></div> -->

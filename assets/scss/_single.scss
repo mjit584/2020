@@ -73,7 +73,10 @@
     border-bottom:1px solid $white;
   }
 }
-
+.heading-underline {
+  max-width: 200px;
+  margin-bottom: 30px;
+}
 .story-content {
   margin: 20% 20% 10% 20%;
   @media(max-width: 992px) {
@@ -126,7 +129,8 @@
     }
 }
   h2 {
-    margin-bottom:30px;
+    font-size: 40px;
+    font-family: $bodyfont;
   }
   @media(max-width: 1000px) {
     display: flex;
