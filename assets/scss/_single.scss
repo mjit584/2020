@@ -39,23 +39,23 @@
 }
 
 .byline {
-  background-image:url('../images/byline.svg');
+  background-image:url('../images/byline2.svg');
   background-size: cover;
   width:100%;
-  height:500px;
+  height:300px;
   position:absolute;
-  bottom: -400px;
+  bottom: -200px;
   display:flex;
   align-items:flex-start;
   justify-content: space-around;
-  padding: 10% 20%;
-  padding-top: 15%;
-  @media(max-width: 1000px) {
-    padding-top: 30%;
-    padding-bottom: 20%;
-    display: grid;
-    justify-content: center;
-    text-align: center;
+  padding: 5% 20%;
+  @media(max-width: 900px) {
+    padding-top: calc(5% + 5vw);
+    padding: inherit 10%;
+    font-size:.8em;
+    // display: grid;
+    // justify-content: center;
+    // text-align: center;
   }
 }
 
@@ -75,9 +75,9 @@
 }
 
 .story-content {
-  margin: 35% 20% 10% 20%;
+  margin: 20% 20% 10% 20%;
   @media(max-width: 992px) {
-    margin: 100% 5% auto 5%;
+    margin: 30% 5% auto 5%;
   }
 }
 
@@ -184,9 +184,10 @@ position:relative;
 // }
 
 .inner-story-image {
-  width: 200%;
-  margin-left: -18%;
-  padding: 20px;
+  width:94vw;
+  margin: 40px 0 40px -10vw;
+  text-align:center;
+
   p{
     margin: 0;
     font-size: 15px;
@@ -194,9 +195,10 @@ position:relative;
 }
 
 .inner-story-image img {
-  height: 100vh;
-  position: relative;
-  overflow: visible;
+  // height: 100vh;
+  // position: relative;
+  // overflow: visible;
+  width:90%;
 }
 
 .pull-quote {

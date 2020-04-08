@@ -188,24 +188,21 @@ ul, ol {
     max-width: 300px; }
 
 .byline {
-  background-image: url("../images/byline.svg");
+  background-image: url("../images/byline2.svg");
   background-size: cover;
   width: 100%;
-  height: 500px;
+  height: 300px;
   position: absolute;
-  bottom: -400px;
+  bottom: -200px;
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  padding: 10% 20%;
-  padding-top: 15%; }
-  @media (max-width: 1000px) {
+  padding: 5% 20%; }
+  @media (max-width: 900px) {
     .byline {
-      padding-top: 30%;
-      padding-bottom: 20%;
-      display: grid;
-      justify-content: center;
-      text-align: center; } }
+      padding-top: calc(5% + 5vw);
+      padding: inherit 10%;
+      font-size: .8em; } }
 
 .story-title {
   display: flex;
@@ -220,10 +217,10 @@ ul, ol {
     border-bottom: 1px solid #ffffff; }
 
 .story-content {
-  margin: 35% 20% 10% 20%; }
+  margin: 20% 20% 10% 20%; }
   @media (max-width: 992px) {
     .story-content {
-      margin: 100% 5% auto 5%; } }
+      margin: 30% 5% auto 5%; } }
 
 /* START OF STORY NAV */
 .story-page-image {
@@ -309,17 +306,15 @@ ul, ol {
   left: 0; }
 
 .inner-story-image {
-  width: 200%;
-  margin-left: -18%;
-  padding: 20px; }
+  width: 94vw;
+  margin: 40px 0 40px -10vw;
+  text-align: center; }
   .inner-story-image p {
     margin: 0;
     font-size: 15px; }
 
 .inner-story-image img {
-  height: 100vh;
-  position: relative;
-  overflow: visible; }
+  width: 90%; }
 
 .pull-quote {
   background-image: url("../images/pull-quote.svg");
@@ -1017,13 +1012,17 @@ h5 {
   line-height: 1.5em; }
 
 .interactive-section {
-  padding: 5% 10%;
   background-color: #ebebe6;
   background-size: cover;
-  width: 100vw;
-  margin-left: -20vw;
-  margin-bottom: 30px;
-  text-align: center; }
+  padding: 5% 10%;
+  text-align: center;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: 100vw;
+  position: relative;
+  width: 99vw; }
   .interactive-section h2 {
     font-family: "Vollkorn", serif; }
   .interactive-section .heading-underline {

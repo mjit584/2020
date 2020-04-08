@@ -37,7 +37,6 @@ window.onclick = function(event) {
 // global TimelineMax
 // global Linear
 
-console.clear();
 var controller = new ScrollMagic.Controller();
 var sections = document.querySelectorAll("section");
 var tl = new TimelineMax();
