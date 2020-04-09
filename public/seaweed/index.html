@@ -317,7 +317,7 @@
 </style>
 
 <div class="tab">
-  <div class="tablinks" onclick="openCity(event, 'Milkshake')"><img src="../sustainability/milkshake.png"><h3>Milkshake</h3></div>
+  <div class="tablinks active" onclick="openCity(event, 'Milkshake')"><img src="../sustainability/milkshake.png"><h3>Milkshake</h3></div>
   <div class="tablinks" onclick="openCity(event, 'Fertilizer')"><img src="../sustainability/fertilizer.png"><h3>Fertilizer</h3></div>
   <div class="tablinks" onclick="openCity(event, 'Plastic')"><img src="../sustainability/plastic.png"><h3>Plastic Bottles</h3></div>
   <div class="tablinks" onclick="openCity(event, 'Vitamins')"><img src="../sustainability/vitamins.png"><h3>Vitamins</h3></div>
@@ -325,7 +325,7 @@
 </div>
 
 
-<div id="Milkshake" class="tabcontent">
+<div id="Milkshake" class="tabcontent" style="display:block;">
   <p>Seaweed is sometimes used as a base for frozen treats like milkshakes. The fibrous material inside of it provides a  viable alternative to traditional milkshake bases. It can also increase the melting point of ice creams, and is sold in select Ben & Jerry’s stores.</p>
 </div>
 
@@ -347,25 +347,25 @@
 
 <script>
   function openCity(evt, cityName) {
-  
-  var i, tabcontent, tablinks;
+    
+    var i, tabcontent, tablinks;
 
-  
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
+    
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
   }
-
-  
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-
-  
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
   </script>
 
 </div>
