@@ -311,15 +311,26 @@ ul, ol {
   left: 0; }
 
 .inner-story-image {
-  width: 94vw;
-  margin: 40px 0 40px -10vw;
-  text-align: center; }
+  width: 70vw;
+  position: relative;
+  left: 15%;
+  right: 15%;
+  margin-left: -12vw;
+  margin-right: -15vw;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  @media (max-width: 1000px) {
+    .inner-story-image {
+      margin: 40px 0;
+      width: 100%;
+      left: 0;
+      right: 0; } }
   .inner-story-image p {
     margin: 0;
-    font-size: 15px; }
-
-.inner-story-image img {
-  width: 90%; }
+    font-size: 15px;
+    font-family: "Barlow Semi Condensed", sans-serif; }
+  .inner-story-image img {
+    width: 100%; }
 
 .pull-quote {
   background-image: url("../images/pull-quote.svg");
@@ -335,8 +346,10 @@ ul, ol {
   overflow: visible;
   align-items: center; }
 
+.story-4 .photo-card-container {
+  background-image: url("../photostory-elders/sartin_1.jpg"); }
+
 .photo-card-container {
-  background-image: url("../images/landscape.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -344,7 +357,8 @@ ul, ol {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin: 40px 0; }
   .photo-card-container h2 {
     font-size: 60px;
     color: white;
@@ -355,10 +369,16 @@ ul, ol {
   .photo-card-container .photo-card-btn {
     border: 1px solid white;
     padding: 15px;
-    margin-top: 25px; }
-    .photo-card-container .photo-card-btn a {
-      color: white;
-      text-decoration: none; }
+    margin-top: 30px;
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    text-transform: uppercase; }
+  .photo-card-container .photo-card-btn:hover {
+    border: 1px solid white;
+    background-color: #2ea395; }
 
 .about-content {
   display: flex;
