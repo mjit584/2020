@@ -31,7 +31,8 @@ All along the rest of Belize’s 200 miles of coral reef, a species is being suf
 
 <div id="video-top"></div>
 <!-- Economic story video goes here -->
-{{< vimeo id="329817257" class="video-container" >}}
+{{< vimeo id="405450044" class="video-container" >}}
+
 
 Corals are a remarkably sophisticated and misunderstood creature, as vital to the sea as trees are to dry land. A coral is not one animal, but a collective structure of thousands, sometimes even millions of tiny animals known as polyps, which are fully functioning organisms with a mouth and stomach. Polyps evolved to absorb dissolved minerals in the water, which they convert to calcium carbonate, or limestone. The polyps use these minerals to build skeletal structures as complex as any built by people, from great branching fan corals to strong and sturdy elk and staghorn acropora. Their structures can grow to the size of houses and some reefs can stretch for hundreds of miles. They are found in warm waters all over the world.
 

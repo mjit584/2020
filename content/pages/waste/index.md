@@ -32,7 +32,7 @@ But the dump demonstrates the dirty reality of the country’s waste management 
 
 <div id="video-top"></div>
 <!-- Economic story video goes here -->
-{{< vimeo id="329817257" class="video-container" >}}
+{{< vimeo id="405345248" class="video-container" >}}
 
 The trash in Placencia never really disappears. It’s used to build new land, a practice residents of Seine Bight, a small village five miles north of Placencia, know well. If the garbage makes it to the dump, it will sit in unlined pits, meaning groundwater contamination is likely. Sometimes, the trash makes its way into the hands of people like Radford Cacho, who supports his family by selling plastic bottles he’s picked from the piles.
 
