@@ -110,9 +110,9 @@ In September 2010, the Belize Tourism Board contracted Seatone Consulting to car
 
 The first time a cruise ship docked on Belize’s water was in 1991. Ever since, the industry hasn’t stopped growing. The country’s two ports: Fort Street Tourism Village Cruise Port, in Belize City, and Harvest Caye Cruise Port receive thousands of visitors every month, and In each of the past three years, cruise passenger arrivals to Belize has exceeded one million visitors.  
 
-<!-- <div class="interactive-section">
+<div class="interactive-section">
 {{< tourism-interactive >}}
-</div> -->
+</div>
 
 Section 4:Rough waters at home
 
