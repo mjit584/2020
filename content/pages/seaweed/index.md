@@ -75,7 +75,11 @@ Seleem Chan, TNC’s seaweed mariculture project coordinator, said Placencia has
 
 Amed Figueroa, export business adviser for BELTRAIDE, said seaweed farming is still geographically limited to these two locations. Figueroa also said the industry would ideally grow so that Belize can export its own seaweed, ultimately becoming a more significant sector of the economy.
 
-{{< photo-card >}}
+<div class="photo-card-container">
+  <h2>In The Weeds</h2>
+  <img src="/images/yellow-underline-left.svg" class="photo-card-line">
+  <button class="photo-card-btn" id="eldersBtn">Launch Photo Experience</button>
+</div>
 
 Mahung said TIDE started a seaweed farm project with a few fishers in the Toledo province south of Placencia. However, the initiative was discontinued because it was difficult to maintain. Clear waters are ideal for seaweed farming, which Mahung said is difficult to find in Toledo. She said the fishers also became discouraged as others came to the farm and stole the mature seaweed. The farms are most successful in clear waters, so she added it wouldn’t work for every region.
 
