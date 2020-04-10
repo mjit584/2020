@@ -613,7 +613,7 @@ to {
 .header {
   color: #ffffff;
   display: flex;
-  background-image: linear-gradient(to top, transparent, #222222);
+  background-image: linear-gradient(to bottom, #444444, transparent);
   justify-content: space-between;
   align-items: center;
   height: 60px;
