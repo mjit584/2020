@@ -111,3 +111,10 @@
     margin-bottom: 30px;
   }
 }
+.explainer-video {
+  background-color:$story-gray;
+  padding: 5% 15%;
+  iframe {
+    max-width:100%;
+  }
+}
