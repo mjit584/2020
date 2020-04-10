@@ -26,12 +26,15 @@ Godfrey and his father also harvested wild seaweed growing up, but he said he re
 
 Godfrey normally wakes up before sunrise. After brewing his favorite coffee, he takes a long stretch of nylon string and ties a series of knots he’ll use to collect seaweed later. Once the sun is up, he walks to the shore to grab any pieces of the yellow, branch-like plant that washed up.
 
+<!-- PHOTO HERE -->
+<div class="inner-story-image"><img src="/images/seaweed-01.jpg"><p class="caption">Marneesha Leslie, a director for the Belize Women's Seaweed Farmers Association, ties rope to prepare for the group's monitoring trip to their farm near Ray Caye the following day.</p></div>
+
 When the waves settle, Godfrey can venture to his farm. The sea is a calming blue, an optional condition for harvesting. Wearing a snorkel and wetsuit, he wades out with his net until the water reaches his waist. He sorts through the golden-yellow, spiny seaweed that’s started growing just beneath the water, using his knots to tie each head together and collect it into the net. Once he’s reached the shore, Godfrey leaves the wet strands to dry in the sun until the afternoon, when it turns white and rubbery.
 
-<!-- <div class="inner-story-image"><img src="/images/landscape.jpg"><p class="caption">If available - picture of what the seaweed looks like when it’s still yellow/recently brought back from beach?</p></div> -->
+<!-- PHOTO HERE -->
+<div class="inner-story-image"><img src="/images/seaweed-02.jpg"><p class="caption">Rita Leslie attaches seaweed to a rope at the Belize Women's Seaweed Farmers Association site near Ray Caye.</p></div>
 
 After several days, he boats back to Placencia to sell the dried seaweed. One pound costs around $30 Belizean ($15 USD), according to The Nature Conservancy: the same price as a pound of lobster, and triple that of conch.
-
 
 The economic impact of fishing in Belize goes beyond the couple of thousand fishers out of the country’s population of 375,000. It’s also deeply connected to the country’s growing tourism economy, and fishing enthusiasts visit for recreational and sport fishing. But the industry has also dealt with declining fish populations and challenges with legal enforcement.
 
@@ -41,7 +44,7 @@ After a lucrative 10 years in commercial seaweed farming, Godfrey has been a pos
 
 <!-- VIDEO -->
 <div id="video-top"></div>
-{{< vimeo id="329817257" class="video-container" >}}
+{{< vimeo id="405424580" class="video-container" >}}
 
 ## A Fishing Town Changes
 
@@ -75,13 +78,13 @@ According to a report from The Nature Conservancy (TNC), market demand for seawe
 
 Seleem Chan, TNC’s seaweed mariculture project coordinator, said Placencia has two main seaweed farm operations: Godfrey’s farm on Little Water Caye, and Belize Women’s Seaweed Farmers Association’s seed bank at Hatchet Caye. The women’s association, which officially launched in the summer of 2019, aims to develop economic opportunities for women through both farm training and support for market products like seaweed soaps.
 
-Amed Figueroa, export business adviser for BELTRAIDE, said seaweed farming is still geographically limited to these two locations. Figueroa also said the industry would ideally grow so that Belize can export its own seaweed, ultimately becoming a more significant sector of the economy.
-
 <div class="photo-card-container">
   <h2>In The Weeds</h2>
   <img src="/images/yellow-underline-left.svg" class="photo-card-line">
   <button class="photo-card-btn" id="eldersBtn">Launch Photo Experience</button>
 </div>
+
+Amed Figueroa, export business adviser for BELTRAIDE, said seaweed farming is still geographically limited to these two locations. Figueroa also said the industry would ideally grow so that Belize can export its own seaweed, ultimately becoming a more significant sector of the economy.
 
 Mahung said TIDE started a seaweed farm project with a few fishers in the Toledo province south of Placencia. However, the initiative was discontinued because it was difficult to maintain. Clear waters are ideal for seaweed farming, which Mahung said is difficult to find in Toledo. She said the fishers also became discouraged as others came to the farm and stole the mature seaweed. The farms are most successful in clear waters, so she added it wouldn’t work for every region.
 
@@ -120,16 +123,12 @@ It isn’t hard for him to sell his harvest: people come to him.
 
 He’s received international attention for his farm, including a grant from the United Nations Development Program. But he’s a local hero as well: he remembered one time a young girl in Placencia approached him at a restaurant, telling him she wanted to grow up to save the ocean like him. He said memories like these remind him he doesn’t just farm to get rich.
 
-(start pull quote)
 “Nature will provide an endless source of food and money,” he said. “Think about down the line. My children's children’s children...you gotta prepare for them. You know, you can walk around with a pocket full of money and still be hungry.”
-(end pull quote)
 
-Godfrey is optimistic about seaweed farming, although he acknowledged that it hasn’t been profitable for many hopeful farmers. He said out of everyone he’s seen try to start a farm, most of them quit within nine months because of how long it takes to turn a profit. And while it can be a way for fishers to earn a new living, it’s not an automatic solution for the environmental and economic challenges they face.
+Godfrey is optimistic about seaweed farming, although he acknowledged that it hasn’t been profitable for many hopeful farmers. He said out of everyone he’s seen try to start a farm, most of them quit within nine months. And while it can be a way for fishers to earn a new living, it’s not an automatic solution for the environmental and economic challenges they face.
 
 “They have to be the one to choose the alternative that they want,” he said. “Because you can’t impose anything on them. Or it won’t work.”
 
 Godfrey said he gives everything his 100%, which extends past his work into his personal life. He prefers to minimize his own environmental impact even when he’s not farming, only eating what he catches himself. One night on the caye, he blended ice, milk, seaweed gel and papaya for a seaweed smoothie. The seaweed gives the drink an exceptionally smooth texture.
 
 Godfrey raised his glass and smiled. “Here’s to seaweed.”
-<!--
-<div class="inner-story-image"><img src="/images/landscape.jpg"><p class="caption">SMOOTHIE PHOTO HERE</p></div> -->
