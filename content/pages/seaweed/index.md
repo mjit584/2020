@@ -61,9 +61,11 @@ Managed Access has received praise from environmental groups for prioritizing su
 
 Although environmental nonprofits like SEA continue to invest in fishing policy reform, they’re also supporting what they call “alternative” projects like seaweed farming. Longsworth is also a member of the Placencia Producers Cooperative, a fishing coalition that Godfrey leads. Under Godfrey’s vision, some cooperative members like Longsworth have started to farm seaweed in addition to continuing fishing. But in an industry-wide time of economic uncertainty, not everyone can afford to wait for success.
 
+<div class="interactive-top"></div>
 <div class="interactive-section">
 {{< sustainability-interactive >}}
 </div>
+<div class="interactive-bottom"></div>
 
 ## No guarantee
 
@@ -101,9 +103,11 @@ IKOOMA products are only available online for Belizean residents, and in one Pla
 
 “I’m just a journalist who happened to make hair products,” she said.
 
+<div class="interactive-top"></div>
 <div class="interactive-section">
 {{< seaweed-interactive >}}
 </div>
+<div class="interactive-bottom"></div>
 
 ## One Man Against the Tide
 
