@@ -1,21 +1,22 @@
 .story-1 .story-hero {
-  background-image: url('../images/marine.jpg');
+  background-image: linear-gradient(to bottom, #222222, transparent 10%), url('../images/marine.jpg');
 }
 .story-2 .story-hero {
-  background-image: url('../images/tourism.jpg');
+  background-image: linear-gradient(to bottom, #222222, transparent 15%), url('../images/tourism.jpg');
 }
 .story-3 .story-hero {
-  background-image: url('../images/cacao.jpg');
+  background-image: linear-gradient(to bottom, #222222, transparent 20%), url('../images/cacao.jpg');
 }
 .story-4 .story-hero {
-  background-image: url('../images/waste2.jpg');
+  background-image: linear-gradient(to bottom, #222222, transparent 20%), url('../images/waste2.jpg');
 }
 .story-5 .story-hero {
-  background-image: url('../images/seaweed.jpg');
+  background-image: linear-gradient(to bottom, #222222, transparent 15%), url('../images/seaweed.jpg');
 }
 .notfound .story-hero {
-  background-image: url('../images/notfound.jpg');
+  background-image: linear-gradient(to bottom, #222222, transparent 10%), url('../images/notfound.jpg');
 }
+
 .story-hero {
   height:100vh;
   background-position: center center;
