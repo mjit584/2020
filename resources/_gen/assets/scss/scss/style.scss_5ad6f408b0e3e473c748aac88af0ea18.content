@@ -152,7 +152,7 @@ ul, ol {
 
 .explainer-video {
   background-color: #ebebe6;
-  padding: 10%; }
+  padding: 5% 15%; }
   .explainer-video iframe {
     max-width: 100%; }
 
