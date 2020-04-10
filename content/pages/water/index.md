@@ -40,9 +40,11 @@ Polyps are remarkable for their “hive mind,” a kind of animal intelligence t
 
 But corals are delicate, stationary animals, qualities that make them highly sensitive to the rapid environmental changes happening in Belize and around the world.
 
+<div class="interactive-top"></div>
 <div class="interactive-section">
 {{< ms-interactive >}}
 </div>
+<div class="interactive-bottom"></div>
 
 Dr. Karl Castillo (age) is a marine science researcher specializing in coral ecology at the University of North Carolina at Chapel Hill. Castillo was born in Belize, and spent much of his early career studying the Belize coral reef system.
 

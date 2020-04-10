@@ -1,12 +1,12 @@
 .header {
   color: #ffffff;
   display: flex;
+  background-image: linear-gradient(to bottom, #444444, transparent);
   justify-content: space-between;
   align-items: center;
   height: 60px;
   padding-left: 20px;
   padding-right: 20px;
-
   // .header-absolute {
   //   position: absolute;
   //   z-index: 10;

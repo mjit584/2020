@@ -61,9 +61,11 @@ Managed Access has received praise from environmental groups for prioritizing su
 
 Although environmental nonprofits like SEA continue to invest in fishing policy reform, they’re also supporting what they call “alternative” projects like seaweed farming. Longsworth is also a member of the Placencia Producers Cooperative, a fishing coalition that Godfrey leads. Under Godfrey’s vision, some cooperative members like Longsworth have started to farm seaweed in addition to continuing fishing. But in an industry-wide time of economic uncertainty, not everyone can afford to wait for success.
 
+<div class="interactive-top"></div>
 <div class="interactive-section">
 {{< sustainability-interactive >}}
 </div>
+<div class="interactive-bottom"></div>
 
 ## No guarantee
 
@@ -75,7 +77,11 @@ Seleem Chan, TNC’s seaweed mariculture project coordinator, said Placencia has
 
 Amed Figueroa, export business adviser for BELTRAIDE, said seaweed farming is still geographically limited to these two locations. Figueroa also said the industry would ideally grow so that Belize can export its own seaweed, ultimately becoming a more significant sector of the economy.
 
-{{< photo-card >}}
+<div class="photo-card-container">
+  <h2>In The Weeds</h2>
+  <img src="/images/yellow-underline-left.svg" class="photo-card-line">
+  <button class="photo-card-btn" id="eldersBtn">Launch Photo Experience</button>
+</div>
 
 Mahung said TIDE started a seaweed farm project with a few fishers in the Toledo province south of Placencia. However, the initiative was discontinued because it was difficult to maintain. Clear waters are ideal for seaweed farming, which Mahung said is difficult to find in Toledo. She said the fishers also became discouraged as others came to the farm and stole the mature seaweed. The farms are most successful in clear waters, so she added it wouldn’t work for every region.
 
@@ -101,9 +107,11 @@ IKOOMA products are only available online for Belizean residents, and in one Pla
 
 “I’m just a journalist who happened to make hair products,” she said.
 
+<div class="interactive-top"></div>
 <div class="interactive-section">
 {{< seaweed-interactive >}}
 </div>
+<div class="interactive-bottom"></div>
 
 ## One Man Against the Tide
 

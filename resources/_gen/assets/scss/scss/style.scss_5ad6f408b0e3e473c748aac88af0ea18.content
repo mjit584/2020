@@ -157,22 +157,22 @@ ul, ol {
     max-width: 100%; }
 
 .story-1 .story-hero {
-  background-image: url("../images/marine.jpg"); }
+  background-image: linear-gradient(to bottom, #222222, transparent 9%), url("../images/marine.jpg"); }
 
 .story-2 .story-hero {
-  background-image: url("../images/tourism.jpg"); }
+  background-image: linear-gradient(to bottom, #222222, transparent 15%), url("../images/tourism.jpg"); }
 
 .story-3 .story-hero {
-  background-image: url("../images/cacao.jpg"); }
+  background-image: linear-gradient(to bottom, #222222, transparent 20%), url("../images/cacao.jpg"); }
 
 .story-4 .story-hero {
-  background-image: url("../images/waste2.jpg"); }
+  background-image: linear-gradient(to bottom, #222222, transparent 20%), url("../images/waste2.jpg"); }
 
 .story-5 .story-hero {
-  background-image: url("../images/seaweed.jpg"); }
+  background-image: linear-gradient(to bottom, #222222, transparent 15%), url("../images/seaweed.jpg"); }
 
 .notfound .story-hero {
-  background-image: url("../images/notfound.jpg"); }
+  background-image: linear-gradient(to bottom, #222222, transparent 10%), url("../images/notfound.jpg"); }
 
 .story-hero {
   height: 100vh;
@@ -358,6 +358,9 @@ ul, ol {
 .story-4 .photo-card-container {
   background-image: url("../photostory-elders/sartin_1.jpg"); }
 
+.story-5 .photo-card-container {
+  background-image: url("../images/seaweed-photostory-title.jpg"); }
+
 .photo-card-container {
   background-repeat: no-repeat;
   background-size: cover;
@@ -516,7 +519,7 @@ to {
     font-size: .9em;
     line-height: 1.1em; }
   .about-overlay .portfolio {
-    font-size: .9em;
+    font-size: .7em;
     font-weight: 600;
     margin-top: 5px;
     text-transform: uppercase;
@@ -547,7 +550,7 @@ to {
     color: #ffffff;
     text-decoration: none; }
   .inner-card.Interactive .about-overlay a i {
-    color: #333333; }
+    color: #ffffff; }
 
 .inner-card.Photo .about-overlay {
   background: url("../wave/Orange-Wave.svg");
@@ -570,7 +573,7 @@ to {
     color: #333333;
     text-decoration: none; }
   .inner-card.Coaches .about-overlay a i {
-    color: #ffffff; }
+    color: #333333; }
 
 /* For the sort and the card layout */
 .about-overlay-hover {
@@ -619,6 +622,7 @@ to {
 .header {
   color: #ffffff;
   display: flex;
+  background-image: linear-gradient(to bottom, #444444, transparent);
   justify-content: space-between;
   align-items: center;
   height: 60px;
@@ -976,7 +980,8 @@ to {
   justify-content: center; }
 
 .mobile-image {
-  width: 100%; }
+  width: 100%;
+  margin-top: -70px; }
 
 #home-text-container {
   position: absolute;
@@ -1046,16 +1051,12 @@ h5 {
   line-height: 1.5em; }
 
 .interactive-section {
+  padding: 5% 10%;
   background-color: #ebebe6;
   background-size: cover;
-  padding: 5% 10%;
-  text-align: center;
-  left: 50%;
-  right: 50%;
-  margin: 30px -50vw;
-  max-width: 100vw;
-  position: relative;
-  width: 99vw; }
+  width: 100vw;
+  margin-left: -20vw;
+  text-align: center; }
   .interactive-section h2 {
     font-family: "Vollkorn", serif; }
   .interactive-section .heading-underline {
@@ -1066,6 +1067,23 @@ h5 {
   background-color: #333333; }
   .dark h2, .dark p {
     color: #ffffff; }
+
+.interactive-top {
+  background-image: url("../images/interactive-top.svg");
+  background-size: cover;
+  height: 100px;
+  width: 100vw;
+  margin-left: -20vw;
+  margin-bottom: -5px; }
+
+.interactive-bottom {
+  background-image: url("../images/interactive-bottom.svg");
+  background-size: cover;
+  margin-top: -10px;
+  height: 110px;
+  width: 100vw;
+  margin-left: -20vw;
+  margin-bottom: 30px; }
 
 .ps-timeline-sec {
   position: relative; }

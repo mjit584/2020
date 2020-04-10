@@ -95,9 +95,11 @@ Budna has watched as the amount of garbage coming in from Placencia steadily inc
 
 The Placencia Sanitation Company, a private company contracted by the municipal government, collects garbage from residents and businesses twice a week. Individuals pay $22 Belizean a month for garbage collection; businesses pay anywhere from $55 to $250 Belizean a month, said Ilsa Villanueva, chairperson of the Placencia Village Council. The waste is taken to the dump and emptied into a 30-foot pit. When it’s full, the pit is bulldozed over — and the thick jungle foliage quickly reclaims the land.
 
+<div class="interactive-top"></div>
 <div class="interactive-section">
 {{< trash-interactive >}}
 </div>
+<div class="interactive-bottom"></div>
 
 Belize’s waste management system is about to get a complete overhaul. Within the next year, the Placencia dump is slated to close. All trash will go to a new $10.2 million transfer station built on adjacent property. Garbage trucks will drop off their loads at the transfer station and all recyclable materials will be sorted out manually and removed. What remains will be loaded into trailers and hauled to the Regional Sanitary Landfill, a 340-acre property between Belize City and Belmopan.
 
