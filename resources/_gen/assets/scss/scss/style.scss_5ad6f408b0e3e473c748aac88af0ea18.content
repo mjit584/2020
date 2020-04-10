@@ -150,6 +150,12 @@ ul, ol {
     max-width: 200px;
     margin-bottom: 30px; }
 
+.explainer-video {
+  background-color: #ebebe6;
+  padding: 10%; }
+  .explainer-video iframe {
+    max-width: 100%; }
+
 .story-1 .story-hero {
   background-image: url("../images/marine.jpg"); }
 
