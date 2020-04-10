@@ -352,6 +352,9 @@ ul, ol {
 .story-4 .photo-card-container {
   background-image: url("../photostory-elders/sartin_1.jpg"); }
 
+.story-5 .photo-card-container {
+  background-image: url("../images/seaweed-photostory-title.jpg"); }
+
 .photo-card-container {
   background-repeat: no-repeat;
   background-size: cover;
@@ -1047,6 +1050,10 @@ h5 {
   background-size: cover;
   width: 100vw;
   margin-left: -20vw;
+<<<<<<< HEAD
+=======
+  margin-bottom: 30px;
+>>>>>>> master
   text-align: center; }
   .interactive-section h2 {
     font-family: "Vollkorn", serif; }
@@ -1061,6 +1068,7 @@ h5 {
 
 .interactive-top {
   background-image: url("../images/interactive-top.svg");
+<<<<<<< HEAD
   background-size: cover;
   height: 100px;
   width: 100vw;
@@ -1075,6 +1083,13 @@ h5 {
   width: 100vw;
   margin-left: -20vw;
   margin-bottom: 30px; }
+=======
+  background-size: cover; }
+
+.interactive-bottom {
+  background-image: url("../images/interactive-bottom.svg");
+  background-size: cover; }
+>>>>>>> master
 
 .ps-timeline-sec {
   position: relative; }
