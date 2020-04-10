@@ -34,6 +34,10 @@ The private resort offers bars, a shopping area, a 15,000-square-foot swimming p
 
 However, not everyone shared Del Rio’s enthusiasm.
 
+<div class="interactive-section">
+{{< cruise-interactive >}}
+</div>
+
 “Do you see the lighthouse over there?” Terry sometimes asks his passengers during the tour, pointing at the only tower on this seven-acre island. “It’s actually not even real, it’s just decoration.” He laughs with a bit of sarcasm, but then gets quiet.
 
 Terry never really thought this multi-million dollar project was a good idea, in fact, he still doesn’t; many of his friends and coworkers in Monkey River share the same feeling.
@@ -106,9 +110,9 @@ In September 2010, the Belize Tourism Board contracted Seatone Consulting to car
 
 The first time a cruise ship docked on Belize’s water was in 1991. Ever since, the industry hasn’t stopped growing. The country’s two ports: Fort Street Tourism Village Cruise Port, in Belize City, and Harvest Caye Cruise Port receive thousands of visitors every month, and In each of the past three years, cruise passenger arrivals to Belize has exceeded one million visitors.  
 
-<div class="interactive-section">
+<!-- <div class="interactive-section">
 {{< tourism-interactive >}}
-</div>
+</div> -->
 
 Section 4:Rough waters at home
 
