@@ -68,19 +68,23 @@
   <!-- FontAwesome -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <!--GSAP-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 
-    <!--ajax-->
+    <!--jQuery-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <!--TWEENMAX-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 
     <!--scroll magic-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.2/plugins/animation.gsap.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+
+
     <!--intersection observer-->
-    <script src='https://unpkg.com/intersection-observer@0.5.0/intersection-observer.js'></script>
+    <!-- <script src='https://unpkg.com/intersection-observer@0.5.0/intersection-observer.js'></script> -->
 
     <!--HOW TO INCLUDE JS FILES PAGE BY PAGE-->
     <!--If you add a new JS file in /assets/js then you need to include it here!  Don't forget to add it to the Bundle line.  There are several steps:
@@ -104,7 +108,7 @@
     {{ $story3bundle := slice $video | resources.Concat "js/story3bundle.js" }}
     {{ $story4bundle := slice $video $photostoryelders | resources.Concat "js/story4bundle.js" }}
     {{ $story5bundle := slice $video | resources.Concat "js/story5bundle.js" }}
-
+    {{ $photostory4 := slice $photostoryelders | resources.Concat "js/photostory4.js" }}
 
     <!-- All pages get this bundle -->
     {{ if .Site.IsServer }}
@@ -160,6 +164,16 @@
       {{ else }}
         <script type="text/javascript" src="{{ ($story5bundle | minify | fingerprint).RelPermalink }}"></script>
     {{ end }}
+
+
+    <!-- PhotoStory 4 gets this Bundle -->
+    {{ else if eq .Weight 40 }}
+    {{ if .Site.IsServer }}
+        <script type="text/javascript" src="{{ $photostory4.RelPermalink }}"></script>
+      {{ else }}
+        <script type="text/javascript" src="{{ ($photostory4 | minify | fingerprint).RelPermalink }}"></script>
+    {{ end }}
+
 
 
   {{ end }}
