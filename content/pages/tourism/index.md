@@ -34,9 +34,11 @@ The private resort offers bars, a shopping area, a 15,000-square-foot swimming p
 
 However, not everyone shared Del Rio’s enthusiasm.
 
+<div class="interactive-top"></div>
 <div class="interactive-section">
 {{< cruise-interactive >}}
 </div>
+<div class="interactive-bottom"></div>
 
 “Do you see the lighthouse over there?” Terry sometimes asks his passengers during the tour, pointing at the only tower on this seven-acre island. “It’s actually not even real, it’s just decoration.” He laughs with a bit of sarcasm, but then gets quiet.
 

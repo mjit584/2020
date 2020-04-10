@@ -43,9 +43,11 @@ Agriculture now makes up more than 10 percent of both Belize’s GDP and Labor F
 
 Colorfully-painted churches lined the sides of the roads, juxtaposed next to thatched roof Mayan homes.
 
+<div class="interactive-top darker"></div>
 <div class="interactive-section dark">
 {{< chocolate-interactive >}}
 </div>
+<div class="interactive-bottom darker"></div>
 
 Despite the threat from pests like squirrels and birds and diseases, Saqui insists that his beans be grown without the use of pesticides.
 
