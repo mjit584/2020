@@ -510,7 +510,7 @@ to {
     font-size: .9em;
     line-height: 1.1em; }
   .about-overlay .portfolio {
-    font-size: .9em;
+    font-size: .7em;
     font-weight: 600;
     margin-top: 5px;
     text-transform: uppercase;
@@ -541,7 +541,7 @@ to {
     color: #ffffff;
     text-decoration: none; }
   .inner-card.Interactive .about-overlay a i {
-    color: #333333; }
+    color: #ffffff; }
 
 .inner-card.Photo .about-overlay {
   background: url("../wave/Orange-Wave.svg");
@@ -564,7 +564,7 @@ to {
     color: #333333;
     text-decoration: none; }
   .inner-card.Coaches .about-overlay a i {
-    color: #ffffff; }
+    color: #333333; }
 
 /* For the sort and the card layout */
 .about-overlay-hover {
@@ -1041,16 +1041,13 @@ h5 {
   line-height: 1.5em; }
 
 .interactive-section {
+  padding: 5% 10%;
   background-color: #ebebe6;
   background-size: cover;
-  padding: 5% 10%;
-  text-align: center;
-  left: 50%;
-  right: 50%;
-  margin: 30px -50vw;
-  max-width: 100vw;
-  position: relative;
-  width: 99vw; }
+  width: 100vw;
+  margin-left: -20vw;
+  margin-bottom: 30px;
+  text-align: center; }
   .interactive-section h2 {
     font-family: "Vollkorn", serif; }
   .interactive-section .heading-underline {
@@ -1061,6 +1058,14 @@ h5 {
   background-color: #333333; }
   .dark h2, .dark p {
     color: #ffffff; }
+
+.interactive-top {
+  background-image: url("../images/interactive-top.svg");
+  background-size: cover; }
+
+.interactive-bottom {
+  background-image: url("../images/interactive-bottom.svg");
+  background-size: cover; }
 
 .ps-timeline-sec {
   position: relative; }

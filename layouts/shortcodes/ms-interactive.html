@@ -1,7 +1,9 @@
 <h2>Threatened Coral</h2>
-<p>Belize is home the world’s second largest barrier reef. The reef supports over 500 species of fish and dozens of coral species, making it a crucial part of Belize’s ecosystem. However, there are several dangers threatening the survival of the reef. In the images below, the left side of the coral is healthy, the right side is coral under stress. Please click or tap on each card to learn more. </p>
+<p>Belize is home the world’s second largest barrier reef. The reef supports over 500 species of fish and dozens of coral species, making it a crucial part of Belize’s ecosystem. However, there are several dangers threatening the survival of the reef. In the images below, the left side of the coral is healthy, the right side is coral under stress. </p>
+<p class="instructions">Please click or tap on each card to learn more.</p>
 
 <div class= "fliplayout">
+
 
   <div class="flip-card">
       <div class="flip-card-inner" onclick="this.classList.toggle('flipped');">
@@ -13,6 +15,7 @@
         </div>
         <div class="side flip-card-back">
           <h3>Climate Change</h3>
+            <img src="{{ .Site.BaseURL }}images/yellow-underline-left.svg">
           <p>Rising water temperatures due to climate change and an increase of greenhouse gasses in the atmosphere pose a major threat to coral. Even slight variations in temperature cause coral bleaching, turning the coral white. Bleaching events can be drastic and make it impossible for the coral to recover.</p>
         </div>
     </div>
@@ -29,6 +32,7 @@
         </div>
         <div class="side flip-card-back">
           <h3>Disease</h3>
+          <img src="{{ .Site.BaseURL }}images/yellow-underline-left.svg">
           <p>Coral can get diseases, too. Pollutants, rising water temperatures and radiation from the sun can cause disease, which can then wipe out an entire coral system. When coral is broken, either from fishing equipment or divers, it is at a greater risk of contracting a disease.</p>
         </div>
     </div>
@@ -44,6 +48,7 @@
         </div>
         <div class="side flip-card-back">
           <h3>Pollution</h3>
+          <img src="{{ .Site.BaseURL }}images/yellow-underline-left.svg">
           <p>Pollution hurts the coral in two ways. First, physical pollution, such as plastic, can damage the coral or block the sun’s rays and prevent coral from getting nutrients. Second, industrial runoff in the water can raise water toxicity and cause diseases that ultimately lead to the death of the coral.</p>
         </div>
     </div>
@@ -59,7 +64,8 @@
       </div>
       <div class="flip-card-back side">
         <h3>Overfishing</h3>
-        <p>Overfishing or illegal fishing practices can damage the coral. Overfishing herbivorous species remove fish that eat the plant species growing on the coral, leading to an unbalanced ecosystem. Illegal fishing practices, such as gill nets, can damage and break the coral, which then expose it to disease in the same way an open wound on a human can be at risk of infection.</p>
+        <img src="{{ .Site.BaseURL }}images/yellow-underline-left.svg">
+        <p>Overfishing or illegal fishing practices can damage the coral. Overfishing herbivorous species remove fish that eat the plant species growing on the coral, leading to an unbalanced ecosystem. Illegal fishing practices, such as gill nets, can damage and break the coral, which then expose it to disease.</p>
       </div>
     </div>
   </div>
@@ -68,17 +74,27 @@
 
 <style>
     /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+
+.instructions {
+   color: #838383;
+   font-style: italic;
+}
+
 .fliplayout {
   display: flex;
   flex-wrap: wrap;
-  margin: 5px;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 5%;
+  @media(max-width: 1500px) {
+
+  }
 }
 
 .fliplayout p {
     font-size: 1.25em;
-    line-height: 1em;
-    padding: 15px;
-    margin: 10px auto;
+    line-height: 1.2em;
+    padding: 0% 5%;
     text-align: left;
     font-family: 'Barlow Semi Condensed', sans-serif;
     color: #EBEBE6;
@@ -87,9 +103,9 @@
 .fliplayout .flip-card-back h3 {
     font-size: 2em;
     line-height: 1em;
-    padding-top: 15px;
+    padding-top: 10%;
     font-family: 'Vollkorn', serif;
-    color: #222222;
+    color: #EBEBE6;
 }
 
 
@@ -108,8 +124,8 @@
     height: 375px;
     border: 1px solid ##69BBCE;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
-    margin-bottom: 4%;
-    margin-left: 4%;
+    margin-bottom: 3%;
+    margin-left: 3%;
 }
 
 /* This container is needed to position the front and back side */
@@ -176,7 +192,7 @@
 .flip-card-front .text h3 {
     font-size: 2em;
     font-family: 'Vollkorn', serif;
-    color: #222222;
+    color: #EBEBE6;
 }
 
 
@@ -186,8 +202,12 @@
 
 /* Style the back side */
 .flip-card-back {
-    background-color: #69BBCE;
-    color: white;
+    background-color: #0c607b;
     transform: rotateY(180deg);
 }
+
+.flip-card-back img {
+  width: 80%;
+}
+
 </style>
