@@ -99,7 +99,7 @@
     {{ $video := resources.Get "js/video.js" }}
     {{ $aboutsort := resources.Get "js/aboutsort.js" }}
     {{ $photostoryelders := resources.Get "js/photostoryelders.js" }}
-
+    {{ $photostorygenerations := resources.Get "js/photostorygenerations.js" }}
 
     {{ $bundle := slice $scripts | resources.Concat "js/bundle.js" }}
     {{ $aboutbundle := slice $aboutsort | resources.Concat "js/aboutbundle.js" }}
@@ -108,7 +108,11 @@
     {{ $story3bundle := slice $video | resources.Concat "js/story3bundle.js" }}
     {{ $story4bundle := slice $video $photostoryelders | resources.Concat "js/story4bundle.js" }}
     {{ $story5bundle := slice $video | resources.Concat "js/story5bundle.js" }}
+    {{ $photostory1 := slice $photostorygenerations | resources.Concat "js/photostory1.js" }}
+    {{ $photostory2 := slice $photostoryelders | resources.Concat "js/photostory4.js" }}
+    {{ $photostory3 := slice $photostoryelders | resources.Concat "js/photostory4.js" }}
     {{ $photostory4 := slice $photostoryelders | resources.Concat "js/photostory4.js" }}
+    {{ $photostory5 := slice $photostoryelders | resources.Concat "js/photostory4.js" }}
 
     <!-- All pages get this bundle -->
     {{ if .Site.IsServer }}
@@ -149,7 +153,7 @@
         <script type="text/javascript" src="{{ ($story3bundle | minify | fingerprint).RelPermalink }}"></script>
     {{ end }}
 
-    <!-- Story 1 gets this Bundle -->
+    <!-- Story 4 gets this Bundle -->
     {{ else if eq .Weight 4 }}
     {{ if .Site.IsServer }}
         <script type="text/javascript" src="{{ $story4bundle.RelPermalink }}"></script>
@@ -157,12 +161,38 @@
         <script type="text/javascript" src="{{ ($story4bundle | minify | fingerprint).RelPermalink }}"></script>
     {{ end }}
 
-    <!-- Story 1 gets this Bundle -->
+    <!-- Story 5 gets this Bundle -->
     {{ else if eq .Weight 5 }}
     {{ if .Site.IsServer }}
         <script type="text/javascript" src="{{ $story5bundle.RelPermalink }}"></script>
       {{ else }}
         <script type="text/javascript" src="{{ ($story5bundle | minify | fingerprint).RelPermalink }}"></script>
+    {{ end }}
+
+    <!-- PhotoStory 1 gets this Bundle -->
+    {{ else if eq .Weight 10 }}
+    {{ if .Site.IsServer }}
+        <script type="text/javascript" src="{{ $photostory1.RelPermalink }}"></script>
+      {{ else }}
+        <script type="text/javascript" src="{{ ($photostory1 | minify | fingerprint).RelPermalink }}"></script>
+    {{ end }}
+
+
+    <!-- PhotoStory 2 gets this Bundle -->
+    {{ else if eq .Weight 20 }}
+    {{ if .Site.IsServer }}
+        <script type="text/javascript" src="{{ $photostory2.RelPermalink }}"></script>
+      {{ else }}
+        <script type="text/javascript" src="{{ ($photostory2 | minify | fingerprint).RelPermalink }}"></script>
+    {{ end }}
+
+
+    <!-- PhotoStory 3 gets this Bundle -->
+    {{ else if eq .Weight 30 }}
+    {{ if .Site.IsServer }}
+        <script type="text/javascript" src="{{ $photostory3.RelPermalink }}"></script>
+      {{ else }}
+        <script type="text/javascript" src="{{ ($photostory3 | minify | fingerprint).RelPermalink }}"></script>
     {{ end }}
 
 
@@ -172,6 +202,15 @@
         <script type="text/javascript" src="{{ $photostory4.RelPermalink }}"></script>
       {{ else }}
         <script type="text/javascript" src="{{ ($photostory4 | minify | fingerprint).RelPermalink }}"></script>
+    {{ end }}
+
+
+    <!-- PhotoStory 5 gets this Bundle -->
+    {{ else if eq .Weight 50 }}
+    {{ if .Site.IsServer }}
+        <script type="text/javascript" src="{{ $photostory5.RelPermalink }}"></script>
+      {{ else }}
+        <script type="text/javascript" src="{{ ($photostory5 | minify | fingerprint).RelPermalink }}"></script>
     {{ end }}
 
 
