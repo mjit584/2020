@@ -7,9 +7,7 @@
 
 <div id="pinMaster">
    <div class="exit">
-       <div class="header1" id="myHeader">
-           <h2>My Header</h2>
-       </div>
+    <a href="/water#generations"><i class="fa fa-times-circle fa-2x"></i></a>
    </div>
 
    <div id="pinContainer">
@@ -79,16 +77,19 @@
 
 <style>
   /*for header*/
+  .exit {
+    position:absolute;
+    right:20px;
+    top:20px;
+    z-index:1000;
+  }
+  i {
+    color:#fff;
+    text-shadow:2px 2px 2px #000;
+  }
 
   .header, .footer {
     display:none;
-  }
-
-  .header1 {
-        padding: 10px 16px;
-        background: #555;
-        color: #f1f1f1;
-        z-index: 1;
   }
 
     .sticky {

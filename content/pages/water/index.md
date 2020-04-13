@@ -96,10 +96,10 @@ The nurseries look more like underwater cage match scenes than places that could
 
 “It’s the outplanting that really amazes people who come see our work,” said Faux.
 
-<div class="photo-card-container">
+<div class="photo-card-container" id="generations">
   <h2>Guiding Generations</h2>
   <img src="/images/yellow-underline-left.svg" class="photo-card-line">
-  <button class="photo-card-btn" id="eldersBtn">Launch Photo Experience</button>
+  <a class="photo-card-btn" id="eldersBtn" href="/generations/">Launch Photo Experience</a>
 </div>
 
 Laughing Bird Caye is just a little bigger than Tom Owens with even less infrastructure. It is among the most well preserved Marine Protection Areas (MPA) in Belize, and it is co-managed, like all MPAs, by the Belizean government and a nonprofit organization. Off the east-facing beach of the caye, coral fields the size of soccer pitches are thriving, made up entirely of coral regrown by Fragments of Hope volunteers.
