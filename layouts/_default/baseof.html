@@ -100,6 +100,7 @@
     {{ $aboutsort := resources.Get "js/aboutsort.js" }}
     {{ $photostoryelders := resources.Get "js/photostoryelders.js" }}
     {{ $photostorygenerations := resources.Get "js/photostorygenerations.js" }}
+    {{ $photostoryrooted := resources.Get "js/photostoryrooted.js" }}
 
     {{ $bundle := slice $scripts | resources.Concat "js/bundle.js" }}
     {{ $aboutbundle := slice $aboutsort | resources.Concat "js/aboutbundle.js" }}
@@ -110,7 +111,7 @@
     {{ $story5bundle := slice $video | resources.Concat "js/story5bundle.js" }}
     {{ $photostory1 := slice $photostorygenerations | resources.Concat "js/photostory1.js" }}
     {{ $photostory2 := slice $photostoryelders | resources.Concat "js/photostory4.js" }}
-    {{ $photostory3 := slice $photostoryelders | resources.Concat "js/photostory4.js" }}
+    {{ $photostory3 := slice $photostoryrooted | resources.Concat "js/photostory3.js" }}
     {{ $photostory4 := slice $photostoryelders | resources.Concat "js/photostory4.js" }}
     {{ $photostory5 := slice $photostoryelders | resources.Concat "js/photostory4.js" }}
 

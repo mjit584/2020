@@ -80,10 +80,10 @@ He is trailing behind a Ford pick-up, carrying Jose Mess, 53, and his son Bradfo
 
 When the vehicles can go no further, the three men step out and begin a short march toward the grove of more than 200 cacao trees.
 
-<div class="photo-card-container">
+<div class="photo-card-container" id="rooted">
   <h2>Rooted in Culture</h2>
   <img src="/images/yellow-underline-left.svg" class="photo-card-line">
-  <button class="photo-card-btn">Launch Photo Experience</button>
+  <button class="photo-card-btn" id="eldersBtn" href="/rooted/">Launch Photo Experience</button>
 </div>
 
 After crossing a stream the pods begin to emerge: green-yellow foresteros and deep burgundy trinitarios, which are sought after around the globe for their distinctive taste.  
