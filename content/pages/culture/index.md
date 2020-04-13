@@ -24,6 +24,10 @@ The pods start out as small white flowers smaller than a pinky finger, and they 
 These farmers harvests once every ten days for six months, but in the off days and months the groves must be constantly maintained to stave off pests and disease and make sure the pods are getting the optimal amount of shade.
 Narcisso’s brother, Julio Saqui, takes the beans from his brother’s farm and uses them to create fine chocolate.
 
+<div class="inner-story-image">
+  <img src="/images/culture-01.jpg"><p class="caption">Saqui holds up three chocolate bars which have begun to separate from their molds after cooling. He often wakes up at 4 a.m. to make sure that he can pipe and wrap the bars before the mid-day heat begins to melt the chocolate.</p>
+</div>
+
 His storefront is a square concrete box, emblazoned with Che’il (meaning wild) Mayan Chocolate, with walls painted the same green as trees outside, and floors a rich orange clay. Local art from village members sits on shelves next to a corner refrigerator, which hold the result of a 21-day process of plucking, drying, fermenting, drying, roasting, crushing and grinding of the beans, wrapped in foil.
 TK
 Saqui’s  largest competitor is Maya Mountain Cacao, created and majority-owned by the Berkeley, California-based company Uncommon Cacao. This year, the company plans to source 65 metric tons of cocao beans, General Manager Roxanna Chen said, up from 47 last year.  
@@ -53,5 +57,10 @@ Despite the threat from pests like squirrels and birds and diseases, Saqui insis
 
 
 But what the big farmers and buyers are doing is that they're paying this farmer, a very small amount of money so that he gets disappointed, he lose interest. And the next best thing for him to do now is to sell his land to the bigger farmer or a buyer so that then that we can, they can harvest everything you've done so they pay a little bit of money and that's it for you. You still make a loss, but for them they will make more by selling more of the crops that keeps coming from the farm.”
+
+<div class="inner-story-image">
+  <img src="/images/culture-02.jpg"><p class="caption">Saqui uses a spatula to stir a plate of roasting dry cacao beans. These beans will later be grinded by hand and mixed with beans roasted in a machine in order to balance flavor and profitability.</p>
+</div>
+
 Despite the rapid growth of the cocao industry in Belize, the government is doing little to none to supports growers and producers.
 We have started noticing it about three years ago but never never did it in the expand because there was the the association was trying to actually control it. But like I was telling him the association just fell apart. Oh, growers. Yeah. And that then quotes the administration arm that is offering technical support to the salon story. That's a long story but what happened was that Green and Black used to support the association. They actually give them financial support. Green and blacks green and blacks. We named blacks a branch of branch of them. Was it is it, Hershey's, I think it's good in blacks and technical support with the branched off from conventional cocao to fully organically grown cows.
