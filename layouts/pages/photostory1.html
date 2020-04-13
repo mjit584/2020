@@ -1,0 +1,269 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-pages-single story-{{ .Params.weight }} {{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+
+
+<div id="pinMaster">
+   <div class="exit">
+    <a href="/water#generations"><i class="fa fa-times-circle fa-2x"></i></a>
+   </div>
+
+   <div id="pinContainer">
+
+       <section class="panel one">
+           <div class="title">
+               <h1>Guiding Generations</h1>
+               <img src="{{ .Site.BaseURL }}images/yellow-underline-left.svg" alt="Avatar"> />
+       </section>
+
+       <section class="panel two">
+           <button onclick="myFunction()">Try it</button>
+
+           <div id="myDIV">
+               This is my DIV element.
+           </div>
+       </section>
+
+       <section class="panel three"> </section>
+       <section class="panel four">
+           <img src="{{ .Site.BaseURL }}photostory-generations/france_2.jpg" alt="Avatar"> />
+       </section>
+       <section class="panel five"> </section>
+       <section class="panel six"></section>
+       <section class="panel seven"> </section>
+       <section class="panel eight"> </section>
+       <section class="panel nine"></section>
+       <section class="panel ten"></section>
+       <section class="panel eleven"></section>
+       <section class="panel twelve">
+           <img src="{{ .Site.BaseURL }}photostory-generations/france_7.jpg" alt="Avatar"> />
+       </section>
+       <section class="panel thirteen" id="caption-close">
+       </section>
+       <section class="panel fourteen"></section>
+       <section class="panel fifteen"></section>
+       <section class="panel sixteen">
+           <img src="{{ .Site.BaseURL }}photostory-generations/france_8.jpg" alt="Avatar"> />
+       </section>
+       <section class="panel seventeen"></section>
+       <section class="panel eighteen"></section>
+       <section class="panel nineteen"></section>
+       <section class="panel twenty"></section>
+       <section class="panel twenty-one"></section>
+       <section class="panel twenty-two ">
+          <img src="{{ .Site.BaseURL }}photostory-generations/france_12.jpg" alt="Avatar"> />
+       </section>
+       <section class="panel twenty-three"></section>
+       <section class="panel twenty-four"></section>
+       <section class="panel twenty-five"></section>
+       <section class="panel twenty-six"></section>
+       <section class="panel twenty-seven"></section>
+       <section class="panel twenty-eight"></section>
+       <section class="panel twenty-nine"></section>
+       <section class="panel thirty">
+           <p> Photos by Haley France</p>
+           <p> Special Thanks to... </p>
+           <p> Return to Story</p>
+       </section>
+
+       <button onclick="goBack()">Go Back</button>
+
+       <p>Clicking on the Back button here will not result in any action, because there is no previous URL in
+           the history list.</p>
+   </div>
+</div>
+
+<style>
+  /*for header*/
+  .exit {
+    position:absolute;
+    right:20px;
+    top:20px;
+    z-index:1000;
+  }
+  i {
+    color:#fff;
+    text-shadow:2px 2px 2px #000;
+  }
+
+  .header, .footer {
+    display:none;
+  }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    /*for header*/
+    #myDIV {
+        width: 100%;
+        padding: 50px 0;
+        text-align: center;
+        background-color: lightblue;
+        margin-top: 20px;
+        display: none;
+    }
+
+    h1 {
+    font-family: "Vollkorn",serif;
+    text-shadow: 3px 3px 7px rgba(51,51,51,.95);
+    color: #fff;
+    font-weight: 900;
+    line-height: 1.2em;
+    position: relative;
+    display: block;
+    top: 40%;
+    font-size: 3.5rem;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20%;
+  }
+    /* this is specifically for the svg*/
+      .title>img{
+        max-width: 30%;
+      }
+
+  #pinContainer {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    color: #777;
+    z-index: 0;
+  }
+  .panel {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+  }
+
+  #pinMaster {
+    position: relative;
+  }
+
+  p{
+    font-family: "Barlow";
+    font-size: 3rem;
+    margin: 1rem;
+    padding: 5rem;
+    text-align: center;
+    display: block;
+  }
+
+  .one {
+      background-image: url("{{ .Site.BaseURL }}photostory-generations/france_1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+
+
+  }
+  .two{
+    background-image: url("{{ .Site.BaseURL }}photostory-generations/france_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .four img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+  }
+  .six {
+    background-image: url("{{ .Site.BaseURL }}photostory-generations/france_4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .eight {
+    background-image: url("{{ .Site.BaseURL }}photostory-generations/france_5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .ten {
+    background-image: url("{{ .Site.BaseURL }}photostory-generations/france_6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .twelve img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+
+  .fourteen{
+    background-image: url("{{ .Site.BaseURL }}photostory-generations/france_9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .sixteen img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+  }
+  .eighteen{
+    background-image: url("{{ .Site.BaseURL }}photostory-generations/france_10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .twenty{
+    background-image: url("{{ .Site.BaseURL }}photostory-generations/france_11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .twenty-two>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+  }
+
+  .twenty-four{
+    background-image: url("{{ .Site.BaseURL }}photostory-generations/france_13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .twenty-six{
+    background-image: url("{{ .Site.BaseURL }}photostory-generations/france_14.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .twenty-eight{
+    background-image: url("{{ .Site.BaseURL }}photostory-generations/france_15.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* caption */
+  button{
+    z-index: 10;
+  }
+</style>
+
+{{ end }}
