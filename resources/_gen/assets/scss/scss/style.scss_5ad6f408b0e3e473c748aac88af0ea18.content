@@ -82,7 +82,8 @@ ul, ol {
       height: auto; } }
   .explainer-container p {
     color: white;
-    line-height: 1.5em; }
+    line-height: 1.5em;
+    font-size: 1.5em; }
     @media (max-width: 768px) {
       .explainer-container p {
         color: #333333; } }
@@ -155,6 +156,9 @@ ul, ol {
   padding: 5% 15%; }
   .explainer-video iframe {
     max-width: 100%; }
+
+.page-home .interactive-top {
+  width: auto; }
 
 .story-1 .story-hero {
   background-image: linear-gradient(to bottom, #222222, transparent 9%), url("../images/marine.jpg"); }
@@ -1084,6 +1088,10 @@ h5 {
   width: 100vw;
   margin-left: -20vw;
   margin-bottom: 30px; }
+
+.instructions {
+  color: #aaa;
+  font-style: italic; }
 
 .ps-timeline-sec {
   position: relative; }
