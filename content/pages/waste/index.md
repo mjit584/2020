@@ -21,20 +21,16 @@ Budna glances over at the feeding frenzy, a grin spreading over his face. The bi
 
 There’s beauty in the Placencia Municipal Dump, and Budna knows this better than anyone. He’s worked as the dump’s caretaker for 14 years, ensuring that the waste from this narrow strip of land off the southern coast of Belize is handled properly.
 
-<div class="inner-story-image">
-  <img src="/images/waste-01.jpg"><p class="caption">Caption Here</p>
-</div>
 
+In the busy streets of Placencia, which houses only 1,500 residents but draws more than 12,000 tourists a month, the garbage pits of the dump seem like an eerie memory. Tourists stroll down freshly swept sidewalks, past souvenir shops painted bright pink and yellow, stopping for a meal at one of the many restaurants lining the beach. Tourism is the backbone of the economy.
 
-In the busy streets of Placencia, a town of 1,500 residents and roughly 12,675 tourists passing through each month, the garbage pits of the dump seem like an eerie memory. Tourists stroll down freshly swept sidewalks, past souvenir shops painted bright pink and yellow, stopping for a meal at one of the many restaurants lining the beach. Tourism is the backbone of the economy.
-
-But the dump demonstrates the dirty reality of the country’s waste management system. When he started, there were seven loads of garbage dropped off each week, Budna said. Now, he sees more than 30 loads a week.
+But the dump demonstrates the dirty reality of the country’s waste management system. When he started, there were seven loads of garbage dropped off each week, Budna said. Now, he sees more than 30.
 
 <div id="video-top"></div>
 <!-- Economic story video goes here -->
 {{< vimeo id="405345248" class="video-container" >}}
 
-The trash in Placencia never really disappears. It’s used to build new land, a practice residents of Seine Bight, a small village five miles north of Placencia, know well. If the garbage makes it to the dump, it will sit in unlined pits, meaning groundwater contamination is likely. Sometimes, the trash makes its way into the hands of people like Radford Cacho, who supports his family by selling plastic bottles he’s picked from the piles.
+The trash in Placencia never really disappears. It’s used to build new land, a practice residents of Seine Bight, a small village five miles north of Placencia, know well. If the garbage makes it to the dump, it will sit in unlined pits, meaning groundwater contamination is likely. Sometimes, the trash makes its way into the hands of people like Radford Cacho, who supports his family by selling plastic bottles picked from the piles.
 
 The Belizean government and environmental groups are fighting to reduce the amount of waste generated. But in many areas, there are few resources to support waste removal and residents who rely on that waste for their economic livelihood.
 
@@ -50,7 +46,7 @@ Smith Martinez grew up in Dangriga, a cultural center for the Garifuna community
 
 When she heard there were job openings in Seine Bight, the decision was easy. She was going to build her own home, on her own land. She would make a name for herself and her family.
 
-Her newly-procured quarter acre of land was at the edge of town, where thick groves of mangroves met the Placencia lagoon. The water was knee-deep, she recalled, and they had to wear tall rubber boots to begin constructing her home.
+Her newly-procured quarter acre of land sat at the edge of town, where thick groves of mangroves met the Placencia lagoon. The water was knee-deep, she recalled, and they had to wear tall rubber boots to begin constructing her home.
 
 To build the land from the mangrove lagoon, Smith Martinez cut down the trees and filled the ground with gravel and sand. Her current home — a complex of four wooden houses, rebuilt after a devastating fire destroyed everything she owned — is the center of family life for her five children. It symbolizes how hard she’s worked: from a dishwasher at a restaurant to the executive chef at a resort, rising from poverty to homeownership.
 
@@ -59,7 +55,7 @@ Over time, Seine Bight grew, and demand for land grew with it. Smith Martinez’
 But in addition to sand and gravel, they also pack in heaps of garbage. Like Smith Martinez, everyone wants to own land — even if it means building on packed-in trash.
 
 <div class="inner-story-image">
-  <img src="/images/waste-02.jpg"><p class="caption">Caption Here</p>
+  <img src="/images/waste-01.jpg"><p class="caption">Seine Bight is located between the sea and a lagoon, with the new land largely being built on the side of the lagoon. In order to create a foundation for people to construct their homes upon, they must cut down mangrove trees and pack in the land with trash, gravel and sand. </p>
 </div>
 
 Removing mangrove trees with the intention of land development is a practice seen around the world, said Ken Krauss, a research ecologist with the U.S. Geological Service who studies mangrove habitats. Developers will clear out mangroves along the edge of coastal zones to build roads and houses right up against the shoreline.
@@ -77,13 +73,6 @@ Instead, yards are full of lumber scraps, gillnets, old car parts and shredded p
 Kirwin Ramirez, the vice chair of Seine Bight Village, knows that waste management is a major problem. But paying for a garbage truck to come take the waste from the village costs several thousand dollars per month. Right now, the town doesn’t have the resources.
 
 “Mine is a community that many people look down on,” Ramirez said. “We are the underdogs.  It’s a community full of so much potential and very talented people, but the government does not look at us like that. They look at Placencia more, because that is where the tourists go, that is where they can get more money.”
-
-<div class="photo-card-container">
-  <h2>Placencia's Elders</h2>
-  <img src="/images/yellow-underline-left.svg" class="photo-card-line">
-  <button class="photo-card-btn" id="eldersBtn">Launch Photo Experience</button>
-</div>
-{{< photostory-elders >}}
 
 ## The dangers of the dump
 
@@ -109,13 +98,13 @@ Unlike the Regional Sanitary Landfill, the pits at Placencia’s current dump ar
 
 Landfills, both lined and unlined, produce a product called leachate, a compound created when household garbage is compacted and rainwater infiltrates down through the waste, drawing out a variety of compounds from the waste. An unlined landfill has the potential to leak leachate into groundwater, which can then percolate through the soil several hundred feet, she said.
 
-In high concentrations, the compounds in leachate — which can include dissolved organic matter, ammonia, and heavy metals such as mercury — are harmful to public health and the environment, Davarbakhsh said.
+In high concentrations, the compounds in leachate — which can include dissolved organic matter, ammonia and heavy metals such as mercury — are harmful to public health and the environment, Davarbakhsh said.
 
 The transfer station is a step in the right direction, though Budna, who is hoping to work at the new facility when the dump closes, is concerned it may not be enough.
 
 “I am sure it’s not going to work for what’s coming in the future. They’ll have to expand. But at least for now, it’s going to help us at this time.”
 
-## Pickers and Plastic
+Pickers and Plastic
 
 In January, the Belizean government passed legislation to phase out single use plastics, including styrofoam containers, plastic food utensils and shopping bags. By March 2021, the goal is to eliminate all use of the materials.
 
@@ -126,7 +115,7 @@ The news of the plastic ban came as a devastating blow to the plastic pickers, w
 In the heat of the early afternoon sun, plastic picker Radford Cacho’s hands move with practiced precision. His neon green shirt is soaked with sweat as he crouches over the garbage bags dropped off that day from homes and businesses in Placencia, but he can’t stop. He needs to find enough bottles to make his 45-minute bicycle commute worth it. He needs to feed his family.
 
 <div class="inner-story-image">
-  <img src="/images/waste-03.jpg"><p class="caption">Caption Here</p>
+  <img src="/images/waste-02.jpg"><p class="caption">Radford Cacho sorts through recently dumped trash for plastic and glass bottles. Cacho rides 45 minutes on his bicycle from Georgetown almost everyday to collect what he can and sell to stores for money.</p>
 </div>
 
 He squats lower and tears open the side of the black garbage bag, standing back as food scraps and crumpled wads of paper towel tumble out first. With great speed, he rummages through the bag, throwing aside any plastic or glass bottles he sees. These, he explains, can be sold back to the stores for five and 25 cents, respectively. On a good day, he can make up to $25 Belizean — enough to support his four children and 23 grandchildren.
@@ -146,11 +135,19 @@ Without more resources, without outside funding, without coordinated educational
 “People are suffering,” Ramirez said. “If we let the problem beat us down to the ground, we aren’t going to reach anything. We’ve got to find solutions for this problem, because the problem will never end.”
 
 <div class="inner-story-image">
-  <img src="/images/waste-04.jpg"><p class="caption">Caption Here</p>
+  <img src="/images/waste-03.jpg"><p class="caption">Trash fills in the land of the Placencia Municipal Dump which holds the majority of waste from the towns and villages  of Placencia and Seine Bight. Concerns of water contamination, and overfilling have become a reality.</p>
 </div>
+
 
 Budna also knows there’s not a real end in sight. He knows the garbage trucks will keep coming, but also that people will continue to dump or burn their waste illegally. But he can’t stop when there’s so much work to be done.
 
 Sometimes, he wants to quit. But he doubts anyone else would want to take over; there aren’t many people who want to spend their time at the dump, Budna said with a shrug. No one else has the same passion to ensure the world is left a little bit cleaner, a little bit safer for the people of Belize.
 
 “We have all these things that affect the climate in this country and affect the climate of other countries,” Budna said. “I’ve realized garbage is something we have to take care of the right way, to help people understand that garbage has an effect and a deadly impact on each of our lives every day.”
+
+<div class="photo-card-container">
+  <h2>Placencia's Elders</h2>
+  <img src="/images/yellow-underline-left.svg" class="photo-card-line">
+  <button class="photo-card-btn" id="eldersBtn">Launch Photo Experience</button>
+</div>
+{{< photostory-elders >}}
