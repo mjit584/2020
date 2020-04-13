@@ -83,7 +83,7 @@ When the vehicles can go no further, the three men step out and begin a short ma
 <div class="photo-card-container" id="rooted">
   <h2>Rooted in Culture</h2>
   <img src="/images/yellow-underline-left.svg" class="photo-card-line">
-  <button class="photo-card-btn" id="eldersBtn" href="/rooted/">Launch Photo Experience</button>
+  <button class="photo-card-btn" id="eldersBtn"><a href="/rooted/">Launch Photo Experience</a></button>
 </div>
 
 After crossing a stream the pods begin to emerge: green-yellow foresteros and deep burgundy trinitarios, which are sought after around the globe for their distinctive taste.  
