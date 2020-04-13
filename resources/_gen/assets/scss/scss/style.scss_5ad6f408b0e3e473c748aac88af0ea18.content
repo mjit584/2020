@@ -1071,7 +1071,7 @@ h5 {
     margin-top: 20px; }
 
 .dark {
-  background-color: #333333; }
+  background-color: #000; }
   .dark h2, .dark p {
     color: #ffffff; }
 
