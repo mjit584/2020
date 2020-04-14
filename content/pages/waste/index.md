@@ -145,9 +145,8 @@ Sometimes, he wants to quit. But he doubts anyone else would want to take over; 
 
 “We have all these things that affect the climate in this country and affect the climate of other countries,” Budna said. “I’ve realized garbage is something we have to take care of the right way, to help people understand that garbage has an effect and a deadly impact on each of our lives every day.”
 
-<div class="photo-card-container">
-  <h2>Placencia's Elders</h2>
+<div class="photo-card-container" id="elders">
+  <h2>Guiding Generations</h2>
   <img src="/images/yellow-underline-left.svg" class="photo-card-line">
-  <button class="photo-card-btn" id="eldersBtn">Launch Photo Experience</button>
+  <a class="photo-card-btn" id="eldersBtn" href="/elders/">Launch Photo Experience</a>
 </div>
-{{< photostory-elders >}}
