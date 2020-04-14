@@ -6,7 +6,6 @@ storySubheading: Disparities undercut Belize's waste management system, and new 
 weight: 4
 photographer1: Nash Consing
 photographer2: Hope Davison
-photographer3: Emily Caroline Sartin
 interactive1: Halynna Snyder
 interactive2: Taylor Tyson
 reporter: Molly Horak
@@ -28,7 +27,7 @@ But the dump demonstrates the dirty reality of the country’s waste management 
 
 <div id="video-top"></div>
 <!-- Economic story video goes here -->
-{{< vimeo id="405345248" class="video-container" >}}
+{{< vimeo id="405430416" class="video-container" >}}
 
 The trash in Placencia never really disappears. It’s used to build new land, a practice residents of Seine Bight, a small village five miles north of Placencia, know well. If the garbage makes it to the dump, it will sit in unlined pits, meaning groundwater contamination is likely. Sometimes, the trash makes its way into the hands of people like Radford Cacho, who supports his family by selling plastic bottles picked from the piles.
 
@@ -55,7 +54,7 @@ Over time, Seine Bight grew, and demand for land grew with it. Smith Martinez’
 But in addition to sand and gravel, they also pack in heaps of garbage. Like Smith Martinez, everyone wants to own land — even if it means building on packed-in trash.
 
 <div class="inner-story-image">
-  <img src="/images/waste-01.jpg"><p class="caption">Seine Bight is located between the sea and a lagoon, with the new land largely being built on the side of the lagoon. In order to create a foundation for people to construct their homes upon, they must cut down mangrove trees and pack in the land with trash, gravel and sand. </p>
+  <img src="/images/waste-01.jpg"><p class="caption">Seine Bight is located between the sea and a lagoon, with the new land largely being built on the side of the lagoon. In order to create a foundation for people to construct their homes upon, they must cut down mangrove trees and pack in the land with trash, gravel and sand. Photo by Hope Davison.</p>
 </div>
 
 Removing mangrove trees with the intention of land development is a practice seen around the world, said Ken Krauss, a research ecologist with the U.S. Geological Service who studies mangrove habitats. Developers will clear out mangroves along the edge of coastal zones to build roads and houses right up against the shoreline.
@@ -115,7 +114,7 @@ The news of the plastic ban came as a devastating blow to the plastic pickers, w
 In the heat of the early afternoon sun, plastic picker Radford Cacho’s hands move with practiced precision. His neon green shirt is soaked with sweat as he crouches over the garbage bags dropped off that day from homes and businesses in Placencia, but he can’t stop. He needs to find enough bottles to make his 45-minute bicycle commute worth it. He needs to feed his family.
 
 <div class="inner-story-image">
-  <img src="/images/waste-02.jpg"><p class="caption">Radford Cacho sorts through recently dumped trash for plastic and glass bottles. Cacho rides 45 minutes on his bicycle from Georgetown almost everyday to collect what he can and sell to stores for money.</p>
+  <img src="/images/waste-02.jpg"><p class="caption">Radford Cacho sorts through recently-dumped trash for plastic and glass bottles. Cacho rides 45 minutes on his bicycle from Georgetown almost everyday to collect what he can and sell it to stores. Photo by Hanna Wondmagegn.</p>
 </div>
 
 He squats lower and tears open the side of the black garbage bag, standing back as food scraps and crumpled wads of paper towel tumble out first. With great speed, he rummages through the bag, throwing aside any plastic or glass bottles he sees. These, he explains, can be sold back to the stores for five and 25 cents, respectively. On a good day, he can make up to $25 Belizean — enough to support his four children and 23 grandchildren.
@@ -135,7 +134,7 @@ Without more resources, without outside funding, without coordinated educational
 “People are suffering,” Ramirez said. “If we let the problem beat us down to the ground, we aren’t going to reach anything. We’ve got to find solutions for this problem, because the problem will never end.”
 
 <div class="inner-story-image">
-  <img src="/images/waste-03.jpg"><p class="caption">Trash fills in the land of the Placencia Municipal Dump which holds the majority of waste from the towns and villages  of Placencia and Seine Bight. Concerns of water contamination, and overfilling have become a reality.</p>
+  <img src="/images/waste-03.jpg"><p class="caption">A group of buzzards stand on top of a mound of trash at the Placencia Municipal Dump which holds the majority of waste from the towns and villages of Placencia and Seine Bight. Photo by Hanna Wondmagegn.</p>
 </div>
 
 

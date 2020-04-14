@@ -24,7 +24,7 @@ Terry Garbutt, a 43-year-old local guide, hops into his 10-passenger boat and le
 On his way to town, he passes a small but luxurious island known as Harvest Caye. Ten years ago, Harvest Caye was only a strip of land covered with dense vegetation, birds, and other wildlife. In November 2016, it became Belize’s newest cruise port, owned exclusively by Norwegian Cruise Lines.
 
 <div id="video-top"></div>
-{{< vimeo id="329817257" class="video-container" >}}
+{{< vimeo id="405433006" class="video-container" >}}
 
 Norwegian’s ships, which each carry between 2,000 and 4,200 tourists, stop at the caye as often as four times a day. The big ship docks just offshore, and passengers can take a smaller boat to the resort, which includes bars, a shopping area, a 15,000-square-foot swimming pool, a nature park, and activities such as ziplining, kayaking, and paddle boarding.
 
@@ -35,16 +35,12 @@ However, not everyone shared Del Rio’s enthusiasm.
 “Do you see the lighthouse over there?” Garbutt will ask his passengers, pointing at the only tower on this seven-acre island. “It’s actually not even real, it’s just decoration.” He laughs sarcastically, but then gets quiet.
 
 <div class="inner-story-image">
-  <img src="/images/tourism-01.jpg"><p class="caption">View of Harvest Caye from Terry’s boat.</p>
+  <img src="/images/tourism-02.jpg"><p class="caption">Terry Garbutt picks up his passengers as the tour gets underway to Monkey River. As a Monkey River Village native, Garbutt has been giving tours for 23 years. Photo by Madison Hoffmann.</p>
 </div>
 
 Garbutt never really thought this multi-million dollar project was a good idea. Many of his friends and coworkers in Monkey River share the same feeling.
 
 “We're not getting anything from the cruise ship,” said Garbutt. “They're not using much of the local guides. So it's a waste of time for us in southern Belize.”
-
-<div class="inner-story-image">
-  <img src="/images/tourism-02.jpg"><p class="caption"></p>
-</div>
 
 Monkey River’s residents say that the cruise company employs very few local tour guides and shares little of its benefits with the village.
 
@@ -54,16 +50,18 @@ But locals worry, too, about the environmental impacts. One important part of th
 
 “They have big boats, 35-40 footers, and they go really fast,” said Garbutt's younger brother, Jeremy Garbutt, who also works as a tour guide.
 
+<div class="photo-card-container" id="elders">
+  <h2>Fishers</h2>
+  <img src="/images/yellow-underline-left.svg" class="photo-card-line">
+  <a class="photo-card-btn" id="eldersBtn" href="/fishers/">Launch Photo Experience</a>
+</div>
+
 Monkey River has been struggling with coastal erosion since the mid-1980s, according to research done by the Center for International Climate and Environmental Research in Oslo, Norway and the Department of International Environment and Development Studies at Norwegian University of Life Sciences. It’s hard for locals to remember exactly when the erosion became a real problem, but it is easy to point out the damages it has caused. Coastal retreat has led to the loss of a soccer field, the sandy beach, lots of land and houses, and the community’s cemetery.
 
 “Where that cemetery was, that was so far back into the jungle when I was a kid. I never believed that we would have had some tombs washing in the ocean right now,” said Terry Garbutt.
 
 <div class="inner-story-image">
-  <img src="/images/tourism-03.jpg"><p class="caption"></p>
-</div>
-
-<div class="inner-story-image">
-  <img src="/images/tourism-04.jpg"><p class="caption"></p>
+  <img src="/images/tourism-03.jpg"><p class="caption">Monkey River Village, the northern most village in the Toledo District, is home to a population of roughly 300 people. It is one of the only communities in Belize that does not use cars. Photo by Jason Arthurs.</p>
 </div>
 
 Cruise ships have become one of the biggest contributors to Belize’s economy, with more than 300 ships and more than 1 million passengers arriving each year. According to an analysis prepared by Business Research & Economic Advisors (BREA) in October 2018, the total economic contribution of cruise tourism in Belize for the 2017/2018 Cruise Year was $US 86.12 million. However, many Belizeans believe that cruises pose many concerns related to sociocultural and environmental impact such as low participation of local citizens in the industry and the flora and fauna’s deterioration in the destinations cruise tourists frequent.
@@ -80,10 +78,6 @@ Cruise ships have become one of the biggest contributors to Belize’s economy, 
 
 In a letter was written by the Monkey River Village Council. Frank Del Rio, Norwegian President and Chief Executive Officer, was the chosen audience.
 
-<div class="inner-story-image">
-  <img src="/images/tourism-05.jpg"><p class="caption"></p>
-</div>
-
 In eight paragraphs, the letter tries to summarize and resolve almost four years of disagreement. It’s an attempt to explain the main concerns of the community, but it also points out certain actions that, they believe, should be taken immediately in order to settle the conflict. However, the letter was never sent. They needed the village mayor’s consent. But his opinion about the cruise industry is very different: the blank space without his signature made it clear.
 
 “We really can’t stop cruise ships, so I think the only thing we could do is work with them and try to benefit from them,” said Leonardo Castro, the village's mayor.
@@ -95,10 +89,6 @@ Terry and Jeremy always bring their passengers back to Monkey River around 1 p.m
 “If we would get a benefit from the cruise line, the boats that work for them would come on shore, buy a little gift, a little drink, snack or something. Everybody could get a benefit. But they don't do that,” former mayor Ivan Williams said.
 
 According to BREA’s analysis, an average of 57% of all cruise passengers purchased shore excursions in Belize during 2017/2018, of which 74% were purchased from the cruise lines, 16% were purchased directly from local tour operators and 10% through a travel agent or some other means. The remaining 43% of passengers reported that they did not purchase a tour during their onshore visit.
-
-<div class="inner-story-image">
-  <img src="/images/tourism-06.jpg"><p class="caption"></p>
-</div>
 
 Terry and Jeremy say the experience of the river and wildlife aren’t what they used to be even just five years ago. As the community continues to grapple with the impact of the cruise industry, the locals worry that Norwegian’s day trip boats drive too fast along the river, not only aggravating Monkey River’s coastal erosion but also scaring away and even harming the animals in the area.
 
@@ -135,7 +125,7 @@ As it appears in the final report: “Not only is there widespread resistance to
 “I voted against it,” he stressed.
 
 <div class="inner-story-image">
-  <img src="/images/tourism-08.jpg"><p class="caption"></p>
+  <img src="/images/tourism-04.jpg"><p class="caption">Monkey River Village is a rural community that sits at the mouth of Monkey River. The village used to be a farming and fishing community, but residents are increasingly working in tourism today. Photo by Jason Arthurs.</p>
 </div>
 
 ## “Each Day I Go Out, And I Try My Best”
@@ -145,10 +135,6 @@ Guides like Terry or Jeremy know that cruise tourism exists in their country, an
 “We know the place. We were born and raised here,” said Terry. “I think I can give the guests a different feel.”
 
 That faith is what keeps them going.
-
-<div class="inner-story-image">
-  <img src="/images/tourism-08.jpg"><p class="caption"></p>
-</div>
 
 “Being a tour guide is like being an ambassador for your country,” Jeremy said. “I want tourists to always come back over here. That's my big goal. So each day I go out, and I try my best.”
 
