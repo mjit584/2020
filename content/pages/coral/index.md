@@ -6,10 +6,10 @@ storySubheading: Belize’s future is intimately tied to its coral reefs. Both a
 weight: 1
 photographer1: "Alicia Carter"
 photographer2: "Lucas Pruitt"
-photographer3: ""
+photographer3: "Haley France"
 interactive1: "Meg McMahon"
 interactive2: "Will Melfi"
-reporter: "Drew Westmoreland"
+reporter: "Drew Wayland"
 
 ---
 
@@ -92,7 +92,7 @@ In 2005, however, the practice was still a novelty. Scientists knew that it was 
 Carne, through dozens of trial-and-error experiments on real Belizean coral, learned that not only was it possible to regrow coral, it could be done on a massive scale. She discovered that acropora coral, what most people call staghorn and elkhorn, are the most receptive to regeneration if they are ‘planted’ in a different part of the reef system. She even experimented with them by crossbreeding the two and creating the world’s first hybrid species of coral.
 
 <div class="inner-story-image">
-  <img src="/images/water-01.jpg"><p class="caption">A school of fish shelters beneath staghorn coral regrown using Fragments of Hope’s outplanting method. </p>
+  <img src="/images/water-01.jpg"><p class="caption">A school of fish shelters beneath staghorn coral regrown using Fragments of Hope’s outplanting method. Photo by Haley France.</p>
 </div>
 
 In 2006, Carne put a public face to her work by founding Fragments of Hope, a nonprofit created to restore the coral reef in Belize and advocate for greater awareness and protection of the species who call it home. She is Fragments of Hope's only full-time employee, but she has worked with dozens of local volunteers and divers who are passionate about conserving the reef.
@@ -111,13 +111,7 @@ The nurseries look more like underwater cage match scenes than places that could
   <a class="photo-card-btn" id="eldersBtn" href="/generations/">Launch Photo Experience</a>
 </div>
 
-<div class="inner-story-image">
-  <img src="/images/water-02.jpg"><p class="caption">Young coral cling to the metal and rope structure of the coral nursery at Laughing Bird Caye.</p>
-</div>
 
-<div class="inner-story-image">
-  <img src="/images/water-03.jpg"><p class="caption">Tour guide and Fragments of Hope coral restoration practitioner Tasha Gibson points out new growth on one of two large coral nurseries.</p>
-</div>
 
 Laughing Bird Caye is just a little bigger than Tom Owens with even less infrastructure. It is among the best preserved Marine Protection Areas (MPA) in Belize, co-managed by the Belizean government and a nonprofit organization. Off the east-facing beach of the caye, coral fields the size of soccer pitches are thriving, made up entirely of regrown coral.
 
@@ -131,15 +125,15 @@ Fragments of Hope divers only spend a few days per year in the water, mostly sur
 
 Fragments of Hope is part of a larger network of environmental nonprofits that operate throughout Belize. ReefCI, where Mordy Mis works as a supervisor on Tom Owens Caye, has been unable to secure a license to do coral regeneration, but instead provides valuable survey data on the health of commercial species like conch and lobster and essential services like the management of invasive lionfish.
 
+<div class="inner-story-image">
+  <img src="/images/water-03.jpg"><p class="caption">Tour guide and Fragments of Hope coral restoration practitioner Tasha Gibson points out new growth on one of two large coral nurseries. Photo by Haley France.</p>
+</div>
+
 Fragments of Hope and ReefCI are the only two nonprofits in Belize who are primarily focused on the reef, but other organizations like the Southern Environmental Association (SEA) and Oceania of Belize do valuable outreach with Belizean youth and important conservation work centred around the declining health of the country’s coral.
 
 ## “Give Me A Break. Not A Thing Has Changed”
 
 Like Mordy, Frank Hachmann splits his time between an idyllic working life as the ReefCI operations manager on Tom Owens Caye and his home on the mainland. During breaks between diving expeditions on the reef, he sits in a hammock beneath the shade of breezy palms with his dog, Jimbo, in his lap.
-
-<div class="inner-story-image">
-  <img src="/images/water-04.jpg"><p class="caption">Tour guide and Fragments of Hope coral restoration practitioner Tasha Gibson points out new growth on one of two large coral nurseries.</p>
-</div>
 
 Hachmann fell in love with SCUBA diving as a teenager in Germany, starting with pitch black lakes and eventually graduating to dives in the freezing North Sea. The warm, crystal clear waters of Belize are still foreign to him, but his knowledge of coral and its delicate marine partners makes him a capable leader on Tom Owens.
 
@@ -166,7 +160,7 @@ Victor Faux, who grills pork ribs and beef cuts on the Placencia boardwalk when 
 “We still use plastic containers,” he says. “The grocery stores still use plastic bags. Plastic is everywhere, even if it’s supposed to be illegal. People don’t care. That all still ends up in the ocean and on the reef. I know because I’ve seen it.”
 
 <div class="inner-story-image">
-  <img src="/images/water-05.jpg"><p class="caption"> Natasha Gibson, right, speaks about her involvement with Fragments of Hope (FoH) and the importance of the reef alongside FoH diver Victor Faux, from left, show host Dominique Norlaez and FoH director and founder Lisa Carne. Krem Television’s Wake Up Belize Morning Vibes show was live, Friday, March 13, 2020, and highlighted people and organizations as part of the country’s annual Reef Week.</p>
+  <img src="/images/water-05.jpg"><p class="caption"> Natasha Gibson, right, speaks about her involvement with Fragments of Hope (FoH) and the importance of the reef alongside FoH diver Victor Faux, from left, show host Dominique Norlaez and FoH director and founder Lisa Carne. Krem Television’s Wake Up Belize Morning Vibes show was live, Friday, March 13, 2020, and highlighted people and organizations as part of the country’s annual Reef Week. Photo by Haley France.</p>
 </div>
 
 Organizations like ReefCI and Fragments of Hope both spend significant time working with government officials, mostly with individuals in the Fisheries Department and in the Department of the Environment.
@@ -183,17 +177,13 @@ The corrupt deals that keep the government from working for the reef happen behi
 
 Newly built resorts like Harvest Caye, a billion-dollar cruise ship enclave just off the shore of Placencia, are almost always backed by wealthy developers, mostly from the US, Canada, Europe and China. In the case of Harvest Caye, over five miles of beaches were created around the island from sand and ground up coral dredged up from the sea floor. This is illegal in most areas of Belize, but it is one of the most common construction tactics even within the Marine Protected Areas.
 
-<div class="inner-story-image">
-  <img src="/images/water-06.jpg"><p class="caption">A cruise ship, known in Belize for their pollution and crowds, looms in the distance while yachts gather near Placencia Village.</p>
-</div>
-
 Another concern for the nonprofits is global politics. Many of the country’s protected zones are looked after entirely or co-managed by representatives of the European Union. Belize, which was the colony of British Honduras until its independence in 1981, has a special relationship with Europe. The British military still has a training support unit in Belize, that can be seen at various bases in the north. But with the realization of the Brexit movement and the formal severing of ties between the United Kingdom and the European Union, conservationists are concerned the EU will pull out of Belize entirely.
 
 “If the money from the EU stops flowing at any point, it will have major negative impacts,” says Hachmann. “It would take years to recover from that.”
 
 Can add here about infighting between nonprofits but due to length I won’t yet. Relevant? Distracting?
 
-“This Just Isn’t That Story”
+## “This Just Isn’t That Story”
 
 Despite the gridlock between nonprofits and government, there is one population in Belize that appears to be waking up.
 
@@ -204,7 +194,7 @@ Youth, the focus of so much conservation education outreach, are more aware of t
 If the presence of increasingly active and resilient nonprofits is one sign of progress, the engagement of the youth surely marks another.
 
 <div class="inner-story-image">
-  <img src="/images/water-07.jpg"><p class="caption">Fragments of Hope, together with the Belize Audubon Society, leads a group of students from northern Belize on an exploration of regrown coral at Laughing Bird Caye.</p>
+  <img src="/images/water-07.jpg"><p class="caption">Fragments of Hope, together with the Belize Audubon Society, leads a group of students from northern Belize on an exploration of regrown coral at Laughing Bird Caye. Photo by Haley France.</p>
 </div>
 
 But the future is only bright if a number of things go as planned. The ban on oil drilling would need to be permanent, Marine Protected Areas would need to be better enforced, and coral regeneration would need to be expanded by a factor of hundreds. Most importantly, the effects of global climate change, a problem which came to Belize from the heavily industrialized world, would need to be halted and reversed.

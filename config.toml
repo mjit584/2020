@@ -17,10 +17,10 @@ canonifyURLs = "true"
     meta_twitter_card = "A description about Belize"
     meta_twitter_site = ""
     meta_twitter_creator = ""
-# 
+#
 # [[menu.main]]
 # 	name = "Threatened Water"
-# 	url = "/water/"
+# 	url = "/coral/"
 #     weight = 1
 #
 # [[menu.main]]

@@ -359,6 +359,9 @@ ul, ol {
 .story-1 .photo-card-container {
   background-image: url("../images/marine-photostory-title.jpg"); }
 
+.story-2 .photo-card-container {
+  background-image: url("../images/tourism-photostory-title.jpg"); }
+
 .story-3 .photo-card-container {
   background-image: url("../images/culture-photostory-title.jpg"); }
 
