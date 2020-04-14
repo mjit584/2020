@@ -20,7 +20,7 @@
   // }
 }
 .dark {
-  background-color: $black;
+  background-color: #000;
   h2, p {
     color:$white;
   }
@@ -42,4 +42,8 @@
   width: 100vw;
   margin-left: -20vw;
   margin-bottom: 30px;
+}
+.instructions {
+   color: $grey;
+   font-style: italic;
 }
