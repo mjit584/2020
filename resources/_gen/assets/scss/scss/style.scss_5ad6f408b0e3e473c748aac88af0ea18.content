@@ -339,12 +339,9 @@ ul, ol {
   width: 80%;
   position: relative;
   margin: 40px auto; }
-  @media (max-width: 1000px) {
+  @media (max-width: 800px) {
     .inner-story-image {
-      margin: 40px 0;
-      width: 100%;
-      left: 0;
-      right: 0; } }
+      width: 90%; } }
   .inner-story-image p {
     margin: 0;
     font-size: 15px;
@@ -387,6 +384,9 @@ ul, ol {
   padding-top: 56%;
   position: relative;
   margin: 40px auto; }
+  @media (max-width: 800px) {
+    .photo-card-container {
+      width: 90%; } }
   .photo-card-container .photo-card {
     display: flex;
     flex-direction: column;
@@ -639,6 +639,9 @@ to {
   max-height: 80vh;
   max-width: 80%;
   margin: 40px auto; }
+  @media screen and (max-width: 800px) {
+    .video-container {
+      max-width: 90%; } }
   .video-container iframe {
     border: none !important;
     width: 100%;
@@ -1083,6 +1086,9 @@ h5 {
   margin: 0 auto;
   text-align: center;
   overflow: hidden; }
+  @media (max-width: 800px) {
+    .interactive-section {
+      padding: 0 5%; } }
   .interactive-section h2 {
     font-family: "Vollkorn", serif; }
   .interactive-section .heading-underline {

@@ -5,6 +5,9 @@
   margin:0 auto;
   text-align: center;
   overflow:hidden;
+  @media(max-width: 800px) {
+    padding:0 5%;
+  }
   h2 {
     font-family: $bodyfont;
 
