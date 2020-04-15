@@ -22,9 +22,11 @@ Godfrey was born and raised in Placencia, and said fishing was always part of th
 
 “We learn from our ancestors how to care for the environment,” he said. “I learned from people who were sustainable, environmentalists before the word was popular.”
 
+</div><!-- end story content -->
 <!-- VIDEO -->
 <div id="video-top"></div>
 {{< vimeo id="405424580" class="video-container" >}}
+<div class="story-content">
 
 Godfrey and his father also harvested wild seaweed growing up, but he said he realized the practice could be more sustainable by replenishing the ocean while developing an industry that could complement fishing. He makes sure to not just take seaweed from the farm, but to replant it with the pieces he finds on the beach.
 
@@ -33,7 +35,9 @@ Godfrey normally wakes up before sunrise. After brewing his favorite coffee, he 
 When the waves settle, Godfrey can venture to his farm. The sea is a calming blue, an optimal condition for harvesting. Wearing a snorkel and wetsuit, he wades out with his net until the water reaches his waist. He sorts through the golden-yellow, spiny seaweed that’s started growing just beneath the water, using his knots to tie each head together and collect it into the net. Once he’s reached the shore, Godfrey leaves the wet strands to dry in the sun until the afternoon, when it turns white and rubbery.
 
 <!-- PHOTO HERE -->
+</div><!-- end story content -->
 <div class="inner-story-image"><img src="/images/seaweed-01-new.jpg"><p class="caption">Godfrey sifts through the seaweed he has collected from his farm to remove any debris that may have attached to it. He dries this seaweed on screen tables, and once it's fully dry he can take it back to Placencia to sell it. Photo by Caroline Almy.</p></div>
+<div class="story-content">
 
 After several days, he boats back to Placencia to sell the dried seaweed. One pound costs around $30 Belizean ($15 USD) in the village, according to The Nature Conservancy (TNC): the same price as a pound of lobster, and triple that of conch.
 
@@ -44,7 +48,9 @@ After a lucrative 10 years in commercial seaweed farming, Godfrey has become a p
 “The more fishermen we have doing this, the more I believe the reef will have a chance to recover from what we did,” Godfrey said.
 
 <!-- PHOTO HERE -->
+</div><!-- end story content -->
 <div class="inner-story-image"><img src="/images/seaweed-02-new.jpg"><p class="caption">Godfrey checks on his seaweed farm. As he goes down each row of rope, he attaches seaweed to knots he tied himself. Once the seaweed is attached to a knot, it can grow large enough to be harvested and dried. Photo by Sarah Redmond. </p></div>
+<div class="story-content">
 
 ## "What sent me to school was fishing"
 
@@ -64,11 +70,14 @@ Managed Access has received praise from environmental groups for prioritizing su
 
 Although environmental nonprofits like SEA continue to invest in fishing policy reform, they’re also supporting what they call “alternative” projects like seaweed farming. Longsworth is also a member of the Placencia Producers Cooperative, a fishing coalition that Godfrey leads. Under Godfrey’s vision, some cooperative members like Longsworth have started to farm seaweed in addition to fishing. But in an industry-wide time of economic uncertainty, not everyone can afford to wait for success.
 
+<!-- INTERACTIVE HERE -->
+</div><!-- end story content -->
 <div class="interactive-top"></div>
 <div class="interactive-section">
 {{< sustainability-interactive >}}
 </div>
 <div class="interactive-bottom"></div>
+<div class="story-content">
 
 ## "It's become a business instead of hearing the truth"
 
@@ -78,11 +87,16 @@ According to a report from TNC, market demand for seaweed is growing, and it’s
 
 Seleem Chan, TNC’s seaweed mariculture project coordinator, said Placencia has two main seaweed farm operations: Godfrey’s farm on Little Water Caye and the Belize Women’s Seaweed Farmers Association’s seed bank at Hatchet Caye. The women’s association, which officially launched in the summer of 2019, aims to develop economic opportunities for women through both farm training and support for market products like seaweed soaps.
 
+<!-- PHOTO STORY HERE -->
+</div><!-- end story content -->
 <div class="photo-card-container">
-  <h2>In The Weeds</h2>
-  <img src="/images/yellow-underline-left.svg" class="photo-card-line">
+  <div class="photo-card">
+    <h2>In The Weeds</h2>
+    <img src="/images/yellow-underline-left.svg" class="photo-card-line">
   <button class="photo-card-btn" id="eldersBtn">Launch Photo Experience</button>
+  </div>
 </div>
+<div class="story-content">
 
 Amed Figueroa, export business adviser for BELTRAIDE, said seaweed farming in Belize is still geographically limited to Placencia and Turneffe Atoll. Figueroa also said the industry would ideally grow so that Belize can export its own seaweed, ultimately becoming a more significant sector of the economy.
 
@@ -96,16 +110,21 @@ He said seaweed farming doesn’t fully address the underlying issues of ocean m
 
 “It’s become a business instead of hearing the truth,” he said.
 
+</div><!-- end story content -->
 <div class="inner-story-image"><img src="/images/seaweed-01.jpg"><p class="caption">Marneesha Leslie, a director for the Belize Women's Seaweed
 Farmers Association, ties rope to prepare for the group's monitoring trip to their farm near Ray Caye the following day. Photo by Haley France.
 </p></div>
+<div class="story-content">
 
 ## "It's just a personal journey for me"
 
 Seaweed farming is still a small sector of the Belizean economy: Chan said there are 11 farmers at Turneffe Atoll, and eight in the women’s association. But farmers aren’t the only ones who can make money from seaweed. Dried seaweed is typically sold by the bag, and can then be transformed into soaps, skincare products and ice cream.
 
+<!-- PHOTO HERE -->
+</div><!-- end story content -->
 <div class="inner-story-image"><img src="/images/seaweed-02.jpg"><p class="caption">Rita Leslie attaches seaweed to a rope at the Belize Women's Seaweed Farmers Association site near Ray Caye. Photo by Haley France.
 </p></div>
+<div class="story-content">
 
 Seaweed proponents also point to the plant’s health benefits, as it’s high in nutrients like iodine and magnesium. Placencia resident Jolie Pollard, whose grandfather harvested wild seaweed to put in drinks, said she was aware of the plant’s value before commercial farms existed. She started making her own face creams but later branched out to shampoos, learning the chemistry behind the process while working as a newspaper editor.
 
@@ -117,11 +136,14 @@ IKOOMA products are only available online for Belizean residents, and in one Pla
 
 “I’m just a journalist who happened to make hair products,” she said.
 
+<!-- INTERACTIVE HERE -->
+</div><!-- end story content -->
 <div class="interactive-top"></div>
 <div class="interactive-section">
 {{< seaweed-interactive >}}
 </div>
 <div class="interactive-bottom"></div>
+<div class="story-content bottomofpage">
 
 ## "Nature will provide"
 
@@ -139,3 +161,4 @@ Godfrey is optimistic about seaweed farming, although he acknowledged that it ha
 Godfrey said he gives everything his 100%, which extends past his work into his personal life. He prefers to minimize his own environmental impact even when he’s not on the caye, only eating fish if he catches it himself. One night after farming, he blends ice, milk, seaweed gel and papaya for a seaweed smoothie. The seaweed gives the drink an exceptionally smooth texture.
 
 Godfrey raises his glass and smiles. “Here’s to seaweed.”
+</div>
