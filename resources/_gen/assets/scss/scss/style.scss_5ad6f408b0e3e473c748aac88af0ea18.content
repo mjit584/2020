@@ -400,14 +400,16 @@ ul, ol {
   .photo-card-container h2 {
     font-size: 60px;
     color: white;
-    text-decoration: none; }
+    text-decoration: none;
+    font-family: "Vollkorn", serif;
+    text-shadow: 3px 3px 7px rgba(51, 51, 51, 0.95);
+    color: #ffffff; }
   .photo-card-container .photo-card-line {
-    width: 300px;
-    margin-top: 25px; }
+    width: 300px; }
   .photo-card-container .photo-card-btn {
     border: 1px solid white;
     padding: 15px;
-    margin-top: 30px;
+    margin-top: 40px;
     background-color: transparent;
     color: #ffffff;
     text-decoration: none;
@@ -1093,7 +1095,11 @@ h5 {
     font-family: "Vollkorn", serif; }
   .interactive-section .heading-underline {
     max-width: 300px;
-    margin-top: 20px; }
+    margin-top: 5px; }
+  .interactive-section p {
+    line-height: 1.3em;
+    font-size: 1.2em;
+    margin-top: 0; }
 
 .dark {
   background-color: #000; }

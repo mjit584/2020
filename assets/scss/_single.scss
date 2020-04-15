@@ -272,15 +272,17 @@ position:relative;
     font-size: 60px;
     color: white;
     text-decoration: none;
+    font-family: $bodyfont;
+    text-shadow: 3px 3px 7px $text-shadow;
+    color:$white;
   }
   .photo-card-line{
     width:300px;
-    margin-top: 25px;
   }
   .photo-card-btn{
     border: 1px solid white;
     padding: 15px;
-    margin-top: 30px;
+    margin-top: 40px;
     background-color:transparent;
     color: $white;
     text-decoration: none;

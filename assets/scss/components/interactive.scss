@@ -14,13 +14,13 @@
   }
   .heading-underline {
     max-width: 300px;
-    margin-top: 20px;
+    margin-top: 5px;
   }
-  // .underline-image {
-  //   border-bottom: 10px solid transparent;
-  //   border-image: url("/images/yellow-underline-left.svg") 27 space;
-  //   padding-bottom:15px;
-  // }
+  p {
+    line-height:1.3em;
+    font-size:1.2em;
+    margin-top:0;
+  }
 }
 .dark {
   background-color: #000;
