@@ -29,9 +29,11 @@ ReefCI, as it’s known, is one of a number of coral protection nonprofits that 
 
 All along Belize’s 200 miles of coral reef, a species is being suffocated. Climate change has warmed the world’s oceans, including Belize’s tropical seas, more than 2 degrees fahrenheit in the last one hundred years, and much of the reef has become diseased or stressed to the point of bleaching, an effect that turns the vibrant living invertebrates into stark white skeletons. Globally, coral mortality has increased over 40% since 2006, and without significant intervention, the United Nations Educational Scientific and Cultural Organization (UNESCO) projects that Belize’s reef will be almost entirely gone by 2050.
 
+</div><!-- end story content -->
 <div id="video-top"></div>
 <!-- Economic story video goes here -->
 {{< vimeo id="405450044" class="video-container" >}}
+<div class="story-content">
 
 ## “Belize Has Been Quite Lucky In Some Ways”
 
@@ -55,12 +57,14 @@ Climate change, coupled with a huge increase in nitrates from agricultural runof
 
 Both the warming of the sea and its increasing acidity allow coral diseases to thrive and spread over long distances. Stony coral tissue loss disease, which is caused by wht and does TK WHAT TO THEM, first appeared in the Florida Keys in November 2018. By March 2020, research indicated it had already spread to the Cozumel region of Mexico. Coral volunteers in Belize say they are already seeing signs of its problems here, too.
 
+</div><!-- end story content -->
 <div class="interactive-top"></div>
 <div class="interactive-section">
 {{< ms-interactive >}}
 </div>
 <div class="interactive-bottom"></div>
 
+<div class="story-content">
 “Belize has been quite lucky in some ways,” said Castillo, “that despite how quickly we are losing some of these coral species, the country has managed to avoid major storms for almost 20 years.”
 
 Another hallmark of climate change is an increased severity of tropical storms like hurricanes. The eastern United States has seen some of the worst of this environmental threat in recent years, but Belize has only had one major hurricane in the last three decades, a Category 4 storm called Iris in October 2001. Iris devastated much of the Caribbean region, and nearly leveled the small town of Placencia, the main population center in southern Belize. In the 19 years since, developers from around the world have invested heavily in Belize, transforming the very infrastructure of the region into a tourism haven.
@@ -90,10 +94,12 @@ The removal of living coral fragments to use as seeds for a new coral organism, 
 In 2005, however, the practice was still a novelty. Scientists knew that it was possible to regrow coral and had ‘farmed’ the animals in labs for several years, but no one had ever put those methods to the test where they were most needed: the ocean floor.
 
 Carne, through dozens of trial-and-error experiments on real Belizean coral, learned that not only was it possible to regrow coral, it could be done on a massive scale. She discovered that acropora coral, what most people call staghorn and elkhorn, are the most receptive to regeneration if they are ‘planted’ in a different part of the reef system. She even experimented with them by crossbreeding the two and creating the world’s first hybrid species of coral.
+</div><!-- end story content -->
 
 <div class="inner-story-image">
   <img src="/images/water-01.jpg"><p class="caption">A school of fish shelters beneath staghorn coral regrown using Fragments of Hope’s outplanting method. Photo by Haley France.</p>
 </div>
+<div class="story-content">
 
 In 2006, Carne put a public face to her work by founding Fragments of Hope, a nonprofit created to restore the coral reef in Belize and advocate for greater awareness and protection of the species who call it home. She is Fragments of Hope's only full-time employee, but she has worked with dozens of local volunteers and divers who are passionate about conserving the reef.
 
@@ -105,12 +111,13 @@ The nurseries look more like underwater cage match scenes than places that could
 
 “It’s the outplanting that really amazes people who come see our work,” said Faux.
 
+</div><!-- end story content -->
 <div class="photo-card-container" id="generations">
   <h2>Guiding Generations</h2>
   <img src="/images/yellow-underline-left.svg" class="photo-card-line">
   <a class="photo-card-btn" id="eldersBtn" href="/generations/">Launch Photo Experience</a>
 </div>
-
+<div class="story-content">
 
 
 Laughing Bird Caye is just a little bigger than Tom Owens with even less infrastructure. It is among the best preserved Marine Protection Areas (MPA) in Belize, co-managed by the Belizean government and a nonprofit organization. Off the east-facing beach of the caye, coral fields the size of soccer pitches are thriving, made up entirely of regrown coral.
@@ -125,9 +132,11 @@ Fragments of Hope divers only spend a few days per year in the water, mostly sur
 
 Fragments of Hope is part of a larger network of environmental nonprofits that operate throughout Belize. ReefCI, where Mordy Mis works as a supervisor on Tom Owens Caye, has been unable to secure a license to do coral regeneration, but instead provides valuable survey data on the health of commercial species like conch and lobster and essential services like the management of invasive lionfish.
 
+</div><!-- end story content -->
 <div class="inner-story-image">
   <img src="/images/water-03.jpg"><p class="caption">Tour guide and Fragments of Hope coral restoration practitioner Tasha Gibson points out new growth on one of two large coral nurseries. Photo by Haley France.</p>
 </div>
+<div class="story-content">
 
 Fragments of Hope and ReefCI are the only two nonprofits in Belize who are primarily focused on the reef, but other organizations like the Southern Environmental Association (SEA) and Oceania of Belize do valuable outreach with Belizean youth and important conservation work centred around the declining health of the country’s coral.
 
@@ -159,9 +168,11 @@ Victor Faux, who grills pork ribs and beef cuts on the Placencia boardwalk when 
 
 “We still use plastic containers,” he says. “The grocery stores still use plastic bags. Plastic is everywhere, even if it’s supposed to be illegal. People don’t care. That all still ends up in the ocean and on the reef. I know because I’ve seen it.”
 
+</div><!-- end story content -->
 <div class="inner-story-image">
   <img src="/images/water-05.jpg"><p class="caption"> Natasha Gibson, right, speaks about her involvement with Fragments of Hope (FoH) and the importance of the reef alongside FoH diver Victor Faux, from left, show host Dominique Norlaez and FoH director and founder Lisa Carne. Krem Television’s Wake Up Belize Morning Vibes show was live, Friday, March 13, 2020, and highlighted people and organizations as part of the country’s annual Reef Week. Photo by Haley France.</p>
 </div>
+<div class="story-content">
 
 Organizations like ReefCI and Fragments of Hope both spend significant time working with government officials, mostly with individuals in the Fisheries Department and in the Department of the Environment.
 
@@ -193,9 +204,11 @@ Youth, the focus of so much conservation education outreach, are more aware of t
 
 If the presence of increasingly active and resilient nonprofits is one sign of progress, the engagement of the youth surely marks another.
 
+</div><!-- end story content -->
 <div class="inner-story-image">
   <img src="/images/water-07.jpg"><p class="caption">Fragments of Hope, together with the Belize Audubon Society, leads a group of students from northern Belize on an exploration of regrown coral at Laughing Bird Caye. Photo by Haley France.</p>
 </div>
+<div class="story-content bottomofpage">
 
 But the future is only bright if a number of things go as planned. The ban on oil drilling would need to be permanent, Marine Protected Areas would need to be better enforced, and coral regeneration would need to be expanded by a factor of hundreds. Most importantly, the effects of global climate change, a problem which came to Belize from the heavily industrialized world, would need to be halted and reversed.
 
@@ -204,3 +217,4 @@ But the future is only bright if a number of things go as planned. The ban on oi
 There are many things that Belize, its government, and its people can do to ensure the survival of the reef. There are far fewer that they can do to fight an aggressively warming planet. Without significant intervention by the global community, oceans will get warmer, more coral will bleach or become diseased, and the ecosystem will fall apart even with the strictest protections in place.
 
 “Right now we are essentially buying the world time to figure this out,” says Carne. “Look how well that’s worked so far.”
+</div><!-- end story content -->
