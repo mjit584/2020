@@ -201,11 +201,8 @@ position:relative;
   width: 80%;
   position: relative;
   margin:40px auto;
-  @media(max-width: 1000px) {
-    margin: 40px 0;
-    width:100%;
-    left:0;
-    right:0;
+  @media(max-width: 800px) {
+    width:90%;
   }
   p {
     margin: 0;
@@ -254,6 +251,9 @@ position:relative;
   padding-top: 56%;
   position:relative;
   margin:40px auto;
+  @media(max-width: 800px) {
+    width:90%;
+  }
   .photo-card {
     display: flex;
     flex-direction: column;
