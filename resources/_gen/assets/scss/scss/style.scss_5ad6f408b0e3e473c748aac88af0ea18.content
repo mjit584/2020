@@ -1102,7 +1102,7 @@ h5 {
 .ps-timeline-sec {
   position: relative; }
   .ps-timeline-sec img {
-    max-width: 100px;
+    max-width: 140px;
     border-radius: 50%;
     border: 2px solid #2ea395; }
   .ps-timeline-sec .container {
