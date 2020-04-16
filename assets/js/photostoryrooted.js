@@ -1,5 +1,3 @@
-console.log('photostoryrooted.js is loaded');
-
 /* global ScrollMagic */
 /* global TimelineMax */
 /* global Linear */
@@ -11,7 +9,8 @@ var tl = new TimelineMax();
 var offset = window.innerHeight + "200%";
 
 //scrollmagic out of loop
-//for (let i = 1; i < sections.length; i++) {tl.from(sections[i], 1, { x: "100%", ease: Linear.easeNone }, "+=1");}
+//for (let i = 1; i < sections.length; i++) { tl.from(sections[i], 1, { x: "100%", ease: Linear.easeNone }, "+=1"); }
+
 
 tl
     .fromTo("section.panel.two", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
@@ -57,7 +56,12 @@ tl
     .fromTo("section.panel.forty-two", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
     .fromTo("section.panel.forty-three", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
     .fromTo("section.panel.forty-four", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
-
+    .fromTo("section.panel.forty-five", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
+    .fromTo("section.panel.forty-six", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
+    .fromTo("section.panel.forty-seven", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
+    .fromTo("section.panel.forty-eight", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
+    .fromTo("section.panel.forty-nine", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
+    .fromTo("section.panel.fifty", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
 
 
 new ScrollMagic.Scene({
