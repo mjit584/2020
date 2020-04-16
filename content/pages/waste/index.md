@@ -157,7 +157,9 @@ Sometimes, he wants to quit. But, he doubts anyone else would want to take over.
 
 </div><!-- end story content -->
 <div class="photo-card-container" id="elders">
+  <div class="photo-card">
   <h2>Guiding Generations</h2>
   <img src="/images/yellow-underline-left.svg" class="photo-card-line">
   <a class="photo-card-btn" id="eldersBtn" href="/elders/">Launch Photo Experience</a>
+  </div>
 </div>

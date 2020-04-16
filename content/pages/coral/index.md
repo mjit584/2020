@@ -113,9 +113,11 @@ The nurseries look more like underwater cage match scenes than places that could
 
 </div><!-- end story content -->
 <div class="photo-card-container" id="generations">
+  <div class="photo-card">
   <h2>Guiding Generations</h2>
   <img src="/images/yellow-underline-left.svg" class="photo-card-line">
   <a class="photo-card-btn" id="eldersBtn" href="/generations/">Launch Photo Experience</a>
+</div>
 </div>
 <div class="story-content">
 

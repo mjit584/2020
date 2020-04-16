@@ -55,10 +55,12 @@ But locals worry, too, about the environmental impacts. One important part of th
 “They have big boats, 35-40 footers, and they go really fast,” said Garbutt's younger brother, Jeremy Garbutt, who also works as a tour guide.
 
 </div><!-- end story content -->
-<div class="photo-card-container" id="elders">
+<div class="photo-card-container">
+<div class="photo-card">
   <h2>Fishers</h2>
   <img src="/images/yellow-underline-left.svg" class="photo-card-line">
   <a class="photo-card-btn" id="eldersBtn" href="/fishers/">Launch Photo Experience</a>
+</div>
 </div>
 <div class="story-content">
 
