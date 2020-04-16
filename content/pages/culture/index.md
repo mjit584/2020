@@ -21,17 +21,21 @@ The pods start out as small white flowers, smaller than a pinky finger, pollinat
 
 The farmer, Narciso, plucks one off and breaks it in half, revealing the white seeds inside. These slimy wet beans look like something from an alien planet, but have a citrus-y sweet flavor, more akin to an orange than a bar of chocolate.
 
+</div><!-- end story content -->
 <div id="video-top"></div>
 <!-- Economic story video goes here -->
 {{< vimeo id="405428916" class="video-container" >}}
+<div class="story-content">
 
 Farming cacao is a seemingly never-ending process. Growers like Narciso harvest the pods once every 10 days for six months. In the off season, the groves require continual maintenance to stave off pests and disease and to make sure the pods are getting the optimal amount of shade -- too much and the trees drown in moisture, too little and they dry up and die.
 
 After harvesting, Narciso’s brother, Julio Saqui, takes the beans from his brother’s farm and uses them to create fine chocolate.
 
+</div><!-- end story content -->
 <div class="inner-story-image">
   <img src="/images/culture-01.jpg"><p class="caption">Saqui holds up three chocolate bars which have begun to separate from their molds after cooling. He often wakes up at 4 a.m. to make sure that he can pipe and wrap the bars before the mid-day heat begins to melt the chocolate. Photo by Ari Sen.</p>
 </div>
+<div class="story-content">
 
 His storefront is a square concrete box, emblazoned with Che’il (meaning wild) Mayan Chocolate, with walls painted the same green as trees outside, and floors a rich orange clay. Local art from village members sits on shelves next to a corner refrigerator, which hold the result of a 21-day process of plucking, drying, fermenting, drying, roasting, crushing and grinding of the beans, wrapped in foil.
 TK
@@ -57,16 +61,20 @@ Despite the threat from pests like squirrels and birds and diseases, Saqui insis
 
 But what the big farmers and buyers are doing is that they're paying this farmer, a very small amount of money so that he gets disappointed, he lose interest. And the next best thing for him to do now is to sell his land to the bigger farmer or a buyer so that then that we can, they can harvest everything you've done so they pay a little bit of money and that's it for you. You still make a loss, but for them they will make more by selling more of the crops that keeps coming from the farm.”
 
+</div><!-- end story content -->
 <div class="inner-story-image">
   <img src="/images/culture-02.jpg"><p class="caption">Saqui uses a spatula to stir a plate of roasting dry cacao beans. These beans will later be grinded by hand and mixed with beans roasted in a machine in order to balance flavor and profitability. Photo by Ari Sen.</p>
 </div>
+<div class="story-content">
 
 Despite the rapid growth of the cocao industry in Belize, the government is doing little to none to supports growers and producers.
 We have started noticing it about three years ago but never never did it in the expand because there was the the association was trying to actually control it. But like I was telling him the association just fell apart. Oh, growers. Yeah. And that then quotes the administration arm that is offering technical support to the salon story. That's a long story but what happened was that Green and Black used to support the association. They actually give them financial support. Green and blacks green and blacks. We named blacks a branch of branch of them. Was it is it, Hershey's, I think it's good in blacks and technical support with the branched off from conventional cocao to fully organically grown cows.
 
+</div><!-- end story content -->
 <div class="inner-story-image">
   <img src="/images/culture-03.jpg"><p class="caption">A Catholic church sits on the side of the road a few miles outside the Toledo District in Belize. Saqui attributes the growth of churches and Christianity in the country to the decline in Mayan cultural practices. “I have a choice-- It's either I sell my soul and self to being a Christian, or being antichrist by practicing my own cultural form of living,” Saqui said. “I prefer my old culture, because that has taught me, that has grown me, that has made me a man.” Photo by Ari Sen.</p>
 </div>
+<div class="story-content">
 
 With the loss of land, Saqui says, so too has gone much of the Mayan culture and religion he cherishes. Particularly at fault is the rise of Chrisitianity in the country, Saqui says. According to the latest census numbers more than 74%, or over 300 thousand Belizeans, practice some sort of Christianity.  
 
@@ -80,11 +88,13 @@ He is trailing behind a Ford pick-up, carrying Jose Mess, 53, and his son Bradfo
 
 When the vehicles can go no further, the three men step out and begin a short march toward the grove of more than 200 cacao trees.
 
+</div><!-- end story content -->
 <div class="photo-card-container" id="rooted">
   <h2>Rooted in Culture</h2>
   <img src="/images/yellow-underline-left.svg" class="photo-card-line">
   <a class="photo-card-btn" id="eldersBtn" href="/rooted/">Launch Photo Experience</a>
 </div>
+<div class="story-content">
 
 After crossing a stream the pods begin to emerge: green-yellow foresteros and deep burgundy trinitarios, which are sought after around the globe for their distinctive taste.  
 
@@ -117,11 +127,13 @@ Saqui now says the Toledo Cacao Growers Association is a shell of its former sel
 
 “When it pulled out of Belize, it not only took away Green and Black’s from the association, it took away basically everything-- the heartbeat of the industry,” he said.
 
+</div><!-- end story content -->
 <div class="interactive-top darker"></div>
 <div class="interactive-section dark">
 {{< chocolate-interactive >}}
 </div>
 <div class="interactive-bottom darker"></div>
+<div class="story-content">
 
 ## Paying for Poverty
 
@@ -135,9 +147,11 @@ In less than 10 years Stone has grown the company to one of the largest in Beliz
 
 Both Che’il and Maya Mountain purchase most of their beans wet and complete the drying process themselves, rather than leaving it up to the farmers. Though Che’il is much smaller than Maya Mountain, Saqui pays his farmers seven-and-a-half cents more per pound of these wet beans than Maya Mountain.
 
+</div><!-- end story content -->
 <div class="inner-story-image">
   <img src="/images/culture-04.jpg"><p class="caption">Cacao pods lay cracked open, exposing the pulp-covered beans inside, during Narciso Saqui’s harvest on his farm in Kendal, Belize, on March 11, 2020. Photo by Dustin Duong.</p>
 </div>
+<div class="story-content bottomofpage">
 
 Demand for fine cocoa products, like the so-called “bean-to-bar” variety Maya Mountain produces, has exploded in the U.S. in recent years. Sales of premium chocolate grew 19 percent in 2018, according to the Fine Chocolate Industry Association, compared to 0.6 percent growth in the mainstream chocolate industry.
 
@@ -158,3 +172,4 @@ Some organizations like Ya’axché Conservation Trust, a non-governmental organ
 Saqui said that although he would appreciate more help from the government, it doesn’t have the know-how to provide proper support for the problems that face cacao growers in the future.
 
 “The cacao industry in Belize is still very much a new industry,” Saqui said. “It is young, and it is still starting-- there is a high level of uncertainty.”
+</div><!-- end story content -->

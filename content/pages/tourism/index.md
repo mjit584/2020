@@ -23,8 +23,10 @@ Terry Garbutt, a 43-year-old local guide, hops into his 10-passenger boat and le
 
 On his way to town, he passes a small but luxurious island known as Harvest Caye. Ten years ago, Harvest Caye was only a strip of land covered with dense vegetation, birds, and other wildlife. In November 2016, it became Belize’s newest cruise port, owned exclusively by Norwegian Cruise Lines.
 
+</div><!-- end story content -->
 <div id="video-top"></div>
 {{< vimeo id="405433006" class="video-container" >}}
+<div class="story-content">
 
 Norwegian’s ships, which each carry between 2,000 and 4,200 tourists, stop at the caye as often as four times a day. The big ship docks just offshore, and passengers can take a smaller boat to the resort, which includes bars, a shopping area, a 15,000-square-foot swimming pool, a nature park, and activities such as ziplining, kayaking, and paddle boarding.
 
@@ -34,9 +36,11 @@ However, not everyone shared Del Rio’s enthusiasm.
 
 “Do you see the lighthouse over there?” Garbutt will ask his passengers, pointing at the only tower on this seven-acre island. “It’s actually not even real, it’s just decoration.” He laughs sarcastically, but then gets quiet.
 
+</div><!-- end story content -->
 <div class="inner-story-image">
   <img src="/images/tourism-02.jpg"><p class="caption">Terry Garbutt picks up his passengers as the tour gets underway to Monkey River. As a Monkey River Village native, Garbutt has been giving tours for 23 years. Photo by Madison Hoffmann.</p>
 </div>
+<div class="story-content">
 
 Garbutt never really thought this multi-million dollar project was a good idea. Many of his friends and coworkers in Monkey River share the same feeling.
 
@@ -50,29 +54,35 @@ But locals worry, too, about the environmental impacts. One important part of th
 
 “They have big boats, 35-40 footers, and they go really fast,” said Garbutt's younger brother, Jeremy Garbutt, who also works as a tour guide.
 
+</div><!-- end story content -->
 <div class="photo-card-container" id="elders">
   <h2>Fishers</h2>
   <img src="/images/yellow-underline-left.svg" class="photo-card-line">
   <a class="photo-card-btn" id="eldersBtn" href="/fishers/">Launch Photo Experience</a>
 </div>
+<div class="story-content">
 
 Monkey River has been struggling with coastal erosion since the mid-1980s, according to research done by the Center for International Climate and Environmental Research in Oslo, Norway and the Department of International Environment and Development Studies at Norwegian University of Life Sciences. It’s hard for locals to remember exactly when the erosion became a real problem, but it is easy to point out the damages it has caused. Coastal retreat has led to the loss of a soccer field, the sandy beach, lots of land and houses, and the community’s cemetery.
 
 “Where that cemetery was, that was so far back into the jungle when I was a kid. I never believed that we would have had some tombs washing in the ocean right now,” said Terry Garbutt.
 
+</div><!-- end story content -->
 <div class="inner-story-image">
   <img src="/images/tourism-03.jpg"><p class="caption">Monkey River Village, the northern most village in the Toledo District, is home to a population of roughly 300 people. It is one of the only communities in Belize that does not use cars. Photo by Jason Arthurs.</p>
 </div>
+<div class="story-content">
 
 Cruise ships have become one of the biggest contributors to Belize’s economy, with more than 300 ships and more than 1 million passengers arriving each year. According to an analysis prepared by Business Research & Economic Advisors (BREA) in October 2018, the total economic contribution of cruise tourism in Belize for the 2017/2018 Cruise Year was $US 86.12 million. However, many Belizeans believe that cruises pose many concerns related to sociocultural and environmental impact such as low participation of local citizens in the industry and the flora and fauna’s deterioration in the destinations cruise tourists frequent.
 
 “We really don't care for the cruise line to be over here at all. They want to make all the money from their guests, and the locals make nothing at all,” said Jeremy Garbutt.
 
+</div><!-- end story content -->
 <div class="interactive-top"></div>
 <div class="interactive-section">
 {{< tourism-interactive >}}
 </div>
 <div class="interactive-bottom"></div>
+<div class="story-content">
 
 ## “Dear Mr. Del Río…”
 
@@ -94,15 +104,19 @@ Terry and Jeremy say the experience of the river and wildlife aren’t what they
 
 The letter wasn’t the community’s first effort to make themselves heard. In 2017, the Monkey River village council decided to start a petition to avoid any cruise company to run tourist tours on the river. But regardless of the many signatures they could collect, nothing changed the situation. Cruise ships weren’t going anywhere.
 
+</div><!-- end story content -->
 <div class="inner-story-image">
   <img src="/images/tourism-07.jpg"><p class="caption"></p>
 </div>
+<div class="story-content">
 
 “It's been throwing all these impacts without any benefits. So we hope that we could get it cleared up peacefully,” Jeremy Garbutt said.
 
+</div><!-- end story content -->
 <div class="interactive-section">
 {{< cruise-interactive >}}
 </div>
+<div class="story-content">
 
 ## “I Voted Against It”
 
@@ -124,9 +138,11 @@ As it appears in the final report: “Not only is there widespread resistance to
 
 “I voted against it,” he stressed.
 
+</div><!-- end story content -->
 <div class="inner-story-image">
   <img src="/images/tourism-04.jpg"><p class="caption">Monkey River Village is a rural community that sits at the mouth of Monkey River. The village used to be a farming and fishing community, but residents are increasingly working in tourism today. Photo by Jason Arthurs.</p>
 </div>
+<div class="story-content bottomofpage">
 
 ## “Each Day I Go Out, And I Try My Best”
 
@@ -145,3 +161,4 @@ Once he’s back in Monkey River, he’ll go to the small bar he owns right next
 He’ll meet with his friends and coworkers there, and together they’ll watch a movie they find on the TV. The afternoon will go by fast as they drink beers and forget all their worries for awhile. And Terry will be there, sitting still and silent, knowing that tomorrow will be a new day and that the fight continues.
 
 Yet his hope for change remains strong.
+</div><!-- end story content -->
