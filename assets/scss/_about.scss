@@ -29,12 +29,13 @@
 .about-sort {
   margin-top: 3em;
 }
+
 #AboutFilter {
   display:flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 25%;
+  margin-top: 15%;
 }
 
 #AboutFilter button {
@@ -246,3 +247,12 @@ to {
     display: flex;
     flex-direction: column;
 }
+
+/* For the sort and the card layout */
+.about-byline h1 {
+    font-size: 4em;
+    display: flex;
+    flex-direction: column;
+    color: $white;
+    justify-content: center;
+  }

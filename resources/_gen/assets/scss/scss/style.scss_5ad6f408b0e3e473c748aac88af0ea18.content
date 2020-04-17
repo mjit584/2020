@@ -446,7 +446,7 @@ ul, ol {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 25%; }
+  margin-top: 15%; }
 
 #AboutFilter button {
   border: none;
@@ -607,6 +607,14 @@ to {
 .show {
   display: flex;
   flex-direction: column; }
+
+/* For the sort and the card layout */
+.about-byline h1 {
+  font-size: 4em;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  justify-content: center; }
 
 .exit {
   position: absolute;

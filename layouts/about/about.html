@@ -7,13 +7,12 @@
 <div class="about-content">
   <section class="about-image">
     <div class="herocontent">
-      <div class="story-title">
-        <h1>{{ .Title }}</h1>
-      </div>
     </div>
   </section>
 
-  <div class="byline"></div>
+  <div class="byline about-byline">
+     <h1>{{ .Title }}</h1>
+</div>
 
   <section class="about-sort">
     <div id="AboutFilter">
@@ -55,7 +54,7 @@
                 <a href="{{ .Params.vimeo }}"><i class="fa fa-vimeo fa-xs about-icon"></i></a>
               {{ end }}
               {{ if .Params.linkedin }}
-                <a href="{{ .Params.vimeo }}"><i class="fa fa-linkedin fa-xs about-icon"></i></a>
+                <a href="{{ .Params.linkedin }}"><i class="fa fa-linkedin fa-xs about-icon"></i></a>
               {{ end }}
               {{ if .Params.facebook }}
                 <a href="{{ .Params.facebook }}"><i class="fa fa-facebook fa-xs about-icon"></i></a></p>
@@ -66,6 +65,20 @@
         {{ end }}
     </div>
   </section>
+
+  <div class="interactive-top"></div>
+  <div class="interactive-section">
+    <h2>Behind the Scenes</h2>
+    <img src="../images/yellow-underline-left.svg" class="heading-underline">
+    <div class="explainer-video">
+      <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/407864176?color=cccccc&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    </div>
+  </div>
+  <div class="interactive-bottom"></div>
+
+  <h2>A Special Thanks To:</h2>
+
+
 </div>
 
     {{ end }}
