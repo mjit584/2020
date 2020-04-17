@@ -10,7 +10,6 @@ photographer2: "Matthew Westmoreland"
 photographer3: "Dustin Duong"
 interactive1: "Michael Gawlik"
 reporter: "Ari Sen"
-
 ---
 
 Nestled inside the lush green forest off the coast of Belize, dozens of green and red cacao pods grow.
