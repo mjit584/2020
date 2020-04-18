@@ -619,17 +619,17 @@ to {
   color: #ffffff;
   justify-content: center; }
 
-.exit {
+#pinMaster .exit {
   position: absolute;
   right: 20px;
   top: 20px;
   z-index: 1000; }
 
-i {
+#pinMaster i {
   color: #fff;
   text-shadow: 2px 2px 2px #000; }
 
-.sticky {
+#pinMaster .sticky {
   position: fixed;
   top: 0;
   width: 100%; }
@@ -927,7 +927,7 @@ i {
         transition: width .5s ease, background-color .5s ease; }
       .main-menu > ul > li:hover:after {
         width: 80%;
-        background: #2ea395; }
+        background: #ffffff; }
       .main-menu > ul > li.active > a {
         background: #2ea395;
         text-decoration: none;
