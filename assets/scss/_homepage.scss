@@ -6,34 +6,42 @@
   margin-bottom: -5px;
   margin-top:-100px;
   z-index:1000;
+  @media(max-width: 800px) {
+    margin-top:-50px;
+    position:absolute;
+  }
+}
+.homewave-bottom {
+  background-image: url('../images/homewave-bottom.svg');
+  background-size: cover;
+  height:170px;
+  width: 100%;
+  z-index:1000;
 }
 .explainer-container {
   padding: 40px 15%;
   background-color:#222;
   width:100%;
   align-items: center;
-  @media(max-width: 768px) {
-    background-image:none;
+  @media(max-width: 800px) {
     margin:0;
-    padding: 0 5%;
+    padding: 40px 5%;
     height:auto;
   }
   p {
     color: white;
     padding: 40px;
+    margin:0;
     text-align:center;
     line-height: 1.3em;
     font-size:1.3em;
-    @media(max-width: 768px) {
-      color:$black;
-    }
   }
 }
 
 
 .home-nav {
   text-align:center;
-  padding:10% 5% 5% 5%;
+  padding:40px 5% 5% 5%;
 
   .cards {
     display: grid;

@@ -10,21 +10,15 @@
 .mobile-background {
   display: flex;
   justify-content: center;
-  }
+  z-index:-1;
+}
 
 .mobile-image {
   width: 100%;
   margin-top: -70px;
 }
 
-#home-text-container {
-  position: absolute;
-  width: 100%;
-  justify-content: space-around;
-  padding: 10% 5% 5% 5%;
-}
-
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
   .myVideo {
     display: block;
     width: 100%;
@@ -49,9 +43,4 @@
     margin-top: -70px;
   }
 
-  #home-text-container {
-    position: absolute;
-    width: 100%;
-    padding: 0% 5% 15% 5%;
-  }
 }
