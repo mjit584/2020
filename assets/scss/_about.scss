@@ -28,6 +28,9 @@
 }
 .about-sort {
   margin-top: 3em;
+  @media(max-width: 800px) {
+      margin-top: 5em;
+  }
 }
 
 #AboutFilter {
@@ -249,10 +252,79 @@ to {
 }
 
 /* For the sort and the card layout */
-.about-byline h1 {
-    font-size: 4em;
-    display: flex;
-    flex-direction: column;
-    color: $white;
-    justify-content: center;
+.about-byline {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    bottom: -300px;
+    p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $white;
+      text-align: center;
+      line-height: 1.5em;
+      @media(max-width: 800px) {
+        line-height: 1.25em;
+        padding-bottom: 25%;
+      }
+    }
+}
+
+.specialthanks {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+  p {
+    line-height: 1em;
+    margin: 10px auto;
+    text-align: center;
   }
+  h2 {
+    margin: 10px auto;
+  }
+}
+
+.interactive-section-about {
+  padding: 0% 10% 5% 10%;
+  background-color: $story-gray;
+  width: 100%;
+  margin:0 auto;
+  text-align: center;
+  overflow:hidden;
+
+  .heading-underline {
+    max-width: 300px;
+  }
+
+  @media(max-width: 800px) {
+    padding: 10% 5%;
+  }
+}
+
+.interactive-top-about {
+  background-image: url('../images/interactive-top.svg');
+  background-size: cover;
+  height: 100px;
+  width: 100%;
+  margin-bottom: -5px;
+  margin-top:40px;
+  @media(max-width: 800px) {
+    margin-top: 20px;
+    height: 40px;
+  }
+}
+
+.interactive-bottom-about {
+  background-image: url('../images/interactive-bottom.svg');
+  background-size: cover;
+  margin-top: -20px;
+  height: 110px;
+  width: 100%;
+  margin-bottom: 40px;
+  @media(max-width: 800px) {
+    margin-top: 0px;
+    height: 60px;
+  }
+}
