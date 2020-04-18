@@ -45,17 +45,14 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 // This is for the toggle of the bio
-function showInfo(number) {
-var x = document.getElementById(number);
-var y = document.getElementById('overlay '+number);
-var z = document.getElementById('icontoggle '+number);
+$(".header-about").click(function () {
+    $header = $(this);
+    //getting the next element
+    $content = $header.next();
+    //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
+    $content.slideToggle(500, function () {
+        //execute this after slideToggle is done
+        //change text of header based on visibility of content div
+    });
 
-if (x.style.display === "none") {
-    x.style.display = "block";
-    y.style.top = 'auto';
-    y.style.bottom = 0;
-    z.classList.toggle('fa-minus');
-  } else {
-    x.style.display = "none";
-  }
-}
+});

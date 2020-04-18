@@ -36,10 +36,12 @@
           {{ end }}
           {{ end }}
         </span>
-        <div class="about-overlay" id="overlay {{ .Params.title }}">
-          <p class="name">{{ .Params.title }}  <i id="icontoggle {{ .Params.title }}" class="fa fa-plus fa-sm" onclick="showInfo({{ .Params.title }})"></i></p>
-          <p class="group">{{ .Params.groupname }}</p>
-          <div class="about-overlay-hover" id="{{ .Params.title }}">
+        <div class="container">
+              <div class="header-about">
+              <p class="name">{{ .Params.title }}</p>
+              <p class="group">{{ .Params.groupname }}</p>
+              </div>
+          <div class="content" id="{{ .Params.title }}">
             <p class="about-paragraph">{{ .Params.about }}</p>
             {{ if .Params.portfolio }}
               <p><a class="portfolio" href="{{ .Params.portfolio }}">Portfolio</a>
