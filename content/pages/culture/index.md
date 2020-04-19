@@ -129,11 +129,11 @@ Saqui now says the Toledo Cacao Growers Association is a shell of its former sel
 “When it pulled out of Belize, it not only took away Green and Black’s from the association, it took away basically everything-- the heartbeat of the industry,” he said.
 
 </div><!-- end story content -->
-<div class="interactive-top darker"></div>
+<div class="interactive-top-dark"></div>
 <div class="interactive-section dark">
 {{< chocolate-interactive >}}
 </div>
-<div class="interactive-bottom darker"></div>
+<div class="interactive-bottom-dark"></div>
 <div class="story-content">
 
 ## Paying for Poverty

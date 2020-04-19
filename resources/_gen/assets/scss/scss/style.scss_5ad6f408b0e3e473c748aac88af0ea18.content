@@ -1249,6 +1249,22 @@ h5 {
   width: 100%;
   margin-bottom: 40px; }
 
+.interactive-top-dark {
+  background-image: url("../images/interactive-black-top.svg");
+  background-size: cover;
+  height: 100px;
+  width: 100%;
+  margin-bottom: -5px;
+  margin-top: 40px; }
+
+.interactive-bottom-dark {
+  background-image: url("../images/interactive-black-bottom.svg");
+  background-size: cover;
+  height: 120px;
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: -1px; }
+
 .instructions {
   color: #aaa;
   font-style: italic; }
