@@ -93,7 +93,7 @@ Seleem Chan, TNC’s seaweed mariculture project coordinator, said Placencia has
   <div class="photo-card">
     <h2>In The Weeds</h2>
     <img src="/images/yellow-underline-left.svg" class="photo-card-line">
-  <button class="photo-card-btn" id="eldersBtn">Launch Photo Experience</button>
+    <a class="photo-card-btn" id="eldersBtn" href="/weeds/">Launch Photo Experience</a>
   </div>
 </div>
 <div class="story-content">
