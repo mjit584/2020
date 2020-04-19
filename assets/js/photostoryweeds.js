@@ -51,17 +51,6 @@ tl
     .fromTo("section.panel.thirty-eight", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
     .fromTo("section.panel.thirty-nine", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
     .fromTo("section.panel.forty", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
-    .fromTo("section.panel.forty-one", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
-    .fromTo("section.panel.forty-two", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
-    .fromTo("section.panel.forty-three", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
-    .fromTo("section.panel.forty-four", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
-    .fromTo("section.panel.forty-five", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
-    .fromTo("section.panel.forty-six", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
-    .fromTo("section.panel.forty-seven", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
-    .fromTo("section.panel.forty-eight", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
-    .fromTo("section.panel.forty-nine", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
-    .fromTo("section.panel.fifty", 1, { x: "100%" }, { x: "0%", ease: Linear.easeNone })
-
 
 
 

@@ -16,6 +16,48 @@
         top: 0;
         width: 100%;
     }
+
+    /*global endcard styling*/
+    .endcard{
+      background-color: black;
+      margin: auto;
+      text-align: left;
+    }
+
+    .endcard-itms{
+      margin: auto;
+      height: 50vh;
+      padding-top: 25vh;
+    }
+
+    .endcard-itms > p {
+      padding: 5px 10px 10px 0;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.5rem;
+      font-family: 'Barlow Semi Condensed',sans-serif;
+      line-height: 2rem;
+      font-weight: 100;
+    }
+
+    .endcard-btn{
+      border: 1px solid #fff;
+      padding: 2% 5%;
+      margin-top: 500px;
+      background-color: transparent;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.4rem;
+      font-family: 'Barlow Semi Condensed',sans-serif;
+      text-transform: uppercase;
+      font-weight: 100;
+    }
+
+    .endcard-btn:hover{
+      background-color: #2ea294;
+      font-weight: 300;
+    }
+
 }
     /*for header*/
     #myDIV {

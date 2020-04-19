@@ -18,7 +18,7 @@
         <section class="panel two"></section>
         <section class="panel three"> </section>
         <section class="panel four">
-            <img src="{{ .Site.BaseURL }}photostory-rooted/duong_4.jpg" alt="Avatar"> />
+            <img src="{{ .Site.BaseURL }}photostory-rooted/duong_4.jpg" alt="Avatar">
         </section>
         <section class="panel five"></section>
         <section class="panel six"></section>
@@ -26,7 +26,7 @@
         <section class="panel eight"></section>
         <section class="panel nine"> </section>
         <section class="panel ten">
-            <img src="{{ .Site.BaseURL }}photostory-rooted/duong_5.jpg" alt="Avatar"> />
+            <img src="{{ .Site.BaseURL }}photostory-rooted/duong_5.jpg" alt="Avatar">
         </section>
         <section class="panel eleven"></section>
         <section class="panel twelve"> </section>
@@ -38,11 +38,11 @@
         <section class="panel eighteen"></section>
         <section class="panel nineteen"> </section>
         <section class="panel twenty">
-            <img src="{{ .Site.BaseURL }}photostory-rooted/duong_8.jpg" alt="Avatar"> />
+            <img src="{{ .Site.BaseURL }}photostory-rooted/duong_8.jpg" alt="Avatar">
         </section>
         <section class="panel twenty-one"></section>
         <section class="panel twenty-two">
-            <img src="{{ .Site.BaseURL }}photostory-rooted/duong_9.jpg" alt="Avatar"> />
+            <img src="{{ .Site.BaseURL }}photostory-rooted/duong_9.jpg" alt="Avatar">
         </section>
         <section class="panel twenty-three"></section>
         <section class="panel twenty-four"></section>
@@ -50,7 +50,7 @@
         <section class="panel twenty-six"></section>
         <section class="panel twenty-seven"></section>
         <section class="panel twenty-eight">
-            <img src="{{ .Site.BaseURL }}photostory-rooted/duong_11.jpg" alt="Avatar"> />
+            <img src="{{ .Site.BaseURL }}photostory-rooted/duong_11.jpg" alt="Avatar">
         </section>
         <section class="panel twenty-nine"></section>
         <section class="panel thirty"></section>
@@ -60,7 +60,7 @@
         <section class="panel thirty-four"> </section>
         <section class="panel thirty-five"> </section>
         <section class="panel thirty-six">
-            <img src="{{ .Site.BaseURL }}photostory-rooted/duong_14.jpg" alt="Avatar"> />
+            <img src="{{ .Site.BaseURL }}photostory-rooted/duong_14.jpg" alt="Avatar">
         </section>
         <section class="panel thirty-seven"></section>
         <section class="panel thirty-eight"></section>
@@ -70,14 +70,26 @@
         <section class="panel forty-two"> </section>
         <section class="panel forty-three"> </section>
         <section class="panel forty-four">
-            <img src="{{ .Site.BaseURL }}photostory-rooted/duong_17.jpg" alt="Avatar"> />
+            <img src="{{ .Site.BaseURL }}photostory-rooted/duong_17.jpg" alt="Avatar">
         </section>
         <section class="panel forty-five"></section>
         <section class="panel forty-six"></section>
         <section class="panel forty-seven"> </section>
         <section class="panel forty-eight"></section>
         <section class="panel forty-nine"> </section>
-        <section class="panel fifty"></section>
+        <section class="panel fifty endcard">
+            <div class="endcard-itms" style="width: 50%;">
+                <p class="endcard-txt">
+                    Photos by Dustin Duong
+                </p>
+                <p class="endcard-txt" style="margin-bottom: 10%;">
+                    Special thanks to Narciso and Julio Saqui
+                </p>
+                <a href="#" onclick="history.back(-1)" class="endcard-btn">
+                    Back to Story
+                </a>
+            </div>
+        </section>
 
     </div>
 </div>
@@ -86,74 +98,6 @@
 
   .header, .footer, .main-menu-mobile {
     display:none;
-  }
-
-  p{
-    font-family: "Barlow";
-    font-size: 3rem;
-    margin: 1rem;
-    padding: 5rem;
-    text-align: center;
-    display: block;
-    color: yellow;
-  }
-
-  /* captions general */
-
-  .text-bg {
-    width: 100%;
-    padding: .2rem;
-    text-align: left;
-    color: #222222;
-    font-family: 'Barlow Semi Condensed';
-    background-color: #EBEBE6;
-    margin-top: 0;
-  }
-
-  .hidden-caption {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    display: none;
-    margin: 0;
-    padding: 0;
-    opacity: 75%;
-  }
-
-  .wave {
-    margin-bottom: -3%;
-    padding: 0;
-
-  }
-
-  .text-bg p {
-    font-family: 'Barlow Semi Condensed';
-    color: #222222;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    font-weight: 700;
-    text-align: left;
-    opacity: 100%;
-    font-size: 1rem;
-    width: 80%;
-  }
-
-  /*end card*/
-  .end {
-    font-family: "Vollkorn",serif;
-    text-shadow: 3px 3px 7px rgba(51,51,51,.95);
-    color: #f0bd2a;
-    font-weight: 900;
-    position: relative;
-    display: block;
-    font-size: 3.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    text-align: left;
-    padding: 3%;
-
   }
 
   /* Panels  [changes for each story]*/
@@ -182,7 +126,6 @@
    width: 75vw;
    padding-top: 5vh;
    padding-bottom: 5vh;
-
   }
 
   .eight {
@@ -321,12 +264,6 @@
   }
   .forty-eight {
     background-image: url("{{ .Site.BaseURL }}photostory-rooted/duong_25.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .fifty{
-    background-image: url("{{ .Site.BaseURL }}photostory-rooted/duong_26.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
