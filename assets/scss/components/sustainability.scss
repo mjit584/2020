@@ -31,7 +31,7 @@
     }
     .container {
         position: relative;
-
+        color:$black;
         ol {
 
             @include respond-to(xs) {
