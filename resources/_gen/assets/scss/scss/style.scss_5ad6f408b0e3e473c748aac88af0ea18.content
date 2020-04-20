@@ -84,7 +84,7 @@ ul, ol {
   z-index: 1000; }
 
 .explainer-container {
-  padding: 40px 15%;
+  padding: 40px 20%;
   background-color: #222;
   width: 100%;
   align-items: center; }
@@ -232,7 +232,7 @@ ul, ol {
 
 .heading-underline {
   max-width: 200px;
-  margin-bottom: 30px; }
+  margin: 0 auto 30px auto; }
 
 .story-content {
   margin: 0 20%; }
@@ -270,7 +270,7 @@ ul, ol {
   padding: 10% 5% 5% 5%; }
   .story-nav .cards {
     display: grid;
-    grid-template-columns: repeat(5, minmax(200px, 1fr));
+    grid-template-columns: repeat(5, minmax(150px, 1fr));
     grid-template-rows: 1fr;
     grid-gap: 1rem;
     width: 100%; }

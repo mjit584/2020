@@ -76,7 +76,7 @@
 }
 .heading-underline {
   max-width: 200px;
-  margin-bottom: 30px;
+  margin: 0 auto 30px auto;
 }
 .story-content {
   margin: 0 20%;
@@ -119,7 +119,7 @@
   padding:10% 5% 5% 5%;
   .cards {
     display: grid;
-    grid-template-columns: repeat(5, minmax(200px, 1fr));
+    grid-template-columns: repeat(5, minmax(150px, 1fr));
     grid-template-rows: 1fr;
     grid-gap: 1rem;
     width: 100%;
