@@ -408,8 +408,14 @@ ul, ol {
     font-family: "Vollkorn", serif;
     text-shadow: 3px 3px 7px rgba(51, 51, 51, 0.95);
     color: #ffffff; }
+    @media (max-width: 800px) {
+      .photo-card-container h2 {
+        font-size: 24px; } }
   .photo-card-container .photo-card-line {
     width: 300px; }
+    @media (max-width: 800px) {
+      .photo-card-container .photo-card-line {
+        width: 200px; } }
   .photo-card-container .photo-card-btn {
     border: 1px solid white;
     padding: 15px;
@@ -420,6 +426,10 @@ ul, ol {
     font-size: 1.2em;
     font-family: "Barlow Semi Condensed", sans-serif;
     text-transform: uppercase; }
+    @media (max-width: 800px) {
+      .photo-card-container .photo-card-btn {
+        font-size: 1em;
+        padding: 10px; } }
   .photo-card-container .photo-card-btn:hover {
     border: 1px solid white;
     background-color: #2ea395; }
