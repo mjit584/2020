@@ -275,9 +275,15 @@ position:relative;
     font-family: $bodyfont;
     text-shadow: 3px 3px 7px $text-shadow;
     color:$white;
+    @media(max-width: 800px) {
+      font-size: 24px;
+    }
   }
   .photo-card-line{
     width:300px;
+    @media(max-width: 800px) {
+      width:200px;
+    }
   }
   .photo-card-btn{
     border: 1px solid white;
@@ -289,6 +295,10 @@ position:relative;
     font-size:1.2em;
     font-family:$font-family-heading;
     text-transform:uppercase;
+    @media(max-width: 800px) {
+      font-size:1em;
+      padding: 10px;
+    }
   }
   .photo-card-btn:hover {
     border: 1px solid white;
