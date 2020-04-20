@@ -377,7 +377,7 @@ ul, ol {
   background-image: url("../images/culture-photostory-title.jpg"); }
 
 .story-4 .photo-card-container {
-  background-image: url("../photostory-elders/sartin_1.jpg"); }
+  background-image: url("../images/waste-photostory-title.jpg"); }
 
 .story-5 .photo-card-container {
   background-image: url("../images/seaweed-photostory-title.jpg"); }
