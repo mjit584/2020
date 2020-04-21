@@ -1380,6 +1380,10 @@ h5 {
   height: 110px;
   width: 100%;
   margin-bottom: 40px; }
+  @media (max-width: 800px) {
+    .interactive-bottom {
+      margin-top: 0;
+      height: 60px; } }
 
 .interactive-top-dark {
   background-image: url("../images/interactive-black-top.svg");
