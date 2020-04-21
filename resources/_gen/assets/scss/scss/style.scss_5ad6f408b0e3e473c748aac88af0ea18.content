@@ -700,6 +700,15 @@ to {
       margin-top: 0px;
       height: 60px; } }
 
+#mobile-photostory {
+  display: none; }
+
+.photostory-mobile-title {
+  display: none; }
+
+.mobile-endcard-itms {
+  display: none; }
+
 #pinMaster {
   /*global endcard styling*/ }
   #pinMaster .exit {
@@ -790,6 +799,89 @@ to {
   height: 100%;
   width: 100%;
   position: absolute; }
+
+@media (max-width: 800px) {
+  #pinMaster {
+    display: none; }
+  /* Figure this out after title etc.
+  .exit {
+    position:absolute;
+    right:20px;
+    top:20px;
+    z-index:1000;
+  }
+*/
+  #mobile-photostory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%; }
+    #mobile-photostory img {
+      max-width: 100%;
+      margin: 10px auto; }
+    #mobile-photostory p {
+      line-height: 1.1em;
+      margin: 10px auto; }
+  .photostory-mobile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5%; }
+    .photostory-mobile-title h1 {
+      font-family: "Vollkorn", serif;
+      color: #ffffff;
+      font-size: 3rem; }
+  .photostory1 {
+    background-image: url("../photostory-generations/france2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .photostory2 {
+    background-image: url("../photostory-generations/france2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .photostory3 {
+    background-image: url("../photostory-generations/france2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .photostory4 {
+    background-image: url("../photostory-generations/france2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .photostory5 {
+    background-image: url("../photostory-generations/france2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .mobile-endcard-itms {
+    display: block;
+    background-image: url("../images/mobile-footer-wave.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px; }
+    .mobile-endcard-itms .endcard-itms {
+      margin-right: 5%;
+      margin-left: 5%; }
+      .mobile-endcard-itms .endcard-itms p {
+        margin: auto;
+        color: #ffffff;
+        font-weight: 600; }
+      .mobile-endcard-itms .endcard-itms .endcard-btn {
+        border: 1px solid #fff;
+        padding: 2% 5%;
+        margin-top: 500px;
+        background-color: transparent;
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.4rem;
+        font-family: 'Barlow Semi Condensed',sans-serif;
+        text-transform: uppercase;
+        font-weight: 100; }
+      .mobile-endcard-itms .endcard-itms .endcard-txt-thanks {
+        line-height: 1em;
+        margin-bottom: 20px;
+        font-weight: 200; } }
 
 .page {
   display: flex;
