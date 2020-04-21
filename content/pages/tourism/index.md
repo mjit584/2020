@@ -1,5 +1,5 @@
 ---
-title: "Controversy On Deck"
+title: "Controversy on Deck"
 topic: "Tourism"
 date:
 storySubheading: Belize has brought in more tourism from cruises, but communities are concerned about the environmental and cultural impacts.

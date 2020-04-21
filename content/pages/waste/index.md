@@ -1,5 +1,5 @@
 ---
-title: Tide To Trash
+title: Tide to Trash
 topic: Waste Management
 date:
 storySubheading: Disparities undercut Belize's waste management system, and new policies are leaving residents behind.

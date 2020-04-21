@@ -1,5 +1,5 @@
 ---
-title: Seeding The Sea
+title: Seeding the Sea
 topic: Sustainability
 date:
 storySubheading: As climate change and governance impact Belize's fishing economy, advocates view seaweed farming as the solution.
