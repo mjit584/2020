@@ -28,8 +28,8 @@ Mordy lives on the caye during the week, where he works as a dive instructor, re
 ReefCI, as it’s known, is one of a number of coral protection nonprofits that have launched in Belize in the last three decades, a response to one of the world’s quietest ecological disasters.
 
 All along Belize’s 200 miles of coral reef, a species is being suffocated. Climate change has warmed the world’s oceans, including Belize’s tropical seas, more than 2 degrees fahrenheit in the last one hundred years, and much of the reef has become diseased or stressed to the point of bleaching, an effect that turns the vibrant living invertebrates into stark white skeletons. Globally, coral mortality has increased over 40% since 2006, and without significant intervention, the United Nations Educational Scientific and Cultural Organization (UNESCO) projects that Belize’s reef will be almost entirely gone by 2050.
-
 </div><!-- end story content -->
+
 <div id="video-top"></div>
 <!-- Economic story video goes here -->
 {{< vimeo id="405450044" class="video-container" >}}
@@ -65,6 +65,7 @@ Both the warming of the sea and its increasing acidity allow coral diseases to t
 <div class="interactive-bottom"></div>
 
 <div class="story-content">
+
 “Belize has been quite lucky in some ways,” said Castillo, “that despite how quickly we are losing some of these coral species, the country has managed to avoid major storms for almost 20 years.”
 
 Another hallmark of climate change is an increased severity of tropical storms like hurricanes. The eastern United States has seen some of the worst of this environmental threat in recent years, but Belize has only had one major hurricane in the last three decades, a Category 4 storm called Iris in October 2001. Iris devastated much of the Caribbean region, and nearly leveled the small town of Placencia, the main population center in southern Belize. In the 19 years since, developers from around the world have invested heavily in Belize, transforming the very infrastructure of the region into a tourism haven.
