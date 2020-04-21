@@ -1,55 +1,28 @@
 languageCode = "en-us"
-title = "Barriers"
+title = "Barriers: The changing relationship between humans and the environment in Belize."
 baseURL = "/"
 enableInlineShortcodes = "true"
 canonifyURLs = "true"
+copyright = "Copyright UNC Hussman School of Journalism and Media"
 
 [params]
   google_analytics_id=""
 
   [params.homepage_meta_tags]
-    meta_description = "A description about Belize"
-    meta_og_title = "Barriers"
+    meta_description = "Barriers is a multimedia journalism project produced by the UNC Hussman School of Journalism and Media"
+    meta_og_title = "Barriers: The changing relationship between humans and the environment in Belize."
     meta_og_type = "website"
-    meta_og_url = ""
-    meta_og_image = ""
-    meta_og_description = ""
-    meta_twitter_card = "A description about Belize"
-    meta_twitter_site = ""
-    meta_twitter_creator = ""
-#
-# [[menu.main]]
-# 	name = "Threatened Water"
-# 	url = "/coral/"
-#     weight = 1
-#
-# [[menu.main]]
-#     name = "Monkey River"
-#     url = "/tourism/"
-#     weight = 2
-#
-# [[menu.main]]
-#     name = "The Cost of Chocolate"
-#     url = "/culture/"
-#     weight = 3
-#
-# [[menu.main]]
-#     name = "Tied By Trash"
-#     url = "/waste/"
-#     weight = 4
-#
-# [[menu.main]]
-#     name = "Seaweed for All"
-#     url = "/seaweed/"
-#     weight = 5
-#
-# [[menu.main]]
-#     name = "About"
-#     url = "/about/"
-#     weight = 6
+    meta_og_url = "https://barriers.unc.edu"
+    meta_og_image = "http://mj584y2020-dept-mjinternational.cloudapps.unc.edu/images/seaweed-02-new.jpg"
+    meta_og_description = "Barriers, from the UNC Hussman School of Journalism and Media, explores the barriers facing local activists and community members in Belize in their efforts to protect the natural world."
+    meta_twitter_card = "Barriers, from the UNC Hussman School of Journalism and Media, explores the barriers facing local activists and community members in Belize in their efforts to protect the natural world."
+    meta_twitter_site = "@UNCglobalstory"
+    meta_twitter_creator = "@UNCglobalstory"
+  [params.navigation]
+    help = "Help"
 
 [permalinks]
-  post = "/:year/:month/:day/:slug/"
+  post = "/:slug/"
   pages = "/:filename/"
 
   [markup]
