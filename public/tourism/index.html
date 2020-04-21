@@ -34,7 +34,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/style.min.e1f97e0d6d6d682ca7e9d5925b954b4c06ba3f61db0341d8ee73a7e72a78c5b1.css">
+  <link rel="stylesheet" href="/css/style.min.7d488e2a92b897a09fb023d3119d68d137f155c88a3432902d9f2d2f56c64938.css">
   
 
   
@@ -316,6 +316,32 @@ $.get('../images/cruise.svg', function(data) {
 </script>
 
 <style>
+#cruise-mobile {
+  display:none;
+}
+#cruise-mobile ol {
+  list-style:decimal;
+  margin: 4%;
+}
+#cruise-mobile ol li {
+  font-family: 'Barlow Semi Condensed', sans-serif!important;
+  padding-bottom:20px;
+  text-align:left;
+}
+#cruise {
+  display:block;
+}
+@media (max-width: 800px) {
+  #cruise-mobile {
+    display:block;
+  }
+  #cruise {
+    display: none;
+  }
+  .instructions {
+    display:none;
+  }
+}
 #row1, #closebutton {
   cursor: pointer;
 }
@@ -333,7 +359,7 @@ svg {
 }
 </style>
 
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 1100 618.45" style="enable-background:new 0 0 1100 618.45;" xml:space="preserve">
+<svg id="cruise" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 1100 618.45" style="enable-background:new 0 0 1100 618.45;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#007696;}
 	.st1{fill:#36C9D4;}
@@ -1062,6 +1088,19 @@ svg {
 	</g>
 </g>
 </svg>
+
+<div id="cruise-mobile">
+  <img src="../images/cruisemobile.svg">
+  <ol>
+    <li>Paint contains heavy metals that slowly shed into the water over time, ending up in marine food webs.</li>
+    <li>Dolphins and orcas hearing can be damaged by the amount of noise created by such a large ship moving through the water.</li>
+    <li>This waste water comes from things like showers and dishwashing. It contains  harmful chemicals and minerals.</li>
+    <li>Coral can be damaged by ships running into them or anchors being dropped. They are also harmed by toxins released by these ships.</li>
+    <li>This waste water is rich in harmful bacterias. Legally, sewage can be dumped anywhere further than three miles from U.S. shore.</li>
+    <li>By operating under non-U.S. flags, cruises are able to bypass American labor, safety, and environmental codes.</li>
+    <li>Cruise ships use fuel that produces harmful sulfur, which is released into the air, or trapped in the smokestack and dumped into the ocean</li>
+  </ol>
+</div>
 
 </div>
 <div class="interactive-bottom"></div>
