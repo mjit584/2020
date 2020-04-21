@@ -64,9 +64,6 @@ tl
 
 
 
-
-
-
 new ScrollMagic.Scene({
     triggerElement: "#pinMaster",
     triggerHook: "onLeave",
