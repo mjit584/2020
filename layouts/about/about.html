@@ -44,22 +44,22 @@
           <div class="content" id="{{ .Params.title }}">
             <p class="about-paragraph">{{ .Params.about }}</p>
             {{ if .Params.portfolio }}
-              <p><a class="portfolio" href="{{ .Params.portfolio }}">Portfolio</a>
+              <p><a class="portfolio" href="{{ .Params.portfolio }}" target="_blank">Portfolio</a>
             {{ end }}
               {{ if .Params.instagram }}
-                <a href="{{ .Params.instagram }}"><i class="fa fa-instagram fa-xs about-icon"></i></a>
+                <a href="{{ .Params.instagram }}" target="_blank"><i class="fa fa-instagram fa-xs about-icon"></i></a>
               {{ end }}
               {{ if .Params.twitter }}
-                <a href="{{ .Params.twitter }}"><i class="fa fa-twitter fa-xs about-icon"></i></a>
+                <a href="{{ .Params.twitter }}" target="_blank"><i class="fa fa-twitter fa-xs about-icon"></i></a>
               {{ end }}
               {{ if .Params.vimeo }}
-                <a href="{{ .Params.vimeo }}"><i class="fa fa-vimeo fa-xs about-icon"></i></a>
+                <a href="{{ .Params.vimeo }}" target="_blank"><i class="fa fa-vimeo fa-xs about-icon"></i></a>
               {{ end }}
               {{ if .Params.linkedin }}
-                <a href="{{ .Params.linkedin }}"><i class="fa fa-linkedin fa-xs about-icon"></i></a>
+                <a href="{{ .Params.linkedin }}" target="_blank"><i class="fa fa-linkedin fa-xs about-icon"></i></a>
               {{ end }}
               {{ if .Params.facebook }}
-                <a href="{{ .Params.facebook }}"><i class="fa fa-facebook fa-xs about-icon"></i></a></p>
+                <a href="{{ .Params.facebook }}" target="_blank"><i class="fa fa-facebook fa-xs about-icon"></i></a></p>
               {{ end }}
           </div>
         </div>

@@ -76,6 +76,10 @@
   justify-content: center;
 }
 
+.inner-card .container{
+  cursor: pointer;
+}
+
 .inner-card {
   display: none;
   flex-wrap: wrap;

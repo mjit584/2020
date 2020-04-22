@@ -209,7 +209,7 @@ ul, ol {
   position: absolute;
   bottom: -200px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-around;
   padding: 5% 20%; }
   @media (max-width: 900px) {
@@ -501,6 +501,9 @@ ul, ol {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center; }
+
+.inner-card .container {
+  cursor: pointer; }
 
 .inner-card {
   display: none;

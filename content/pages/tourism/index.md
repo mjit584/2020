@@ -93,7 +93,11 @@ In eight paragraphs, the letter tries to summarize and resolve almost four years
 
 However, the letter was never sent. They needed the village mayor’s consent. But his opinion about the cruise industry is very different: the blank space without his signature made it clear.
 
-*SCANNED LETTERS*
+</div><!-- end story content -->
+<div class="inner-story-image">
+  <img src="/images/letter.jpg"><p class="caption"></p>
+</div>
+<div class="story-content">
 
 “We really can’t stop cruise ships, so I think the only thing we could do is work with them and try to benefit from them,” said Leonardo Castro, the village's mayor.
 
@@ -117,7 +121,15 @@ The letter wasn’t the community’s first effort to make themselves heard. In 
 
 “It's been throwing all these impacts without any benefits. So we hope that we could get it cleared up peacefully,” Jeremy said.
 
-*ELDER STORY?*
+</div><!-- end story content -->
+<div class="photo-card-container" id="elders">
+  <div class="photo-card">
+  <h2>Guiding Generations</h2>
+  <img src="/images/yellow-underline-left.svg" class="photo-card-line">
+  <a class="photo-card-btn" id="eldersBtn" href="/elders/">Launch Photo Experience</a>
+  </div>
+</div>
+<div class="story-content">
 
 ## "I voted against it"
 
