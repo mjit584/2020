@@ -156,10 +156,3 @@ Sometimes, he wants to quit. But, he doubts anyone else would want to take over.
 “We have all these things that affect the climate in this country and affect the climate of other countries,” Budna said. “I’ve realized garbage is something we have to take care of the right way, to help people understand that garbage has an effect and a deadly impact on each of our lives every day.”
 
 </div><!-- end story content -->
-<div class="photo-card-container" id="elders">
-  <div class="photo-card">
-  <h2>Guiding Generations</h2>
-  <img src="/images/yellow-underline-left.svg" class="photo-card-line">
-  <a class="photo-card-btn" id="eldersBtn" href="/elders/">Launch Photo Experience</a>
-  </div>
-</div>
