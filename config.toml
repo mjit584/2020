@@ -6,18 +6,23 @@ canonifyURLs = "true"
 copyright = "Copyright UNC Hussman School of Journalism and Media"
 
 [params]
-  google_analytics_id=""
+  author = "UNC Hussman School of Journalism and Media"
+  github = "https://github.com/mjit584/2020"
+  facebook = "https://www.facebook.com/uncglobalstory/"
+  og_image = "/images/seaweed-02-new.jpg"
+  sitename = "Barriers: The changing relationship between humans and the environment in Belize."
+  twitter = "@UNCglobalstory"
 
-  [params.homepage_meta_tags]
-    meta_description = "Barriers is a multimedia journalism project produced by the UNC Hussman School of Journalism and Media"
-    meta_og_title = "Barriers: The changing relationship between humans and the environment in Belize."
-    meta_og_type = "website"
-    meta_og_url = "https://barriers.unc.edu"
-    meta_og_image = "http://mj584y2020-dept-mjinternational.cloudapps.unc.edu/images/seaweed-02-new.jpg"
-    meta_og_description = "Barriers, from the UNC Hussman School of Journalism and Media, explores the barriers facing local activists and community members in Belize in their efforts to protect the natural world."
-    meta_twitter_card = "Barriers, from the UNC Hussman School of Journalism and Media, explores the barriers facing local activists and community members in Belize in their efforts to protect the natural world."
-    meta_twitter_site = "@UNCglobalstory"
-    meta_twitter_creator = "@UNCglobalstory"
+
+  # [params.homepage_meta_tags]
+  #   meta_og_title = "Barriers: The changing relationship between humans and the environment in Belize."
+  #   meta_og_type = "website"
+  #   meta_og_url = "https://barriers.unc.edu"
+  #   meta_og_image = "http://mj584y2020-dept-mjinternational.cloudapps.unc.edu/images/seaweed-02-new.jpg"
+  #   meta_og_description = "Barriers, from the UNC Hussman School of Journalism and Media, explores the barriers facing local activists and community members in Belize in their efforts to protect the natural world."
+  #   meta_twitter_card = "Barriers, from the UNC Hussman School of Journalism and Media, explores the barriers facing local activists and community members in Belize in their efforts to protect the natural world."
+  #   meta_twitter_site = "@UNCglobalstory"
+  #   meta_twitter_creator = "@UNCglobalstory"
   [params.navigation]
     help = "Help"
 

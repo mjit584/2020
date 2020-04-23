@@ -10,6 +10,8 @@ photographer3: "Haley France"
 interactive1: "Meg McMahon"
 interactive2: "Will Melfi"
 reporter: "Drew Wayland"
+description: Belize’s future is intimately tied to its coral reefs. Both are in jeopardy.
+image: ../images/marine.jpg
 
 ---
 
@@ -58,11 +60,11 @@ Climate change, coupled with a huge increase in nitrates from agricultural runof
 Both the warming of the sea and its increasing acidity allow coral diseases to thrive and spread over long distances. Stony coral tissue loss disease, which is caused by wht and does TK WHAT TO THEM, first appeared in the Florida Keys in November 2018. By March 2020, research indicated it had already spread to the Cozumel region of Mexico. Coral volunteers in Belize say they are already seeing signs of its problems here, too.
 
 </div><!-- end story content -->
-<div class="interactive-top"></div>
+<div class="interactive-top animated slideInLeft"></div>
 <div class="interactive-section">
 {{< ms-interactive >}}
 </div>
-<div class="interactive-bottom"></div>
+<div class="interactive-bottom animated slideInLeft"></div>
 
 <div class="story-content">
 

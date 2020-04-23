@@ -8,13 +8,10 @@
   color: $primary;
 }
 .mobile-background {
-  display: flex;
-  justify-content: center;
-  z-index:-1;
-}
-
-.mobile-image {
+  display: block;
   width: 100%;
+  height: auto;
+  z-index: -1;
   margin-top: -70px;
 }
 
@@ -32,7 +29,6 @@
 
   .mobile-background {
     display: none;
-    margin-top: -70px;
   }
 
   .flex-column {

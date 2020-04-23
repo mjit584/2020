@@ -9,7 +9,8 @@ photographer2: Hope Davison
 interactive1: Halynna Snyder
 interactive2: Taylor Tyson
 reporter: Molly Horak
-
+description: Disparities undercut Belize's waste management system, and new policies are leaving residents behind.
+image: ../images/waste2.jpg
 ---
 
 Flies swarm at Vincent Budna’s feet as he walks through the piles of rusty paint cans, cardboard boxes and crumpled water bottles.
