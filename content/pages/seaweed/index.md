@@ -9,7 +9,8 @@ photographer2: Sarah Redmond
 photographer3: Haley France
 interactive1: Malin Curry
 reporter: Veronica Correa
-
+description: As climate change and governance impact Belize's fishing economy, advocates view seaweed farming as the solution.
+image: ../images/seaweed.jpg
 ---
 
 Lowell “Japs” Godfrey is the king of Little Water Caye.

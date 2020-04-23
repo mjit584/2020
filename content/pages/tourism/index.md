@@ -11,7 +11,8 @@ photographer3: "Emily Caroline Sartin"
 interactive1: "Rachel McKinney"
 interactive2: "Sam Perry"
 reporter: Lucía Castro
-
+description: Belize has brought in more tourism from cruises, but communities are concerned about the environmental and cultural impacts.
+image: ../images/tourism.jpg
 
 ---
 

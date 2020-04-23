@@ -83,7 +83,7 @@ ul, ol {
   z-index: 1000; }
 
 .explainer-container {
-  padding: 40px 20%;
+  padding: 20px 15%;
   background-color: #222;
   width: 100%;
   align-items: center; }
@@ -94,12 +94,19 @@ ul, ol {
       height: auto; } }
   .explainer-container p {
     color: white;
-    padding: 40px;
+    padding: 40px 0;
     margin: 0;
     text-align: center;
     line-height: 1.3em;
     font-size: 1.3em; }
-
+  .explainer-container .explainer-video {
+    padding: 0 15%; }
+    @media (max-width: 1200px) {
+      .explainer-container .explainer-video {
+        padding: 0; } }
+  @media (max-width: 1200px) {
+    .explainer-container {
+      padding: 0px 10%; } }
 .home-nav {
   text-align: center;
   padding: 40px 5% 5% 5%; }
@@ -1031,12 +1038,15 @@ to {
   .header .menu-icon {
     display: none; } }
 
-.about .footer, .page-home .footer, .notfound .footer {
+.about .footer, .page-home .footer {
   background-image: url("../images/footer-wave.svg");
   background-size: cover; }
   @media (max-width: 1200px) {
-    .about .footer, .page-home .footer, .notfound .footer {
+    .about .footer, .page-home .footer {
       background-image: url("../images/mobile-footer-wave.svg"); } }
+.notfound .footer {
+  display: none; }
+
 .footer {
   background-image: url("../images/test-footer-wave.svg");
   background-size: cover;
@@ -1258,12 +1268,10 @@ to {
   color: #2ea395; }
 
 .mobile-background {
-  display: flex;
-  justify-content: center;
-  z-index: -1; }
-
-.mobile-image {
+  display: block;
   width: 100%;
+  height: auto;
+  z-index: -1;
   margin-top: -70px; }
 
 @media only screen and (min-width: 800px) {
@@ -1275,8 +1283,7 @@ to {
   .homepage-title {
     font-size: 3em; }
   .mobile-background {
-    display: none;
-    margin-top: -70px; }
+    display: none; }
   .flex-column {
     display: flex;
     flex-direction: column;
