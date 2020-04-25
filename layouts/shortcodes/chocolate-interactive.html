@@ -1,15 +1,18 @@
 <style>
   * {box-sizing:border-box}
 
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
-
+.slideshow-container.mobile {
+  max-width: 800px;
+}
 /* Hide the images by default */
-.mySlides {
+.mySlides, .mobileSlides {
   display: none;
   display:flex;
   align-items:center;
@@ -19,6 +22,9 @@
 }
 .mySlides img {
   max-width:1000px;
+}
+.mobileSlides img {
+  max-width:100%;
 }
 /* Next & previous buttons */
 .prev, .next {
@@ -49,7 +55,7 @@ i:hover {
 }
 
 /* The dots/bullets/indicators */
-.dot {
+.dot, .dotmobile {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -68,10 +74,17 @@ i:hover {
   font-size:.8em;
   text-align:left;
 }
+.mobile {
+  display:none;
+}
+@media (max-width:800px) {
+  .mobile {display:block;}
+  .desktop {display:none;}
+}
 </style>
 
-<!-- Slideshow container -->
-<div class="slideshow-container">
+<!-- Slideshow container --><!-- DESKTOP VERSION -->
+<div class="slideshow-container desktop">
   <div class="mySlides titlecard">
       <img src="/chocolate/TitleCard.gif">
   </div>
@@ -120,10 +133,61 @@ i:hover {
   <a class="prev" onclick="plusSlides(-1)"><i class="fa fa-angle-left fa-3x"></i></a>
   <a class="next" onclick="plusSlides(1)"><i class="fa fa-angle-right fa-3x"></i></a>
 </div>
+
+<!-- MOBILE VERSION -->
+<div class="slideshow-container mobile">
+  <div class="mobileSlides titlecard">
+      <img src="/chocolate/TITLE-STILL.png">
+  </div>
+
+  <div class="mobileSlides">
+      <img src="/chocolate/01-STILL.png">
+  </div>
+
+  <div class="mobileSlides">
+    <img src="/chocolate/02-STILL.png">
+  </div>
+
+  <div class="mobileSlides">
+    <img src="/chocolate/03-STILL.png">
+  </div>
+
+  <div class="mobileSlides">
+    <img src="/chocolate/04-STILL.png">
+  </div>
+
+  <div class="mobileSlides">
+    <img src="/chocolate/05-STILL.png">
+  </div>
+
+  <div class="mobileSlides">
+    <img src="/chocolate/06-STILL.png">
+  </div>
+
+  <div class="mobileSlides">
+    <img src="/chocolate/07-STILL.png">
+  </div>
+
+  <div class="mobileSlides">
+    <img src="/chocolate/08-STILL.png">
+  </div>
+
+  <div class="mobileSlides">
+    <img src="/chocolate/09-STILL.png">
+  </div>
+
+  <div class="mobileSlides">
+    <img src="/chocolate/10-STILL.png">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlidesMobile(-1)"><i class="fa fa-angle-left fa-3x"></i></a>
+  <a class="next" onclick="plusSlidesMobile(1)"><i class="fa fa-angle-right fa-3x"></i></a>
+</div>
 <br>
 
 <!-- The dots/circles -->
-<div style="text-align:center">
+<div style="text-align:center" class="desktop">
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
@@ -135,6 +199,21 @@ i:hover {
   <span class="dot" onclick="currentSlide(9)"></span>
   <span class="dot" onclick="currentSlide(10)"></span>
   <span class="dot" onclick="currentSlide(11)"></span>
+</div>
+
+<!-- The dots/circles -->
+<div style="text-align:center" class="mobile">
+  <span class="dotmobile" onclick="currentSlide(1)"></span>
+  <span class="dotmobile" onclick="currentSlide(2)"></span>
+  <span class="dotmobile" onclick="currentSlide(3)"></span>
+  <span class="dotmobile" onclick="currentSlide(4)"></span>
+  <span class="dotmobile" onclick="currentSlide(5)"></span>
+  <span class="dotmobile" onclick="currentSlide(6)"></span>
+  <span class="dotmobile" onclick="currentSlide(7)"></span>
+  <span class="dotmobile" onclick="currentSlide(8)"></span>
+  <span class="dotmobile" onclick="currentSlide(9)"></span>
+  <span class="dotmobile" onclick="currentSlide(10)"></span>
+  <span class="dotmobile" onclick="currentSlide(11)"></span>
 </div>
 
 <script>
@@ -165,6 +244,34 @@ i:hover {
     }
     slides[slideIndex-1].style.display = "flex";
     dots[slideIndex-1].className += " active";
+  }
+
+  //MOBILE
+  showSlidesMobile(slideIndex);
+
+  // Next/previous controls
+  function plusSlidesMobile(n) {
+    showSlidesMobile(slideIndex += n);
+  }
+
+  // Thumbnail image controls
+  function currentSlideMobile(n) {
+    showSlidesMobile(slideIndex = n);
+  }
+  function showSlidesMobile(n) {
+    var i;
+    var slidesmobile = document.getElementsByClassName("mobileSlides");
+    var dotsmobile = document.getElementsByClassName("dotmobile");
+    if (n > slidesmobile.length) {slideIndex = 1}
+    if (n < 1) {slideIndexMobile = slidesmobile.length}
+    for (i = 0; i < slidesmobile.length; i++) {
+        slidesmobile[i].style.display = "none";
+    }
+    for (i = 0; i < dotsmobile.length; i++) {
+        dotsmobile[i].className = dotsmobile[i].className.replace(" active", "");
+    }
+    slidesmobile[slideIndex-1].style.display = "flex";
+    dotsmobile[slideIndex-1].className += " active";
   }
 
 </script>
