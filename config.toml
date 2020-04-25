@@ -4,6 +4,7 @@ baseURL = "http://mj584y2020-dept-mjinternational.cloudapps.unc.edu/"
 enableInlineShortcodes = "true"
 canonifyURLs = "true"
 copyright = "Copyright UNC Hussman School of Journalism and Media"
+disableHugoGeneratorInject = true
 
 [params]
   author = "UNC Hussman School of Journalism and Media"
