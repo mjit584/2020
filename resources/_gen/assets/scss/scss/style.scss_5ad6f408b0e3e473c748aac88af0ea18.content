@@ -466,7 +466,11 @@ ul, ol {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 8%; }
+  margin-top: 8%;
+  padding-bottom: 25px; }
+
+button.btn {
+  background: none; }
 
 #AboutFilter button {
   border: none;
@@ -522,6 +526,9 @@ to {
 }
 */
 /* The Bio Information */
+.header-about {
+  border-left: none; }
+
 .container {
   font-family: "Barlow Semi Condensed", sans-serif;
   color: #ffffff;
@@ -646,13 +653,19 @@ to {
   @media (max-width: 800px) {
     .about-byline {
       font-size: .8em;
+      background-image: none;
       position: relative;
-      height: 400px;
-      bottom: 80px;
-      padding-top: 8%;
-      padding-left: 10%;
-      padding-right: 10%;
-      padding-bottom: 0%; } }
+      padding: 0% 10%;
+      height: 100px;
+      bottom: -50px; } }
+  @media (max-width: 500px) {
+    .about-byline {
+      font-size: .8em;
+      background-image: none;
+      position: relative;
+      padding: 0% 10%;
+      height: 200px;
+      bottom: -50px; } }
   .about-byline p {
     display: flex;
     justify-content: center;
@@ -661,16 +674,10 @@ to {
     text-align: center;
     line-height: 1.5em;
     margin: 0px; }
-    @media (max-width: 1200px) {
-      .about-byline p {
-        font-size: 1.25em; } }
     @media (max-width: 800px) {
       .about-byline p {
         line-height: 1.2em;
-        margin-top: 8%; } }
-    @media (max-width: 500px) {
-      .about-byline p {
-        margin-top: 18%; } }
+        color: #333333; } }
 
 /* Special Thanks section */
 .specialthanks {
@@ -684,6 +691,9 @@ to {
     text-align: center; }
   .specialthanks h2 {
     margin: 10px auto; }
+
+.about-h2 {
+  font-family: "Vollkorn", serif; }
 
 /* For the Behind the Scenes Video and background */
 .interactive-section-about {
