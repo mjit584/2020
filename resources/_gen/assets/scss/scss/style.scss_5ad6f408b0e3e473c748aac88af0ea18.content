@@ -1351,6 +1351,9 @@ h5 {
 
 .dark {
   background-color: #000; }
+  @media (max-width: 800px) {
+    .dark {
+      padding-bottom: 40px; } }
   .dark h2, .dark p {
     color: #ffffff; }
 
@@ -1388,7 +1391,9 @@ h5 {
   width: 100%;
   margin-bottom: 40px;
   margin-top: -1px; }
-
+  @media (max-width: 800px) {
+    .interactive-bottom-dark {
+      height: 40px; } }
 .instructions {
   color: #aaa;
   font-style: italic; }
