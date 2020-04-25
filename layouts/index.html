@@ -1,8 +1,54 @@
 {{ define "header_css" }}{{ end }}
-{{ define "body_classes" }}page-home meta{{ end }}
+{{ define "body_classes" }}page-home{{ end }}
 {{ define "header_classes" }}header-transparent{{ end }}
 
 {{ define "main" }}
 
-{{ partial "hero-image-fullscreen.html"}}
+<div class="flex-column homepage-hero">
+    <!-- The video -->
+    <video autoplay muted class="myVideo">
+      <source src="{{ .Site.BaseURL }}images/homepage-hero2.mp4" type="video/mp4">
+    </video>
+
+    <!-- mobile background -->
+    <video autoplay muted class="mobile-background">
+      <source src="{{ .Site.BaseURL }}images/homepage-hero.mp4" type="video/mp4">
+    </video>
+
+  <div class="homewave-top">&nbsp;</div>
+  <section class="explainer-container">
+      <p>Beyond the beaches and tourist shops of Belize, the country is struggling to navigate the changing relationship between humans and the environment. Our project explores the barriers facing local activists and community members in their efforts to protect the natural world.</p>
+      <div class="explainer-video">
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/406998866?color=cccccc&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+      </div>
+  </section>
+  <div class="homewave-bottom"></div>
+
+</div>
+
+<section class="home-nav">
+  <h1>Explore</h1>
+  <img src="../images/yellow-underline-left.svg" class="heading-underline">
+  <div class="cards">
+    <div style="background-image:url(../home-nav/water.jpg);">
+      <a href="/coral/">Coral in the Crossfire</a>
+    </div>
+    <div style="background-image:url(../home-nav/tourism.jpg);">
+      <a href="/tourism/">Controversy on Deck</a>
+    </div>
+    <div style="background-image:url(../home-nav/cacao.jpg);">
+      <a href="/culture/">Bittersweet</a>
+    </div>
+    <div style="background-image:url(../home-nav/trash.jpg);">
+      <a href="/waste/">Tide to Trash</a>
+    </div>
+    <div style="background-image:url(../home-nav/seaweed.jpg);">
+      <a href="/seaweed/">Seeding the Sea</a>
+    </div>
+    <div style="background-image:url(../home-nav/about.jpg);">
+        <a href="/about/">About</a>
+    </div>
+</div>
+</section>
+
 {{ end }}
