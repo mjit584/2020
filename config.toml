@@ -1,10 +1,13 @@
-languageCode = "en-us"
-title = "Barriers: The changing relationship between humans and the environment in Belize."
 baseURL = "http://mj584y2020-dept-mjinternational.cloudapps.unc.edu/"
+title = "Barriers: The changing relationship between humans and the environment in Belize."
+
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+
 enableInlineShortcodes = "true"
 canonifyURLs = "true"
+enableGitInfo = true
 copyright = "Copyright UNC Hussman School of Journalism and Media"
-disableHugoGeneratorInject = true
 
 [params]
   author = "UNC Hussman School of Journalism and Media"
@@ -13,6 +16,12 @@ disableHugoGeneratorInject = true
   og_image = "/images/seaweed-02-new.jpg"
   sitename = "Barriers: The changing relationship between humans and the environment in Belize."
   twitter = "@UNCglobalstory"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-us"
+    weight = 1
 
 [permalinks]
   post = "/:slug/"
