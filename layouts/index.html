@@ -1,11 +1,8 @@
 {{ define "header_css" }}{{ end }}
-{{ define "body_classes" }}page-home{{ end }}
+{{ define "body_classes" }}page-home meta{{ end }}
 {{ define "header_classes" }}header-transparent{{ end }}
 
 {{ define "main" }}
 
-{{ partial "hero-image-fullscreen.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "content" .)}}
-{{ end }}
-
-{{ define "footer_js" }}
+{{ partial "hero-image-fullscreen.html"}}
 {{ end }}
