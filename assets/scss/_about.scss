@@ -5,32 +5,22 @@
 }
 
 .about-image {
+  background-image: url('../images/group.jpg');
   height:100vh;
+  width:auto;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center center;
-  display:flex;
-  flex-direction:column;
-  align-items: center;
-  justify-content: center;
-  position:inherit;
   margin-top: -70px;
   z-index: -1;
-}
-
-.herocontent {
-  padding: 5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.about-image {
-  background-image: url('../images/group.jpg');
-}
-.about-sort {
-  margin-top: 3em;
   @media(max-width: 800px) {
-      margin-top: 5em;
+    height: 500px;
+    width: auto;
   }
+}
+
+.about-sort {
+
 }
 
 #AboutFilter {
@@ -38,7 +28,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 15%;
+  margin-top: 8%;
 }
 
 #AboutFilter button {
@@ -46,6 +36,10 @@
   margin: 1em;
   font-family: $font-family-heading;
   font-size: 1.4em;
+  font-weight: 600;
+  @media(max-width: 800px) {
+    margin: .5em;
+  }
 }
 
 /* Add a light grey background on mouse-over */
@@ -255,10 +249,26 @@ to {
 
 /* For the new Byline for the about page. */
 .about-byline {
+    background-image:url('../images/byline2.svg');
+    background-size: cover;
     width: 100%;
-    height: 400px;
+    height: 300px;
     position: absolute;
-    bottom: -300px;
+    bottom: -100px;
+    padding: 5% 20%;
+    @media(max-width: 800px) {
+      font-size: .8em;
+      position: relative;
+      height: 400px;
+      bottom: 80px;
+      padding-top: 8%;
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-bottom: 0%;
+      // display: grid;
+      // justify-content: center;
+      // text-align: center;
+    }
     p {
       display: flex;
       justify-content: center;
@@ -266,9 +276,16 @@ to {
       color: $white;
       text-align: center;
       line-height: 1.5em;
+      margin: 0px;
+      @media(max-width: 1200px) {
+        font-size: 1.25em;
+      }
       @media(max-width: 800px) {
-        line-height: 1.25em;
-        padding-bottom: 25%;
+        line-height: 1.2em;
+        margin-top: 8%;
+      }
+      @media(max-width: 500px) {
+        margin-top: 18%;
       }
     }
 }
