@@ -173,9 +173,10 @@
   }
 
   .photostory1{
-      background-image: url('../photostory-generations/france2.jpg');
+      background-image: url('../photostory-generations/Inset-1.jpg');
       background-repeat: no-repeat;
       background-size: cover;
+      height: 300px;
   }
 
   .photostory2{
@@ -203,26 +204,28 @@
   }
 
   .mobile-endcard-itms {
-    display: block;
     background-image: url('../images/mobile-footer-wave.svg');
-    background-repeat: no-repeat;
     background-size: cover;
     padding-top: 70px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 
     .endcard-itms {
       margin-right: 5%;
       margin-left: 5%;
 
       p {
-        margin: auto;
         color: $white;
         font-weight: 600;
+        font-family: 'Barlow Semi Condensed',sans-serif;
       }
 
       .endcard-btn{
         border: 1px solid #fff;
-        padding: 2% 5%;
-        margin-top: 500px;
+        padding: 2% 4%;
         background-color: transparent;
         color: #fff;
         text-decoration: none;
@@ -234,7 +237,7 @@
 
       .endcard-txt-thanks {
         line-height: 1em;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         font-weight: 200;
       }
     }

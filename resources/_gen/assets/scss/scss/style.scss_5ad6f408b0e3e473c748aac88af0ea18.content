@@ -868,9 +868,10 @@ to {
       color: #ffffff;
       font-size: 3rem; }
   .photostory1 {
-    background-image: url("../photostory-generations/france2.jpg");
+    background-image: url("../photostory-generations/Inset-1.jpg");
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    height: 300px; }
   .photostory2 {
     background-image: url("../photostory-generations/france2.jpg");
     background-repeat: no-repeat;
@@ -888,22 +889,24 @@ to {
     background-repeat: no-repeat;
     background-size: cover; }
   .mobile-endcard-itms {
-    display: block;
     background-image: url("../images/mobile-footer-wave.svg");
-    background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 70px; }
+    padding-top: 70px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
     .mobile-endcard-itms .endcard-itms {
       margin-right: 5%;
       margin-left: 5%; }
       .mobile-endcard-itms .endcard-itms p {
-        margin: auto;
         color: #ffffff;
-        font-weight: 600; }
+        font-weight: 600;
+        font-family: 'Barlow Semi Condensed',sans-serif; }
       .mobile-endcard-itms .endcard-itms .endcard-btn {
         border: 1px solid #fff;
-        padding: 2% 5%;
-        margin-top: 500px;
+        padding: 2% 4%;
         background-color: transparent;
         color: #fff;
         text-decoration: none;
@@ -913,7 +916,7 @@ to {
         font-weight: 100; }
       .mobile-endcard-itms .endcard-itms .endcard-txt-thanks {
         line-height: 1em;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         font-weight: 200; } }
 
 .page {
