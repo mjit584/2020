@@ -124,7 +124,6 @@
   }
 
 @media (max-width: 800px) {
-
   #pinMaster {
     display: none;
   }
@@ -152,7 +151,7 @@
 
     p {
       line-height: 1.1em;
-      margin: 10px auto;
+      margin: 25px auto;
     }
 
   }
@@ -180,27 +179,31 @@
   }
 
   .photostory2{
-      background-image: url('../photostory-generations/france2.jpg');
+      background-image: url('../photostory-fishers/FishingGeneration-1.jpg');
       background-repeat: no-repeat;
       background-size: cover;
+      height: 300px;
   }
 
   .photostory3{
-      background-image: url('../photostory-generations/france2.jpg');
+      background-image: url('../photostory-rooted/duong_1.png');
       background-repeat: no-repeat;
       background-size: cover;
+      height: 300px;
   }
 
   .photostory4{
-      background-image: url('../photostory-generations/france2.jpg');
+      background-image: url('../photostory-elders/Sartin_VillageElders_01.jpg');
       background-repeat: no-repeat;
       background-size: cover;
+      height: 300px;
   }
 
   .photostory5{
-      background-image: url('../photostory-generations/france2.jpg');
+      background-image: url('../photostory-weeds/Seaweed-1.jpg');
       background-repeat: no-repeat;
       background-size: cover;
+      height: 300px;
   }
 
   .mobile-endcard-itms {
