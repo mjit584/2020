@@ -128,14 +128,6 @@
     display: none;
   }
 
-/* Figure this out after title etc.
-  .exit {
-    position:absolute;
-    right:20px;
-    top:20px;
-    z-index:1000;
-  }
-*/
 
   #mobile-photostory {
     display: flex;
@@ -201,6 +193,13 @@
 
   .photostory5{
       background-image: url('../photostory-weeds/Seaweed-1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 300px;
+  }
+
+  .photostory6{
+      background-image: url('../photostory-beauty/DelicateBalance_1.png');
       background-repeat: no-repeat;
       background-size: cover;
       height: 300px;

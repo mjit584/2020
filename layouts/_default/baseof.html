@@ -105,6 +105,7 @@
     {{ $photostoryrooted := resources.Get "js/photostoryrooted.js" }}
     {{ $photostoryweeds := resources.Get "js/photostoryweeds.js" }}
     {{ $photostoryfishers := resources.Get "js/photostoryfishers.js" }}
+    {{ $photostorybeauty := resources.Get "js/photostorybeauty.js" }}
 
     {{ $bundle := slice $scripts | resources.Concat "js/bundle.js" }}
     {{ $aboutbundle := slice $aboutsort | resources.Concat "js/aboutbundle.js" }}
@@ -118,6 +119,7 @@
     {{ $photostory3 := slice $photostoryrooted | resources.Concat "js/photostory3.js" }}
     {{ $photostory4 := slice $photostoryelders | resources.Concat "js/photostory4.js" }}
     {{ $photostory5 := slice $photostoryweeds | resources.Concat "js/photostory5.js" }}
+    {{ $photostory6 := slice $photostorybeauty | resources.Concat "js/photostory6.js" }}
 
     <!-- All pages get this bundle -->
     {{ if .Site.IsServer }}
@@ -216,6 +218,14 @@
         <script type="text/javascript" src="{{ $photostory5.RelPermalink }}"></script>
       {{ else }}
         <script type="text/javascript" src="{{ ($photostory5 | minify | fingerprint).RelPermalink }}"></script>
+    {{ end }}
+
+    <!-- PhotoStory 4 gets this Bundle -->
+    {{ else if eq .Weight 60 }}
+    {{ if .Site.IsServer }}
+        <script type="text/javascript" src="{{ $photostory6.RelPermalink }}"></script>
+      {{ else }}
+        <script type="text/javascript" src="{{ ($photostory6 | minify | fingerprint).RelPermalink }}"></script>
     {{ end }}
 
   {{ end }}
