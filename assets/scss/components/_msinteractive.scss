@@ -15,6 +15,10 @@
   grid-area: d;
 }
 
+.fliplayout .item4 {
+  margin-bottom: 10%;
+}
+
 .fliplayout {
   display: grid;
   justify-content: center;
@@ -31,6 +35,10 @@
     text-align: left;
     font-family: 'Barlow Semi Condensed', sans-serif;
     color: #EBEBE6;
+    @media(max-width: 400px) {
+      font-size: 1.15em;
+      line-height: 1.05em;
+    }
 }
 
 .fliplayout .flip-card-back h3 {
@@ -58,7 +66,10 @@
     border: 1px solid #69BBCE;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     margin-bottom: 3%;
-    margin-left: 3%;
+    @media(max-width: 400px) {
+      width: 250px;
+      height: 313px;
+    }
 }
 
 /* This container is needed to position the front and back side */
@@ -131,6 +142,9 @@
 
 .flip-card-front img {
     max-width: 300px;
+    @media(max-width: 400px) {
+      max-width: 250px;
+    }
 }
 
 /* Style the back side */
