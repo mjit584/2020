@@ -9,6 +9,3 @@ card: false
 description: Barriers is a multimedia journalism project produced by the UNC Hussman School of Journalism and Media.
 image: ../images/group.jpg
 ---
-Suspendisse et tincidunt lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur volutpat felis vitae tellus lacinia vehicula. Aliquam rutrum aliquet tortor, nec maximus metus.
-
-{{< ms-interactive >}}
