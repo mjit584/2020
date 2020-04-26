@@ -136,6 +136,18 @@ Budna is in a similar situation. He, too, takes plastic and glass bottles that h
 
 The economic repercussions will be felt up and down the peninsula. Restaurants will likely face higher costs to purchase biodegradable or reusable materials, and small business owners will need to find alternatives to the plastics they currently depend on.
 
+<!-- PHOTO STORY HERE -->
+</div><!-- end story content -->
+<div class="photo-card-container" id="beauty">
+  <div class="photo-card">
+    <h2>A Delicate Balance</h2>
+    <img src="/images/yellow-underline-left.svg" class="photo-card-line">
+    <a class="photo-card-btn" id="eldersBtn" href="/beauty/">Launch Photo Experience</a>
+  </div>
+</div>
+<div class="story-content">
+
+
 ## "The problem will never end"
 
 Kirwin Ramirez hates seeing his community filled with trash, knowing it will never make it to the dump. Walking along the sandy gravel streets lined with beer bottles, potato chip bags and old car parts, he calls out to a child down the street. He smiles and waves, but his eyes are filled with worry. The sadness in his gaze is unmistakable.

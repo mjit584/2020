@@ -390,6 +390,9 @@ ul, ol {
 .story-5 .photo-card-container {
   background-image: url("../images/seaweed-photostory-title.jpg"); }
 
+#beauty {
+  background-image: url("../photostory-beauty/DelicateBalance_1.png"); }
+
 .photo-card-container {
   background-size: cover;
   width: 80%;
@@ -836,14 +839,6 @@ to {
 @media (max-width: 800px) {
   #pinMaster {
     display: none; }
-  /* Figure this out after title etc.
-  .exit {
-    position:absolute;
-    right:20px;
-    top:20px;
-    z-index:1000;
-  }
-*/
   #mobile-photostory {
     display: flex;
     flex-direction: column;
@@ -889,6 +884,11 @@ to {
     height: 300px; }
   .photostory5 {
     background-image: url("../photostory-weeds/Seaweed-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px; }
+  .photostory6 {
+    background-image: url("../photostory-beauty/DelicateBalance_1.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px; }
