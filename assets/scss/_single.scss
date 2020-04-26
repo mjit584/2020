@@ -47,11 +47,10 @@
   position:absolute;
   bottom: -200px;
   display:flex;
-  align-items:center;
   justify-content: space-around;
   padding: 5% 20%;
   @media(max-width: 900px) {
-    padding-top: calc(5% + 5vw);
+    padding-top: calc(10% + 5vw);
     padding: inherit 10%;
     font-size:.8em;
     // display: grid;
