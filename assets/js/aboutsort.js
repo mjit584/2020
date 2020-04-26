@@ -44,6 +44,7 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
+
 // This is for the toggle of the bio
 $(".header-about").click(function () {
     $header = $(this);
@@ -53,6 +54,5 @@ $(".header-about").click(function () {
     $content.slideToggle(500, function () {
         //execute this after slideToggle is done
         //change text of header based on visibility of content div
-    });
-
+   });
 });
