@@ -48,14 +48,16 @@
   bottom: -200px;
   display:flex;
   justify-content: space-around;
-  padding: 5% 20%;
+  padding: 7% 20%;
   @media(max-width: 900px) {
-    padding-top: calc(10% + 5vw);
-    padding: inherit 10%;
-    font-size:.8em;
-    // display: grid;
-    // justify-content: center;
-    // text-align: center;
+    padding-top: 150px;
+    padding-bottom: 300px;
+    bottom: -550px;
+    font-size: .8em;
+    height: 700px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
   }
 }
 
@@ -80,7 +82,7 @@
 .story-content {
   margin: 0 20%;
   &.topofpage {
-    margin-top:20%;
+    margin-top:50%;
   }
   &.bottomofpage {
     margin-bottom:10%;
@@ -88,7 +90,7 @@
   @media(max-width: 992px) {
     margin: 0 5%;
     &.topofpage {
-      margin-top:30%;
+      margin-top:70%;
     }
   }
 }
