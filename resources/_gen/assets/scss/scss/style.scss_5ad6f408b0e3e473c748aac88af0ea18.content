@@ -226,7 +226,7 @@ ul, ol {
       padding-top: 150px;
       padding-bottom: 300px;
       bottom: -550px;
-      font-size: .8em;
+      font-size: .9em;
       height: 700px;
       display: grid;
       justify-content: center;
