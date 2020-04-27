@@ -232,7 +232,6 @@ ul, ol {
       justify-content: center;
       text-align: center; } }
 
-
 .story-title {
   display: flex;
   flex-direction: column;
