@@ -9,7 +9,15 @@
 .mobile-endcard-itms {
     display: none;
 }
-
+.photoinstructions {
+  font-style: italic;
+  padding: 20px;
+  margin:auto;
+  font-size:1.3em;
+  color:#fff;
+  text-shadow: 2px 2px 2px #000;
+  text-align: center;
+}
 #pinMaster {
   .exit {
     position:absolute;
