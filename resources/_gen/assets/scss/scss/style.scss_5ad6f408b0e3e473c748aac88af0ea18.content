@@ -220,12 +220,18 @@ ul, ol {
   bottom: -200px;
   display: flex;
   justify-content: space-around;
-  padding: 5% 20%; }
+  padding: 7% 20%; }
   @media (max-width: 900px) {
     .byline {
-      padding-top: calc(10% + 5vw);
-      padding: inherit 10%;
-      font-size: .8em; } }
+      padding-top: 150px;
+      padding-bottom: 300px;
+      bottom: -550px;
+      font-size: .9em;
+      height: 700px;
+      display: grid;
+      justify-content: center;
+      text-align: center; } }
+
 
 .story-title {
   display: flex;
@@ -253,7 +259,7 @@ ul, ol {
     .story-content {
       margin: 0 5%; }
       .story-content.topofpage {
-        margin-top: 30%; } }
+        margin-top: 70%; } }
 
 /* START OF STORY NAV */
 .story-page-image {
