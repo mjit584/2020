@@ -251,7 +251,7 @@ ul, ol {
 .story-content {
   margin: 0 20%; }
   .story-content.topofpage {
-    margin-top: 50%; }
+    margin-top: 20%; }
   .story-content.bottomofpage {
     margin-bottom: 10%; }
   @media (max-width: 992px) {
