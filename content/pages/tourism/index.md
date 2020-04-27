@@ -126,7 +126,7 @@ The letter wasn’t the community’s first effort to make themselves heard. In 
 
 
 </div><!-- end story content -->
-<div class="photo-card-container" id="elders">
+<div class="photo-card-container elders" id="elders">
   <div class="photo-card">
   <h2>Village Elders</h2>
   <img src="/images/yellow-underline-left.svg" class="photo-card-line">
