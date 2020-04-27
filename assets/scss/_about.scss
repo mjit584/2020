@@ -64,6 +64,23 @@ button.btn {
 	background: $primary;
 }
 
+/* Push down of About Sort for screens. */
+
+.about-sort {
+    margin-top: 150px;
+  @media(max-width: 800px) {
+    margin-top: 100px;
+  }
+  @media(max-width: 600px) {
+    margin-top: 50px;
+  }
+  @media(max-width: 400px) {
+    margin-top: 100px;
+  }
+}
+
+
+/* Code for how the cards display. */
 .outer-card {
   display: flex;
   flex-wrap: wrap;
@@ -94,10 +111,6 @@ to {
 */
 
 /* The Bio Information */
-
-.header-about {
-  border-left: none;
-}
 
 .container {
   font-family: $font-family-heading;
@@ -166,6 +179,9 @@ to {
 /* Width of Image for Page */
 .image {
   width: 350px;
+  @media(max-width: 400px) {
+    width: 300px;
+  }
 }
 
 /* The Colors of the waves and text */
@@ -257,31 +273,43 @@ to {
 
 
 .about-byline {
-    background-image:url('../images/byline2.svg');
-    background-size: cover;
-    width: 100%;
-    height: 300px;
-    position: absolute;
-    bottom: -100px;
-    padding: 5% 20%;
+  background-image:url('../images/byline2.svg');
+  background-size: cover;
+  width:100%;
+  height:300px;
+  position:absolute;
+  bottom: -225px;
+  display:flex;
+  justify-content: space-around;
+  padding: 5% 20%;
+    @media(max-width: 1200px) {
+      height:400px;
+      padding-bottom: 150px;
+      bottom: -325px;
+    }
     @media(max-width: 800px) {
-      font-size: .8em;
-      background-image: none;
-      position: relative;
-      padding: 0% 10%;
-      height: 100px;
-      bottom: -50px;
+      padding-top: calc(10% + 5vw);
+      padding: inherit 10%;
+      font-size:.8em;
+      height:300px;
+      top: 400px;
       // display: grid;
       // justify-content: center;
       // text-align: center;
     }
     @media(max-width: 500px) {
       font-size: .8em;
-      background-image: none;
-      position: relative;
       padding: 0% 10%;
-      height: 200px;
-      bottom: -50px;
+      top: 350px;
+      // display: grid;
+      // justify-content: center;
+      // text-align: center;
+    }
+
+    @media(max-width: 400px) {
+      font-size: .8em;
+      padding: 0% 10%;
+      top: 400px;
       // display: grid;
       // justify-content: center;
       // text-align: center;
@@ -291,12 +319,18 @@ to {
       justify-content: center;
       align-items: center;
       color: $white;
+      font-size: 1.1em;
       text-align: center;
       line-height: 1.5em;
-      margin: 0px;
+      padding-bottom: 25px;
+      margin: -75px;
+      @media(max-width: 1200px) {
+        padding-bottom: 25px;
+      }
       @media(max-width: 800px) {
         line-height: 1.2em;
-        color: $black;
+        padding-bottom: 100px;
+        margin: 0px;
       }
     }
 }
