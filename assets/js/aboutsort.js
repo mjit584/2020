@@ -46,7 +46,7 @@ for (var i = 0; i < btns.length; i++) {
 
 
 // This is for the toggle of the bio
-$(".header-about").click(function () {
+$(".header-about-bio").click(function () {
     $header = $(this);
     //getting the next element
     $content = $header.next();
