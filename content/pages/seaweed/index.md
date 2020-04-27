@@ -23,6 +23,7 @@ Godfrey was born and raised in Placencia, and said fishing was always part of th
 
 “We learn from our ancestors how to care for the environment,” he said. “I learned from people who were sustainable, environmentalists before the word was popular.”
 
+
 </div><!-- end story content -->
 <!-- VIDEO -->
 <div id="video-top"></div>
@@ -35,6 +36,7 @@ Godfrey normally wakes up before sunrise. After brewing his favorite coffee, he 
 
 When the waves settle, Godfrey can venture to his farm. The sea is a calming blue, an optimal condition for harvesting. Wearing a snorkel and wetsuit, he wades out with his net until the water reaches his waist. He sorts through the golden-yellow, spiny seaweed that’s started growing just beneath the water, using his knots to tie each head together and collect it into the net. Once he’s reached the shore, Godfrey leaves the wet strands to dry in the sun until the afternoon, when it turns white and rubbery.
 
+
 <!-- PHOTO HERE -->
 </div><!-- end story content -->
 <div class="inner-story-image"><img src="/images/seaweed-01-new.jpg"><p class="caption">Godfrey sifts through the seaweed he has collected from his farm to remove any debris that may have attached to it. He dries this seaweed on screen tables, and once it's fully dry he can take it back to Placencia to sell it. Photo by Caroline Almy.</p></div>
@@ -42,7 +44,7 @@ When the waves settle, Godfrey can venture to his farm. The sea is a calming blu
 
 After several days, he boats back to Placencia to sell the dried seaweed. One pound costs around $30 Belizean ($15 USD) in the village, according to The Nature Conservancy (TNC): the same price as a pound of lobster, and triple that of conch.
 
-The economic impact of fishing in Belize goes beyond the couple of thousand fishers out of the country’s population of 375,000. It’s also deeply connected to the growing tourism economy, and fishing enthusiasts visit for recreational and sport fishing. But the industry has also dealt with declining fish populations and challenges with legal enforcement.
+The economic impact of fishing in Belize goes beyond the couple of thousand fishers out of the country’s population of 375,000. It’s also deeply connected to the growing tourism economy, and enthusiasts visit for recreational and sport fishing. But the industry has also dealt with declining fish populations and challenges with legal enforcement.
 
 After a lucrative 10 years in commercial seaweed farming, Godfrey has become a poster child for his cause. A handful of other farms have popped up, with support from the government and nonprofits. Seaweed farming is strenuous, and it doesn’t guarantee profits. But its supporters believe it can provide a new opportunity not just for fishers, but for the country.
 
@@ -71,6 +73,7 @@ Managed Access has received praise from environmental groups for prioritizing su
 
 Although environmental nonprofits like SEA continue to invest in fishing policy reform, they’re also supporting what they call “alternative” projects like seaweed farming. Longsworth is also a member of the Placencia Producers Cooperative, a fishing coalition that Godfrey leads. Under Godfrey’s vision, some cooperative members like Longsworth have started to farm seaweed in addition to fishing. But in an industry-wide time of economic uncertainty, not everyone can afford to wait for success.
 
+
 <!-- INTERACTIVE HERE -->
 </div><!-- end story content -->
 <div class="interactive-top"></div>
@@ -84,9 +87,10 @@ Although environmental nonprofits like SEA continue to invest in fishing policy 
 
 Seaweed farming has generally earned good press from environmental groups. In addition to programs like Managed Access, which directly relate to fishing, seaweed farming is seen as another strategy to restore fish populations and minimize pressure on the ocean.
 
-According to a report from TNC, market demand for seaweed is growing, and it’s a viable source of income. TNC has collaborated with the Belize Trade and Investment Development Service (BELTRAIDE), a national government agency, to develop seaweed farms. The farms are currently based near Placencia and the island of Turneffe Atoll, off the coast near Belize City.
+According to a report from TNC, market demand for seaweed is growing, and it’s a viable source of income. TNC has collaborated with the Belize Trade and Investment Development Service (BELTRAIDE), a national government agency, to develop seaweed farms. The farms are currently based near Placencia and the island of Turneffe Atoll, off the coast near Belize City. Amed Figueroa, export business adviser for BELTRAIDE, said seaweed farming in Belize is generally limited to these two locations.
 
 Seleem Chan, TNC’s seaweed mariculture project coordinator, said Placencia has two main seaweed farm operations: Godfrey’s farm on Little Water Caye and the Belize Women’s Seaweed Farmers Association’s seed bank at Hatchet Caye. The women’s association, which officially launched in the summer of 2019, aims to develop economic opportunities for women through both farm training and support for market products like seaweed soaps.
+
 
 <!-- PHOTO STORY HERE -->
 </div><!-- end story content -->
@@ -99,7 +103,7 @@ Seleem Chan, TNC’s seaweed mariculture project coordinator, said Placencia has
 </div>
 <div class="story-content">
 
-Amed Figueroa, export business adviser for BELTRAIDE, said seaweed farming in Belize is still geographically limited to Placencia and Turneffe Atoll. Figueroa also said the industry would ideally grow so that Belize can export its own seaweed, ultimately becoming a more significant sector of the economy.
+Figueroa also said the industry would ideally grow so that Belize can export its own seaweed, ultimately becoming a more significant sector of the economy.
 
 Mahung said TIDE started a seaweed farm project with a few fishers in Toledo province, south of Placencia. However, the initiative was discontinued. The farms are the most successful in clear waters, which Mahung said are hard to find in Toledo. She added that the fishers became discouraged as others came to the farm to steal the mature seaweed.
 
@@ -110,6 +114,7 @@ Farming is also a slow process: Longsworth said it takes three to four months un
 He said seaweed farming doesn’t fully address the underlying issues of ocean mismanagement, even when it’s marketed as a solution. It also doesn’t eliminate the economic uncertainty of fishing, because environmental stressors can also lead to a small seaweed harvest.
 
 “It’s become a business instead of hearing the truth,” he said.
+
 
 </div><!-- end story content -->
 <div class="inner-story-image"><img src="/images/seaweed-01.jpg"><p class="caption">Marneesha Leslie, a director for the Belize Women's Seaweed
@@ -137,6 +142,7 @@ IKOOMA products are only available online for Belizean residents, and in one Pla
 
 “I’m just a journalist who happened to make hair products,” she said.
 
+
 <!-- INTERACTIVE HERE -->
 </div><!-- end story content -->
 <div class="interactive-top"></div>
@@ -162,4 +168,5 @@ Godfrey is optimistic about seaweed farming, although he acknowledged that it ha
 Godfrey said he gives everything his 100%, which extends past his work into his personal life. He prefers to minimize his own environmental impact even when he’s not on the caye, only eating fish if he catches it himself. One night after farming, he blends ice, milk, seaweed gel and papaya for a seaweed smoothie. The seaweed gives the drink an exceptionally smooth texture.
 
 Godfrey raises his glass and smiles. “Here’s to seaweed.”
+
 </div>
