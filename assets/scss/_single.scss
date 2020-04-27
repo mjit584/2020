@@ -40,25 +40,31 @@
 }
 
 .byline {
-  background-image:url('../images/byline2.svg');
-  background-size: cover;
-  width:100%;
-  height:300px;
-  position:absolute;
-  bottom: -200px;
-  display:flex;
-  justify-content: space-around;
-  padding: 7% 20%;
+  background-image: url(../images/byline2.svg);
+   background-size: cover;
+   width: 100%;
+   height: 310px;
+   position: absolute;
+   bottom: -210px;
+   display: flex;
+   justify-content: space-around;
+   padding: 7% 20%;
   @media(max-width: 900px) {
-    padding-top: 150px;
-    padding-bottom: 300px;
-    bottom: -550px;
-    font-size: .9em;
-    height: 700px;
-    display: grid;
-    justify-content: center;
-    text-align: center;
+    padding-top: 100px;
+       /* padding-bottom: 300px; */
+       bottom: -350px;
+       font-size: .9em;
+       height: 550px;
+       /* display: grid; */
+       justify-content: flex-start;
+       flex-direction: column;
+       /* align-items: flex-start; */
+       text-align: center;
   }
+}
+
+.byline1, .byline2 {
+  margin-bottom: 10px;
 }
 
 .story-title {
@@ -90,7 +96,7 @@
   @media(max-width: 992px) {
     margin: 0 5%;
     &.topofpage {
-      margin-top:70%;
+      margin-top:50%;
     }
   }
 }
