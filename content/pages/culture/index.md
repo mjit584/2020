@@ -33,13 +33,6 @@ Farming cacao is a seemingly never-ending process. Growers like Narciso harvest 
 
 After harvesting, Narciso’s brother, Julio Saqui, takes the beans from his brother’s farm and uses them to create fine chocolate.
 
-
-</div><!-- end story content -->
-<div class="inner-story-image">
-  <img src="/images/culture-01.jpg"><p class="caption">Saqui holds up three chocolate bars which have begun to separate from their molds after cooling. He often wakes up at 4 a.m. to make sure that he can pipe and wrap the bars before the mid-day heat begins to melt the chocolate. Photo by Ari Sen.</p>
-</div>
-<div class="story-content">
-
 Saqui’s storefront is a square concrete box, emblazoned with the brand name Che’il, the Mopan word for “wild.” The store’s walls are painted a verdant green, matching the flora outside, and the floors are a rich orange clay. Local art from village members sits on shelves next to a corner refrigerator, which holds the result of a 21-day process of plucking, drying, fermenting, roasting, crushing and grinding of the beans, wrapped in foil.
 
 The cacao industry in Belize has always been precarious—subject to the whims of both tumultuous markets and the worsening climate. But to Saqui, chocolate is more than just a sweet to sell to the country’s many cruise ship tourists—it’s his way of life.
@@ -180,7 +173,7 @@ Both Che’il and Maya Mountain purchase most of their beans wet and complete th
 <div class="inner-story-image">
   <img src="/images/culture-04.jpg"><p class="caption">Cacao pods lay cracked open, exposing the pulp-covered beans inside, during Narciso Saqui’s harvest on his farm in Kendal, Belize, on March 11, 2020. Photo by Dustin Duong.</p>
 </div>
-<div class="story-content bottomofpage">
+<div class="story-content">
 
 Demand for fine cocoa products, like the so-called “bean-to-bar” variety Maya Mountain produces, has exploded in the U.S. in recent years. Sales of premium chocolate grew 19%in 2018, according to the Fine Chocolate Industry Association, compared to 0.6% growth in the mainstream chocolate industry.
 
@@ -191,6 +184,11 @@ Despite the increased demand abroad, profits haven’t seemed to trickle down to
 Stone says one of the primary reasons why so many farmers live in poverty is because large companies like Hershey treat cacao as a geographically-neutral commodity, not the result of hours of labor.
 
 “When we pay less than $2 for a chocolate bar, we are paying for the systemic poverty of millions of families,” Stone said during a July 2017 presentation at the U.S. Institute of Peace.
+</div><!-- end story content -->
+<div class="inner-story-image">
+  <img src="/images/culture-01.jpg"><p class="caption">Saqui holds up three chocolate bars which have begun to separate from their molds after cooling. He often wakes up at 4 a.m. to make sure that he can pipe and wrap the bars before the mid-day heat begins to melt the chocolate. Photo by Ari Sen.</p>
+</div>
+<div class="story-content bottomofpage">
 
 This level of poverty is not unique to cacao farmers in Belize. More than 40% of Belizeans live below the poverty line according to the World Bank. 13.9% of the country makes less than $2 a day. But unlike with other industries or crops, the Belizean government does not currently subsidize cacao farmers or producers, Stone said.
 

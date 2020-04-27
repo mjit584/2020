@@ -66,7 +66,7 @@ Both the warming of the sea and its increasing acidity allow coral diseases to t
 
 </div><!-- end story content -->
 <div class="interactive-top animated slideInLeft"></div>
-<div class="interactive-section">
+<div class="interactive-section coral">
 {{< ms-interactive >}}
 </div>
 <div class="interactive-bottom animated slideInLeft"></div>
