@@ -163,7 +163,6 @@ As it appears in the final report: “Not only is there widespread resistance to
 
 “I voted against it,” he stressed.
 
-
 ## "Each day I go out, and I try my best"
 
 Guides like Terry and Jeremy know that cruise tourism exists in their country, and little will change that. However, they believe they can provide a unique experience throughout their tours — something only local guides can offer.

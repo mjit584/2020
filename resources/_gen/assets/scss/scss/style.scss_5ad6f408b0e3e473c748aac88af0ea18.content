@@ -1370,6 +1370,9 @@ h5 {
   padding-top: 1em;
   line-height: 1.5em; }
 
+.story-content h2 {
+  margin-top: 1em; }
+
 .interactive-section {
   padding: 0 10%;
   background-color: #ebebe6;
@@ -1582,27 +1585,14 @@ h5 {
           position: absolute;
           margin-top: 10px; }
 
-.item1 {
-  grid-area: a; }
-
-.item2 {
-  grid-area: b; }
-
-.item3 {
-  grid-area: c; }
-
-.item4 {
-  grid-area: d; }
-
 .fliplayout .item4 {
   margin-bottom: 10%; }
 
 .fliplayout {
   display: grid;
   justify-content: center;
-  grid-column-gap: 1%;
-  grid-row-gap: 1%;
-  grid-template-areas: "a b c d"; }
+  grid-column-gap: 20px;
+  grid-row-gap: 20px; }
 
 .fliplayout p {
   font-size: 1.25em;
@@ -1726,16 +1716,12 @@ h5 {
 .flip-card-back img {
   width: 80%; }
 
-@media (max-width: 1300px) {
+@media (min-width: 1280px) {
   .fliplayout {
-    grid-template-areas: "a b" "c d";
-    grid-column-gap: 4%;
-    grid-row-gap: 4%; } }
+    grid-template-columns: repeat(4, minmax(298px, 1fr)); } }
 
-@media (max-width: 700px) {
+@media (min-width: 801px) and (max-width: 1279px) {
   .fliplayout {
-    grid-template-areas: "a" "b" "c" "d";
-    grid-column-gap: 1%;
-    grid-row-gap: 1%; } }
+    grid-template-columns: auto auto; } }
 
 /*# sourceMappingURL=style.css.map */
