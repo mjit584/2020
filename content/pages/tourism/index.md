@@ -94,6 +94,7 @@ In eight paragraphs, the letter tries to summarize and resolve almost four years
 
 However, the letter was never sent. They needed the village mayor’s consent. But his opinion about the cruise industry is very different: the blank space without his signature made it clear.
 
+
 </div><!-- end story content -->
 <div class="inner-story-image">
   <img src="/images/letter.jpg"><p class="caption"></p>
@@ -108,9 +109,10 @@ Terry and Jeremy always bring their passengers back to Monkey River around 1 p.m
 
 “If we would get a benefit from the cruise line, the boats that work for them would come onshore, buy a little gift, a little drink, snack or something. Everybody could get a benefit. But they don't do that,” Ivan Williams, former mayor of Monkey River, said.
 
+
 </div><!-- end story content -->
 <div class="inner-story-image">
-  <img src="/images/tourism-03.jpg"><p class="caption">Monkey River Village, the northern most village in the Toledo District, is home to a population of roughly 300 people. It is one of the only communities in Belize that does not use cars. Photo by Jason Arthurs.</p>
+  <img src="/images/tourism-03.jpg"><p class="caption">Monkey River Village, the northern most village in the Toledo District, is home to a population of roughly 300 people. It is one of the only communities in Belize that does not use cars. Photo by Hadley Green. </p>
 </div>
 <div class="story-content">
 
@@ -121,6 +123,7 @@ Terry and Jeremy said the experience of the river and wildlife aren’t what the
 The letter wasn’t the community’s first effort to make themselves heard. In 2017, the Monkey River Village Council decided to start a petition to prevent any cruise company from running tourist excursions on the river. But regardless of the many signatures they collected, nothing changed the situation. Cruise ships weren’t going anywhere.
 
 “It's been throwing all these impacts without any benefits. So we hope that we could get it cleared up peacefully,” Jeremy said.
+
 
 </div><!-- end story content -->
 <div class="photo-card-container" id="elders">
@@ -134,7 +137,7 @@ The letter wasn’t the community’s first effort to make themselves heard. In 
 
 ## "I voted against it"
 
-the cruise line a 25-year concession designating it as the only cruise port in southern Belize.
+The agreement signed in 2013 between the government of Belize and Norwegian granted the cruise line a 25-year concession designating it as the only cruise port in southern Belize.
 
 Many people who live near the caye didn’t understand what the presence of this Miami-based cruise line would entail. “There was one guy that worked for the cruise line and walked around in the village talking about cruise tourism,” Terry said. “A lot of people didn't know much about cruise tourism at that point.”
 
@@ -160,15 +163,17 @@ As it appears in the final report: “Not only is there widespread resistance to
 
 “I voted against it,” he stressed.
 
+
 ## "Each day I go out, and I try my best"
 
 Guides like Terry and Jeremy know that cruise tourism exists in their country, and little will change that. However, they believe they can provide a unique experience throughout their tours — something only local guides can offer.
 
 “We know the place,” Terry said. “We were born and raised here. I think I can give the guests a different feel.”
 
+
 </div><!-- end story content -->
 <div class="inner-story-image">
-  <img src="/images/tourism-04.jpg"><p class="caption">Monkey River Village is a rural community that sits at the mouth of Monkey River. The village used to be a farming and fishing community, but residents are increasingly working in tourism today. Photo by Jason Arthurs.</p>
+  <img src="/images/hoffmann.jpg"><p class="caption">Garbutt’s Bar in Monkey River. It is a popular hangout spot for the guides after a day out on the boat. Photo by Hadley Green.</p>
 </div>
 <div class="story-content bottomofpage">
 

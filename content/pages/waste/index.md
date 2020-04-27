@@ -13,6 +13,7 @@ description: Disparities undercut Belize's waste management system, and new poli
 image: ../images/waste2.jpg
 ---
 
+
 Flies swarm at Vincent Budna’s feet as he walks through the piles of rusty paint cans, cardboard boxes and crumpled water bottles.
 
 Smoke slowly wafts skyward from heat-induced trash fires at the edge of the gravel path, sending toxic fumes into the cloudless sky. A flock of vultures perches on a mound of fresh garbage, squawking eagerly as they feast on a moldy hunk of bread. A soft ocean breeze blows, and trash bags flutter in the wind, rippling across the 100-acre property in a wave of black, non-biodegradable plastic.
@@ -24,6 +25,7 @@ There’s beauty in the Placencia Municipal Dump, and Budna knows this better th
 In the busy streets of Placencia, which houses only 1,500 residents but draws more than 12,000 tourists a month, the garbage pits of the dump seem like an eerie memory. Tourists stroll down freshly swept sidewalks, past souvenir shops painted bright pink and yellow, stopping for a meal at one of the many restaurants lining the beach. Tourism is the backbone of the economy.
 
 But the dump demonstrates the dirty reality of the country’s waste management system. When he started, there were seven loads of garbage dropped off each week, Budna said. Now, he sees more than 30.
+
 
 </div><!-- end story content -->
 <div id="video-top"></div>
@@ -56,6 +58,7 @@ Over time, Seine Bight grew, and demand for land grew with it. Smith Martinez’
 
 But, in addition to sand and gravel, they also pack in heaps of garbage. Like Smith Martinez, everyone wants to own land — even if it means building on packed-in trash.
 
+
 </div><!-- end story content -->
 <div class="inner-story-image">
   <img src="/images/waste-01.jpg"><p class="caption">Seine Bight is located between the sea and a lagoon, with the new land largely being built on the side of the lagoon. To create a foundation for people to construct their homes upon, they must cut down mangrove trees and pack in the land with trash, gravel and sand. Photo by Hope Davison. </p>
@@ -78,6 +81,7 @@ Kirwin Ramirez, the vice chair of Seine Bight Village, knows that waste manageme
 
 “Mine is a community that many people look down on,” Ramirez said. “We are the underdogs.  It’s a community full of so much potential and very talented people, but the government does not look at us like that. They look at Placencia more because that is where the tourists go, that is where they can get more money.”
 
+
 ## "We have more garbage coming in than ever before"
 
 Shoes divorced from their mates, toilet paper rolls, empty bottles of sunscreen. A dirty bra, with a Pepsi can hanging off of a protruding underwire. A microwave.
@@ -87,6 +91,7 @@ Budna has watched the amount of garbage coming in from Placencia steadily increa
 “We have more garbage coming in than ever before, and in the next 10 years, we’ll have more garbage than we are facing right at this moment,” Budna said. “We know that there will be a solid impact on our environment. We need to take precautionary measures from now that we will not face that down the line.”
 
 The Placencia Sanitation Company, a private company contracted by the municipal government, collects garbage from residents and businesses twice a week. Individuals pay $22 Belizean a month for garbage collection; businesses pay anywhere from $55 to $250 Belizean a month, Ilsa Villanueva, chairperson of the Placencia Village Council, said. The waste is taken to the dump and emptied into a 30-foot pit. When it’s full, the pit is bulldozed over — and the thick jungle foliage quickly reclaims the land.
+
 
 </div><!-- end story content -->
 <div class="interactive-top"></div>
@@ -110,6 +115,7 @@ The transfer station is a step in the right direction, though Budna, who is hopi
 
 “I am sure it’s not going to work for what’s coming in the future,” he said. “They’ll have to expand. But at least for now, it’s going to help us at this time.”
 
+
 ## "It would put me in a very difficult place"
 
 In January, the Belizean government passed legislation to phase out single-use plastics, including styrofoam containers, plastic food utensils and shopping bags. By March 2021, the goal is to eliminate all use of the materials.
@@ -126,7 +132,7 @@ In the heat of the early afternoon sun, plastic picker Radford Cacho’s hands m
 </div>
 <div class="story-content">
 
-He squats lower and tears open the side of the black garbage bag, standing back as food scraps and crumpled wads of paper towel tumble out first. With great speed, he rummages through the bag, throwing aside any plastic or glass bottles he sees. These, he explains, can be sold back to the stores for5 and 25 cents, respectively. On a good day, he can make up to $25 Belizean — enough to support his four children and 23 grandchildren.
+He squats lower and tears open the side of the black garbage bag, standing back as food scraps and crumpled wads of paper towel tumble out first. With great speed, he rummages through the bag, throwing aside any plastic or glass bottles he sees. These, he explains, can be sold back to the stores for 5 and 25 cents, respectively. On a good day, he can make up to $25 Belizean — enough to support his four children and 23 grandchildren.
 
 It’s hard, dirty work. But Cacho’s life is about to get harder. When Belize’s plastic ban fully phases in, he won’t be able to sort through and find plastic bottles to sell. He’ll lose the majority of his income.
 
@@ -136,6 +142,7 @@ Budna is in a similar situation. He, too, takes plastic and glass bottles that h
 
 The economic repercussions will be felt up and down the peninsula. Restaurants will likely face higher costs to purchase biodegradable or reusable materials, and small business owners will need to find alternatives to the plastics they currently depend on.
 
+
 ## "The problem will never end"
 
 Kirwin Ramirez hates seeing his community filled with trash, knowing it will never make it to the dump. Walking along the sandy gravel streets lined with beer bottles, potato chip bags and old car parts, he calls out to a child down the street. He smiles and waves, but his eyes are filled with worry. The sadness in his gaze is unmistakable.
@@ -143,6 +150,7 @@ Kirwin Ramirez hates seeing his community filled with trash, knowing it will nev
 Without more resources, without outside funding, without coordinated educational efforts, there’s not much he can do. He desperately wants to do what’s best for his community, but he knows it will take a major change to see a real difference.
 
 “People are suffering,” Ramirez said. “If we let the problem beat us down to the ground, we aren’t going to reach anything. We’ve got to find solutions for this problem, because the problem will never end.”
+
 
 </div><!-- end story content -->
 <div class="inner-story-image">
@@ -155,5 +163,6 @@ Budna also knows there’s not a real end in sight. He knows the garbage trucks 
 Sometimes, he wants to quit. But, he doubts anyone else would want to take over. There aren’t many people who want to spend their time at the dump, Budna said with a shrug. Few have the same passion to ensure the world is left a little bit cleaner, a little bit safer, for the people of Belize.
 
 “We have all these things that affect the climate in this country and affect the climate of other countries,” Budna said. “I’ve realized garbage is something we have to take care of the right way, to help people understand that garbage has an effect and a deadly impact on each of our lives every day.”
+
 
 </div><!-- end story content -->
