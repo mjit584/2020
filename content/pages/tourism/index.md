@@ -8,6 +8,7 @@ card: false
 photographer1: "Hadley Green"
 photographer2: "Madison Hoffmann"
 photographer3: "Emily Caroline Sartin"
+photographer4: "Hanna Wondmagegn"
 interactive1: "Rachel McKinney"
 interactive2: "Sam Perry"
 reporter: Lucía Castro
