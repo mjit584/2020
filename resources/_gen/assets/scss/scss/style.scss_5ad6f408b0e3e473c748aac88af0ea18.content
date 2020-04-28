@@ -217,6 +217,7 @@ ul, ol {
   bottom: -375px;
   display: flex;
   justify-content: space-around;
+  align-items: flex-start;
   padding: 7% 20%; }
   @media (max-width: 1600px) {
     .byline {
@@ -238,6 +239,12 @@ ul, ol {
       display: grid;
       justify-content: center;
       text-align: center; } }
+
+.byline1, .byline2, .byline3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 .story-title {
   display: flex;

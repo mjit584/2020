@@ -33,7 +33,7 @@ Farming cacao is a seemingly never-ending process. Growers like Narciso harvest 
 
 After harvesting, Narciso’s brother, Julio Saqui, takes the beans from his brother’s farm and uses them to create fine chocolate.
 
-Saqui’s storefront is a square concrete box, emblazoned with the brand name Che’il, the Mopan word for “wild.” The store’s walls are painted a verdant green, matching the flora outside, and the floors are a rich orange clay. Local art from village members sits on shelves next to a corner refrigerator, which holds the result of a 21-day process of plucking, drying, fermenting, roasting, crushing and grinding of the beans, wrapped in foil.
+Saqui’s storefront is a square concrete box, emblazoned with the brand name Che’il, the Mopan word for “wild.” The store’s walls are painted a verdant green, matching the flora outside, and the floors are a rich orange clay. Local art from village members sits on shelves next to a corner refrigerator, which holds the result of a 21-day process of plucking, fermenting, drying, roasting, crushing and grinding of the beans, wrapped in foil.
 
 The cacao industry in Belize has always been precarious—subject to the whims of both tumultuous markets and the worsening climate. But to Saqui, chocolate is more than just a sweet to sell to the country’s many cruise ship tourists—it’s his way of life.
 
@@ -49,7 +49,7 @@ Government experts told him his citrus trees would be safe from the incurable As
 
 More than 20 years later, cacao and chocolate making consume his every waking minute.
 
-Saqui begins his process of chocolate making when he receives the organic wet beans from the small farms in the area, like the one his brother runs. He then pours them onto large wooden shelves in a drying house where, over the next seven days, the beans cycle through various stages of fermentation before they are roasted.
+Saqui begins his process of chocolate making when he receives the organic wet beans from the small farms in the area, like the one his brother runs. He then pours them into wooden crates to ferment for six days. After going through the various stages of fermentation, they are put on shelves in a drying house for another seven days before being roasted.
 
 Even though it would be much easier to roast all of the dried beans in his machine, Saqui still mixes them with those roasted on a large clay plate over an open fire. The fire-roasted beans are then smashed by hand on a Ká, or traditional Mayan grinder, and combined with the beans crushed in a machine. The mixture is combined with varying levels of sugar and is spun in machines for hours.
 
@@ -62,7 +62,7 @@ On piping days, Saqui frequently wakes up in the earliest hours of the morning, 
 </div>
 <div class="story-content">
 
-Saqui is one of only a handful of chocolate-makers in Belize, of which only a few are locally owned. Unlike some other producers, his bars contain no additives or fillers.
+Saqui is one of only a handful of chocolate makers in Belize, of which only a few are locally owned. Unlike some other producers, his bars contain no additives or fillers.
 
 “The first thing that people say when they bite our chocolate is ‘Wow, it's rich,’” Saqui said. “When you taste those fillers, they have that chocolaty flavor, but the richness, the sweet aftertaste on your palette is just not there.”
 
@@ -124,6 +124,7 @@ Even under the canopy of the madre de cacao shade trees, the air is hot and stic
 Though much of the work remains the same, a lot has changed since Jose Mess began harvesting cacao 32 years ago.
 
 Deforestation has forced birds and squirrels from fruit trees to cacao groves in order to find food.
+
 Rising temperatures make these trees harder to grow and cause rain which can flood their roots.
 
 The economics of the industry are also particularly perilous. Ever since Belize’s cacao market earnestly began in 1977, when The Hershey Company acquired several hundred acres in the central part of the country, it has been racked by instability for both farmers and processors.
@@ -175,7 +176,7 @@ Both Che’il and Maya Mountain purchase most of their beans wet and complete th
 </div>
 <div class="story-content">
 
-Demand for fine cocoa products, like the so-called “bean-to-bar” variety Maya Mountain produces, has exploded in the U.S. in recent years. Sales of premium chocolate grew 19%in 2018, according to the Fine Chocolate Industry Association, compared to 0.6% growth in the mainstream chocolate industry.
+Demand for fine cocoa products, like the so-called “bean-to-bar” variety Maya Mountain produces, has exploded in the U.S. in recent years. Sales of premium chocolate grew 19% in 2018, according to the Fine Chocolate Industry Association, compared to 0.6% growth in the mainstream chocolate industry.
 
 To keep up with demand, Stone now operates or works with cacao buyers in Guatemala, Honduras, Haiti, Colombia, Ghana and Uganda as part of Uncommon Cacao, an organization that connects producers to the global chocolate market.
 

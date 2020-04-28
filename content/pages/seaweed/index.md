@@ -155,6 +155,7 @@ IKOOMA products are only available online for Belizean residents, and in one Pla
 ## "Nature will provide"
 
 Godfrey said he has sold about 1,300 pounds of seaweed, solidifying himself as one of the most successful farmers in Belize. He said his full-time determination to seaweed farming and his desire to be “number one” has helped him succeed against the odds.
+
 It isn’t hard for him to sell his harvest: people come to him.
 
 He’s received international attention for his farm, including getting a grant from the United Nations Development Program. But he’s a local hero as well: he remembered one time a young girl in Placencia approached him at a restaurant, telling him she wanted to grow up to save the ocean like him. He said those moments remind him he doesn’t farm to get rich.
