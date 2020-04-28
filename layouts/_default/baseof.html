@@ -106,15 +106,19 @@
     {{ $photostoryweeds := resources.Get "js/photostoryweeds.js" }}
     {{ $photostoryfishers := resources.Get "js/photostoryfishers.js" }}
     {{ $photostorybeauty := resources.Get "js/photostorybeauty.js" }}
+    {{ $story1preload := resources.Get "js/preload1.js" }}
+    {{ $story2preload := resources.Get "js/preload2.js" }}
+    {{ $story3preload := resources.Get "js/preload3.js" }}
     {{ $story4preload := resources.Get "js/preload4.js" }}
+    {{ $story5preload := resources.Get "js/preload5.js" }}
 
     {{ $bundle := slice $scripts | resources.Concat "js/bundle.js" }}
     {{ $aboutbundle := slice $aboutsort | resources.Concat "js/aboutbundle.js" }}
-    {{ $story1bundle := slice $video | resources.Concat "js/story1bundle.js" }}
-    {{ $story2bundle := slice $video | resources.Concat "js/story2bundle.js" }}
-    {{ $story3bundle := slice $video | resources.Concat "js/story3bundle.js" }}
-    {{ $story4bundle := slice $video $photostoryelders $story4preload | resources.Concat "js/story4bundle.js" }}
-    {{ $story5bundle := slice $video | resources.Concat "js/story5bundle.js" }}
+    {{ $story1bundle := slice $video $story1preload | resources.Concat "js/story1bundle.js" }}
+    {{ $story2bundle := slice $video $story2preload | resources.Concat "js/story2bundle.js" }}
+    {{ $story3bundle := slice $video $story3preload | resources.Concat "js/story3bundle.js" }}
+    {{ $story4bundle := slice $video $story4preload | resources.Concat "js/story4bundle.js" }}
+    {{ $story5bundle := slice $video $story5preload | resources.Concat "js/story5bundle.js" }}
     {{ $photostory1 := slice $photostorygenerations | resources.Concat "js/photostory1.js" }}
     {{ $photostory2 := slice $photostoryfishers | resources.Concat "js/photostory2.js" }}
     {{ $photostory3 := slice $photostoryrooted | resources.Concat "js/photostory3.js" }}
