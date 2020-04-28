@@ -19,35 +19,31 @@
 }
 
 .explainer-container {
-  padding: 20px 15%;
+  padding: 5% 15% 4% 15%;
   background-color:#222;
   width:100%;
   align-items: center;
-  @media(max-width: 800px) {
-    margin:0;
-    padding: 40px 5%;
-    height:auto;
+  @media(max-width: 1200px) {
+    padding: 8% 10% 0 10%;
   }
-  p {
-    color: white;
-    padding: 40px 0;
-    margin:0;
-    text-align:center;
-    line-height: 1.3em;
-    font-size:1.3em;
-    @media(max-width: 1200px) {
-      margin-top: 50px;
-    }
-  }
+  // p {
+  //   color: white;
+  //   padding: 40px 0;
+  //   margin:0;
+  //   text-align:center;
+  //   line-height: 1.3em;
+  //   font-size:1.3em;
+  //   @media(max-width: 1200px) {
+  //     margin-top: 50px;
+  //   }
+  // }
   .explainer-video {
     padding: 0 15%;
     @media(max-width: 1200px) {
       padding: 0;
     }
   }
-  @media(max-width: 1200px) {
-    padding: 0px 10%;
-  }
+
 }
 
 
