@@ -370,13 +370,10 @@ ul, ol {
   background-image: url("../images/culture-photostory-title.jpg"); }
 
 .story-4 .photo-card-container {
-  background-image: url("../images/waste-photostory-title.jpg"); }
+  background-image: url("../photostory-beauty/DelicateBalance_1.jpg"); }
 
 .story-5 .photo-card-container {
   background-image: url("../images/seaweed-photostory-title.jpg"); }
-
-#beauty {
-  background-image: url("../photostory-beauty/DelicateBalance_1.png"); }
 
 .photo-card-container {
   background-size: cover;
