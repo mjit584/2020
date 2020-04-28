@@ -16,7 +16,11 @@
   font-size:1.3em;
   color:#fff;
   text-shadow: 2px 2px 2px #000;
+  font-family:$headingfont;
   text-align: center;
+  i {
+    margin-top:20px;
+  }
 }
 #pinMaster {
   .exit {
