@@ -97,6 +97,9 @@ $button-width: 35px;
   position: fixed;
   bottom: 0;
   padding-bottom: 30px;
+  @media(max-width: 400px) {
+    padding-bottom: 10px;
+  }
 }
 
 .hamburger-about li {
