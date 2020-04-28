@@ -5,11 +5,18 @@
           @content;
         }
     }
-    // @else if $breakpoint == "sm" {
-    //     @media (min-width: 768px) and (max-width: 991px) {
-    //         @content;
-    //     }
-    // }
+
+     @else if $breakpoint == "xxs" {
+         @media screen and (max-width: 500px) {
+             @content;
+         }
+     }
+
+     @else if $breakpoint == "xxxs" {
+         @media screen and (max-width: 400px) {
+             @content;
+         }
+     }
     // @else if $breakpoint == "md" {
     //     @media (min-width: 992px) and (max-width: 1199px) {
     //         @content;
@@ -36,10 +43,9 @@
 
             @include respond-to(xs) {
               img {
-                  width: 100%;
+                  width: 125px;
                   border-radius:0;
                   border:2px solid $primary;
-
               }
                 &.ps-timeline {
                     margin: 0 !important;
@@ -90,7 +96,7 @@
 
                             img {
                                 margin: 0 auto !important;
-                                width: 80% !important;
+                                width: 125px !important;
                             }
                         }
 
@@ -102,9 +108,6 @@
                             margin-left: 35px !important;
                             margin-top:-30px!important;
                             margin-bottom: 0 !important;
-
-                            img {
-                            }
                         }
 
                         p {
@@ -119,7 +122,7 @@
                             width: 60% !important;
                             float: right !important;
                             right: 0;
-                            top: -40px;
+                            top: 10px;
                         }
 
                         .ps-bot {
@@ -131,6 +134,39 @@
                     }
                 }
             }
+
+            @include respond-to(xxs){
+
+                &.ps-timeline {
+                  li {
+                    .img-handler-top {
+                        margin-bottom: 40px !important;
+                        img {
+                            margin: 0 auto !important;
+                            width: 60px !important;
+                        }
+                    }
+                    .ps-top {
+                      margin-top: -35px;
+                      padding-left: 5px;
+                      margin-right: -10px;
+                    }
+
+                    .ps-bot {
+                      padding-left: 5px;
+                      margin-right: -10px;
+                    }
+                  }
+                }
+            }
+
+            @include respond-to(xxs){
+              img {
+                  width: 60px;
+              }
+            }
+
+
 
             &.ps-timeline {
                 margin: 290px 0;
