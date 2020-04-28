@@ -64,7 +64,7 @@ One important part of the experience on these immense floating cities includes t
 </div><!-- end story content -->
 <div class="photo-card-container">
 <div class="photo-card">
-  <h2>Fishers</h2>
+  <h2>Fishing Generations</h2>
   <img src="/images/yellow-underline-left.svg" class="photo-card-line">
   <a class="photo-card-btn" id="eldersBtn" href="/fishers/">Launch Photo Experience</a>
 </div>
