@@ -209,15 +209,14 @@ ul, ol {
     max-width: 300px; }
 
 .byline {
-  background-image: url("../images/byline2.svg");
+  background-image: url(../images/byline2.svg);
   background-size: cover;
   width: 100%;
-  height: 500px;
+  height: 300px;
   position: absolute;
-  bottom: -375px;
+  bottom: -200px;
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
   padding: 7% 20%; }
   @media (max-width: 1600px) {
     .byline {
@@ -231,20 +230,16 @@ ul, ol {
       padding: 8% 20%; } }
   @media (max-width: 800px) {
     .byline {
-      padding-top: 150px;
-      padding-bottom: 300px;
-      bottom: -550px;
+      padding-top: 125px;
+      bottom: -450px;
       font-size: .9em;
-      height: 700px;
-      display: grid;
-      justify-content: center;
+      height: 650px;
+      justify-content: flex-start;
+      flex-direction: column;
       text-align: center; } }
 
-.byline1, .byline2, .byline3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+.byline1, .byline2 {
+  margin-bottom: 10px; }
 
 .story-title {
   display: flex;
@@ -277,7 +272,7 @@ ul, ol {
     .story-content {
       margin: 0 5%; }
       .story-content.topofpage {
-        margin-top: 90%; } }
+        margin-top: 60%; } }
   @media (max-width: 400px) {
     .story-content {
       margin: 0 5%; }
