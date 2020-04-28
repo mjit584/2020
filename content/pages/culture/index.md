@@ -29,13 +29,13 @@ The farmer, Narciso, plucks one off and breaks it in half, revealing the white s
 {{< vimeo id="405428916" class="video-container" >}}
 <div class="story-content">
 
-Farming cacao is a seemingly never-ending process. Growers like Narciso harvest the pods once every 10 days for six months. In the off season, the groves require continual maintenance to stave off pests and disease and to make sure the pods are getting the optimal amount of shade -- too much and the trees drown in moisture, too little they dry up and die.
+Farming cacao is a seemingly never-ending process. Growers like Narciso harvest the pods once every 10 days for six months. In the off season, the groves require continual maintenance to stave off pests and disease and to make sure the pods are getting the optimal amount of shade — too much and the trees drown in moisture, too little they dry up and die.
 
 After harvesting, Narciso’s brother, Julio Saqui, takes the beans from his brother’s farm and uses them to create fine chocolate.
 
 Saqui’s storefront is a square concrete box, emblazoned with the brand name Che’il, the Mopan word for “wild.” The store’s walls are painted a verdant green, matching the flora outside, and the floors are a rich orange clay. Local art from village members sits on shelves next to a corner refrigerator, which holds the result of a 21-day process of plucking, fermenting, drying, roasting, crushing and grinding of the beans, wrapped in foil.
 
-The cacao industry in Belize has always been precarious—subject to the whims of both tumultuous markets and the worsening climate. But to Saqui, chocolate is more than just a sweet to sell to the country’s many cruise ship tourists—it’s his way of life.
+The cacao industry in Belize has always been precarious — subject to the whims of both tumultuous markets and the worsening climate. But to Saqui, chocolate is more than just a sweet to sell to the country’s many cruise ship tourists — it’s his way of life.
 
 “Maya people look at cacao beans as medicine,” Saqui says. “Today the commercial world looks at chocolate as a treat.”
 
@@ -72,13 +72,13 @@ Saqui said his mother was the one who taught him how to roast cacao to turn it i
 
 By the time he produced his first bar of chocolate, she was on her deathbed.
 
-“My training is not from school-- I learned my chocolate making from my mom,” Saqui said.
+“My training is not from school — I learned my chocolate making from my mom,” Saqui said.
 
 “I didn't want her not to taste my chocolate before she passed.”
 
 This type of cacao production has been a part of Mayan culture for centuries, passed down through generations. The plant holds a spiritual significance for Mayan people, Saqui said, and is used in rituals such as those marking momentous occasions like weddings.
 
-More than 42,000 Mayan people live in Belize, or more than 11%of the country's population. But even though Mayans represent a large percentage of the population —roughly the same percentage of black people who live in the U.S.—they have long struggled in territorial disputes with the Belizean government.
+More than 42,000 Mayan people live in Belize, or more than 11%of the country's population. But even though Mayans represent a large percentage of the population — roughly the same percentage of black people who live in the U.S. — they have long struggled in territorial disputes with the Belizean government.
 
 Under British occupation, Mayan people were not allowed to own land. Even to this day, 44% of all land in Belize is under protected area status, meaning it is either owned or administered by the government.
 
@@ -129,9 +129,9 @@ Rising temperatures make these trees harder to grow and cause rain which can flo
 
 The economics of the industry are also particularly perilous. Ever since Belize’s cacao market earnestly began in 1977, when The Hershey Company acquired several hundred acres in the central part of the country, it has been racked by instability for both farmers and processors.
 
-Hershey entered Belize during a boom period-- that year prices peaked at over $5,700 a ton. Over the next several years, the company expanded its reach in the country, and fostered the creation of new farms across the country. In the Toledo District alone, cacao farms increased from 237 acres in 1983 to more than a thousand at the turn of the decade. These farms, in turn, sold Hershey almost 32,000 pounds of cacao that year.
+Hershey entered Belize during a boom period — that year prices peaked at over $5,700 a ton. Over the next several years, the company expanded its reach in the country, and fostered the creation of new farms across the country. In the Toledo District alone, cacao farms increased from 237 acres in 1983 to more than a thousand at the turn of the decade. These farms, in turn, sold Hershey almost 32,000 pounds of cacao that year.
 
-But as Hershey and other companies were developing their farms, the price of cacao began to drop. In 1993, the company exited Belize—the global price of cacao had plummeted more than 64% in nine years. (Representatives for Hershey did not respond to a request to comment on this story.)
+But as Hershey and other companies were developing their farms, the price of cacao began to drop. In 1993, the company exited Belize — the global price of cacao had plummeted more than 64% in nine years. (Representatives for Hershey did not respond to a request to comment on this story.)
 
 In 1994, Green and Black’s, a British fine chocolate company, began purchasing beans from the country with the help of the Toledo Cacao Growers Association, a nonprofit created to improve the living standard of its members. In the next seven years, the association exported approximately 20 tons of cacao beans annually from more than 200 small farmers.
 
@@ -139,7 +139,7 @@ In 2001, Hurricane Iris destroyed more than 500 acres of cacao in the southern c
 
 After a short period of low productivity, the Belizean cacao industry slowly began to bounce back. In 2003, the two organizations, along with the UK’s Department for International Development and a Dutch nonprofit organization, established the three-year-long “Maya Gold Program,” which more than tripled the association’s membership and increased production to an average of more than 30 tons annually.
 
-With the project came more stability and better pay for farmers-- association farmers were paid $1.15 Belizean per pound of wet beans, at least 40 cents higher than the rates today, according to Saqui.
+With the project came more stability and better pay for farmers — association farmers were paid $1.15 Belizean per pound of wet beans, at least 40 cents higher than the rates today, according to Saqui.
 
 In 2005, the chocolatier was acquired by Cadbury, which was then taken over by Kraft Foods (now Mondelez International) five years later. As the size of the company grew, the Cacao Growers Association struggled to keep up with demand. In 2017, the company announced it would sell a chocolate bar that was neither organic nor fairtrade, a shift away from the company’s founding values. (Mondelez and the Toledo Cacao Growers Association did not respond to requests for comment on this story.)
 
@@ -147,7 +147,7 @@ In 2005, the chocolatier was acquired by Cadbury, which was then taken over by K
 
 Saqui now says the Toledo Cacao Growers Association is a shell of its former self.
 
-“When it pulled out of Belize, it not only took away Green and Black’s from the association, it took away basically everything-- the heartbeat of the industry,” he said.
+“When it pulled out of Belize, it not only took away Green and Black’s from the association, it took away basically everything — the heartbeat of the industry,” he said.
 
 
 </div><!-- end story content -->
@@ -182,7 +182,7 @@ To keep up with demand, Stone now operates or works with cacao buyers in Guatema
 
 Despite the increased demand abroad, profits haven’t seemed to trickle down to small Belizean farmers. For their hours of toil, cacao farmers in the Toledo District only earn an average of $4,392 a year, according to 2015 Maya Mountain calculations. Only about 15% of this revenue comes directly from cacao. Most farmers are forced to supplement their income by growing other crops such as maize or bananas, or by offering tours to outsiders.
 
-Stone says one of the primary reasons why so many farmers live in poverty is because large companies like Hershey treat cacao as a geographically-neutral commodity, not the result of hours of labor.
+Stone says one of the primary reasons why so many farmers live in poverty is because large companies like Hershey treat cacao as a geographically — neutral commodity, not the result of hours of labor.
 
 “When we pay less than $2 for a chocolate bar, we are paying for the systemic poverty of millions of families,” Stone said during a July 2017 presentation at the U.S. Institute of Peace.
 </div><!-- end story content -->
@@ -199,7 +199,7 @@ Some organizations like Ya’axché Conservation Trust, a non-governmental organ
 
 Saqui said that although he would appreciate more help from the government, it doesn’t have the know-how to provide proper support for the problems that face cacao growers in the future.
 
-“The cacao industry in Belize is still very much a new industry,” Saqui said. “It is young, and it is still starting-- there is a high level of uncertainty.”
+“The cacao industry in Belize is still very much a new industry,” Saqui said. “It is young, and it is still starting — there is a high level of uncertainty.”
 
 
 </div><!-- end story content -->
