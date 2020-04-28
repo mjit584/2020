@@ -66,10 +66,15 @@ ul, ol {
 .homewave-top {
   background-image: url("../images/homewave-top.svg");
   background-size: cover;
-  height: 100px;
+  height: 200px;
   width: 100%;
   margin-bottom: -5px;
-  margin-top: -100px; }
+  margin-top: -150px; }
+  @media (max-width: 1300px) {
+    .homewave-top {
+      height: 100px;
+      margin-bottom: -5px;
+      margin-top: -100px; } }
   @media (max-width: 800px) {
     .homewave-top {
       margin-top: -50px;
@@ -78,9 +83,16 @@ ul, ol {
 .homewave-bottom {
   background-image: url("../images/homewave-bottom.svg");
   background-size: cover;
-  height: 170px;
-  width: 100%;
-  z-index: 1000; }
+  height: 300px;
+  width: 100%; }
+  @media (max-width: 2000px) {
+    .homewave-bottom {
+      height: 225px;
+      width: 100%; } }
+  @media (max-width: 1300px) {
+    .homewave-bottom {
+      height: 170px;
+      width: 100%; } }
 
 .explainer-container {
   padding: 5% 15% 4% 15%;
@@ -200,12 +212,22 @@ ul, ol {
   background-image: url("../images/byline2.svg");
   background-size: cover;
   width: 100%;
-  height: 350px;
+  height: 500px;
   position: absolute;
-  bottom: -275px;
+  bottom: -375px;
   display: flex;
   justify-content: space-around;
-  padding: 6% 20%; }
+  padding: 7% 20%; }
+  @media (max-width: 1600px) {
+    .byline {
+      height: 350px;
+      bottom: -275px;
+      padding: 6% 20%; } }
+  @media (max-width: 1200px) {
+    .byline {
+      height: 400px;
+      bottom: -325px;
+      padding: 8% 20%; } }
   @media (max-width: 800px) {
     .byline {
       padding-top: 150px;
