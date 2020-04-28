@@ -43,13 +43,13 @@
   background-image:url('../images/byline2.svg');
   background-size: cover;
   width:100%;
-  height:300px;
+  height:350px;
   position:absolute;
-  bottom: -200px;
+  bottom: -275px;
   display:flex;
   justify-content: space-around;
-  padding: 7% 20%;
-  @media(max-width: 900px) {
+  padding: 6% 20%;
+  @media(max-width: 800px) {
     padding-top: 150px;
     padding-bottom: 300px;
     bottom: -550px;
@@ -90,7 +90,21 @@
   @media(max-width: 992px) {
     margin: 0 5%;
     &.topofpage {
-      margin-top:70%;
+      margin-top:50%;
+    }
+  }
+
+  @media(max-width: 500px) {
+    margin: 0 5%;
+    &.topofpage {
+      margin-top:90%;
+    }
+  }
+
+  @media(max-width: 400px) {
+    margin: 0 5%;
+    &.topofpage {
+      margin-top:100%;
     }
   }
 }
