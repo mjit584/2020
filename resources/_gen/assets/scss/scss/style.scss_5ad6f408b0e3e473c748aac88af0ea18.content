@@ -217,7 +217,7 @@ ul, ol {
   bottom: -375px;
   display: flex;
   justify-content: space-around;
-  padding: 7% 20%; }
+  padding: 8% 20%; }
   @media (max-width: 1600px) {
     .byline {
       height: 350px;
