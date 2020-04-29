@@ -281,7 +281,7 @@ to {
   bottom: -375px;
   display:flex;
   justify-content: space-around;
-  padding: 7% 20%;
+  padding: 6% 20%;
   @media(max-width: 1600px) {
   height:350px;
   bottom: -275px;
@@ -327,10 +327,10 @@ to {
       font-size: 1.1em;
       text-align: center;
       line-height: 1.5em;
-      padding-bottom: 25px;
+      padding-bottom: 75px;
       margin: 0px 75px;
       @media(max-width: 2000px) {
-        padding-bottom: 100px;
+        padding-bottom: 150px;
         }
       @media(max-width: 1600px) {
         text-align: center;
