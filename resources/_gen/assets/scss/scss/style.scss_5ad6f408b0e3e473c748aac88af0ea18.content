@@ -741,8 +741,8 @@ to {
       .about-byline p {
         text-align: center;
         line-height: 1.5em;
-        margin: -75px;
-        padding-bottom: 25px; } }
+        margin: -50px;
+        padding-bottom: 75px; } }
     @media (max-width: 1200px) {
       .about-byline p {
         padding-bottom: 25px; } }
