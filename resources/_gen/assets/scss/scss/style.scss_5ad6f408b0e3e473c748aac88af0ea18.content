@@ -212,7 +212,7 @@ ul, ol {
   background-image: url(../images/byline2.svg);
   background-size: cover;
   width: 100%;
-  height: 500px;
+  height: 550px;
   position: absolute;
   bottom: -375px;
   display: flex;
@@ -696,7 +696,7 @@ to {
   bottom: -375px;
   display: flex;
   justify-content: space-around;
-  padding: 7% 20%; }
+  padding: 6% 20%; }
   @media (max-width: 1600px) {
     .about-byline {
       height: 350px;
@@ -732,11 +732,11 @@ to {
     font-size: 1.1em;
     text-align: center;
     line-height: 1.5em;
-    padding-bottom: 25px;
+    padding-bottom: 75px;
     margin: 0px 75px; }
     @media (max-width: 2000px) {
       .about-byline p {
-        padding-bottom: 100px; } }
+        padding-bottom: 150px; } }
     @media (max-width: 1600px) {
       .about-byline p {
         text-align: center;
@@ -1499,18 +1499,24 @@ h5 {
 .interactive-top {
   background-image: url("../images/interactive-top.svg");
   background-size: cover;
-  height: 100px;
+  height: 200px;
   width: 100%;
   margin-bottom: -5px;
   margin-top: 40px; }
+  @media (max-width: 1500px) {
+    .interactive-top {
+      height: 100px; } }
 
 .interactive-bottom {
   background-image: url("../images/interactive-bottom.svg");
   background-size: cover;
   margin-top: -20px;
-  height: 110px;
+  height: 200px;
   width: 100%;
   margin-bottom: 40px; }
+  @media (max-width: 1500px) {
+    .interactive-bottom {
+      height: 120px; } }
   @media (max-width: 800px) {
     .interactive-bottom {
       margin-top: 0;
@@ -1519,21 +1525,27 @@ h5 {
 .interactive-top-dark {
   background-image: url("../images/interactive-black-top.svg");
   background-size: cover;
-  height: 100px;
+  height: 200px;
   width: 100%;
   margin-bottom: -5px;
   margin-top: 40px; }
+  @media (max-width: 1500px) {
+    .interactive-top-dark {
+      height: 100px; } }
 
 .interactive-bottom-dark {
   background-image: url("../images/interactive-black-bottom.svg");
   background-size: cover;
-  height: 120px;
+  height: 200px;
   width: 100%;
   margin-bottom: 40px;
   margin-top: -1px; }
+  @media (max-width: 1500px) {
+    .interactive-bottom-dark {
+      height: 120px; } }
   @media (max-width: 800px) {
     .interactive-bottom-dark {
-      height: 40px; } }
+      height: 70px; } }
 
 .instructions {
   color: #aaa;
