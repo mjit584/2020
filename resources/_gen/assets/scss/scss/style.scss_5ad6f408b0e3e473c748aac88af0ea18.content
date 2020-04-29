@@ -214,7 +214,7 @@ ul, ol {
   width: 100%;
   height: 300px;
   position: absolute;
-  bottom: -200px;
+  bottom: -300px;
   display: flex;
   justify-content: space-around;
   padding: 7% 20%; }
@@ -231,7 +231,7 @@ ul, ol {
   @media (max-width: 800px) {
     .byline {
       padding-top: 125px;
-      bottom: -450px;
+      bottom: -500px;
       font-size: .9em;
       height: 650px;
       justify-content: flex-start;
@@ -240,6 +240,9 @@ ul, ol {
 
 .byline1, .byline2 {
   margin-bottom: 10px; }
+
+.byline1, .byline2, .byline3 {
+  text-align: center; }
 
 .story-title {
   display: flex;
@@ -272,7 +275,7 @@ ul, ol {
     .story-content {
       margin: 0 5%; }
       .story-content.topofpage {
-        margin-top: 60%; } }
+        margin-top: 70%; } }
   @media (max-width: 400px) {
     .story-content {
       margin: 0 5%; }

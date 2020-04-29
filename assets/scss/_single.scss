@@ -45,7 +45,7 @@
      width: 100%;
      height: 300px;
      position: absolute;
-     bottom: -200px;
+     bottom: -300px;
      display: flex;
      justify-content: space-around;
      padding: 7% 20%;
@@ -64,7 +64,7 @@
 
   @media(max-width: 800px) {
     padding-top: 125px;
-    bottom: -450px;
+    bottom: -500px;
     font-size: .9em;
     height: 650px;
     justify-content: flex-start;
@@ -77,6 +77,9 @@
   margin-bottom: 10px;
 }
 
+.byline1, .byline2, .byline3 {
+  text-align: center;
+}
 
 .story-title {
   display: flex;
@@ -114,7 +117,7 @@
   @media(max-width: 500px) {
     margin: 0 5%;
     &.topofpage {
-      margin-top:60%;
+      margin-top:70%;
     }
   }
 
