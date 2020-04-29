@@ -97,11 +97,6 @@
   </url>
   
   <url>
-    <loc>http://barriers.unc.edu/</loc>
-    <lastmod>2020-04-25T09:03:32-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://barriers.unc.edu/about/hadley-green/</loc>
     <lastmod>2020-04-16T20:01:22-04:00</lastmod>
   </url>
@@ -223,6 +218,11 @@
   <url>
     <loc>http://barriers.unc.edu/about/taylor-tyson/</loc>
     <lastmod>2020-04-16T20:01:22-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://barriers.unc.edu/</loc>
+    <lastmod>2020-04-25T09:03:32-04:00</lastmod>
   </url>
   
   <url>
