@@ -79,7 +79,6 @@ ul, ol {
     .homewave-top {
       margin-top: -50px;
       position: absolute; } }
-
 .homewave-bottom {
   background-image: url("../images/homewave-bottom.svg");
   background-size: cover;
@@ -93,7 +92,6 @@ ul, ol {
     .homewave-bottom {
       height: 170px;
       width: 100%; } }
-
 .explainer-container {
   padding: 5% 15% 4% 15%;
   background-color: #222;
@@ -107,7 +105,6 @@ ul, ol {
     @media (max-width: 1200px) {
       .explainer-container .explainer-video {
         padding: 0; } }
-
 .home-nav {
   text-align: center;
   padding: 40px 5% 5% 5%; }
@@ -237,7 +234,6 @@ ul, ol {
       justify-content: flex-start;
       flex-direction: column;
       text-align: center; } }
-
 .byline1, .byline2 {
   margin-bottom: 10px; }
 
@@ -281,14 +277,12 @@ ul, ol {
       margin: 0 5%; }
       .story-content.topofpage {
         margin-top: 100%; } }
-
 /* START OF STORY NAV */
 .story-page-image {
   max-width: 100%; }
   @media (max-width: 768px) {
     .story-page-image {
       display: none; } }
-
 .story-card {
   display: flex;
   align-items: center;
@@ -297,7 +291,6 @@ ul, ol {
   @media (max-width: 1000px) {
     .story-card {
       background-image: none !important; } }
-
 .story-nav {
   background: url("../images/story-wave.svg");
   background-repeat: no-repeat;
@@ -334,7 +327,6 @@ ul, ol {
     .story-nav {
       padding-top: 15%;
       background-image: url("../images/mobile-story-nav.svg"); } }
-
 /* This is the links within the story nav */
 .story-card a {
   font-family: "Barlow Semi Condensed", sans-serif;
@@ -347,7 +339,6 @@ ul, ol {
     .story-card a {
       margin: 0;
       color: #333333; } }
-
 .story-card a:after {
   bottom: -10px;
   content: "";
@@ -361,7 +352,6 @@ ul, ol {
   @media (max-width: 1000px) {
     .story-card a:after {
       background: #333333; } }
-
 .story-card a:hover:after {
   width: 100%;
   left: 0; }
@@ -491,7 +481,6 @@ ul, ol {
     .about-image {
       height: 500px;
       width: auto; } }
-
 #AboutFilter {
   display: flex;
   align-items: center;
@@ -512,7 +501,6 @@ button.btn {
   @media (max-width: 800px) {
     #AboutFilter button {
       margin: .5em; } }
-
 /* Add a light grey background on mouse-over */
 #AboutFilter .btn:after {
   content: '';
@@ -543,7 +531,6 @@ button.btn {
   @media (max-width: 400px) {
     .about-sort {
       margin-top: 100px; } }
-
 /* Code for how the cards display. */
 .outer-card {
   display: flex;
@@ -627,7 +614,6 @@ to {
   @media (max-width: 400px) {
     .image {
       width: 300px; } }
-
 /* The Colors of the waves and text */
 .inner-card.Reporting .container {
   background: url("../wave/Blue-Wave.svg");
@@ -737,7 +723,6 @@ to {
         line-height: 1.2em;
         padding-bottom: 100px;
         margin: 0px; } }
-
 /* Special Thanks section */
 .specialthanks {
   display: flex;
@@ -767,7 +752,6 @@ to {
   @media (max-width: 800px) {
     .interactive-section-about {
       padding: 10% 5%; } }
-
 .interactive-top-about {
   background-image: url("../images/interactive-top.svg");
   background-size: cover;
@@ -779,7 +763,6 @@ to {
     .interactive-top-about {
       margin-top: 20px;
       height: 40px; } }
-
 .interactive-bottom-about {
   background-image: url("../images/interactive-bottom.svg");
   background-size: cover;
@@ -791,7 +774,6 @@ to {
     .interactive-bottom-about {
       margin-top: 0px;
       height: 60px; } }
-
 #mobile-photostory {
   display: none; }
 
@@ -1010,7 +992,6 @@ to {
   @media screen and (max-width: 800px) {
     #video-top {
       height: 0px; } }
-
 .video-container {
   transition: 0.1s background-color;
   height: 55vw;
@@ -1064,7 +1045,6 @@ to {
   @media (max-width: 1200px) {
     .header-about {
       border-left: none; } }
-
 .header ul {
   margin: 0;
   padding: 0;
@@ -1157,7 +1137,6 @@ to {
   @media (max-width: 1200px) {
     .about .footer, .page-home .footer {
       background-image: url("../images/mobile-footer-wave.svg"); } }
-
 .notfound .footer {
   display: none; }
 
@@ -1176,7 +1155,6 @@ to {
       justify-content: center;
       text-align: center;
       background-image: url("../images/test-mobile-footer-wave.svg"); } }
-
 .footer::after {
   content: “”;
   position: absolute;
@@ -1198,19 +1176,16 @@ to {
   @media (max-width: 1200px) {
     .social-footer {
       justify-content: center; } }
-
 .footer .logo {
   margin: 30px; }
   @media (max-width: 1200px) {
     .footer .logo {
       margin: 0; } }
-
 .social-footer, .logo {
   padding-top: 40px; }
   @media (max-width: 1200px) {
     .social-footer, .logo {
       margin: 0; } }
-
 .main-menu {
   display: none; }
   @media (min-width: 1210px) {
@@ -1331,7 +1306,6 @@ to {
   @media (max-width: 400px) {
     .hamburger-about-container {
       padding-bottom: 10px; } }
-
 .hamburger-about li {
   display: inline;
   padding-right: 8px; }
@@ -1423,7 +1397,6 @@ h1 {
   @media (min-width: 768px) {
     h1 {
       font-size: 80px; } }
-
 h2 {
   font-size: 36px;
   font-weight: 700; }
@@ -1501,7 +1474,6 @@ h5 {
     .interactive-bottom {
       margin-top: 0;
       height: 60px; } }
-
 .interactive-top-dark {
   background-image: url("../images/interactive-black-top.svg");
   background-size: cover;
@@ -1520,7 +1492,6 @@ h5 {
   @media (max-width: 800px) {
     .interactive-bottom-dark {
       height: 40px; } }
-
 .instructions {
   color: #aaa;
   font-style: italic; }
@@ -1704,7 +1675,6 @@ h5 {
     .fliplayout p {
       font-size: 1.15em;
       line-height: 1.05em; } }
-
 .fliplayout .flip-card-back h3 {
   font-size: 2em;
   line-height: 1em;
@@ -1732,7 +1702,6 @@ h5 {
     .flip-card {
       width: 250px;
       height: 313px; } }
-
 /* This container is needed to position the front and back side */
 .flip-card-inner {
   display: flex;
@@ -1809,7 +1778,6 @@ h5 {
   @media (max-width: 400px) {
     .flip-card-front img {
       max-width: 250px; } }
-
 /* Style the back side */
 .flip-card-back {
   background-color: #0c607b;
