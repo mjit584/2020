@@ -102,7 +102,7 @@ The removal of living coral fragments to use as seeds for a new coral organism, 
 
 In 2005, however, the practice was still a novelty. Scientists knew that it was possible to regrow coral and had “farmed” the animals in labs for several years, but no one had ever put those methods to the test where they were needed most: the ocean floor.
 
-Carne, through dozens of trial-and-error experiments on real Belizean coral, learned that not only was it possible to regrow coral, it could be done on a massive scale. She discovered that acropora coral, what most people call staghorn and elkhorn, are the most receptive to regeneration if they are “planted” in a different part of the reef system. She even experimented with them by crossbreeding the two and creating the world’s first hybrid species of coral, called acropora prolifera.
+Carne, through dozens of trial-and-error experiments on real Belizean coral, learned that not only was it possible to regrow coral, it could be done on a massive scale. She discovered that acropora coral, what most people call staghorn and elkhorn, are the most receptive to regeneration if they are “planted” in a different part of the reef system. She even experimented with a natural crossbreed of the two, a unique hybrid species of coral called Acropora prolifera. This species has what is known as 'hybrid vigor,' which could make it more stress tolerant than pure-bred coral species. 
 
 </div><!-- end story content -->
 
