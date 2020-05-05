@@ -44,8 +44,7 @@ All along Belize’s 200 miles of coral reef, a species is being suffocated. Cli
 
 Coral are a remarkably sophisticated and misunderstood creature, as vital to the sea as trees are to land. A coral is not one animal, but a collective structure of thousands, sometimes even millions of  polyps, which are tiny, fully functioning animals with mouths and stomachs.
 
-Polyps evolved to absorb dissolved minerals in the water, which they convert to calcium carbonate, or limestone. The polyps use these minerals to build skeletal structures as complex as any built by people, from great branching fan coral to strong and sturdy elk and staghorn acropora that can grow to the size of houses and stretch for hundreds of miles. They are found in warm waters all over the world.
-
+Polyps evolved to absorb dissolved minerals in the water, which they convert to calcium carbonate, or limestone. The polyps use these minerals to build skeletal structures as complex as any built by people, from great branching fan coral to sturdy, reef-building elk and staghorn acropora that can grow to the size of houses. They are found in warm waters all over the world.
 Polyps are remarkable for their “hive mind,” a kind of animal intelligence that allows all the collective parts of a single coral to act and respond as one organism. The genetic code embedded within polyps instructs them to build their elaborate skeletons and grow in efficient patterns that are beneficial to their survival.
 
 But coral are delicate, stationary animals, qualities that make them highly sensitive to the rapid environmental changes happening in Belize and around the world.
@@ -62,7 +61,7 @@ Bleaching, which kills coral at the highest rate among all the species’ active
 
 Climate change, coupled with a huge increase in nitrates from agricultural runoff from farms on the mainland, also makes ocean water more acidic. Rapid changes in nitrate levels cause coral to stop growing or even lose their structural integrity. In extremely acidic waters, such as those along the northern shore of Jamaica, large patches of coral have disintegrated.
 
-Both the warming of the sea and its increasing acidity allow coral diseases to thrive and spread over long distances. Stony coral tissue loss disease, theorized to be a flesh-eating bacterial pathogen, first appeared in the Florida Keys in 2014. By March 2020, research indicated it had already spread to Mexico’s Cozumel island. Coral volunteers in Belize say they are already seeing signs of its problems here, too.
+Both the warming of the sea and its increasing acidity allow coral diseases to thrive and spread over long distances. Stony coral tissue loss disease, theorized to be a flesh-eating bacterial pathogen, first appeared in the Florida Keys in 2014. By June 2019, research indicated it had already spread to Mexico’s Cozumel island and parts of northern Belize. Coral volunteers in the south say they are already seeing signs of its problems here, too.
 
 </div><!-- end story content -->
 <div class="interactive-top animated slideInLeft"></div>
@@ -102,7 +101,8 @@ The removal of living coral fragments to use as seeds for a new coral organism, 
 
 In 2005, however, the practice was still a novelty. Scientists knew that it was possible to regrow coral and had “farmed” the animals in labs for several years, but no one had ever put those methods to the test where they were needed most: the ocean floor.
 
-Carne, through dozens of trial-and-error experiments on real Belizean coral, learned that not only was it possible to regrow coral, it could be done on a massive scale. She discovered that acropora coral, what most people call staghorn and elkhorn, are the most receptive to regeneration if they are “planted” in a different part of the reef system. She even experimented with a natural crossbreed of the two, a unique hybrid species of coral called Acropora prolifera. This species has what is known as 'hybrid vigor,' which could make it more stress tolerant than pure-bred coral species. 
+Carne, through dozens of trial-and-error experiments on real Belizean coral, learned that not only was it possible to regrow coral, it could be done on a massive scale. She discovered that acropora coral, what most people call staghorn and elkhorn, are the most receptive to regeneration if they are “planted” in a different part of the reef system.  In 2013, Carne put a public face to her work by founding Fragments of Hope, a nonprofit created to restore the coral reef in Belize and advocate for greater awareness and protection of the species that call it home. She is Fragments of Hope’s only full-time employee, but she has worked with over 60 trained local volunteers and divers who are passionate about conserving the reef.
+
 
 </div><!-- end story content -->
 
@@ -140,7 +140,7 @@ A practiced eye can tell it from a naturally occurring reef--a little heavy on t
 
 “I say ‘seeing is Beliz-ing,’” said Carne, “ because you have no idea how far we’ve come and how effective our work has been until you go down in the water and look at it for yourself.”
 
-Fragments of Hope divers only spend a few days per year in the water, mostly surveying the progress of existing outplants when water and weather conditions are at their best. Most of the work Lisa Carne organizes is community outreach. At various spots on the Placencia Peninsula and scattered around the cayes, signs that read “More Coral = More Fish” are posted, on supermarket walls, boat docks, and outside the bars and restaurants that tourists frequent.
+Fragments of Hope divers only outplant corals outside of hurricane season and when weather conditions are at their best. The rest of the year is spent mostly monitoring the progress of existing outplants and mapping reefs. Another key aspect to Fragment’s of Hope work is community outreach and building awareness on the importance of reefs. At various spots on the Placencia Peninsula and scattered around the cayes, signs that read “More Coral = More Fish” are posted, on supermarket walls, boat docks, and outside the bars and restaurants that tourists frequent.
 
 “If we can make people connect the health of the reef to their daily lives, you might actually make some progress,” says Carne.
 
@@ -165,7 +165,7 @@ But he says things are not so idyllic, and that his group and others face an uph
 
 Belize’s government had a spotlight placed on them when, in 2009, UNESCO placed the Belize Barrier Reef on their list of World Heritage Sites in Danger.  The placement was a response specifically to the immediate human threats to the reef like development and pollution, not the looming danger of climate change. UNESCO maintains today that climate change is too broad a threat to list its potential victims.
 
-The classification increased international pressure on the country to take protective actions, including the establishment of the co-managed Marine Protected Areas, a ban on single-use plastics, and a temporary ban on all oil drilling in the country. And while this move made Belize the first country in the world to ban drilling, Hachmann and Carne argue that it was mostly a public relations stunt.
+The classification increased international pressure on the country to take protective actions like strengthening the mangrove regulations and creating a temporary ban on all oil drilling in the country. And while this move made Belize the first country in the world to ban marine oil exploration, Hachmann and Carne argue that it was mostly a public relations stunt.
 
 “Well, everyone knows that they’re still doing seismic testing [for oil],” says Hachmann. “All over the reef, and if they find something, I think we will maybe see the difference between a moratorium and a ban.”
 
@@ -201,7 +201,7 @@ Following these concessions, a number of documents emerged that cited widespread
 
 The corrupt deals that keep the government from working for the reef happen behind closed doors and without much record, but both Hachmann and Carne, along with the Belizeans they work with, agree it is foreign land developers that are paying most of the bribes.
 
-Newly built resorts like Harvest Caye, a billion-dollar cruise ship enclave just off the shore of Placencia, are almost always backed by wealthy developers, mostly from the US, Canada, Europe and China. In the case of Harvest Caye, over five miles of beaches were created around the island from sand and ground-up coral dredged up from the seafloor. This is illegal in most areas of Belize, but it is one of the most common construction tactics even within the Marine Protected Areas.
+Newly built resorts like Harvest Caye, a billion-dollar cruise ship enclave just off the shore of Placencia, are almost always backed by wealthy developers, mostly from the US, Canada, Europe and China. In the case of Harvest Caye, over five miles of beaches were created around the island from sand and ground-up coral retrieved from the land or even dredged from the seafloor. This is illegal in most areas of Belize, but it is one of the most common construction tactics even within the Marine Protected Areas.
 
 Another concern for the nonprofits is global politics. Many of the country’s protected zones are looked after entirely or co-managed by representatives of the European Union. Belize, which was the colony of British Honduras until its independence in 1981, has a special relationship with Europe. The British military still has a training support unit in Belize that can be seen at various bases in the north. But with the realization of the Brexit movement and the formal severing of ties between the United Kingdom and the European Union, conservationists are concerned the EU will pull out of Belize entirely.
 
